@@ -231,6 +231,325 @@ def send_discord_summary(webhook_url: str, items: List[Dict[str, Any]], repo: st
     r.raise_for_status()
 
 
+# ─────────────────────────────────────────────────────────────────────────────
+# Slack Webhooks
+# ─────────────────────────────────────────────────────────────────────────────
+
+def send_slack_alert(webhook_url: str, item: Dict[str, Any]) -> None:
+    """Send a formatted Slack message for a CVE finding."""
+    cve_id = str(item.get("cve_id") or "")
+    desc = str(item.get("description") or "")[:500]
+    epss = item.get("probability_score")
+    cvss = item.get("cvss_score")
+    kev = bool(item.get("active_threat"))
+    patch = bool(item.get("in_patchthis"))
+    is_critical = bool(item.get("is_critical"))
+    
+    # Priority indicator
+    if is_critical:
+        priority = "🚨 *CRITICAL*"
+        color = "danger"
+    elif kev:
+        priority = "⚠️ *KEV*"
+        color = "warning"
+    else:
+        priority = "ℹ️ *ALERT*"
+        color = "#3498DB"
+    
+    # Format scores
+    try:
+        epss_str = f"{float(epss):.1%}" if epss is not None else "N/A"
+    except Exception:
+        epss_str = "N/A"
+    try:
+        cvss_str = f"{float(cvss):.1f}" if cvss is not None else "N/A"
+    except Exception:
+        cvss_str = "N/A"
+    
+    cve_url = f"https://www.cve.org/CVERecord?id={cve_id}"
+    
+    payload = {
+        "attachments": [{
+            "color": color,
+            "blocks": [
+                {
+                    "type": "section",
+                    "text": {
+                        "type": "mrkdwn",
+                        "text": f"{priority}: <{cve_url}|{cve_id}>\n{desc}"
+                    }
+                },
+                {
+                    "type": "section",
+                    "fields": [
+                        {"type": "mrkdwn", "text": f"*EPSS:* {epss_str}"},
+                        {"type": "mrkdwn", "text": f"*CVSS:* {cvss_str}"},
+                        {"type": "mrkdwn", "text": f"*KEV:* {'✅ Yes' if kev else '❌ No'}"},
+                        {"type": "mrkdwn", "text": f"*PatchThis:* {'✅ Yes' if patch else '❌ No'}"},
+                    ]
+                },
+                {
+                    "type": "context",
+                    "elements": [{"type": "mrkdwn", "text": "VulnRadar Alert"}]
+                }
+            ]
+        }]
+    }
+    
+    r = requests.post(webhook_url, json=payload, timeout=DEFAULT_TIMEOUT)
+    r.raise_for_status()
+
+
+def send_slack_summary(webhook_url: str, items: List[Dict[str, Any]], repo: str) -> None:
+    """Send a summary message to Slack with counts and top findings."""
+    total = len(items)
+    critical_count = sum(1 for i in items if bool(i.get("is_critical")))
+    kev_count = sum(1 for i in items if bool(i.get("active_threat")))
+    patch_count = sum(1 for i in items if bool(i.get("in_patchthis")))
+    
+    # Get top 5 critical items
+    critical_items = [i for i in items if bool(i.get("is_critical"))]
+    critical_items.sort(key=lambda x: float(x.get("probability_score") or 0), reverse=True)
+    top_5 = critical_items[:5]
+    
+    top_list = ""
+    for i in top_5:
+        cve = i.get("cve_id", "")
+        epss = i.get("probability_score")
+        cve_url = f"https://www.cve.org/CVERecord?id={cve}"
+        try:
+            epss_str = f"{float(epss):.1%}" if epss else "?"
+        except Exception:
+            epss_str = "?"
+        top_list += f"• <{cve_url}|{cve}> (EPSS: {epss_str})\n"
+    
+    if not top_list:
+        top_list = "No critical findings."
+    
+    color = "danger" if critical_count > 0 else "good"
+    
+    payload = {
+        "attachments": [{
+            "color": color,
+            "blocks": [
+                {
+                    "type": "header",
+                    "text": {"type": "plain_text", "text": "📊 VulnRadar Daily Summary", "emoji": True}
+                },
+                {
+                    "type": "section",
+                    "fields": [
+                        {"type": "mrkdwn", "text": f"*Total CVEs:* {total}"},
+                        {"type": "mrkdwn", "text": f"*🚨 Critical:* {critical_count}"},
+                        {"type": "mrkdwn", "text": f"*⚠️ CISA KEV:* {kev_count}"},
+                        {"type": "mrkdwn", "text": f"*🔥 PatchThis:* {patch_count}"},
+                    ]
+                },
+                {
+                    "type": "section",
+                    "text": {"type": "mrkdwn", "text": f"*Top Critical Findings:*\n{top_list}"}
+                },
+                {
+                    "type": "context",
+                    "elements": [{"type": "mrkdwn", "text": f"Repo: {repo}"}]
+                }
+            ]
+        }]
+    }
+    
+    r = requests.post(webhook_url, json=payload, timeout=DEFAULT_TIMEOUT)
+    r.raise_for_status()
+
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Microsoft Teams Webhooks (Adaptive Cards)
+# ─────────────────────────────────────────────────────────────────────────────
+
+def send_teams_alert(webhook_url: str, item: Dict[str, Any]) -> None:
+    """Send a formatted Teams Adaptive Card for a CVE finding."""
+    cve_id = str(item.get("cve_id") or "")
+    desc = str(item.get("description") or "")[:500]
+    epss = item.get("probability_score")
+    cvss = item.get("cvss_score")
+    kev = bool(item.get("active_threat"))
+    patch = bool(item.get("in_patchthis"))
+    is_critical = bool(item.get("is_critical"))
+    
+    # Priority indicator and color
+    if is_critical:
+        priority = "🚨 CRITICAL"
+        color = "attention"
+    elif kev:
+        priority = "⚠️ KEV"
+        color = "warning"
+    else:
+        priority = "ℹ️ ALERT"
+        color = "accent"
+    
+    # Format scores
+    try:
+        epss_str = f"{float(epss):.1%}" if epss is not None else "N/A"
+    except Exception:
+        epss_str = "N/A"
+    try:
+        cvss_str = f"{float(cvss):.1f}" if cvss is not None else "N/A"
+    except Exception:
+        cvss_str = "N/A"
+    
+    cve_url = f"https://www.cve.org/CVERecord?id={cve_id}"
+    
+    payload = {
+        "type": "message",
+        "attachments": [{
+            "contentType": "application/vnd.microsoft.card.adaptive",
+            "content": {
+                "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+                "type": "AdaptiveCard",
+                "version": "1.4",
+                "body": [
+                    {
+                        "type": "TextBlock",
+                        "text": f"{priority}: {cve_id}",
+                        "weight": "Bolder",
+                        "size": "Large",
+                        "color": color
+                    },
+                    {
+                        "type": "TextBlock",
+                        "text": desc if desc else "No description available.",
+                        "wrap": True
+                    },
+                    {
+                        "type": "FactSet",
+                        "facts": [
+                            {"title": "EPSS", "value": epss_str},
+                            {"title": "CVSS", "value": cvss_str},
+                            {"title": "KEV", "value": "✅ Yes" if kev else "❌ No"},
+                            {"title": "PatchThis", "value": "✅ Yes" if patch else "❌ No"},
+                        ]
+                    }
+                ],
+                "actions": [
+                    {
+                        "type": "Action.OpenUrl",
+                        "title": "View CVE Details",
+                        "url": cve_url
+                    }
+                ]
+            }
+        }]
+    }
+    
+    r = requests.post(webhook_url, json=payload, timeout=DEFAULT_TIMEOUT)
+    r.raise_for_status()
+
+
+def send_teams_summary(webhook_url: str, items: List[Dict[str, Any]], repo: str) -> None:
+    """Send a summary Adaptive Card to Teams with counts and top findings."""
+    total = len(items)
+    critical_count = sum(1 for i in items if bool(i.get("is_critical")))
+    kev_count = sum(1 for i in items if bool(i.get("active_threat")))
+    patch_count = sum(1 for i in items if bool(i.get("in_patchthis")))
+    
+    # Get top 5 critical items
+    critical_items = [i for i in items if bool(i.get("is_critical"))]
+    critical_items.sort(key=lambda x: float(x.get("probability_score") or 0), reverse=True)
+    top_5 = critical_items[:5]
+    
+    top_list = ""
+    for i in top_5:
+        cve = i.get("cve_id", "")
+        epss = i.get("probability_score")
+        try:
+            epss_str = f"{float(epss):.1%}" if epss else "?"
+        except Exception:
+            epss_str = "?"
+        top_list += f"- [{cve}](https://www.cve.org/CVERecord?id={cve}) (EPSS: {epss_str})\n"
+    
+    if not top_list:
+        top_list = "No critical findings."
+    
+    color = "attention" if critical_count > 0 else "good"
+    
+    payload = {
+        "type": "message",
+        "attachments": [{
+            "contentType": "application/vnd.microsoft.card.adaptive",
+            "content": {
+                "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+                "type": "AdaptiveCard",
+                "version": "1.4",
+                "body": [
+                    {
+                        "type": "TextBlock",
+                        "text": "📊 VulnRadar Daily Summary",
+                        "weight": "Bolder",
+                        "size": "Large"
+                    },
+                    {
+                        "type": "ColumnSet",
+                        "columns": [
+                            {
+                                "type": "Column",
+                                "width": "stretch",
+                                "items": [
+                                    {"type": "TextBlock", "text": "Total CVEs", "weight": "Bolder"},
+                                    {"type": "TextBlock", "text": str(total), "size": "ExtraLarge", "color": color}
+                                ]
+                            },
+                            {
+                                "type": "Column",
+                                "width": "stretch",
+                                "items": [
+                                    {"type": "TextBlock", "text": "🚨 Critical", "weight": "Bolder"},
+                                    {"type": "TextBlock", "text": str(critical_count), "size": "ExtraLarge", "color": "attention"}
+                                ]
+                            },
+                            {
+                                "type": "Column",
+                                "width": "stretch",
+                                "items": [
+                                    {"type": "TextBlock", "text": "⚠️ KEV", "weight": "Bolder"},
+                                    {"type": "TextBlock", "text": str(kev_count), "size": "ExtraLarge", "color": "warning"}
+                                ]
+                            },
+                            {
+                                "type": "Column",
+                                "width": "stretch",
+                                "items": [
+                                    {"type": "TextBlock", "text": "🔥 PatchThis", "weight": "Bolder"},
+                                    {"type": "TextBlock", "text": str(patch_count), "size": "ExtraLarge"}
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "TextBlock",
+                        "text": "**Top Critical Findings:**",
+                        "weight": "Bolder",
+                        "spacing": "Medium"
+                    },
+                    {
+                        "type": "TextBlock",
+                        "text": top_list,
+                        "wrap": True
+                    },
+                    {
+                        "type": "TextBlock",
+                        "text": f"Repo: {repo}",
+                        "size": "Small",
+                        "isSubtle": True,
+                        "spacing": "Medium"
+                    }
+                ]
+            }
+        }]
+    }
+    
+    r = requests.post(webhook_url, json=payload, timeout=DEFAULT_TIMEOUT)
+    r.raise_for_status()
+
+
 def main() -> int:
     p = argparse.ArgumentParser(description="VulnRadar notifications (GitHub Issues + Discord)")
     p.add_argument("--in", dest="inp", default="data/radar_data.json", help="Path to radar_data.json")
@@ -258,6 +577,44 @@ def main() -> int:
         type=int,
         default=10,
         help="Max individual Discord alerts per run (default: 10)",
+    )
+    # Slack options
+    p.add_argument(
+        "--slack-webhook",
+        dest="slack_webhook",
+        default=os.environ.get("SLACK_WEBHOOK_URL"),
+        help="Slack webhook URL (or set SLACK_WEBHOOK_URL env var)",
+    )
+    p.add_argument(
+        "--slack-summary-only",
+        action="store_true",
+        help="Only send a summary to Slack, not individual alerts",
+    )
+    p.add_argument(
+        "--slack-max",
+        dest="slack_max",
+        type=int,
+        default=10,
+        help="Max individual Slack alerts per run (default: 10)",
+    )
+    # Microsoft Teams options
+    p.add_argument(
+        "--teams-webhook",
+        dest="teams_webhook",
+        default=os.environ.get("TEAMS_WEBHOOK_URL"),
+        help="Microsoft Teams webhook URL (or set TEAMS_WEBHOOK_URL env var)",
+    )
+    p.add_argument(
+        "--teams-summary-only",
+        action="store_true",
+        help="Only send a summary to Teams, not individual alerts",
+    )
+    p.add_argument(
+        "--teams-max",
+        dest="teams_max",
+        type=int,
+        default=10,
+        help="Max individual Teams alerts per run (default: 10)",
     )
     args = p.parse_args()
 
@@ -371,6 +728,56 @@ def main() -> int:
                 print(f"Sent {discord_sent} Discord alerts.")
         except Exception as e:
             print(f"Discord notification failed: {e}")
+    
+    # Slack notifications
+    if args.slack_webhook:
+        print(f"Sending Slack notifications...")
+        try:
+            # Always send summary
+            send_slack_summary(args.slack_webhook, items, repo)
+            print("Sent Slack summary.")
+            
+            # Send individual alerts unless summary-only
+            if not args.slack_summary_only:
+                slack_sent = 0
+                for it in candidates[:args.slack_max]:
+                    cve_id = str(it.get("cve_id") or "").strip().upper()
+                    if args.dry_run:
+                        print(f"DRY RUN: would send Slack alert for {cve_id}")
+                    else:
+                        # Rate limit: Slack allows ~1 request/second
+                        time.sleep(1.0)
+                        send_slack_alert(args.slack_webhook, it)
+                        print(f"Sent Slack alert for {cve_id}")
+                    slack_sent += 1
+                print(f"Sent {slack_sent} Slack alerts.")
+        except Exception as e:
+            print(f"Slack notification failed: {e}")
+    
+    # Microsoft Teams notifications
+    if args.teams_webhook:
+        print(f"Sending Teams notifications...")
+        try:
+            # Always send summary
+            send_teams_summary(args.teams_webhook, items, repo)
+            print("Sent Teams summary.")
+            
+            # Send individual alerts unless summary-only
+            if not args.teams_summary_only:
+                teams_sent = 0
+                for it in candidates[:args.teams_max]:
+                    cve_id = str(it.get("cve_id") or "").strip().upper()
+                    if args.dry_run:
+                        print(f"DRY RUN: would send Teams alert for {cve_id}")
+                    else:
+                        # Rate limit: Teams allows ~4 requests/second
+                        time.sleep(0.5)
+                        send_teams_alert(args.teams_webhook, it)
+                        print(f"Sent Teams alert for {cve_id}")
+                    teams_sent += 1
+                print(f"Sent {teams_sent} Teams alerts.")
+        except Exception as e:
+            print(f"Teams notification failed: {e}")
     
     return 0
 

@@ -157,9 +157,15 @@ Critical findings automatically create GitHub Issues with the `vulnradar` label.
 
 ### Discord (Optional)
 Add `DISCORD_WEBHOOK_URL` to your repository secrets to receive Discord alerts.
+See [docs/discord.md](docs/discord.md) for setup instructions.
 
-### Slack/Teams (Optional)
-Coming soon!
+### Slack (Optional)
+Add `SLACK_WEBHOOK_URL` to your repository secrets to receive Slack alerts.
+See [docs/slack.md](docs/slack.md) for setup instructions.
+
+### Microsoft Teams (Optional)
+Add `TEAMS_WEBHOOK_URL` to your repository secrets to receive Teams alerts (Adaptive Cards).
+See [docs/teams.md](docs/teams.md) for setup instructions.
 
 ---
 
@@ -198,7 +204,7 @@ python etl.py --include-kev-outside-window
 ```
 VulnRadar/
 ├── etl.py                 # Main ETL script
-├── notify.py              # GitHub Issues / Discord notifications
+├── notify.py              # GitHub Issues / Discord / Slack / Teams notifications
 ├── watchlist.yaml         # Your configuration (edit this!)
 ├── watchlist.example.yaml # Extensive examples by category
 ├── requirements.txt       # Python dependencies
