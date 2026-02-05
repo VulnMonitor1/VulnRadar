@@ -195,6 +195,30 @@ python etl.py --min-year 2023 --max-year 2026
 
 # Include older KEVs outside scan window
 python etl.py --include-kev-outside-window
+
+# Skip NVD download (faster, less enrichment)
+python etl.py --skip-nvd
+```
+
+### Discovery Commands
+
+Find valid vendor/product names for your watchlist:
+
+```bash
+# List all vendors in CVE data
+python etl.py --list-vendors
+
+# Search vendors containing "micro"
+python etl.py --list-vendors "micro"
+
+# List all products
+python etl.py --list-products
+
+# Search products containing "log4"
+python etl.py --list-products "log4"
+
+# Validate your watchlist against real CVE data
+python etl.py --validate-watchlist
 ```
 
 ---

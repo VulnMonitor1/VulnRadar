@@ -814,6 +814,156 @@ def _find_watchlist() -> str:
     return "watchlist.yaml"  # Default to YAML for new users
 
 
+def _extract_all_vendors_products(extracted_dir: Path, years: List[int]) -> Tuple[Set[str], Set[str]]:
+    """Extract all unique vendors and products from CVE data."""
+    cves_root = _find_cves_root(extracted_dir)
+    vendors: Set[str] = set()
+    products: Set[str] = set()
+    
+    for p in _iter_cve_json_paths(cves_root, years):
+        try:
+            with p.open("r", encoding="utf-8") as f:
+                raw = json.load(f)
+            containers = raw.get("containers", {})
+            cna = containers.get("cna", {})
+            affected = cna.get("affected") or []
+            for a in affected:
+                if not isinstance(a, dict):
+                    continue
+                v = _norm(str(a.get("vendor") or ""))
+                prod = _norm(str(a.get("product") or ""))
+                if v and v not in ("n/a", "unknown", "unspecified", ""):
+                    vendors.add(v)
+                if prod and prod not in ("n/a", "unknown", "unspecified", ""):
+                    products.add(prod)
+        except Exception:
+            continue
+    
+    return vendors, products
+
+
+def _handle_discovery_commands(args) -> int:
+    """Handle --list-vendors, --list-products, --validate-watchlist commands."""
+    session = _requests_session()
+    
+    print("Downloading CVE List V5 bulk export for discovery...")
+    zip_url = get_latest_cvelist_zip_url(session)
+    zip_bytes = _download_bytes(session, zip_url)
+    extracted = download_and_extract_zip_to_temp(zip_bytes)
+    
+    try:
+        # Use last 2 years for faster discovery (good enough for validation)
+        current_year = dt.datetime.now().year
+        years = [current_year - 1, current_year]
+        
+        print("Scanning CVE data (last 2 years)...")
+        all_vendors, all_products = _extract_all_vendors_products(extracted, years)
+        print(f"  Found {len(all_vendors)} unique vendors, {len(all_products)} unique products")
+        print()
+        
+        if args.list_vendors is not None:
+            filter_str = (args.list_vendors or "").lower()
+            matches = sorted(v for v in all_vendors if filter_str in v)
+            if filter_str:
+                print(f"Vendors containing '{filter_str}' ({len(matches)} matches):")
+            else:
+                print(f"All vendors ({len(matches)} total):")
+            print("-" * 50)
+            for v in matches[:200]:  # Limit output
+                print(f"  {v}")
+            if len(matches) > 200:
+                print(f"  ... and {len(matches) - 200} more")
+            return 0
+        
+        if args.list_products is not None:
+            filter_str = (args.list_products or "").lower()
+            matches = sorted(p for p in all_products if filter_str in p)
+            if filter_str:
+                print(f"Products containing '{filter_str}' ({len(matches)} matches):")
+            else:
+                print(f"All products ({len(matches)} total):")
+            print("-" * 50)
+            for p in matches[:200]:  # Limit output
+                print(f"  {p}")
+            if len(matches) > 200:
+                print(f"  ... and {len(matches) - 200} more")
+            return 0
+        
+        if args.validate_watchlist:
+            watchlist_path = args.watchlist if args.watchlist else _find_watchlist()
+            if not Path(watchlist_path).exists():
+                print(f"❌ Watchlist not found: {watchlist_path}")
+                return 1
+            
+            print(f"Validating watchlist: {watchlist_path}")
+            print("=" * 60)
+            watchlist = load_watchlist(Path(watchlist_path))
+            
+            # Check vendors
+            print(f"\n📋 Vendors ({len(watchlist.vendors)} in watchlist):")
+            matched_vendors = 0
+            unmatched_vendors = []
+            for wv in sorted(watchlist.vendors):
+                # Check if any real vendor contains this term (substring match)
+                matches = [v for v in all_vendors if wv in v or v in wv]
+                if matches:
+                    matched_vendors += 1
+                    print(f"  ✅ {wv} → matches {len(matches)} vendor(s)")
+                else:
+                    unmatched_vendors.append(wv)
+                    print(f"  ⚠️  {wv} → no matches found (may still match future CVEs)")
+            
+            # Check products
+            print(f"\n📦 Products ({len(watchlist.products)} in watchlist):")
+            matched_products = 0
+            unmatched_products = []
+            for wp in sorted(watchlist.products):
+                matches = [p for p in all_products if wp in p or p in wp]
+                if matches:
+                    matched_products += 1
+                    print(f"  ✅ {wp} → matches {len(matches)} product(s)")
+                else:
+                    unmatched_products.append(wp)
+                    print(f"  ⚠️  {wp} → no matches found (may still match future CVEs)")
+            
+            # Summary
+            print("\n" + "=" * 60)
+            print("Summary:")
+            print(f"  Vendors:  {matched_vendors}/{len(watchlist.vendors)} matched")
+            print(f"  Products: {matched_products}/{len(watchlist.products)} matched")
+            
+            if unmatched_vendors or unmatched_products:
+                print("\n💡 Suggestions for unmatched terms:")
+                for uv in unmatched_vendors[:5]:
+                    suggestions = sorted(all_vendors, key=lambda v: _fuzzy_score(uv, v), reverse=True)[:3]
+                    print(f"  '{uv}' → try: {', '.join(suggestions)}")
+                for up in unmatched_products[:5]:
+                    suggestions = sorted(all_products, key=lambda p: _fuzzy_score(up, p), reverse=True)[:3]
+                    print(f"  '{up}' → try: {', '.join(suggestions)}")
+            
+            return 0
+            
+    finally:
+        shutil.rmtree(extracted, ignore_errors=True)
+    
+    return 0
+
+
+def _fuzzy_score(query: str, target: str) -> float:
+    """Simple fuzzy matching score (higher = better match)."""
+    query = query.lower()
+    target = target.lower()
+    if query == target:
+        return 1.0
+    if query in target:
+        return 0.8 + (len(query) / len(target)) * 0.2
+    if target in query:
+        return 0.6
+    # Count common characters
+    common = sum(1 for c in query if c in target)
+    return common / max(len(query), len(target)) * 0.5
+
+
 def main(argv: Optional[Sequence[str]] = None) -> int:
     parser = argparse.ArgumentParser(description="Vulnerability Radar ETL")
     parser.add_argument(
@@ -855,7 +1005,31 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
         action="store_true",
         help="Skip downloading NVD data feeds (faster but less CVSS/CWE enrichment)",
     )
+    # Discovery commands
+    parser.add_argument(
+        "--list-vendors",
+        nargs="?",
+        const="",
+        metavar="FILTER",
+        help="List all vendors in CVE data (optionally filter by substring)",
+    )
+    parser.add_argument(
+        "--list-products",
+        nargs="?",
+        const="",
+        metavar="FILTER",
+        help="List all products in CVE data (optionally filter by substring)",
+    )
+    parser.add_argument(
+        "--validate-watchlist",
+        action="store_true",
+        help="Validate your watchlist against real CVE data",
+    )
     args = parser.parse_args(argv)
+
+    # Handle discovery commands (don't need full ETL)
+    if args.list_vendors is not None or args.list_products is not None or args.validate_watchlist:
+        return _handle_discovery_commands(args)
 
     # Auto-detect watchlist file if not specified
     watchlist_path = args.watchlist if args.watchlist else _find_watchlist()
