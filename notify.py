@@ -4,6 +4,7 @@ import argparse
 import json
 import os
 import re
+import time
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, Optional, Set
 
@@ -362,6 +363,8 @@ def main() -> int:
                     if args.dry_run:
                         print(f"DRY RUN: would send Discord alert for {cve_id}")
                     else:
+                        # Rate limit: Discord allows ~30 requests/minute per webhook
+                        time.sleep(0.5)
                         send_discord_alert(args.discord_webhook, it)
                         print(f"Sent Discord alert for {cve_id}")
                     discord_sent += 1
