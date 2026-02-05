@@ -691,11 +691,16 @@ def risk_sort_key(item: Dict[str, Any]) -> float:
     return critical * 1000.0 + kev * 900.0 + epss_v * 10.0 + cvss_v
 
 
-def write_markdown_report(path: Path, items: List[Dict[str, Any]]) -> None:
+def write_markdown_report(path: Path, items: List[Dict[str, Any]], state_file: Optional[Path] = None) -> None:
     """Write a GitHub-renderable Markdown report.
 
     This is intended to make the output 100% viewable directly in GitHub,
     without requiring Streamlit.
+    
+    Args:
+        path: Output path for the markdown report
+        items: List of CVE items to report on
+        state_file: Optional path to state.json for recent changes section
     """
 
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -798,6 +803,59 @@ def write_markdown_report(path: Path, items: List[Dict[str, Any]]) -> None:
         lines.append(
             f"| {_cve_link(cve_id)} | {priority} | {bucket} | {patch} | {kev} | {kev_due} | {epss_s} | {cvss_s} | {watch} | {desc} |"
         )
+
+    # Add Recent Changes section if state file exists
+    if state_file and state_file.exists():
+        try:
+            with state_file.open("r", encoding="utf-8") as f:
+                state_data = json.load(f)
+            
+            # Find CVEs first seen in the last 7 days
+            seven_days_ago = dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=7)
+            recent_changes: List[Tuple[str, str, str]] = []  # (date, cve_id, change_type)
+            
+            seen_cves = state_data.get("seen_cves", {})
+            for cve_id, entry in seen_cves.items():
+                first_seen_str = entry.get("first_seen")
+                if not first_seen_str:
+                    continue
+                try:
+                    first_seen = dt.datetime.fromisoformat(first_seen_str.replace("Z", "+00:00"))
+                    if first_seen >= seven_days_ago:
+                        snapshot = entry.get("snapshot", {})
+                        # Determine change type based on snapshot
+                        if snapshot.get("active_threat"):
+                            change_type = "🔴 In CISA KEV"
+                        elif snapshot.get("in_patchthis"):
+                            change_type = "🟠 In PatchThis"
+                        elif snapshot.get("is_critical"):
+                            change_type = "🔥 Critical"
+                        else:
+                            change_type = "🆕 New"
+                        date_str = first_seen.strftime("%b %d")
+                        recent_changes.append((first_seen, date_str, cve_id, change_type))
+                except (ValueError, TypeError):
+                    continue
+            
+            if recent_changes:
+                # Sort by date descending
+                recent_changes.sort(key=lambda x: x[0], reverse=True)
+                
+                lines.append("")
+                lines.append("## Recent Changes (Last 7 Days)")
+                lines.append("")
+                lines.append("| Date | CVE | Status |")
+                lines.append("|------|-----|--------|")
+                
+                for _, date_str, cve_id, change_type in recent_changes[:50]:
+                    lines.append(f"| {date_str} | {_cve_link(cve_id)} | {change_type} |")
+                
+                if len(recent_changes) > 50:
+                    lines.append(f"| ... | | _and {len(recent_changes) - 50} more_ |")
+                lines.append("")
+        except (json.JSONDecodeError, KeyError, TypeError) as e:
+            # If state file is invalid, skip this section silently
+            pass
 
     tmp = path.with_suffix(path.suffix + ".tmp")
     with tmp.open("w", encoding="utf-8") as f:
@@ -1005,6 +1063,11 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
         action="store_true",
         help="Skip downloading NVD data feeds (faster but less CVSS/CWE enrichment)",
     )
+    parser.add_argument(
+        "--state",
+        default="data/state.json",
+        help="Path to state file for Recent Changes section in report (default: data/state.json)",
+    )
     # Discovery commands
     parser.add_argument(
         "--list-vendors",
@@ -1084,7 +1147,10 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
     items = items or []
 
     write_radar_data(Path(args.out), items)
-    write_markdown_report(Path(args.report), items)
+    
+    # Pass state file for Recent Changes section
+    state_path = Path(args.state) if args.state else None
+    write_markdown_report(Path(args.report), items, state_file=state_path)
 
     print(f"Wrote {len(items)} items to {args.out}")
     print(f"Wrote Markdown report to {args.report}")

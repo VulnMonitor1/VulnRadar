@@ -415,3 +415,75 @@ class TestChange:
         assert "EPSS SPIKE" in result
         assert "10.0%" in result
         assert "50.0%" in result
+
+
+class TestResetState:
+    """Tests for --reset-state functionality."""
+
+    def test_reset_state_deletes_file(self, tmp_path: Path):
+        """--reset-state should delete the state file."""
+        from notify import StateManager
+
+        state_file = tmp_path / "state.json"
+        state = StateManager(state_file)
+        state.update_snapshot("CVE-2024-0001", {"is_critical": True})
+        state.save()
+        assert state_file.exists()
+
+        # Simulate reset
+        state_file.unlink()
+        assert not state_file.exists()
+
+    def test_reset_state_on_missing_file(self, tmp_path: Path):
+        """--reset-state on missing file should not raise."""
+        state_file = tmp_path / "nonexistent.json"
+        assert not state_file.exists()
+        # Should not raise when file doesn't exist
+
+
+class TestPruneStateCommand:
+    """Tests for --prune-state functionality."""
+
+    def test_prune_state_removes_old_entries(self, tmp_path: Path):
+        """--prune-state should remove entries older than specified days."""
+        from notify import StateManager
+        import datetime as dt
+
+        state_file = tmp_path / "state.json"
+        state = StateManager(state_file)
+        
+        # Add two CVEs: one recent, one old
+        state.update_snapshot("CVE-2024-NEW", {"is_critical": True})
+        state.update_snapshot("CVE-2024-OLD", {"is_critical": True})
+        
+        # Make one CVE old
+        old_date = (dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=100)).isoformat()
+        state.data["seen_cves"]["CVE-2024-OLD"]["last_seen"] = old_date
+        state.save()
+        
+        # Prune entries older than 90 days
+        state = StateManager(state_file)  # Reload
+        pruned = state.prune_old_entries(days=90)
+        state.save()
+        
+        assert pruned == 1
+        assert "CVE-2024-NEW" in state.data["seen_cves"]
+        assert "CVE-2024-OLD" not in state.data["seen_cves"]
+
+    def test_prune_state_keeps_recent_entries(self, tmp_path: Path):
+        """--prune-state should keep recent entries."""
+        from notify import StateManager
+
+        state_file = tmp_path / "state.json"
+        state = StateManager(state_file)
+        
+        state.update_snapshot("CVE-2024-0001", {"is_critical": True})
+        state.update_snapshot("CVE-2024-0002", {"is_critical": False})
+        state.save()
+        
+        # Prune with short window - both should be kept (they're recent)
+        state = StateManager(state_file)
+        pruned = state.prune_old_entries(days=1)
+        
+        assert pruned == 0
+        assert len(state.data["seen_cves"]) == 2

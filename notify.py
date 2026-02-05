@@ -1386,7 +1386,43 @@ def main() -> int:
         default=10,
         help="Max individual Teams alerts per run (default: 10)",
     )
+    # State management commands
+    p.add_argument(
+        "--reset-state",
+        action="store_true",
+        help="Delete state file and exit (start fresh on next run)",
+    )
+    p.add_argument(
+        "--prune-state",
+        type=int,
+        metavar="DAYS",
+        help="Remove CVEs not seen in N days and exit (e.g., --prune-state 90)",
+    )
     args = p.parse_args()
+
+    # Handle state management commands first
+    state_path = Path(args.state_file)
+    
+    if args.reset_state:
+        if state_path.exists():
+            state_path.unlink()
+            print(f"✅ Deleted state file: {state_path}")
+        else:
+            print(f"ℹ️  State file doesn't exist: {state_path}")
+        return 0
+    
+    if args.prune_state is not None:
+        if not state_path.exists():
+            print(f"ℹ️  State file doesn't exist: {state_path}")
+            return 0
+        state = StateManager(state_path)
+        stats_before = state.get_stats()
+        pruned = state.prune_old_entries(days=args.prune_state)
+        state.save()
+        print(f"✅ Pruned {pruned} CVEs not seen in {args.prune_state} days")
+        print(f"   Before: {stats_before['total_tracked']} tracked")
+        print(f"   After:  {state.get_stats()['total_tracked']} tracked")
+        return 0
 
     token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN")
     repo = os.environ.get("GITHUB_REPOSITORY")

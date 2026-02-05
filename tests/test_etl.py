@@ -266,3 +266,74 @@ class TestCriticalLogic:
         in_watchlist = False
         is_critical = bool(in_patchthis and in_watchlist)
         assert is_critical is False
+
+
+class TestWriteMarkdownReport:
+    """Tests for write_markdown_report() function."""
+
+    def test_report_includes_recent_changes_from_state(self, tmp_path: Path):
+        """Report should include Recent Changes section when state file exists."""
+        import datetime as dt
+        from etl import write_markdown_report
+
+        # Create a state file with recent changes
+        state_file = tmp_path / "state.json"
+        now = dt.datetime.now(dt.timezone.utc)
+        state_data = {
+            "schema_version": 1,
+            "last_run": now.isoformat(),
+            "seen_cves": {
+                "CVE-2024-1111": {
+                    "first_seen": now.isoformat(),
+                    "last_seen": now.isoformat(),
+                    "snapshot": {"is_critical": True, "active_threat": True}
+                },
+                "CVE-2024-2222": {
+                    "first_seen": now.isoformat(),
+                    "last_seen": now.isoformat(),
+                    "snapshot": {"is_critical": False, "in_patchthis": True}
+                },
+            },
+            "statistics": {"total_alerts_sent": 0, "alerts_by_channel": {}}
+        }
+        state_file.write_text(json.dumps(state_data))
+
+        # Create sample items
+        items = [
+            {"cve_id": "CVE-2024-1111", "is_critical": True, "active_threat": True},
+            {"cve_id": "CVE-2024-2222", "is_critical": False, "in_patchthis": True},
+        ]
+
+        report_path = tmp_path / "report.md"
+        write_markdown_report(report_path, items, state_file=state_file)
+
+        content = report_path.read_text()
+        assert "Recent Changes" in content
+        assert "CVE-2024-1111" in content
+        assert "CVE-2024-2222" in content
+
+    def test_report_without_state_file(self, tmp_path: Path):
+        """Report should work without state file (no Recent Changes section)."""
+        from etl import write_markdown_report
+
+        items = [{"cve_id": "CVE-2024-0001", "is_critical": True}]
+        report_path = tmp_path / "report.md"
+        write_markdown_report(report_path, items, state_file=None)
+
+        content = report_path.read_text()
+        assert "VulnRadar Report" in content
+        assert "Recent Changes" not in content
+
+    def test_report_with_missing_state_file(self, tmp_path: Path):
+        """Report should handle missing state file gracefully."""
+        from etl import write_markdown_report
+
+        items = [{"cve_id": "CVE-2024-0001", "is_critical": True}]
+        report_path = tmp_path / "report.md"
+        missing_state = tmp_path / "nonexistent.json"
+        
+        write_markdown_report(report_path, items, state_file=missing_state)
+
+        content = report_path.read_text()
+        assert "VulnRadar Report" in content
+        # Should not crash, just skip Recent Changes section

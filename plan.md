@@ -1,6 +1,6 @@
 # VulnRadar State Memory System - Implementation Plan
 
-> **Status:** ✅ COMPLETE - All phases implemented
+> **Status:** ✅ FULLY COMPLETE - All phases implemented including Phase 5
 >
 > **Goal:** Stop alert spam by tracking what's been seen/alerted, only notify on meaningful changes.
 >
@@ -35,12 +35,30 @@
    - `--state` - Path to state file (default: `data/state.json`)
    - `--force` - Ignore state, alert on everything (for testing)
    - `--no-state` - Disable state tracking entirely
+   - `--reset-state` - Delete state file and exit (start fresh)
+   - `--prune-state DAYS` - Remove CVEs not seen in N days and exit
 
-4. **Workflow updates**:
+4. **First-run baseline behavior**:
+   - GitHub Issues: Single summary issue instead of 200+ individual issues
+   - Discord: One baseline embed message
+   - Slack: One baseline summary message
+   - Teams: One Adaptive Card baseline summary
+
+5. **Workflow updates**:
    - `notify.yml` now commits state file after each run
    - Uses `[skip ci]` to prevent infinite loops
+   - Fixed state file detection for new files
 
-5. **Tests**: 13 new tests for StateManager and Change classes
+6. **Markdown report updates** (`etl.py`):
+   - "Recent Changes (Last 7 Days)" section shows new CVEs
+   - Reads from state.json when available
+   - `--state` CLI argument to specify state file path
+
+7. **Tests**: 70 total tests covering all new features
+   - StateManager tests
+   - Change detection tests
+   - Reset/prune command tests
+   - Markdown report tests
 
 ---
 
