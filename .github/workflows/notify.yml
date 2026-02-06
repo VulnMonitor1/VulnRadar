@@ -2,13 +2,12 @@ name: VulnRadar Notifications
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - main
-    paths:
-      - data/radar_data.json
+  workflow_run:
+    workflows: ["Update Vulnerability Radar Data"]
+    types: [completed]
+    branches: [main]
   schedule:
-    - cron: "15 */6 * * *" # run after the ETL job
+    - cron: "15 */6 * * *" # Backup: run after ETL job in case workflow_run fails
 
 permissions:
   contents: write
@@ -17,7 +16,10 @@ permissions:
 jobs:
   notify:
     # Only run on forks, not the upstream repo (fork & go design)
-    if: github.repository != 'RogoLabs/VulnRadar'
+    # Skip if triggered by workflow_run and ETL failed
+    if: |
+      github.repository != 'RogoLabs/VulnRadar' &&
+      (github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success')
     runs-on: ubuntu-latest
     timeout-minutes: 15
 
