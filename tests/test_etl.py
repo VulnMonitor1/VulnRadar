@@ -17,8 +17,8 @@ from etl import (
     _matches_watchlist,
     _norm,
     _pick_best_description,
-    load_watchlist,
     load_merged_watchlist,
+    load_watchlist,
 )
 
 

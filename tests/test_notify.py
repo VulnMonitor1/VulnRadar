@@ -11,7 +11,17 @@ import pytest
 # Add parent directory to path for imports
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from notify import _issue_body, _load_items, _escalation_comment, _extract_dynamic_labels, _extract_severity_label, _generate_demo_cve, _create_weekly_summary_issue, _parse_project_url, Change
+from notify import (
+    Change,
+    _create_weekly_summary_issue,
+    _escalation_comment,
+    _extract_dynamic_labels,
+    _extract_severity_label,
+    _generate_demo_cve,
+    _issue_body,
+    _load_items,
+    _parse_project_url,
+)
 
 
 class TestLoadItems:
