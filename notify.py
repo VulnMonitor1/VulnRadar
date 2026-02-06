@@ -426,15 +426,150 @@ def _escalation_comment(change: "Change", item: Dict[str, Any]) -> str:
     return "\n".join(lines)
 
 
+# =============================================================================
+# GitHub Projects v2 Integration (GraphQL)
+# =============================================================================
+
+def _parse_project_url(project_url: str) -> Optional[Dict[str, Any]]:
+    """Parse a GitHub Projects URL to extract owner, type, and number.
+    
+    Supports:
+    - https://github.com/users/USERNAME/projects/NUMBER
+    - https://github.com/orgs/ORGNAME/projects/NUMBER
+    
+    Returns:
+        Dict with 'owner', 'type' ('user' or 'organization'), 'number', or None if invalid.
+    """
+    import re
+    
+    # Match user projects
+    user_match = re.match(r'https?://github\.com/users/([^/]+)/projects/(\d+)', project_url)
+    if user_match:
+        return {
+            'owner': user_match.group(1),
+            'type': 'user',
+            'number': int(user_match.group(2))
+        }
+    
+    # Match org projects
+    org_match = re.match(r'https?://github\.com/orgs/([^/]+)/projects/(\d+)', project_url)
+    if org_match:
+        return {
+            'owner': org_match.group(1),
+            'type': 'organization', 
+            'number': int(org_match.group(2))
+        }
+    
+    return None
+
+
+def _get_project_id(session: requests.Session, owner: str, owner_type: str, project_number: int) -> Optional[str]:
+    """Get the GitHub Projects v2 project ID using GraphQL.
+    
+    Args:
+        session: Authenticated requests session
+        owner: GitHub username or org name
+        owner_type: 'user' or 'organization'
+        project_number: Project number (from URL)
+        
+    Returns:
+        Project node ID string, or None if not found.
+    """
+    if owner_type == 'user':
+        query = '''
+        query($owner: String!, $number: Int!) {
+            user(login: $owner) {
+                projectV2(number: $number) {
+                    id
+                    title
+                }
+            }
+        }
+        '''
+        variables = {'owner': owner, 'number': project_number}
+    else:
+        query = '''
+        query($owner: String!, $number: Int!) {
+            organization(login: $owner) {
+                projectV2(number: $number) {
+                    id
+                    title
+                }
+            }
+        }
+        '''
+        variables = {'owner': owner, 'number': project_number}
+    
+    url = 'https://api.github.com/graphql'
+    r = session.post(url, json={'query': query, 'variables': variables}, timeout=DEFAULT_TIMEOUT)
+    r.raise_for_status()
+    
+    data = r.json()
+    if 'errors' in data:
+        print(f"GraphQL error getting project: {data['errors']}")
+        return None
+    
+    if owner_type == 'user':
+        project = data.get('data', {}).get('user', {}).get('projectV2')
+    else:
+        project = data.get('data', {}).get('organization', {}).get('projectV2')
+    
+    if project:
+        return project.get('id')
+    return None
+
+
+def _add_item_to_project(session: requests.Session, project_id: str, content_id: str) -> bool:
+    """Add an issue to a GitHub Projects v2 board.
+    
+    Args:
+        session: Authenticated requests session
+        project_id: Project node ID (from _get_project_id)
+        content_id: Issue node ID (from _create_issue response)
+        
+    Returns:
+        True if successful, False otherwise.
+    """
+    mutation = '''
+    mutation($projectId: ID!, $contentId: ID!) {
+        addProjectV2ItemByContentId(input: {projectId: $projectId, contentId: $contentId}) {
+            item {
+                id
+            }
+        }
+    }
+    '''
+    
+    url = 'https://api.github.com/graphql'
+    r = session.post(url, json={
+        'query': mutation,
+        'variables': {'projectId': project_id, 'contentId': content_id}
+    }, timeout=DEFAULT_TIMEOUT)
+    r.raise_for_status()
+    
+    data = r.json()
+    if 'errors' in data:
+        print(f"GraphQL error adding to project: {data['errors']}")
+        return False
+    
+    return data.get('data', {}).get('addProjectV2ItemByContentId', {}).get('item') is not None
+
+
 def _create_issue(
     session: requests.Session, repo: str, title: str, body: str, labels: Optional[List[str]] = None
-) -> None:
+) -> Optional[Dict[str, Any]]:
+    """Create a GitHub issue and return the response data.
+    
+    Returns:
+        Dict with issue data including 'node_id', 'number', 'html_url', or None on error.
+    """
     url = f"https://api.github.com/repos/{repo}/issues"
     payload: Dict[str, Any] = {"title": title, "body": body}
     if labels:
         payload["labels"] = labels
     r = session.post(url, json=payload, timeout=DEFAULT_TIMEOUT)
     r.raise_for_status()
+    return r.json()
 
 
 def _extract_dynamic_labels(item: Dict[str, Any], max_labels: int = 3) -> List[str]:
@@ -1683,6 +1818,13 @@ def main() -> int:
         action="store_true",
         help="Create a weekly summary issue instead of individual alerts",
     )
+    # GitHub Projects v2 integration
+    p.add_argument(
+        "--project-url",
+        dest="project_url",
+        default=os.environ.get("VULNRADAR_PROJECT_URL"),
+        help="GitHub Projects v2 URL to add issues to (e.g., https://github.com/users/USER/projects/1)",
+    )
     args = p.parse_args()
 
     # Handle state management commands first
@@ -1824,6 +1966,24 @@ def main() -> int:
     created = 0
     escalated = 0  # Track escalation comments
 
+    # GitHub Projects v2 setup
+    project_id: Optional[str] = None
+    if args.project_url:
+        project_info = _parse_project_url(args.project_url)
+        if project_info:
+            project_id = _get_project_id(
+                session, 
+                project_info['owner'], 
+                project_info['type'], 
+                project_info['number']
+            )
+            if project_id:
+                print(f"📋 GitHub Project found, issues will be added to board")
+            else:
+                print(f"⚠️ Could not find GitHub Project at {args.project_url}")
+        else:
+            print(f"⚠️ Invalid project URL format: {args.project_url}")
+
     # Check if issues are enabled on the repo
     issues_enabled = True
     try:
@@ -1911,10 +2071,15 @@ def main() -> int:
                 continue
 
             try:
-                _create_issue(session, repo, title=title, body=body, labels=labels)
+                issue_data = _create_issue(session, repo, title=title, body=body, labels=labels)
                 print(f"Created issue for {cve_id}")
                 existing.add(cve_id)
                 created += 1
+                
+                # Add to GitHub Project if configured
+                if project_id and issue_data and issue_data.get('node_id'):
+                    if _add_item_to_project(session, project_id, issue_data['node_id']):
+                        print(f"  → Added to project board")
             except Exception as e:
                 print(f"Failed to create issue for {cve_id}: {e}")
                 break

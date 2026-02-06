@@ -11,7 +11,7 @@ import pytest
 # Add parent directory to path for imports
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from notify import _issue_body, _load_items, _escalation_comment, _extract_dynamic_labels, _extract_severity_label, _generate_demo_cve, _create_weekly_summary_issue, Change
+from notify import _issue_body, _load_items, _escalation_comment, _extract_dynamic_labels, _extract_severity_label, _generate_demo_cve, _create_weekly_summary_issue, _parse_project_url, Change
 
 
 class TestLoadItems:
@@ -724,3 +724,35 @@ class TestWeeklySummary:
 
         payload = mock_session.post.call_args[1]["json"]
         assert "0" in payload["body"]  # Should show 0 counts
+
+
+class TestGitHubProjects:
+    """Tests for GitHub Projects v2 integration."""
+
+    def test_parse_user_project_url(self):
+        """Parse user project URL."""
+        result = _parse_project_url("https://github.com/users/gamblin/projects/1")
+        assert result is not None
+        assert result["owner"] == "gamblin"
+        assert result["type"] == "user"
+        assert result["number"] == 1
+
+    def test_parse_org_project_url(self):
+        """Parse organization project URL."""
+        result = _parse_project_url("https://github.com/orgs/RogoLabs/projects/5")
+        assert result is not None
+        assert result["owner"] == "RogoLabs"
+        assert result["type"] == "organization"
+        assert result["number"] == 5
+
+    def test_parse_invalid_project_url(self):
+        """Invalid URLs return None."""
+        assert _parse_project_url("https://github.com/gamblin/repo") is None
+        assert _parse_project_url("https://example.com/users/x/projects/1") is None
+        assert _parse_project_url("not a url") is None
+
+    def test_parse_project_url_with_trailing_slash(self):
+        """URL with path works."""
+        result = _parse_project_url("https://github.com/users/test/projects/99")
+        assert result is not None
+        assert result["number"] == 99
