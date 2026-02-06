@@ -11,7 +11,7 @@ import pytest
 # Add parent directory to path for imports
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from notify import _issue_body, _load_items, _escalation_comment, _extract_dynamic_labels, _extract_severity_label, _generate_demo_cve, Change
+from notify import _issue_body, _load_items, _escalation_comment, _extract_dynamic_labels, _extract_severity_label, _generate_demo_cve, _create_weekly_summary_issue, Change
 
 
 class TestLoadItems:
@@ -659,3 +659,68 @@ class TestSeverityLabels:
         """Returns None for invalid CVSS values."""
         item = {"cvss_score": "invalid"}
         assert _extract_severity_label(item) is None
+
+
+class TestWeeklySummary:
+    """Tests for _create_weekly_summary_issue function."""
+
+    def test_weekly_summary_creates_issue(self):
+        """Weekly summary creates a GitHub issue with correct content."""
+        mock_session = MagicMock()
+        mock_response = MagicMock()
+        mock_response.status_code = 201
+        mock_response.json.return_value = {"html_url": "https://github.com/test/repo/issues/1"}
+        mock_session.post.return_value = mock_response
+
+        # Use is_critical=True to ensure it appears in top 10
+        items = [
+            {"cve_id": "CVE-2024-0001", "cvss_score": 9.8, "is_critical": True, "probability_score": 0.95},
+            {"cve_id": "CVE-2024-0002", "cvss_score": 7.5, "kev": False, "has_poc": False},
+            {"cve_id": "CVE-2024-0003", "cvss_score": 5.0, "kev": False, "has_poc": True},
+        ]
+
+        _create_weekly_summary_issue(mock_session, "owner/repo", items, None)
+
+        mock_session.post.assert_called_once()
+        call_args = mock_session.post.call_args
+        assert "api.github.com/repos/owner/repo/issues" in call_args[0][0]
+        payload = call_args[1]["json"]
+        assert "Weekly Summary" in payload["title"]
+        assert "weekly-summary" in payload["labels"]
+        assert "CVE-2024-0001" in payload["body"]  # Critical CVE should appear in top 10
+
+    def test_weekly_summary_counts_metrics(self):
+        """Weekly summary includes correct metric counts."""
+        mock_session = MagicMock()
+        mock_response = MagicMock()
+        mock_response.status_code = 201
+        mock_response.json.return_value = {"html_url": "https://github.com/test/repo/issues/1"}
+        mock_session.post.return_value = mock_response
+
+        items = [
+            {"cve_id": "CVE-2024-0001", "cvss_score": 9.5, "kev": True, "has_poc": True},
+            {"cve_id": "CVE-2024-0002", "cvss_score": 9.1, "kev": False, "has_poc": False},
+            {"cve_id": "CVE-2024-0003", "cvss_score": 7.0, "kev": False, "has_poc": True},
+        ]
+
+        _create_weekly_summary_issue(mock_session, "owner/repo", items, None)
+
+        payload = mock_session.post.call_args[1]["json"]
+        body = payload["body"]
+        # Should have CVEs tracked count
+        assert "Total CVEs Tracked" in body
+        # Should have exploit intel metric
+        assert "Exploit Intel Available" in body
+
+    def test_weekly_summary_empty_items(self):
+        """Weekly summary handles empty items list."""
+        mock_session = MagicMock()
+        mock_response = MagicMock()
+        mock_response.status_code = 201
+        mock_response.json.return_value = {"html_url": "https://github.com/test/repo/issues/1"}
+        mock_session.post.return_value = mock_response
+
+        _create_weekly_summary_issue(mock_session, "owner/repo", [], None)
+
+        payload = mock_session.post.call_args[1]["json"]
+        assert "0" in payload["body"]  # Should show 0 counts
