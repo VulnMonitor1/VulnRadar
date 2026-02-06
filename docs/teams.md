@@ -64,14 +64,14 @@ VulnRadar uses **Adaptive Cards** for rich formatting in Teams.
 ### Summary Card
 A daily overview showing:
 - Total CVEs matching your watchlist (large numbers in columns)
-- Count of critical, KEV, and PatchThis findings
+- Count of critical, KEV, and Exploit Intel (PoC) findings
 - Top 5 critical CVEs with EPSS scores and links
 
 ### Individual Alert Cards
 Each CVE alert includes:
 - Priority indicator with color coding (CRITICAL=red, KEV=orange, ALERT=blue)
 - CVE ID and description
-- Fact set with EPSS, CVSS, KEV, and PatchThis status
+- Fact set with EPSS, CVSS, KEV, and Exploit Intel status
 - "View CVE Details" button linking to cve.org
 
 ## Rate Limiting

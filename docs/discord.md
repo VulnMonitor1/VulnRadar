@@ -36,9 +36,9 @@ That's it! The next time the notification workflow runs, you'll receive Discord 
 
 A summary embed showing:
 - Total CVEs found
-- Critical count (PatchThis + Watchlist)
+- Critical count (Exploit Intel + Watchlist)
 - CISA KEV count
-- PatchThis count
+- Exploit Intel count (PoC available)
 - Top 5 critical findings with links
 
 ![Summary Example](https://img.shields.io/badge/Example-Summary-blue)
@@ -49,7 +49,7 @@ A summary embed showing:
 Total CVEs:    2,179
 🚨 Critical:   45
 ⚠️ CISA KEV:   167
-🔥 PatchThis:  173
+🔥 Exploit Intel: 173
 
 Top Critical Findings:
 • CVE-2025-24813 (EPSS: 94.2%)
@@ -66,11 +66,11 @@ For each critical CVE, a detailed embed with:
 - EPSS score
 - CVSS score  
 - KEV status
-- PatchThis status
+- Exploit Intel status (PoC available)
 - KEV due date (if applicable)
 
 Color coding:
-- 🔴 **Red** - Critical (PatchThis + Watchlist)
+- 🔴 **Red** - Critical (Exploit Intel + Watchlist)
 - 🟠 **Orange** - CISA KEV
 - 🔵 **Blue** - Other alerts
 

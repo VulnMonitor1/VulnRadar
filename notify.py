@@ -35,7 +35,7 @@ class Change:
         elif self.change_type == "NEW_KEV":
             return f"⚠️ NOW IN KEV: {self.cve_id}"
         elif self.change_type == "NEW_PATCHTHIS":
-            return f"🔥 NOW IN PATCHTHIS: {self.cve_id}"
+            return f"🔥 EXPLOIT INTEL: {self.cve_id} (PoC Available)"
         elif self.change_type == "BECAME_CRITICAL":
             return f"🚨 NOW CRITICAL: {self.cve_id}"
         elif self.change_type == "EPSS_SPIKE":
@@ -317,7 +317,7 @@ def _create_baseline_issue(
         "**Going forward, VulnRadar will only create issues for:**",
         "- 🆕 New CVEs that match your watchlist",
         "- ⚠️ Existing CVEs newly added to CISA KEV",
-        "- 🔥 Existing CVEs newly added to PatchThis",
+        "- 🔥 Existing CVEs with new exploit intel (PoC available)",
         "- 📈 CVEs with significant EPSS increases (≥30%)",
         "",
         "---",
@@ -329,7 +329,7 @@ def _create_baseline_issue(
         f"| Total CVEs Tracked | {total} |",
         f"| 🚨 Critical (require action) | {critical_count} |",
         f"| ⚠️ In CISA KEV | {kev_count} |",
-        f"| 🔥 In PatchThis | {patch_count} |",
+        f"| 🔥 Exploit Intel (PoC) | {patch_count} |",
         "",
         "---",
         "",
@@ -337,7 +337,7 @@ def _create_baseline_issue(
         "",
         "These are your highest-priority items based on EPSS score:",
         "",
-        "| CVE ID | EPSS | CVSS | KEV | PatchThis | Description |",
+        "| CVE ID | EPSS | CVSS | KEV | Exploit | Description |",
         "|--------|------|------|-----|-----------|-------------|",
     ]
 
@@ -454,7 +454,7 @@ def _issue_body(item: Dict[str, Any], changes: Optional[List[Change]] = None) ->
     lines.append("| Signal | Status |")
     lines.append("|--------|--------|")
     lines.append(f"| CISA KEV | {'🔴 **YES** - Known Exploited' if kev else '⚪ No'} |")
-    lines.append(f"| PatchThis | {'🟠 **YES** - Patch Available' if patch else '⚪ No'} |")
+    lines.append(f"| Exploit Intel | {'🟠 **YES** - PoC Available' if patch else '⚪ No'} |")
     lines.append(f"| Watchlist Match | {'🟡 **YES**' if watch else '⚪ No'} |")
     if kev_due:
         lines.append(f"| KEV Remediation Due | **{kev_due}** |")

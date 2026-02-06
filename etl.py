@@ -7,7 +7,7 @@ then enriches them with:
 
 - CISA Known Exploited Vulnerabilities (KEV) catalog (flags `active_threat`)
 - FIRST.org EPSS daily probabilities (adds `probability_score`)
-- PatchThis intelligence feed (flags `in_patchthis` and sets `priority_label`)
+- Exploit intelligence feed (flags `in_patchthis` - PoC available)
 
 Filtering:
 - Loads `watchlist.json` (vendors/products)
@@ -764,7 +764,7 @@ def write_markdown_report(path: Path, items: List[Dict[str, Any]], state_file: O
     lines.append("## Executive Summary")
     lines.append("")
     lines.append(
-        "Critical findings are CVEs that are BOTH in your watchlist AND present in the PatchThis intelligence feed."
+        "Critical findings are CVEs that are BOTH in your watchlist AND have exploit intelligence (PoC available)."
     )
     lines.append("")
     if critical_top:
@@ -789,7 +789,7 @@ def write_markdown_report(path: Path, items: List[Dict[str, Any]], state_file: O
             lines.append(f"| {_cve_link(cve_id)} | {epss_s} | {cvss_s} | {due or ''} | {desc} |")
         lines.append("")
     else:
-        lines.append("No critical PatchThis+Watchlist findings in this run.")
+        lines.append("No critical Exploit Intel + Watchlist findings in this run.")
         lines.append("")
 
     lines.append("## Summary")
@@ -797,12 +797,12 @@ def write_markdown_report(path: Path, items: List[Dict[str, Any]], state_file: O
     lines.append(f"- Total items: **{total}**")
     lines.append(f"- Watchlist hits: **{watch_hits}**")
     lines.append(f"- CISA KEVs: **{kev_count}**")
-    lines.append(f"- PatchThis hits: **{patch_count}**")
-    lines.append(f"- PatchThis + Watchlist (CRITICAL): **{critical_patch_watch}**")
+    lines.append(f"- Exploit Intel (PoC): **{patch_count}**")
+    lines.append(f"- Exploit Intel + Watchlist (CRITICAL): **{critical_patch_watch}**")
     lines.append("")
     lines.append("## Top Findings (max 200)")
     lines.append("")
-    lines.append("| CVE | Priority | Bucket | PatchThis | KEV | KEV Due | EPSS | CVSS | Watchlist | Description |")
+    lines.append("| CVE | Priority | Bucket | Exploit | KEV | KEV Due | EPSS | CVSS | Watchlist | Description |")
     lines.append("|---|---|---|---:|---:|---:|---:|---:|---:|---|")
 
     for i in top:

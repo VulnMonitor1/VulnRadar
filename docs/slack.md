@@ -59,7 +59,7 @@ python notify.py --slack-webhook "$SLACK_WEBHOOK_URL" --dry-run
 ### Summary Message
 A daily overview with:
 - Total CVEs matching your watchlist
-- Count of critical, KEV, and PatchThis findings
+- Count of critical, KEV, and Exploit Intel (PoC) findings
 - Top 5 critical CVEs with EPSS scores
 
 ### Individual Alerts
@@ -68,7 +68,7 @@ Each CVE alert includes:
 - CVE ID with link to cve.org
 - Description
 - EPSS and CVSS scores
-- KEV and PatchThis status
+- KEV and Exploit Intel status
 
 ## Rate Limiting
 

@@ -148,8 +148,8 @@ VulnRadar automatically classifies findings:
 
 | Priority | Condition | Action |
 |----------|-----------|--------|
-| 🔴 **CRITICAL** | In PatchThis AND in your watchlist | Immediate attention |
-| 🟠 **WARNING** | In PatchThis but NOT in watchlist | Shadow IT risk |
+| 🔴 **CRITICAL** | Has Exploit Intel (PoC) AND in your watchlist | Immediate attention |
+| 🟠 **WARNING** | Has Exploit Intel (PoC) but NOT in watchlist | Shadow IT risk |
 | 🟡 **KEV** | In CISA KEV catalog | Active exploitation |
 | ⚪ **Other** | Watchlist match only | Monitor |
 

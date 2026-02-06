@@ -25,7 +25,9 @@ python etl.py --include-kev-outside-window
 
 - Include if `watchlist_hit == true` OR `active_threat == true` (CISA KEV) OR `in_patchthis == true`
 
-## PatchThis prioritization
+## Exploit Intel Prioritization
+
+The `in_patchthis` field indicates a PoC/exploit is publicly available (data source: PatchThis):
 
 - `in_patchthis == true` AND `watchlist_hit == true` => `is_critical = true`
 - `in_patchthis == true` AND `watchlist_hit == false` => `is_warning = true`

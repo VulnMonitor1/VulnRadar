@@ -74,7 +74,7 @@ class TestIssueBody:
     def test_signals_section(self, sample_radar_item: Dict[str, Any]):
         """Signals section should show all flags."""
         body = _issue_body(sample_radar_item)
-        assert "PatchThis" in body
+        assert "Exploit Intel" in body
         assert "Watchlist" in body
         assert "CISA KEV" in body
 
