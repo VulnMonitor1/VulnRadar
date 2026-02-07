@@ -168,8 +168,8 @@ class TestDiscordPayload:
         # Import the function
         from notify import send_discord_alert
 
-        # Mock requests.post
-        with patch("notify.requests.post") as mock_post:
+        # Mock requests.post in the discord provider module
+        with patch("vulnradar.notifications.discord.requests.post") as mock_post:
             mock_response = MagicMock()
             mock_response.raise_for_status = MagicMock()
             mock_post.return_value = mock_response
@@ -192,7 +192,7 @@ class TestDiscordPayload:
         """Test Discord summary embed structure."""
         from notify import send_discord_summary
 
-        with patch("notify.requests.post") as mock_post:
+        with patch("vulnradar.notifications.discord.requests.post") as mock_post:
             mock_response = MagicMock()
             mock_response.raise_for_status = MagicMock()
             mock_post.return_value = mock_response
@@ -216,7 +216,7 @@ class TestSlackPayload:
         """Test Slack message structure."""
         from notify import send_slack_alert
 
-        with patch("notify.requests.post") as mock_post:
+        with patch("vulnradar.notifications.slack.requests.post") as mock_post:
             mock_response = MagicMock()
             mock_response.raise_for_status = MagicMock()
             mock_post.return_value = mock_response
@@ -238,7 +238,7 @@ class TestTeamsPayload:
         """Test Teams Adaptive Card structure."""
         from notify import send_teams_alert
 
-        with patch("notify.requests.post") as mock_post:
+        with patch("vulnradar.notifications.teams.requests.post") as mock_post:
             mock_response = MagicMock()
             mock_response.raise_for_status = MagicMock()
             mock_post.return_value = mock_response

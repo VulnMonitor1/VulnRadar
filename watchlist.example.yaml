@@ -214,6 +214,8 @@ exclude_products:
 thresholds:
   min_cvss: 0.0         # Include all severities
   min_epss: 0.0         # Include all exploit probabilities
+  severity_threshold: 9.0  # Flag CVEs with CVSS >= 9.0 as critical (optional)
+  epss_threshold: 0.5      # Flag CVEs with EPSS >= 50% as critical (optional)
 
 # ============================================================================
 # OPTIONS
@@ -222,3 +224,25 @@ options:
   always_include_kev: true
   always_include_patchthis: true
   match_mode: substring   # 'substring', 'exact', or 'regex'
+
+# ============================================================================
+# NOTIFICATIONS (optional - per-severity routing)
+# ============================================================================
+# Configure multiple webhooks per provider, each with a severity filter.
+# Filters: all | critical | kev | watchlist
+# URLs starting with $ are resolved from environment variables.
+#
+# notifications:
+#   discord:
+#     - url: $DISCORD_CRITICAL_WEBHOOK
+#       filter: critical
+#       max_alerts: 25
+#     - url: $DISCORD_ALL_WEBHOOK
+#       filter: all
+#       max_alerts: 10
+#   slack:
+#     - url: $SLACK_WEBHOOK_URL
+#       filter: critical
+#   teams:
+#     - url: $TEAMS_WEBHOOK_URL
+#       filter: all

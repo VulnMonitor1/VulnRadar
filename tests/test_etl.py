@@ -104,7 +104,7 @@ class TestMultiWatchlist:
         """Merged watchlist with just main file works."""
         main = tmp_path / "watchlist.yaml"
         main.write_text(yaml.dump({"vendors": ["microsoft"], "products": ["exchange"]}))
-        
+
         watchlist = load_merged_watchlist(main)
         assert "microsoft" in watchlist.vendors
         assert "exchange" in watchlist.products
@@ -113,22 +113,18 @@ class TestMultiWatchlist:
         """Merged watchlist includes files from watchlist.d/."""
         main = tmp_path / "watchlist.yaml"
         main.write_text(yaml.dump({"vendors": ["microsoft"], "products": ["exchange"]}))
-        
+
         # Create watchlist.d/ with additional files
         watchlist_d = tmp_path / "watchlist.d"
         watchlist_d.mkdir()
-        
-        (watchlist_d / "security.yaml").write_text(yaml.dump({
-            "vendors": ["paloaltonetworks", "fortinet"],
-            "products": ["firewall"]
-        }))
-        (watchlist_d / "cloud.yaml").write_text(yaml.dump({
-            "vendors": ["amazon"],
-            "products": ["aws", "s3"]
-        }))
-        
+
+        (watchlist_d / "security.yaml").write_text(
+            yaml.dump({"vendors": ["paloaltonetworks", "fortinet"], "products": ["firewall"]})
+        )
+        (watchlist_d / "cloud.yaml").write_text(yaml.dump({"vendors": ["amazon"], "products": ["aws", "s3"]}))
+
         watchlist = load_merged_watchlist(main, watchlist_d)
-        
+
         # Original
         assert "microsoft" in watchlist.vendors
         # From security.yaml
@@ -142,14 +138,18 @@ class TestMultiWatchlist:
         """Merged watchlist deduplicates entries."""
         main = tmp_path / "watchlist.yaml"
         main.write_text(yaml.dump({"vendors": ["microsoft", "apache"], "products": []}))
-        
+
         watchlist_d = tmp_path / "watchlist.d"
         watchlist_d.mkdir()
-        (watchlist_d / "overlap.yaml").write_text(yaml.dump({
-            "vendors": ["microsoft", "google"],  # microsoft is duplicate
-            "products": []
-        }))
-        
+        (watchlist_d / "overlap.yaml").write_text(
+            yaml.dump(
+                {
+                    "vendors": ["microsoft", "google"],  # microsoft is duplicate
+                    "products": [],
+                }
+            )
+        )
+
         watchlist = load_merged_watchlist(main, watchlist_d)
         assert len([v for v in watchlist.vendors if v == "microsoft"]) == 1
         assert "microsoft" in watchlist.vendors

@@ -124,34 +124,44 @@ Check `data/radar_report.md` in your fork — it renders beautifully in GitHub!
 
 ```mermaid
 flowchart LR
-    subgraph Data Sources
+    subgraph Sources["Data Sources"]
         A[CVE List V5]
         B[CISA KEV]
         C[EPSS]
         D[PatchThis]
+        N[NVD Feeds]
     end
-    
-    subgraph VulnRadar
-        E[watchlist.yaml]
-        F[etl.py]
+
+    subgraph Core["vulnradar/ package"]
+        CFG[config.py\nPydantic models]
+        DL[downloaders.py\nHTTP fetchers]
+        ADL[async_downloaders.py\naiohttp parallel]
+        P[parsers.py\nCVE parsing]
+        E[enrichment.py\nKEV/EPSS/NVD merge]
+        R[report.py\nJinja2 templates]
     end
-    
+
+    subgraph Notify["notifications/"]
+        NB[base.py\nAbstract provider]
+        ND[discord.py]
+        NS[slack.py]
+        NT[teams.py]
+        NG[github_issues.py]
+    end
+
     subgraph Outputs
         G[radar_report.md]
         H[radar_data.json]
         I[GitHub Issues]
-        J[Discord/Slack]
+        J[Discord/Slack/Teams]
     end
-    
-    A --> F
-    B --> F
-    C --> F
-    D --> F
-    E --> F
-    F --> G
-    F --> H
-    H --> I
-    H --> J
+
+    Sources -->|sequential or --parallel| DL & ADL
+    DL & ADL --> P --> E
+    CFG --> E
+    E --> R --> G
+    E --> H
+    H --> Notify --> I & J
 ```
 
 ---
@@ -189,10 +199,23 @@ products:
 exclude_vendors:
   - n/a
   - unknown
+
+# Optional: configurable severity thresholds
+thresholds:
+  min_cvss: 0.0            # Include all severities
+  min_epss: 0.0            # Include all exploit probabilities
+  severity_threshold: 9.0  # Also flag CVEs with CVSS >= 9.0 as critical
+  epss_threshold: 0.5      # Also flag CVEs with EPSS >= 50% as critical
+
+# Optional: matching behaviour
+options:
+  always_include_kev: true
+  always_include_patchthis: true
+  match_mode: substring    # 'substring', 'exact', or 'regex'
 ```
 
 **Tips:**
-- Matching is **case-insensitive** and uses **substring matching**
+- Matching is **case-insensitive** and uses **substring matching** by default
 - See `watchlist.example.yaml` for extensive examples by category
 - Run `python etl.py --validate-watchlist` to check for typos
 
@@ -204,10 +227,12 @@ VulnRadar automatically classifies findings:
 
 | Priority | Condition | Action |
 |----------|-----------|--------|
-| 🔴 **CRITICAL** | Has Exploit Intel (PoC) AND in your watchlist | Immediate attention |
+| 🔴 **CRITICAL** | Exploit Intel + watchlist, OR CVSS ≥ `severity_threshold`, OR EPSS ≥ `epss_threshold` | Immediate attention |
 | 🟠 **WARNING** | Has Exploit Intel (PoC) but NOT in watchlist | Shadow IT risk |
 | 🟡 **KEV** | In CISA KEV catalog | Active exploitation |
 | ⚪ **Other** | Watchlist match only | Monitor |
+
+> 💡 `severity_threshold` and `epss_threshold` are optional — set them in `watchlist.yaml` under `thresholds:` to expand what counts as critical beyond just exploit intel.
 
 ---
 
@@ -227,6 +252,25 @@ See [docs/slack.md](docs/slack.md) for setup instructions.
 ### Microsoft Teams (Optional)
 Add `TEAMS_WEBHOOK_URL` to your repository secrets to receive Teams alerts (Adaptive Cards).
 See [docs/teams.md](docs/teams.md) for setup instructions.
+
+### Per-Severity Routing (Optional)
+Route different alert levels to different webhooks:
+
+```yaml
+# In watchlist.yaml
+notifications:
+  discord:
+    - url: $DISCORD_CRITICAL_WEBHOOK
+      filter: critical        # Only critical findings
+      max_alerts: 25
+    - url: $DISCORD_ALL_WEBHOOK
+      filter: all             # Everything
+  slack:
+    - url: $SLACK_WEBHOOK_URL
+      filter: kev             # Only KEV entries
+```
+
+Filters: `all` | `critical` | `kev` | `watchlist`. URLs starting with `$` are resolved from environment variables.
 
 ---
 
@@ -313,6 +357,9 @@ python etl.py --skip-nvd
 
 # Use NVD cache for faster repeated runs
 python etl.py --nvd-cache .nvd_cache
+
+# Download all data sources in parallel (requires aiohttp)
+python etl.py --parallel
 ```
 
 ### Notification Options (notify.py)
@@ -362,12 +409,30 @@ python etl.py --validate-watchlist
 
 ```
 VulnRadar/
-├── etl.py                 # Main ETL script
-├── notify.py              # GitHub Issues / Discord / Slack / Teams notifications
+├── etl.py                 # Thin CLI shim → vulnradar.cli.main_etl()
+├── notify.py              # Thin CLI shim → vulnradar.cli.main_notify()
 ├── watchlist.yaml         # Your configuration (edit this!)
 ├── watchlist.example.yaml # Extensive examples by category
-├── watchlist.d/           # Optional: multi-watchlist support (merged at runtime)
 ├── requirements.txt       # Python dependencies
+├── vulnradar/             # Core package
+│   ├── __init__.py        # Version & public API
+│   ├── cli.py             # argparse entry points
+│   ├── config.py          # Pydantic models for watchlist + settings
+│   ├── downloaders.py     # Sequential HTTP fetchers (requests)
+│   ├── async_downloaders.py # Parallel fetchers (aiohttp, --parallel)
+│   ├── parsers.py         # CVE JSON parsing, CVSS extraction
+│   ├── enrichment.py      # KEV/EPSS/PatchThis/NVD merge
+│   ├── report.py          # Jinja2 Markdown report writer
+│   ├── state.py           # StateManager for deduplication
+│   ├── notifications/     # Strategy-pattern providers
+│   │   ├── base.py        # Abstract NotificationProvider
+│   │   ├── discord.py     # Discord webhooks
+│   │   ├── slack.py       # Slack webhooks
+│   │   ├── teams.py       # Teams Adaptive Cards
+│   │   └── github_issues.py # Issues + Projects v2
+│   └── templates/
+│       └── report.md.j2   # Customizable report template
+├── tests/                 # 321 tests (pytest)
 ├── data/
 │   ├── radar_report.md    # GitHub-viewable report (auto-generated)
 │   ├── radar_data.json    # Machine-readable output (auto-generated)

@@ -1,6 +1,6 @@
 [project]
 name = "vulnradar"
-version = "0.1.0"
+version = "0.2.0"
 description = "Fork-and-go vulnerability intelligence tool"
 requires-python = ">=3.11"
 
@@ -22,7 +22,7 @@ ignore = [
 ]
 
 [tool.ruff.lint.isort]
-known-first-party = ["etl", "notify"]
+known-first-party = ["etl", "notify", "vulnradar"]
 
 [tool.mypy]
 python_version = "3.11"
