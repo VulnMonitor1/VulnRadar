@@ -13,9 +13,6 @@ from typing import Any, Dict, List, Optional
 
 import requests  # noqa: F401 — kept so tests can mock notify.requests.post
 
-# ── Core types ───────────────────────────────────────────────────────────────
-from vulnradar.state import Change, StateManager
-
 # ── CLI helpers ──────────────────────────────────────────────────────────────
 from vulnradar.cli import (
     _generate_demo_cve,
@@ -26,7 +23,11 @@ from vulnradar.cli import (
 # ── GitHub Issues statics ────────────────────────────────────────────────────
 from vulnradar.notifications.github_issues import GitHubIssueProvider
 
+# ── Core types ───────────────────────────────────────────────────────────────
+from vulnradar.state import Change, StateManager
+
 # Backward-compatible aliases for standalone functions the tests import:
+
 
 def _issue_body(item: Dict[str, Any], changes: list | None = None) -> str:
     return GitHubIssueProvider.format_issue_body(item, changes)
@@ -60,6 +61,7 @@ def _create_weekly_summary_issue(
     The new provider uses an instance. We instantiate one temporarily.
     """
     import os
+
     token = os.environ.get("GITHUB_TOKEN") or os.environ.get("GH_TOKEN") or ""
     provider = GitHubIssueProvider(
         repo=repo,
