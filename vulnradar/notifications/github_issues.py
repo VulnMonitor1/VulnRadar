@@ -478,6 +478,9 @@ class GitHubIssueProvider(NotificationProvider):
         items: list[dict[str, Any]],
         critical_items: list[dict[str, Any]],
         repo: str,
+        *,
+        vendors: list[str] | None = None,
+        products: list[str] | None = None,
     ) -> None:
         """Create a single baseline summary issue on first run.
 
@@ -485,6 +488,8 @@ class GitHubIssueProvider(NotificationProvider):
             items: All radar items.
             critical_items: Subset of items marked as critical.
             repo: GitHub repository slug.
+            vendors: List of monitored vendors from watchlist.
+            products: List of monitored products from watchlist.
         """
         total = len(items)
         critical_count = len(critical_items)
@@ -493,10 +498,22 @@ class GitHubIssueProvider(NotificationProvider):
 
         sorted_critical = sorted(critical_items, key=lambda x: float(x.get("probability_score") or 0), reverse=True)
 
+        # Build monitoring list
+        monitoring_lines = []
+        if vendors:
+            monitoring_lines.append(f"**Vendors:** {', '.join(vendors)}")
+        if products:
+            monitoring_lines.append(f"**Products:** {', '.join(products)}")
+        monitoring_text = "  \\n".join(monitoring_lines) if monitoring_lines else "_No watchlist configured_"
+
         lines = [
             "# 🚀 VulnRadar Baseline Established",
             "",
             "This is the **first run** of VulnRadar on this repository. Instead of creating individual issues for all existing findings, this summary establishes your baseline.",
+            "",
+            "## 📋 Monitoring",
+            "",
+            monitoring_text,
             "",
             "**Going forward, VulnRadar will only create issues for:**",
             "- 🆕 New CVEs that match your watchlist",

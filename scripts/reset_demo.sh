@@ -108,45 +108,37 @@ echo -e "${YELLOW}📋 Step 3: Installing rich demo watchlist...${NC}"
 cat > watchlist.yaml << 'EOF'
 # VulnRadar Demo Watchlist
 # ========================
-# A focused demo watchlist designed to show VulnRadar features
-# while keeping data size under GitHub's 100MB limit.
-#
-# This watchlist targets ~500-2000 CVEs with high-signal entries
-# (critical, KEV, exploit intel) for compelling demos.
+# A comprehensive demo watchlist with major vendors.
+# Uses min_cvss: 7.0 threshold to keep data size under GitHub's 100MB limit.
 
 # ============================================================================
-# VENDORS - Focused selection for demos
+# VENDORS - Major software vendors for comprehensive demo coverage
 # ============================================================================
 vendors:
-  # Security vendors (often in KEV with critical CVEs)
-  - fortinet            # FortiGate, FortiOS - frequent KEV entries
-  - paloaltonetworks    # PAN-OS firewalls - high-profile vulns
-  - ivanti              # VPN/MDM - recent high-profile CVEs
+  # Big tech (Patch Tuesday, monthly updates)
+  - microsoft           # Windows, Office, Azure, Exchange
+  - apple               # macOS, iOS, Safari
+  - google              # Chrome, Android, GCP
   
-  # Popular targets
-  - atlassian           # Confluence, Jira - enterprise targets
-  - gitlab              # GitLab - CI/CD
-  - hashicorp           # Terraform, Vault
+  # Infrastructure & security
+  - cisco               # IOS, ASA, WebEx
+  - vmware              # ESXi, vCenter, Horizon
+  - linux               # Linux kernel
+  - apache              # httpd, Tomcat, Log4j, Kafka
+  
+  # Security vendors (often in KEV)
+  - fortinet            # FortiGate, FortiOS
+  - paloaltonetworks    # PAN-OS firewalls
+  - ivanti              # VPN/MDM
 
 # ============================================================================
-# PRODUCTS - Specific high-signal products
+# PRODUCTS - High-signal products
 # ============================================================================
 products:
-  # Famous vulnerabilities
   - log4j               # Log4Shell and variants
+  - chrome              # Google Chrome browser
   - openssl             # Heartbleed, etc.
-  
-  # Enterprise collaboration
-  - confluence          # Atlassian Confluence
-  - jira                # Atlassian Jira
-  
-  # Security products (ironic targets)
-  - fortigate           # Fortinet firewall
-  - pan-os              # Palo Alto firewall
-  
-  # Infrastructure
   - jenkins             # CI/CD - many CVEs
-  - grafana             # Monitoring
 
 # ============================================================================
 # EXCLUSIONS
@@ -155,6 +147,12 @@ exclude_vendors:
   - n/a
   - unknown
   - unspecified
+
+# ============================================================================
+# THRESHOLDS - High+ severity only to keep file size manageable
+# ============================================================================
+thresholds:
+  min_cvss: 7.0         # High (7.0-8.9) and Critical (9.0+) only
 EOF
 
 echo "  → Created comprehensive demo watchlist"

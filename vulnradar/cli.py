@@ -367,6 +367,8 @@ def main_notify() -> int:
     p.add_argument("--prune-state", type=int, metavar="DAYS")
     p.add_argument("--demo", action="store_true")
     p.add_argument("--weekly-summary", action="store_true")
+    # Watchlist
+    p.add_argument("--watchlist", default=None, help="Path to watchlist file (YAML or JSON)")
     # GitHub Projects v2
     p.add_argument("--project-url", dest="project_url", default=os.environ.get("VULNRADAR_PROJECT_URL"))
     args = p.parse_args()
@@ -403,6 +405,10 @@ def main_notify() -> int:
         raise SystemExit("GITHUB_TOKEN (or GH_TOKEN) is required")
 
     items = _load_items(Path(args.inp))
+
+    # Load watchlist for baseline messages
+    wl_path = find_watchlist(args.watchlist)
+    wl = load_merged_watchlist(wl_path) if wl_path else WatchlistConfig()
 
     if args.demo:
         demo_cve = _generate_demo_cve()
@@ -496,7 +502,7 @@ def main_notify() -> int:
 
     if is_first_run and len(candidates) > 5:
         print(f"\n🚀 First run detected! Creating baseline summary instead of {len(candidates)} individual issues.")
-        gh.send_baseline(items, candidates, repo)
+        gh.send_baseline(items, candidates, repo, vendors=wl.vendors, products=wl.products)
     else:
         created, escalated = gh.send_all(candidates, changes_by_cve, dry_run=args.dry_run)
 
@@ -517,7 +523,7 @@ def main_notify() -> int:
         print(f"Sending {name} notifications...")
         try:
             if is_first_run and len(candidates) > 5:
-                provider.send_baseline(items, candidates, repo)
+                provider.send_baseline(items, candidates, repo, vendors=wl.vendors, products=wl.products)
                 print(f"Sent {name} baseline summary (first run).")
             elif changes_by_cve or args.force or args.no_state:
                 if args.summary_every_run:

@@ -20,11 +20,11 @@ vendors:
   # --- Uncomment and customize for your stack ---
   - microsoft       # Windows, Office, Azure, Exchange, etc.
   - apache          # httpd, Tomcat, Struts, Log4j, Kafka, etc.
-  # - google        # Chrome, Android, GCP, etc.
-  # - apple         # macOS, iOS, Safari, etc.
-  # - linux         # Linux kernel
-  # - cisco         # IOS, ASA, WebEx
-  # - vmware        # ESXi, vCenter, Horizon
+  - google          # Chrome, Android, GCP, etc.
+  - apple           # macOS, iOS, Safari, etc.
+  - linux           # Linux kernel
+  - cisco           # IOS, ASA, WebEx
+  - vmware          # ESXi, vCenter, Horizon
   # - fortinet      # FortiGate, FortiOS
   # - paloaltonetworks  # Firewalls, GlobalProtect
 
@@ -56,9 +56,9 @@ exclude_products:
 # ============================================================================
 # THRESHOLDS - Minimum severity to include (optional)
 # ============================================================================
-# thresholds:
-#   min_cvss: 0.0       # 0.0 = all, 7.0 = high+, 9.0 = critical only
-#   min_epss: 0.0       # 0.0 = all, 0.1 = 10%+ exploit probability
+thresholds:
+  min_cvss: 7.0         # High+ severity only (keeps file size manageable)
+  # min_epss: 0.0       # 0.0 = all, 0.1 = 10%+ exploit probability
 
 # ============================================================================
 # BEHAVIOR FLAGS (optional)

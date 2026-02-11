@@ -142,6 +142,9 @@ class DiscordProvider(NotificationProvider):
         items: list[dict[str, Any]],
         critical_items: list[dict[str, Any]],
         repo: str,
+        *,
+        vendors: list[str] | None = None,
+        products: list[str] | None = None,
     ) -> None:
         """Send a first-run baseline summary to Discord.
 
@@ -149,6 +152,8 @@ class DiscordProvider(NotificationProvider):
             items: All radar items.
             critical_items: Subset of items marked as critical.
             repo: GitHub repository slug.
+            vendors: List of monitored vendors from watchlist.
+            products: List of monitored products from watchlist.
         """
         total = len(items)
         critical_count = len(critical_items)
@@ -166,6 +171,14 @@ class DiscordProvider(NotificationProvider):
         if not top_list:
             top_list = "No critical findings."
 
+        # Build monitoring list
+        monitoring_parts = []
+        if vendors:
+            monitoring_parts.append(f"**Vendors:** {', '.join(vendors)}")
+        if products:
+            monitoring_parts.append(f"**Products:** {', '.join(products)}")
+        monitoring_text = "\n".join(monitoring_parts) if monitoring_parts else "_No watchlist configured_"
+
         payload = {
             "embeds": [
                 {
@@ -180,6 +193,7 @@ class DiscordProvider(NotificationProvider):
                     ),
                     "color": 0x00FF00,
                     "fields": [
+                        {"name": "📋 Monitoring", "value": monitoring_text, "inline": False},
                         {"name": "Total CVEs", "value": str(total), "inline": True},
                         {"name": "🚨 Critical", "value": str(critical_count), "inline": True},
                         {"name": "⚠️ CISA KEV", "value": str(kev_count), "inline": True},

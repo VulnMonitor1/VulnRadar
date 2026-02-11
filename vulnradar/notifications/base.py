@@ -59,6 +59,9 @@ class NotificationProvider(ABC):
         items: list[dict[str, Any]],
         critical_items: list[dict[str, Any]],
         repo: str,
+        *,
+        vendors: list[str] | None = None,
+        products: list[str] | None = None,
     ) -> None:
         """Send a first-run baseline establishment message.
 
@@ -66,6 +69,8 @@ class NotificationProvider(ABC):
             items: All radar items.
             critical_items: Subset of items marked as critical.
             repo: GitHub repository slug.
+            vendors: List of monitored vendors from watchlist.
+            products: List of monitored products from watchlist.
         """
         ...
 

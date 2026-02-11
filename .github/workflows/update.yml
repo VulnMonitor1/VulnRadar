@@ -3,7 +3,7 @@ name: Update Vulnerability Radar Data
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 */6 * * *" # every 6 hours
+    - cron: "0 2,8,14,20 * * *" # every 6 hours, offset to avoid NVD ZIP generation at 0:00 UTC
 
 permissions:
   contents: write

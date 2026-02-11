@@ -209,6 +209,9 @@ class TeamsProvider(NotificationProvider):
         items: list[dict[str, Any]],
         critical_items: list[dict[str, Any]],
         repo: str,
+        *,
+        vendors: list[str] | None = None,
+        products: list[str] | None = None,
     ) -> None:
         """Send a first-run baseline summary to Teams.
 
@@ -216,6 +219,8 @@ class TeamsProvider(NotificationProvider):
             items: All radar items.
             critical_items: Subset of items marked as critical.
             repo: GitHub repository slug.
+            vendors: List of monitored vendors from watchlist.
+            products: List of monitored products from watchlist.
         """
         total = len(items)
         critical_count = len(critical_items)
@@ -232,6 +237,14 @@ class TeamsProvider(NotificationProvider):
             top_list += f"- {kev_icon} [{cve}](https://www.cve.org/CVERecord?id={cve}) (EPSS: {self._format_epss(item.get('probability_score'))})\n"
         if not top_list:
             top_list = "No critical findings."
+
+        # Build monitoring list
+        monitoring_parts = []
+        if vendors:
+            monitoring_parts.append(f"**Vendors:** {', '.join(vendors)}")
+        if products:
+            monitoring_parts.append(f"**Products:** {', '.join(products)}")
+        monitoring_text = "\n\n".join(monitoring_parts) if monitoring_parts else "_No watchlist configured_"
 
         payload = {
             "type": "message",
@@ -262,6 +275,13 @@ class TeamsProvider(NotificationProvider):
                                 ),
                                 "wrap": True,
                             },
+                            {
+                                "type": "TextBlock",
+                                "text": "**📋 Monitoring:**",
+                                "weight": "Bolder",
+                                "spacing": "Medium",
+                            },
+                            {"type": "TextBlock", "text": monitoring_text, "wrap": True},
                             {
                                 "type": "ColumnSet",
                                 "columns": [
