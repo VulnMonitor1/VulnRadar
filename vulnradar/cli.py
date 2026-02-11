@@ -407,7 +407,7 @@ def main_notify() -> int:
     items = _load_items(Path(args.inp))
 
     # Load watchlist for baseline messages
-    wl_path = find_watchlist(args.watchlist)
+    wl_path = args.watchlist if args.watchlist else find_watchlist()
     wl = load_merged_watchlist(wl_path) if wl_path else WatchlistConfig()
 
     if args.demo:
