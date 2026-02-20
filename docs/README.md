@@ -72,7 +72,7 @@ Create/maintain these pages (filenames below match the stub files in this folder
     - Non-fast-forward pushes (why we force-push demo).
 
 - Operations
-  - How often data updates (every 6 hours).
+  - How often data updates (every hour).
   - How to rotate watchlists.
   - Performance guidance: widening year range increases runtime a lot.
   - Cost/limits: network egress, Action minutes.

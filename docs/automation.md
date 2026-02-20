@@ -4,7 +4,7 @@
 
 See `.github/workflows/update.yml`.
 
-- Runs every 6 hours
+- Runs every hour
 - Executes `python etl.py`
 - Publishes refreshed `data/radar_data.json` to the `demo` branch
 

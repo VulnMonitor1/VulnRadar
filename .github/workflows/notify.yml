@@ -12,7 +12,7 @@ on:
     types: [completed]
     branches: [main]
   schedule:
-    - cron: "15 2,8,14,20 * * *" # Backup: run after ETL job in case workflow_run fails
+    - cron: "20 * * * *" # Backup: run after ETL job in case workflow_run fails
 
 permissions:
   contents: write

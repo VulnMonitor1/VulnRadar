@@ -60,7 +60,7 @@ _Last scanned: 2026-02-06 15:40 UTC_
 | **In KEV** | Listed in CISA's Known Exploited Vulnerabilities catalog | Active exploitation in the wild |
 | **Exploit Intel** | Has PoC/weaponized code (from PatchThis) | Threat actors have working exploits |
 
-> 💡 **Tip:** These metrics auto-update every 6 hours when the ETL workflow runs in your fork.
+> 💡 **Tip:** These metrics auto-update every hour when the ETL workflow runs in your fork.
 
 </details>
 
@@ -110,7 +110,7 @@ products:
 ```
 
 ### 4️⃣ Run the ETL
-Either wait for the scheduled run (every 6 hours) or:
+Either wait for the scheduled run (every hour) or:
 - Go to **Actions** → **Update Vulnerability Radar Data** → **Run workflow**
 
 ### 5️⃣ View your report
@@ -444,7 +444,7 @@ VulnRadar/
 ├── docs/                  # Full documentation
 ├── .devcontainer/         # GitHub Codespaces support
 └── .github/workflows/
-    ├── update.yml         # Scheduled ETL (every 6 hours)
+    ├── update.yml         # Scheduled ETL (every hour)
     ├── notify.yml         # Issue creation on new findings
     └── ci.yml             # Linting and tests
 ```
