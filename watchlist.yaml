@@ -19,12 +19,12 @@
 vendors:
   # --- Uncomment and customize for your stack ---
   # - microsoft       # Windows, Office, Azure, Exchange, etc.
-  - apache          # httpd, Tomcat, Struts, Log4j, Kafka, etc.
-  - google          # Chrome, Android, GCP, etc.
-  - apple           # macOS, iOS, Safari, etc.
-  - linux           # Linux kernel
-  - cisco           # IOS, ASA, WebEx
-  - vmware          # ESXi, vCenter, Horizon
+  # - apache          # httpd, Tomcat, Struts, Log4j, Kafka, etc.
+  # - google          # Chrome, Android, GCP, etc.
+  # - apple           # macOS, iOS, Safari, etc.
+  # - linux           # Linux kernel
+  # - cisco           # IOS, ASA, WebEx
+  # - vmware          # ESXi, vCenter, Horizon
   # - fortinet      # FortiGate, FortiOS
   # - paloaltonetworks  # Firewalls, GlobalProtect
 
@@ -33,8 +33,8 @@ vendors:
 # ============================================================================
 products:
   - log4j           # Log4Shell - CVE-2021-44228 and related
-  - chrome          # Google Chrome browser
-  - windows 11
+  # - chrome          # Google Chrome browser
+  # - windows 11
   # - firefox       # Mozilla Firefox
   # - openssl       # Heartbleed and many others
   # - exchange      # Microsoft Exchange (ProxyLogon, etc.)
