@@ -34,6 +34,7 @@ vendors:
 products:
   - log4j           # Log4Shell - CVE-2021-44228 and related
   - chrome          # Google Chrome browser
+  - windows 11
   # - firefox       # Mozilla Firefox
   # - openssl       # Heartbleed and many others
   # - exchange      # Microsoft Exchange (ProxyLogon, etc.)
