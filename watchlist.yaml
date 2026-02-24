@@ -18,7 +18,7 @@
 # ============================================================================
 vendors:
   # --- Uncomment and customize for your stack ---
-  - microsoft       # Windows, Office, Azure, Exchange, etc.
+  # - microsoft       # Windows, Office, Azure, Exchange, etc.
   - apache          # httpd, Tomcat, Struts, Log4j, Kafka, etc.
   - google          # Chrome, Android, GCP, etc.
   - apple           # macOS, iOS, Safari, etc.
