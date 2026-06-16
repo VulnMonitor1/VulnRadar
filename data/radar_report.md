@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-06-16T11:31:12+00:00`
+Generated: `2026-06-16T17:19:08+00:00`
 
 ## Executive Summary
 
@@ -215,6 +215,7 @@ Top critical items:
 | [CVE-2022-47966](https://www.cve.org/CVERecord?id=CVE-2022-47966) |  | KEV | ✅ | ✅ | 2023-02-13 | 0.998 | 9.8 |  | Multiple Zoho ManageEngine on-premise products, such as ServiceDesk Plus through 14003, allow remote code execution due to use of Apache Santuario xmlsec (aka … |
 | [CVE-2025-61882](https://www.cve.org/CVERecord?id=CVE-2025-61882) |  | KEV | ✅ | ✅ | 2025-10-27 | 0.997 | 9.8 |  | Vulnerability in the Oracle Concurrent Processing product of Oracle E-Business Suite (component: BI Publisher Integration).  Supported versions that are affect… |
 | [CVE-2022-22965](https://www.cve.org/CVERecord?id=CVE-2022-22965) |  | KEV | ✅ | ✅ | 2022-04-25 | 0.997 | 9.8 |  | A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable to remote code execution (RCE) via data binding. The specific exploit requires t… |
+| [CVE-2025-32433](https://www.cve.org/CVERecord?id=CVE-2025-32433) |  | KEV | ✅ | ✅ | 2025-06-30 | 0.977 | 10.0 |  | Erlang/OTP is a set of libraries for the Erlang programming language. Prior to versions OTP-27.3.3, OTP-26.2.5.11, and OTP-25.3.2.20, a SSH server may allow an… |
 | [CVE-2023-29357](https://www.cve.org/CVERecord?id=CVE-2023-29357) |  | KEV | ✅ | ✅ | 2024-01-31 | 0.996 | 9.8 |  | Microsoft SharePoint Server Elevation of Privilege Vulnerability |
 | [CVE-2024-4040](https://www.cve.org/CVERecord?id=CVE-2024-4040) |  | KEV | ✅ | ✅ | 2024-05-01 | 0.995 | 9.8 |  | A server side template injection vulnerability in CrushFTP in all versions before 10.7.1 and 11.1.0 on all platforms allows unauthenticated remote attackers to… |
 | [CVE-2022-35914](https://www.cve.org/CVERecord?id=CVE-2022-35914) |  | KEV | ✅ | ✅ | 2023-03-28 | 0.995 | 9.8 |  | /vendor/htmlawed/htmlawed/htmLawedTest.php in the htmlawed module for GLPI through 10.0.2 allows PHP code injection. |
@@ -225,7 +226,6 @@ Top critical items:
 | [CVE-2023-3519](https://www.cve.org/CVERecord?id=CVE-2023-3519) |  | KEV | ✅ | ✅ | 2023-08-09 | 0.993 | 9.8 |  | Unauthenticated remote code execution |
 | [CVE-2024-4885](https://www.cve.org/CVERecord?id=CVE-2024-4885) |  | KEV | ✅ | ✅ | 2025-03-24 | 0.993 | 9.8 |  | In WhatsUp Gold versions released before 2023.1.3, an unauthenticated Remote Code Execution vulnerability in Progress WhatsUpGold.  The   WhatsUp.ExportUtiliti… |
 | [CVE-2023-28771](https://www.cve.org/CVERecord?id=CVE-2023-28771) |  | KEV | ✅ | ✅ | 2023-06-21 | 0.993 | 9.8 |  | Improper error message handling in Zyxel ZyWALL/USG series firmware versions 4.60 through 4.73, VPN series firmware versions 4.60 through 5.35, USG FLEX series… |
-| [CVE-2025-32433](https://www.cve.org/CVERecord?id=CVE-2025-32433) |  | KEV | ✅ | ✅ | 2025-06-30 | 0.973 | 10.0 |  | Erlang/OTP is a set of libraries for the Erlang programming language. Prior to versions OTP-27.3.3, OTP-26.2.5.11, and OTP-25.3.2.20, a SSH server may allow an… |
 | [CVE-2022-24086](https://www.cve.org/CVERecord?id=CVE-2022-24086) |  | KEV | ✅ | ✅ | 2022-03-01 | 0.993 | 9.8 |  | Adobe Commerce versions 2.4.3-p1 (and earlier) and 2.3.7-p2 (and earlier) are affected by an improper input validation vulnerability during the checkout proces… |
 | [CVE-2023-34048](https://www.cve.org/CVERecord?id=CVE-2023-34048) |  | KEV | ✅ | ✅ | 2024-02-12 | 0.992 | 9.8 |  | vCenter Server contains an out-of-bounds write vulnerability in the implementation of the DCERPC protocol. A malicious actor with network access to vCenter Ser… |
 | [CVE-2024-27348](https://www.cve.org/CVERecord?id=CVE-2024-27348) |  | KEV | ✅ | ✅ | 2024-10-09 | 0.992 | 9.8 |  | RCE-Remote Command Execution vulnerability in Apache HugeGraph-Server.This issue affects Apache HugeGraph-Server: from 1.0.0 before 1.3.0 in Java8 & Java11  Us… |
@@ -235,8 +235,8 @@ Top critical items:
 | [CVE-2025-20281](https://www.cve.org/CVERecord?id=CVE-2025-20281) |  | KEV | ✅ | ✅ | 2025-08-18 | 0.967 | 10.0 |  | A vulnerability in a specific API of Cisco ISE and Cisco ISE-PIC could allow an unauthenticated, remote attacker to execute arbitrary code on the underlying op… |
 | [CVE-2024-50623](https://www.cve.org/CVERecord?id=CVE-2024-50623) |  | KEV | ✅ | ✅ | 2025-01-03 | 0.985 | 9.8 |  | In Cleo Harmony before 5.8.0.21, VLTrader before 5.8.0.21, and LexiCom before 5.8.0.21, there is an unrestricted file upload and download that could lead to re… |
 | [CVE-2022-21587](https://www.cve.org/CVERecord?id=CVE-2022-21587) |  | KEV | ✅ | ✅ | 2023-02-23 | 0.983 | 9.8 |  | Vulnerability in the Oracle Web Applications Desktop Integrator product of Oracle E-Business Suite (component: Upload). Supported versions that are affected ar… |
-| [CVE-2023-20887](https://www.cve.org/CVERecord?id=CVE-2023-20887) |  | KEV | ✅ | ✅ | 2023-07-13 | 0.983 | 9.8 |  | Aria Operations for Networks contains a command injection vulnerability. A malicious actor with network access to VMware Aria Operations for Networks may be ab… |
 | [CVE-2022-26138](https://www.cve.org/CVERecord?id=CVE-2022-26138) |  | KEV | ✅ | ✅ | 2022-08-19 | 0.982 | 9.8 |  | The Atlassian Questions For Confluence app for Confluence Server and Data Center creates a Confluence user account in the confluence-users group with the usern… |
+| [CVE-2023-20887](https://www.cve.org/CVERecord?id=CVE-2023-20887) |  | KEV | ✅ | ✅ | 2023-07-13 | 0.981 | 9.8 |  | Aria Operations for Networks contains a command injection vulnerability. A malicious actor with network access to VMware Aria Operations for Networks may be ab… |
 | [CVE-2023-25280](https://www.cve.org/CVERecord?id=CVE-2023-25280) |  | KEV | ✅ | ✅ | 2024-10-21 | 0.981 | 9.8 |  | OS Command injection vulnerability in D-Link DIR820LA1_FW105B03 allows attackers to escalate privileges to root via a crafted payload with the ping_addr parame… |
 | [CVE-2024-3272](https://www.cve.org/CVERecord?id=CVE-2024-3272) |  | KEV | ✅ | ✅ | 2024-05-02 | 0.980 | 9.8 |  | ** UNSUPPORTED WHEN ASSIGNED ** A vulnerability, which was classified as very critical, has been found in D-Link DNS-320L, DNS-325, DNS-327L and DNS-340L up to… |
 | [CVE-2024-29824](https://www.cve.org/CVERecord?id=CVE-2024-29824) |  | KEV | ✅ | ✅ | 2024-10-23 | 1.000 | 9.6 |  | An unspecified SQL Injection vulnerability in Core server of Ivanti EPM 2022 SU5 and prior allows an unauthenticated attacker within the same network to execut… |
