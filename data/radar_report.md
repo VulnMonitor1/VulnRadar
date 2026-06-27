@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-06-27T12:16:53+00:00`
+Generated: `2026-06-27T14:55:25+00:00`
 
 ## Executive Summary
 
@@ -22,7 +22,7 @@ Top critical items:
 | [CVE-2025-33073](https://www.cve.org/CVERecord?id=CVE-2025-33073) | 0.643 | 8.8 | 2025-11-10 | Improper access control in Windows SMB allows an authorized attacker to elevate privileges over a network. |
 | [CVE-2024-43451](https://www.cve.org/CVERecord?id=CVE-2024-43451) | 0.818 | 6.5 | 2024-12-03 | NTLM Hash Disclosure Spoofing Vulnerability |
 | [CVE-2022-34713](https://www.cve.org/CVERecord?id=CVE-2022-34713) | 0.680 | 7.8 | 2022-08-30 | Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerability |
-| [CVE-2024-43461](https://www.cve.org/CVERecord?id=CVE-2024-43461) | 0.522 | 8.8 | 2024-10-07 | Windows MSHTML Platform Spoofing Vulnerability |
+| [CVE-2024-43461](https://www.cve.org/CVERecord?id=CVE-2024-43461) | 0.519 | 8.8 | 2024-10-07 | Windows MSHTML Platform Spoofing Vulnerability |
 | [CVE-2024-43572](https://www.cve.org/CVERecord?id=CVE-2024-43572) | 0.610 | 7.8 | 2024-10-29 | Microsoft Management Console Remote Code Execution Vulnerability |
 | [CVE-2024-30088](https://www.cve.org/CVERecord?id=CVE-2024-30088) | 0.682 | 7.0 | 2024-11-05 | Windows Kernel Elevation of Privilege Vulnerability |
 | [CVE-2024-29988](https://www.cve.org/CVERecord?id=CVE-2024-29988) | 0.452 | 8.8 | 2024-05-21 | SmartScreen Prompt Security Feature Bypass Vulnerability |
@@ -60,7 +60,7 @@ Top critical items:
 | [CVE-2025-33073](https://www.cve.org/CVERecord?id=CVE-2025-33073) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-11-10 | 0.643 | 8.8 | ✅ | Improper access control in Windows SMB allows an authorized attacker to elevate privileges over a network. |
 | [CVE-2024-43451](https://www.cve.org/CVERecord?id=CVE-2024-43451) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-12-03 | 0.818 | 6.5 | ✅ | NTLM Hash Disclosure Spoofing Vulnerability |
 | [CVE-2022-34713](https://www.cve.org/CVERecord?id=CVE-2022-34713) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2022-08-30 | 0.680 | 7.8 | ✅ | Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerability |
-| [CVE-2024-43461](https://www.cve.org/CVERecord?id=CVE-2024-43461) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-10-07 | 0.522 | 8.8 | ✅ | Windows MSHTML Platform Spoofing Vulnerability |
+| [CVE-2024-43461](https://www.cve.org/CVERecord?id=CVE-2024-43461) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-10-07 | 0.519 | 8.8 | ✅ | Windows MSHTML Platform Spoofing Vulnerability |
 | [CVE-2024-43572](https://www.cve.org/CVERecord?id=CVE-2024-43572) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-10-29 | 0.610 | 7.8 | ✅ | Microsoft Management Console Remote Code Execution Vulnerability |
 | [CVE-2024-30088](https://www.cve.org/CVERecord?id=CVE-2024-30088) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-11-05 | 0.682 | 7.0 | ✅ | Windows Kernel Elevation of Privilege Vulnerability |
 | [CVE-2024-29988](https://www.cve.org/CVERecord?id=CVE-2024-29988) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-05-21 | 0.452 | 8.8 | ✅ | SmartScreen Prompt Security Feature Bypass Vulnerability |
