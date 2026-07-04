@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-07-04T11:44:17+00:00`
+Generated: `2026-07-04T13:54:40+00:00`
 
 ## Executive Summary
 
@@ -97,7 +97,7 @@ Top critical items:
 | [CVE-2022-38028](https://www.cve.org/CVERecord?id=CVE-2022-38028) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-05-14 | 0.149 | 7.8 | ✅ | Windows Print Spooler Elevation of Privilege Vulnerability |
 | [CVE-2023-32049](https://www.cve.org/CVERecord?id=CVE-2023-32049) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-08-01 | 0.044 | 8.8 | ✅ | Windows SmartScreen Security Feature Bypass Vulnerability |
 | [CVE-2024-30040](https://www.cve.org/CVERecord?id=CVE-2024-30040) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-06-04 | 0.039 | 8.8 | ✅ | Windows MSHTML Platform Security Feature Bypass Vulnerability |
-| [CVE-2022-26925](https://www.cve.org/CVERecord?id=CVE-2022-26925) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2022-07-22 | 0.098 | 8.1 | ✅ | Windows LSA Spoofing Vulnerability |
+| [CVE-2022-26925](https://www.cve.org/CVERecord?id=CVE-2022-26925) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2022-07-22 | 0.105 | 8.1 | ✅ | Windows LSA Spoofing Vulnerability |
 | [CVE-2023-36424](https://www.cve.org/CVERecord?id=CVE-2023-36424) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-04-27 | 0.122 | 7.8 | ✅ | Windows Common Log File System Driver Elevation of Privilege Vulnerability |
 | [CVE-2023-36033](https://www.cve.org/CVERecord?id=CVE-2023-36033) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-12-05 | 0.120 | 7.8 | ✅ | Windows DWM Core Library Elevation of Privilege Vulnerability |
 | [CVE-2023-23376](https://www.cve.org/CVERecord?id=CVE-2023-23376) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-03-07 | 0.109 | 7.8 | ✅ | Windows Common Log File System Driver Elevation of Privilege Vulnerability |
@@ -193,8 +193,8 @@ Top critical items:
 | [CVE-2023-29300](https://www.cve.org/CVERecord?id=CVE-2023-29300) |  | KEV | ✅ | ✅ | 2024-01-29 | 1.000 | 9.8 |  | Adobe ColdFusion versions 2018u16 (and earlier), 2021u6 (and earlier) and 2023.0.0.330468 (and earlier) are affected by a Deserialization of Untrusted Data vul… |
 | [CVE-2025-53770](https://www.cve.org/CVERecord?id=CVE-2025-53770) |  | KEV | ✅ | ✅ | 2025-07-21 | 1.000 | 9.8 |  | Deserialization of untrusted data in on-premises Microsoft SharePoint Server allows an unauthorized attacker to execute code over a network. Microsoft is aware… |
 | [CVE-2023-42793](https://www.cve.org/CVERecord?id=CVE-2023-42793) |  | KEV | ✅ | ✅ | 2023-10-25 | 1.000 | 9.8 |  | In JetBrains TeamCity before 2023.05.4 authentication bypass leading to RCE on TeamCity Server was possible |
-| [CVE-2022-47986](https://www.cve.org/CVERecord?id=CVE-2022-47986) |  | KEV | ✅ | ✅ | 2023-03-14 | 1.000 | 9.8 |  | IBM Aspera Faspex 4.4.2 Patch Level 1 and earlier could allow a remote attacker to execute arbitrary code on the system, caused by a YAML deserialization flaw.… |
 | [CVE-2025-3248](https://www.cve.org/CVERecord?id=CVE-2025-3248) |  | KEV | ✅ | ✅ | 2025-05-26 | 1.000 | 9.8 |  | Langflow versions prior to 1.3.0 are susceptible to code injection in  the /api/v1/validate/code endpoint. A remote and unauthenticated attacker can send craft… |
+| [CVE-2022-47986](https://www.cve.org/CVERecord?id=CVE-2022-47986) |  | KEV | ✅ | ✅ | 2023-03-14 | 1.000 | 9.8 |  | IBM Aspera Faspex 4.4.2 Patch Level 1 and earlier could allow a remote attacker to execute arbitrary code on the system, caused by a YAML deserialization flaw.… |
 | [CVE-2025-31161](https://www.cve.org/CVERecord?id=CVE-2025-31161) |  | KEV | ✅ | ✅ | 2025-04-28 | 1.000 | 9.8 |  | CrushFTP 10 before 10.8.4 and 11 before 11.3.1 allows authentication bypass and takeover of the crushadmin account (unless a DMZ proxy instance is used), as ex… |
 | [CVE-2025-59287](https://www.cve.org/CVERecord?id=CVE-2025-59287) |  | KEV | ✅ | ✅ | 2025-11-14 | 1.000 | 9.8 |  | Deserialization of untrusted data in Windows Server Update Service allows an unauthorized attacker to execute code over a network. |
 | [CVE-2022-1388](https://www.cve.org/CVERecord?id=CVE-2022-1388) |  | KEV | ✅ | ✅ | 2022-05-31 | 1.000 | 9.8 |  | On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.1, 14.1.x versions prior to 14.1.4.6, 13.1.x versions prior to 13.1.5, and all … |
@@ -217,8 +217,8 @@ Top critical items:
 | [CVE-2025-61882](https://www.cve.org/CVERecord?id=CVE-2025-61882) |  | KEV | ✅ | ✅ | 2025-10-27 | 0.997 | 9.8 |  | Vulnerability in the Oracle Concurrent Processing product of Oracle E-Business Suite (component: BI Publisher Integration).  Supported versions that are affect… |
 | [CVE-2022-22965](https://www.cve.org/CVERecord?id=CVE-2022-22965) |  | KEV | ✅ | ✅ | 2022-04-25 | 0.997 | 9.8 |  | A Spring MVC or Spring WebFlux application running on JDK 9+ may be vulnerable to remote code execution (RCE) via data binding. The specific exploit requires t… |
 | [CVE-2025-32433](https://www.cve.org/CVERecord?id=CVE-2025-32433) |  | KEV | ✅ | ✅ | 2025-06-30 | 0.977 | 10.0 |  | Erlang/OTP is a set of libraries for the Erlang programming language. Prior to versions OTP-27.3.3, OTP-26.2.5.11, and OTP-25.3.2.20, a SSH server may allow an… |
-| [CVE-2022-35914](https://www.cve.org/CVERecord?id=CVE-2022-35914) |  | KEV | ✅ | ✅ | 2023-03-28 | 0.996 | 9.8 |  | /vendor/htmlawed/htmlawed/htmLawedTest.php in the htmlawed module for GLPI through 10.0.2 allows PHP code injection. |
 | [CVE-2023-29357](https://www.cve.org/CVERecord?id=CVE-2023-29357) |  | KEV | ✅ | ✅ | 2024-01-31 | 0.996 | 9.8 |  | Microsoft SharePoint Server Elevation of Privilege Vulnerability |
+| [CVE-2022-35914](https://www.cve.org/CVERecord?id=CVE-2022-35914) |  | KEV | ✅ | ✅ | 2023-03-28 | 0.996 | 9.8 |  | /vendor/htmlawed/htmlawed/htmLawedTest.php in the htmlawed module for GLPI through 10.0.2 allows PHP code injection. |
 | [CVE-2024-4040](https://www.cve.org/CVERecord?id=CVE-2024-4040) |  | KEV | ✅ | ✅ | 2024-05-01 | 0.995 | 9.8 |  | A server side template injection vulnerability in CrushFTP in all versions before 10.7.1 and 11.1.0 on all platforms allows unauthenticated remote attackers to… |
 | [CVE-2024-23692](https://www.cve.org/CVERecord?id=CVE-2024-23692) |  | KEV | ✅ | ✅ | 2024-07-30 | 0.995 | 9.8 |  | Rejetto HTTP File Server, up to and including version 2.3m, is vulnerable to a template injection vulnerability. This vulnerability allows a remote, unauthenti… |
 | [CVE-2023-3519](https://www.cve.org/CVERecord?id=CVE-2023-3519) |  | KEV | ✅ | ✅ | 2023-08-09 | 0.994 | 9.8 |  | Unauthenticated remote code execution |
