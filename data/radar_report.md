@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-07-05T11:11:40+00:00`
+Generated: `2026-07-05T14:02:43+00:00`
 
 ## Executive Summary
 
@@ -195,10 +195,10 @@ Top critical items:
 | [CVE-2023-42793](https://www.cve.org/CVERecord?id=CVE-2023-42793) |  | KEV | ✅ | ✅ | 2023-10-25 | 1.000 | 9.8 |  | In JetBrains TeamCity before 2023.05.4 authentication bypass leading to RCE on TeamCity Server was possible |
 | [CVE-2025-3248](https://www.cve.org/CVERecord?id=CVE-2025-3248) |  | KEV | ✅ | ✅ | 2025-05-26 | 1.000 | 9.8 |  | Langflow versions prior to 1.3.0 are susceptible to code injection in  the /api/v1/validate/code endpoint. A remote and unauthenticated attacker can send craft… |
 | [CVE-2022-47986](https://www.cve.org/CVERecord?id=CVE-2022-47986) |  | KEV | ✅ | ✅ | 2023-03-14 | 1.000 | 9.8 |  | IBM Aspera Faspex 4.4.2 Patch Level 1 and earlier could allow a remote attacker to execute arbitrary code on the system, caused by a YAML deserialization flaw.… |
-| [CVE-2025-31161](https://www.cve.org/CVERecord?id=CVE-2025-31161) |  | KEV | ✅ | ✅ | 2025-04-28 | 1.000 | 9.8 |  | CrushFTP 10 before 10.8.4 and 11 before 11.3.1 allows authentication bypass and takeover of the crushadmin account (unless a DMZ proxy instance is used), as ex… |
 | [CVE-2025-59287](https://www.cve.org/CVERecord?id=CVE-2025-59287) |  | KEV | ✅ | ✅ | 2025-11-14 | 1.000 | 9.8 |  | Deserialization of untrusted data in Windows Server Update Service allows an unauthorized attacker to execute code over a network. |
 | [CVE-2022-1388](https://www.cve.org/CVERecord?id=CVE-2022-1388) |  | KEV | ✅ | ✅ | 2022-05-31 | 1.000 | 9.8 |  | On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.1, 14.1.x versions prior to 14.1.4.6, 13.1.x versions prior to 13.1.5, and all … |
 | [CVE-2023-38035](https://www.cve.org/CVERecord?id=CVE-2023-38035) |  | KEV | ✅ | ✅ | 2023-09-12 | 0.999 | 9.8 |  | A security vulnerability in MICS Admin Portal in Ivanti MobileIron Sentry versions 9.18.0 and below, which may allow an attacker to bypass authentication contr… |
+| [CVE-2025-31161](https://www.cve.org/CVERecord?id=CVE-2025-31161) |  | KEV | ✅ | ✅ | 2025-04-28 | 0.999 | 9.8 |  | CrushFTP 10 before 10.8.4 and 11 before 11.3.1 allows authentication bypass and takeover of the crushadmin account (unless a DMZ proxy instance is used), as ex… |
 | [CVE-2022-22536](https://www.cve.org/CVERecord?id=CVE-2022-22536) |  | KEV | ✅ | ✅ | 2022-09-08 | 0.979 | 10.0 |  | SAP NetWeaver Application Server ABAP, SAP NetWeaver Application Server Java, ABAP Platform, SAP Content Server 7.53 and SAP Web Dispatcher are vulnerable for … |
 | [CVE-2025-24813](https://www.cve.org/CVERecord?id=CVE-2025-24813) |  | KEV | ✅ | ✅ | 2025-04-22 | 0.999 | 9.8 |  | Path Equivalence: 'file.Name' (Internal Dot) leading to Remote Code Execution and/or Information disclosure and/or malicious content added to uploaded files vi… |
 | [CVE-2022-35405](https://www.cve.org/CVERecord?id=CVE-2022-35405) |  | KEV | ✅ | ✅ | 2022-10-13 | 0.999 | 9.8 |  | Zoho ManageEngine Password Manager Pro before 12101 and PAM360 before 5510 are vulnerable to unauthenticated remote code execution. (This also affects ManageEn… |
@@ -236,7 +236,7 @@ Top critical items:
 | [CVE-2025-20281](https://www.cve.org/CVERecord?id=CVE-2025-20281) |  | KEV | ✅ | ✅ | 2025-08-18 | 0.967 | 10.0 |  | A vulnerability in a specific API of Cisco ISE and Cisco ISE-PIC could allow an unauthenticated, remote attacker to execute arbitrary code on the underlying op… |
 | [CVE-2024-50623](https://www.cve.org/CVERecord?id=CVE-2024-50623) |  | KEV | ✅ | ✅ | 2025-01-03 | 0.985 | 9.8 |  | In Cleo Harmony before 5.8.0.21, VLTrader before 5.8.0.21, and LexiCom before 5.8.0.21, there is an unrestricted file upload and download that could lead to re… |
 | [CVE-2022-21587](https://www.cve.org/CVERecord?id=CVE-2022-21587) |  | KEV | ✅ | ✅ | 2023-02-23 | 0.983 | 9.8 |  | Vulnerability in the Oracle Web Applications Desktop Integrator product of Oracle E-Business Suite (component: Upload). Supported versions that are affected ar… |
-| [CVE-2023-20887](https://www.cve.org/CVERecord?id=CVE-2023-20887) |  | KEV | ✅ | ✅ | 2023-07-13 | 0.982 | 9.8 |  | Aria Operations for Networks contains a command injection vulnerability. A malicious actor with network access to VMware Aria Operations for Networks may be ab… |
+| [CVE-2023-20887](https://www.cve.org/CVERecord?id=CVE-2023-20887) |  | KEV | ✅ | ✅ | 2023-07-13 | 0.983 | 9.8 |  | Aria Operations for Networks contains a command injection vulnerability. A malicious actor with network access to VMware Aria Operations for Networks may be ab… |
 | [CVE-2022-26138](https://www.cve.org/CVERecord?id=CVE-2022-26138) |  | KEV | ✅ | ✅ | 2022-08-19 | 0.982 | 9.8 |  | The Atlassian Questions For Confluence app for Confluence Server and Data Center creates a Confluence user account in the confluence-users group with the usern… |
 | [CVE-2023-25280](https://www.cve.org/CVERecord?id=CVE-2023-25280) |  | KEV | ✅ | ✅ | 2024-10-21 | 0.981 | 9.8 |  | OS Command injection vulnerability in D-Link DIR820LA1_FW105B03 allows attackers to escalate privileges to root via a crafted payload with the ping_addr parame… |
 | [CVE-2024-3272](https://www.cve.org/CVERecord?id=CVE-2024-3272) |  | KEV | ✅ | ✅ | 2024-05-02 | 0.980 | 9.8 |  | ** UNSUPPORTED WHEN ASSIGNED ** A vulnerability, which was classified as very critical, has been found in D-Link DNS-320L, DNS-325, DNS-327L and DNS-340L up to… |
