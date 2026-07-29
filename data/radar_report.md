@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-07-29T12:12:31+00:00`
+Generated: `2026-07-29T15:19:30+00:00`
 
 ## Executive Summary
 
@@ -195,6 +195,7 @@ Top critical items:
 | [CVE-2024-7593](https://www.cve.org/CVERecord?id=CVE-2024-7593) |  | KEV | ✅ | ✅ | 2024-10-15 | 1.000 | 9.8 |  | Incorrect implementation of an authentication algorithm in Ivanti vTM other than versions 22.2R1 or 22.7R2 allows a remote unauthenticated attacker to bypass a… |
 | [CVE-2022-40684](https://www.cve.org/CVERecord?id=CVE-2022-40684) |  | KEV | ✅ | ✅ | 2022-11-01 | 1.000 | 9.8 |  | An authentication bypass using an alternate path or channel [CWE-288] in Fortinet FortiOS version 7.2.0 through 7.2.1 and 7.0.0 through 7.0.6, FortiProxy versi… |
 | [CVE-2023-42793](https://www.cve.org/CVERecord?id=CVE-2023-42793) |  | KEV | ✅ | ✅ | 2023-10-25 | 1.000 | 9.8 |  | In JetBrains TeamCity before 2023.05.4 authentication bypass leading to RCE on TeamCity Server was possible |
+| [CVE-2025-53770](https://www.cve.org/CVERecord?id=CVE-2025-53770) |  | KEV | ✅ | ✅ | 2025-07-21 | 1.000 | 9.8 |  | Deserialization of untrusted data in on-premises Microsoft SharePoint Server allows an unauthorized attacker to execute code over a network. Microsoft is aware… |
 | [CVE-2022-47986](https://www.cve.org/CVERecord?id=CVE-2022-47986) |  | KEV | ✅ | ✅ | 2023-03-14 | 1.000 | 9.8 |  | IBM Aspera Faspex 4.4.2 Patch Level 1 and earlier could allow a remote attacker to execute arbitrary code on the system, caused by a YAML deserialization flaw.… |
 | [CVE-2022-1388](https://www.cve.org/CVERecord?id=CVE-2022-1388) |  | KEV | ✅ | ✅ | 2022-05-31 | 1.000 | 9.8 |  | On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.1, 14.1.x versions prior to 14.1.4.6, 13.1.x versions prior to 13.1.5, and all … |
 | [CVE-2023-38035](https://www.cve.org/CVERecord?id=CVE-2023-38035) |  | KEV | ✅ | ✅ | 2023-09-12 | 0.999 | 9.8 |  | A security vulnerability in MICS Admin Portal in Ivanti MobileIron Sentry versions 9.18.0 and below, which may allow an attacker to bypass authentication contr… |
@@ -205,7 +206,6 @@ Top critical items:
 | [CVE-2022-35405](https://www.cve.org/CVERecord?id=CVE-2022-35405) |  | KEV | ✅ | ✅ | 2022-10-13 | 0.999 | 9.8 |  | Zoho ManageEngine Password Manager Pro before 12101 and PAM360 before 5510 are vulnerable to unauthenticated remote code execution. (This also affects ManageEn… |
 | [CVE-2022-22963](https://www.cve.org/CVERecord?id=CVE-2022-22963) |  | KEV | ✅ | ✅ | 2022-09-15 | 0.999 | 9.8 |  | In Spring Cloud Function versions 3.1.6, 3.2.2 and older unsupported versions, when using routing functionality it is possible for a user to provide a speciall… |
 | [CVE-2024-27198](https://www.cve.org/CVERecord?id=CVE-2024-27198) |  | KEV | ✅ | ✅ | 2024-03-28 | 0.999 | 9.8 |  | In JetBrains TeamCity before 2023.11.4 authentication bypass allowing to perform admin actions was possible |
-| [CVE-2025-53770](https://www.cve.org/CVERecord?id=CVE-2025-53770) |  | KEV | ✅ | ✅ | 2025-07-21 | 0.999 | 9.8 |  | Deserialization of untrusted data in on-premises Microsoft SharePoint Server allows an unauthorized attacker to execute code over a network. Microsoft is aware… |
 | [CVE-2023-34362](https://www.cve.org/CVERecord?id=CVE-2023-34362) |  | KEV | ✅ | ✅ | 2023-06-23 | 0.999 | 9.8 |  | In Progress MOVEit Transfer before 2021.0.6 (13.0.6), 2021.1.4 (13.1.4), 2022.0.4 (14.0.4), 2022.1.5 (14.1.5), and 2023.0.1 (15.0.1), a SQL injection vulnerabi… |
 | [CVE-2025-68613](https://www.cve.org/CVERecord?id=CVE-2025-68613) |  | KEV | ✅ | ✅ | 2026-03-25 | 0.979 | 10.0 |  | n8n is an open source workflow automation platform. Versions starting with 0.211.0 and prior to 1.120.4, 1.121.1, and 1.122.0 contain a critical Remote Code Ex… |
 | [CVE-2025-24893](https://www.cve.org/CVERecord?id=CVE-2025-24893) |  | KEV | ✅ | ✅ | 2025-11-20 | 0.999 | 9.8 |  | XWiki Platform is a generic wiki platform offering runtime services for applications built on top of it. Any guest can perform arbitrary remote code execution … |
@@ -239,8 +239,8 @@ Top critical items:
 | [CVE-2022-26138](https://www.cve.org/CVERecord?id=CVE-2022-26138) |  | KEV | ✅ | ✅ | 2022-08-19 | 0.982 | 9.8 |  | The Atlassian Questions For Confluence app for Confluence Server and Data Center creates a Confluence user account in the confluence-users group with the usern… |
 | [CVE-2023-25717](https://www.cve.org/CVERecord?id=CVE-2023-25717) |  | KEV | ✅ | ✅ | 2023-06-02 | 0.981 | 9.8 |  | Ruckus Wireless Admin through 10.4 allows Remote Code Execution via an unauthenticated HTTP GET Request, as demonstrated by a /forms/doLogin?login_username=adm… |
 | [CVE-2026-63030](https://www.cve.org/CVERecord?id=CVE-2026-63030) |  | KEV | ✅ | ✅ | 2026-07-24 | 0.981 | 9.8 |  | WordPress 6.9.x before 6.9.5 and 7.0.x before 7.0.2 is affected by a REST API batch endpoint route confusion issue which, combined with the author__not_in WP_Q… |
-| [CVE-2024-3272](https://www.cve.org/CVERecord?id=CVE-2024-3272) |  | KEV | ✅ | ✅ | 2024-05-02 | 0.980 | 9.8 |  | ** UNSUPPORTED WHEN ASSIGNED ** A vulnerability, which was classified as very critical, has been found in D-Link DNS-320L, DNS-325, DNS-327L and DNS-340L up to… |
 | [CVE-2022-29303](https://www.cve.org/CVERecord?id=CVE-2022-29303) |  | KEV | ✅ | ✅ | 2023-08-03 | 0.980 | 9.8 |  | SolarView Compact ver.6.00 was discovered to contain a command injection vulnerability via conf_mail.php. |
+| [CVE-2024-3272](https://www.cve.org/CVERecord?id=CVE-2024-3272) |  | KEV | ✅ | ✅ | 2024-05-02 | 0.980 | 9.8 |  | ** UNSUPPORTED WHEN ASSIGNED ** A vulnerability, which was classified as very critical, has been found in D-Link DNS-320L, DNS-325, DNS-327L and DNS-340L up to… |
 | [CVE-2024-29824](https://www.cve.org/CVERecord?id=CVE-2024-29824) |  | KEV | ✅ | ✅ | 2024-10-23 | 1.000 | 9.6 |  | An unspecified SQL Injection vulnerability in Core server of Ivanti EPM 2022 SU5 and prior allows an unauthenticated attacker within the same network to execut… |
 | [CVE-2026-24061](https://www.cve.org/CVERecord?id=CVE-2026-24061) |  | KEV | ✅ | ✅ | 2026-02-16 | 0.979 | 9.8 |  | telnetd in GNU Inetutils through 2.7 allows remote authentication bypass via a "-f root" value for the USER environment variable. |
 | [CVE-2023-25280](https://www.cve.org/CVERecord?id=CVE-2023-25280) |  | KEV | ✅ | ✅ | 2024-10-21 | 0.979 | 9.8 |  | OS Command injection vulnerability in D-Link DIR820LA1_FW105B03 allows attackers to escalate privileges to root via a crafted payload with the ping_addr parame… |
