@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-08-06T12:12:08+00:00`
+Generated: `2026-08-06T15:27:01+00:00`
 
 ## Executive Summary
 
@@ -19,7 +19,7 @@ Top critical items:
 | [CVE-2025-33073](https://www.cve.org/CVERecord?id=CVE-2025-33073) | 0.785 | 8.8 | 2025-11-10 | Improper access control in Windows SMB allows an authorized attacker to elevate privileges over a network. |
 | [CVE-2025-11953](https://www.cve.org/CVERecord?id=CVE-2025-11953) | 0.619 | 9.8 | 2026-02-26 | The Metro Development Server, which is opened by the React Native Community CLI, binds to external interfaces by defaul… |
 | [CVE-2023-4911](https://www.cve.org/CVERecord?id=CVE-2023-4911) | 0.814 | 7.8 | 2023-12-12 | A buffer overflow was discovered in the GNU C Library's dynamic loader ld.so while processing the GLIBC_TUNABLES enviro… |
-| [CVE-2024-38112](https://www.cve.org/CVERecord?id=CVE-2024-38112) | 0.843 | 7.5 | 2024-07-30 | Windows MSHTML Platform Spoofing Vulnerability |
+| [CVE-2024-38112](https://www.cve.org/CVERecord?id=CVE-2024-38112) | 0.842 | 7.5 | 2024-07-30 | Windows MSHTML Platform Spoofing Vulnerability |
 | [CVE-2024-43451](https://www.cve.org/CVERecord?id=CVE-2024-43451) | 0.818 | 6.5 | 2024-12-03 | NTLM Hash Disclosure Spoofing Vulnerability |
 | [CVE-2022-34713](https://www.cve.org/CVERecord?id=CVE-2022-34713) | 0.680 | 7.8 | 2022-08-30 | Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerability |
 | [CVE-2024-43572](https://www.cve.org/CVERecord?id=CVE-2024-43572) | 0.666 | 7.8 | 2024-10-29 | Microsoft Management Console Remote Code Execution Vulnerability |
@@ -57,7 +57,7 @@ Top critical items:
 | [CVE-2025-33073](https://www.cve.org/CVERecord?id=CVE-2025-33073) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-11-10 | 0.785 | 8.8 | ✅ | Improper access control in Windows SMB allows an authorized attacker to elevate privileges over a network. |
 | [CVE-2025-11953](https://www.cve.org/CVERecord?id=CVE-2025-11953) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-02-26 | 0.619 | 9.8 | ✅ | The Metro Development Server, which is opened by the React Native Community CLI, binds to external interfaces by default. The server exposes an endpoint that i… |
 | [CVE-2023-4911](https://www.cve.org/CVERecord?id=CVE-2023-4911) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-12-12 | 0.814 | 7.8 | ✅ | A buffer overflow was discovered in the GNU C Library's dynamic loader ld.so while processing the GLIBC_TUNABLES environment variable. This issue could allow a… |
-| [CVE-2024-38112](https://www.cve.org/CVERecord?id=CVE-2024-38112) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-07-30 | 0.843 | 7.5 | ✅ | Windows MSHTML Platform Spoofing Vulnerability |
+| [CVE-2024-38112](https://www.cve.org/CVERecord?id=CVE-2024-38112) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-07-30 | 0.842 | 7.5 | ✅ | Windows MSHTML Platform Spoofing Vulnerability |
 | [CVE-2024-43451](https://www.cve.org/CVERecord?id=CVE-2024-43451) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-12-03 | 0.818 | 6.5 | ✅ | NTLM Hash Disclosure Spoofing Vulnerability |
 | [CVE-2022-34713](https://www.cve.org/CVERecord?id=CVE-2022-34713) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2022-08-30 | 0.680 | 7.8 | ✅ | Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerability |
 | [CVE-2024-43572](https://www.cve.org/CVERecord?id=CVE-2024-43572) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-10-29 | 0.666 | 7.8 | ✅ | Microsoft Management Console Remote Code Execution Vulnerability |
@@ -117,8 +117,8 @@ Top critical items:
 | [CVE-2022-41125](https://www.cve.org/CVERecord?id=CVE-2022-41125) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2022-12-09 | 0.030 | 7.8 | ✅ | Windows CNG Key Isolation Service Elevation of Privilege Vulnerability |
 | [CVE-2025-59230](https://www.cve.org/CVERecord?id=CVE-2025-59230) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-11-04 | 0.026 | 7.8 | ✅ | Improper access control in Windows Remote Access Connection Manager allows an authorized attacker to elevate privileges locally. |
 | [CVE-2026-21519](https://www.cve.org/CVERecord?id=CVE-2026-21519) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-03-03 | 0.024 | 7.8 | ✅ | Access of resource using incompatible type ('type confusion') in Desktop Window Manager allows an authorized attacker to elevate privileges locally. |
-| [CVE-2022-41073](https://www.cve.org/CVERecord?id=CVE-2022-41073) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2022-12-09 | 0.024 | 7.8 | ✅ | Windows Print Spooler Elevation of Privilege Vulnerability |
 | [CVE-2025-62221](https://www.cve.org/CVERecord?id=CVE-2025-62221) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-12-30 | 0.024 | 7.8 | ✅ | Use after free in Windows Cloud Files Mini Filter Driver allows an authorized attacker to elevate privileges locally. |
+| [CVE-2022-41073](https://www.cve.org/CVERecord?id=CVE-2022-41073) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2022-12-09 | 0.024 | 7.8 | ✅ | Windows Print Spooler Elevation of Privilege Vulnerability |
 | [CVE-2025-32706](https://www.cve.org/CVERecord?id=CVE-2025-32706) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-06-03 | 0.021 | 7.8 | ✅ | Improper input validation in Windows Common Log File System Driver allows an authorized attacker to elevate privileges locally. |
 | [CVE-2025-24993](https://www.cve.org/CVERecord?id=CVE-2025-24993) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-04-01 | 0.021 | 7.8 | ✅ | Heap-based buffer overflow in Windows NTFS allows an unauthorized attacker to execute code locally. |
 | [CVE-2022-26904](https://www.cve.org/CVERecord?id=CVE-2022-26904) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2022-05-16 | 0.098 | 7.0 | ✅ | Windows User Profile Service Elevation of Privilege Vulnerability |
@@ -197,7 +197,6 @@ Top critical items:
 | [CVE-2023-42793](https://www.cve.org/CVERecord?id=CVE-2023-42793) |  | KEV | ✅ | ✅ | 2023-10-25 | 1.000 | 9.8 |  | In JetBrains TeamCity before 2023.05.4 authentication bypass leading to RCE on TeamCity Server was possible |
 | [CVE-2025-53770](https://www.cve.org/CVERecord?id=CVE-2025-53770) |  | KEV | ✅ | ✅ | 2025-07-21 | 1.000 | 9.8 |  | Deserialization of untrusted data in on-premises Microsoft SharePoint Server allows an unauthorized attacker to execute code over a network. Microsoft is aware… |
 | [CVE-2022-47986](https://www.cve.org/CVERecord?id=CVE-2022-47986) |  | KEV | ✅ | ✅ | 2023-03-14 | 1.000 | 9.8 |  | IBM Aspera Faspex 4.4.2 Patch Level 1 and earlier could allow a remote attacker to execute arbitrary code on the system, caused by a YAML deserialization flaw.… |
-| [CVE-2025-24813](https://www.cve.org/CVERecord?id=CVE-2025-24813) |  | KEV | ✅ | ✅ | 2025-04-22 | 1.000 | 9.8 |  | Path Equivalence: 'file.Name' (Internal Dot) leading to Remote Code Execution and/or Information disclosure and/or malicious content added to uploaded files vi… |
 | [CVE-2022-1388](https://www.cve.org/CVERecord?id=CVE-2022-1388) |  | KEV | ✅ | ✅ | 2022-05-31 | 1.000 | 9.8 |  | On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.1, 14.1.x versions prior to 14.1.4.6, 13.1.x versions prior to 13.1.5, and all … |
 | [CVE-2023-38035](https://www.cve.org/CVERecord?id=CVE-2023-38035) |  | KEV | ✅ | ✅ | 2023-09-12 | 0.999 | 9.8 |  | A security vulnerability in MICS Admin Portal in Ivanti MobileIron Sentry versions 9.18.0 and below, which may allow an attacker to bypass authentication contr… |
 | [CVE-2025-31161](https://www.cve.org/CVERecord?id=CVE-2025-31161) |  | KEV | ✅ | ✅ | 2025-04-28 | 0.999 | 9.8 |  | CrushFTP 10 before 10.8.4 and 11 before 11.3.1 allows authentication bypass and takeover of the crushadmin account (unless a DMZ proxy instance is used), as ex… |
@@ -207,6 +206,7 @@ Top critical items:
 | [CVE-2022-22963](https://www.cve.org/CVERecord?id=CVE-2022-22963) |  | KEV | ✅ | ✅ | 2022-09-15 | 0.999 | 9.8 |  | In Spring Cloud Function versions 3.1.6, 3.2.2 and older unsupported versions, when using routing functionality it is possible for a user to provide a speciall… |
 | [CVE-2024-27198](https://www.cve.org/CVERecord?id=CVE-2024-27198) |  | KEV | ✅ | ✅ | 2024-03-28 | 0.999 | 9.8 |  | In JetBrains TeamCity before 2023.11.4 authentication bypass allowing to perform admin actions was possible |
 | [CVE-2023-34362](https://www.cve.org/CVERecord?id=CVE-2023-34362) |  | KEV | ✅ | ✅ | 2023-06-23 | 0.999 | 9.8 |  | In Progress MOVEit Transfer before 2021.0.6 (13.0.6), 2021.1.4 (13.1.4), 2022.0.4 (14.0.4), 2022.1.5 (14.1.5), and 2023.0.1 (15.0.1), a SQL injection vulnerabi… |
+| [CVE-2025-24813](https://www.cve.org/CVERecord?id=CVE-2025-24813) |  | KEV | ✅ | ✅ | 2025-04-22 | 0.999 | 9.8 |  | Path Equivalence: 'file.Name' (Internal Dot) leading to Remote Code Execution and/or Information disclosure and/or malicious content added to uploaded files vi… |
 | [CVE-2025-68613](https://www.cve.org/CVERecord?id=CVE-2025-68613) |  | KEV | ✅ | ✅ | 2026-03-25 | 0.979 | 10.0 |  | n8n is an open source workflow automation platform. Versions starting with 0.211.0 and prior to 1.120.4, 1.121.1, and 1.122.0 contain a critical Remote Code Ex… |
 | [CVE-2025-24893](https://www.cve.org/CVERecord?id=CVE-2025-24893) |  | KEV | ✅ | ✅ | 2025-11-20 | 0.999 | 9.8 |  | XWiki Platform is a generic wiki platform offering runtime services for applications built on top of it. Any guest can perform arbitrary remote code execution … |
 | [CVE-2025-59287](https://www.cve.org/CVERecord?id=CVE-2025-59287) |  | KEV | ✅ | ✅ | 2025-11-14 | 0.999 | 9.8 |  | Deserialization of untrusted data in Windows Server Update Service allows an unauthorized attacker to execute code over a network. |
