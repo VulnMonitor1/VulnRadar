@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-08-12T17:08:44+00:00`
+Generated: `2026-08-12T19:17:00+00:00`
 
 ## Executive Summary
 
@@ -41,8 +41,8 @@ Top critical items:
 - Total items: **4815**
 - Watchlist hits: **4159**
 - CISA KEVs: **753**
-- Exploit Intel (PoC): **767**
-- Exploit Intel + Watchlist (CRITICAL): **112**
+- Exploit Intel (PoC): **769**
+- Exploit Intel + Watchlist (CRITICAL): **113**
 
 ## Top Findings (max 200)
 
@@ -136,6 +136,7 @@ Top critical items:
 | [CVE-2025-21391](https://www.cve.org/CVERecord?id=CVE-2025-21391) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-03-04 | 0.023 | 7.1 | ✅ | Windows Storage Elevation of Privilege Vulnerability |
 | [CVE-2022-21919](https://www.cve.org/CVERecord?id=CVE-2022-21919) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2022-05-16 | 0.029 | 7.0 | ✅ | Windows User Profile Service Elevation of Privilege Vulnerability |
 | [CVE-2023-28229](https://www.cve.org/CVERecord?id=CVE-2023-28229) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-10-25 | 0.018 | 7.0 | ✅ | Windows CNG Key Isolation Service Elevation of Privilege Vulnerability |
+| [CVE-2026-68820](https://www.cve.org/CVERecord?id=CVE-2026-68820) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-08-25 | 0.004 | 7.0 | ✅ | Use after free in Windows Ancillary Function Driver for WinSock allows an authorized attacker to elevate privileges locally. |
 | [CVE-2026-21525](https://www.cve.org/CVERecord?id=CVE-2026-21525) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-03-03 | 0.050 | 6.2 | ✅ | Null pointer dereference in Windows Remote Access Connection Manager allows an unauthorized attacker to deny service locally. |
 | [CVE-2024-38217](https://www.cve.org/CVERecord?id=CVE-2024-38217) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-10-01 | 0.098 | 5.4 | ✅ | Windows Mark of the Web Security Feature Bypass Vulnerability |
 | [CVE-2026-20805](https://www.cve.org/CVERecord?id=CVE-2026-20805) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-02-03 | 0.051 | 5.5 | ✅ | Exposure of sensitive information to an unauthorized actor in Desktop Windows Manager allows an authorized attacker to disclose information locally. |
@@ -247,4 +248,3 @@ Top critical items:
 | [CVE-2025-47812](https://www.cve.org/CVERecord?id=CVE-2025-47812) |  | KEV | ✅ | ✅ | 2025-08-04 | 0.955 | 10.0 |  | In Wing FTP Server before 7.4.4. the user and admin web interfaces mishandle '\0' bytes, ultimately allowing injection of arbitrary Lua code into user session … |
 | [CVE-2024-4358](https://www.cve.org/CVERecord?id=CVE-2024-4358) |  | KEV | ✅ | ✅ | 2024-07-04 | 0.975 | 9.8 |  | In Progress Telerik Report Server, version 2024 Q1 (10.0.24.305) or earlier, on IIS, an unauthenticated attacker can gain access to Telerik Report Server restr… |
 | [CVE-2023-23397](https://www.cve.org/CVERecord?id=CVE-2023-23397) |  | KEV | ✅ | ✅ | 2023-04-04 | 0.974 | 9.8 |  | Microsoft Outlook Elevation of Privilege Vulnerability |
-| [CVE-2024-1212](https://www.cve.org/CVERecord?id=CVE-2024-1212) |  | KEV | ✅ | ✅ | 2024-12-09 | 0.954 | 10.0 |  | Unauthenticated remote attackers can access the system through the LoadMaster management interface, enabling arbitrary system command execution. |
