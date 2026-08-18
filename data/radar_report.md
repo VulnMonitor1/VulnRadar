@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-08-18T17:38:12+00:00`
+Generated: `2026-08-18T18:52:33+00:00`
 
 ## Executive Summary
 
@@ -20,6 +20,7 @@ Top critical items:
 | [CVE-2025-33073](https://www.cve.org/CVERecord?id=CVE-2025-33073) | 0.804 | 8.8 | 2025-11-10 | Improper access control in Windows SMB allows an authorized attacker to elevate privileges over a network. |
 | [CVE-2023-4911](https://www.cve.org/CVERecord?id=CVE-2023-4911) | 0.814 | 7.8 | 2023-12-12 | A buffer overflow was discovered in the GNU C Library's dynamic loader ld.so while processing the GLIBC_TUNABLES enviro… |
 | [CVE-2024-38112](https://www.cve.org/CVERecord?id=CVE-2024-38112) | 0.842 | 7.5 | 2024-07-30 | Windows MSHTML Platform Spoofing Vulnerability |
+| [CVE-2026-33824](https://www.cve.org/CVERecord?id=CVE-2026-33824) | 0.558 | 9.8 | 2026-08-21 | Double free in Windows IKE Extension allows an unauthorized attacker to execute code over a network. |
 | [CVE-2024-43451](https://www.cve.org/CVERecord?id=CVE-2024-43451) | 0.818 | 6.5 | 2024-12-03 | NTLM Hash Disclosure Spoofing Vulnerability |
 | [CVE-2022-34713](https://www.cve.org/CVERecord?id=CVE-2022-34713) | 0.680 | 7.8 | 2022-08-30 | Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerability |
 | [CVE-2024-43572](https://www.cve.org/CVERecord?id=CVE-2024-43572) | 0.666 | 7.8 | 2024-10-29 | Microsoft Management Console Remote Code Execution Vulnerability |
@@ -34,15 +35,14 @@ Top critical items:
 | [CVE-2022-21882](https://www.cve.org/CVERecord?id=CVE-2022-21882) | 0.546 | 7.0 | 2022-02-18 | Win32k Elevation of Privilege Vulnerability |
 | [CVE-2025-24054](https://www.cve.org/CVERecord?id=CVE-2025-24054) | 0.589 | 6.5 | 2025-05-08 | External control of file name or path in Windows NTLM allows an unauthorized attacker to perform spoofing over a network. |
 | [CVE-2023-24880](https://www.cve.org/CVERecord?id=CVE-2023-24880) | 0.782 | 4.4 | 2023-04-04 | Windows SmartScreen Security Feature Bypass Vulnerability |
-| [CVE-2023-36874](https://www.cve.org/CVERecord?id=CVE-2023-36874) | 0.434 | 7.8 | 2023-08-01 | Windows Error Reporting Service Elevation of Privilege Vulnerability |
 
 ## Summary
 
 - Total items: **4934**
 - Watchlist hits: **4274**
 - CISA KEVs: **758**
-- Exploit Intel (PoC): **770**
-- Exploit Intel + Watchlist (CRITICAL): **113**
+- Exploit Intel (PoC): **774**
+- Exploit Intel + Watchlist (CRITICAL): **114**
 
 ## Top Findings (max 200)
 
@@ -58,6 +58,7 @@ Top critical items:
 | [CVE-2025-33073](https://www.cve.org/CVERecord?id=CVE-2025-33073) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-11-10 | 0.804 | 8.8 | ✅ | Improper access control in Windows SMB allows an authorized attacker to elevate privileges over a network. |
 | [CVE-2023-4911](https://www.cve.org/CVERecord?id=CVE-2023-4911) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-12-12 | 0.814 | 7.8 | ✅ | A buffer overflow was discovered in the GNU C Library's dynamic loader ld.so while processing the GLIBC_TUNABLES environment variable. This issue could allow a… |
 | [CVE-2024-38112](https://www.cve.org/CVERecord?id=CVE-2024-38112) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-07-30 | 0.842 | 7.5 | ✅ | Windows MSHTML Platform Spoofing Vulnerability |
+| [CVE-2026-33824](https://www.cve.org/CVERecord?id=CVE-2026-33824) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-08-21 | 0.558 | 9.8 | ✅ | Double free in Windows IKE Extension allows an unauthorized attacker to execute code over a network. |
 | [CVE-2024-43451](https://www.cve.org/CVERecord?id=CVE-2024-43451) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-12-03 | 0.818 | 6.5 | ✅ | NTLM Hash Disclosure Spoofing Vulnerability |
 | [CVE-2022-34713](https://www.cve.org/CVERecord?id=CVE-2022-34713) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2022-08-30 | 0.680 | 7.8 | ✅ | Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerability |
 | [CVE-2024-43572](https://www.cve.org/CVERecord?id=CVE-2024-43572) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-10-29 | 0.666 | 7.8 | ✅ | Microsoft Management Console Remote Code Execution Vulnerability |
@@ -247,4 +248,3 @@ Top critical items:
 | [CVE-2023-25280](https://www.cve.org/CVERecord?id=CVE-2023-25280) |  | KEV | ✅ | ✅ | 2024-10-21 | 0.979 | 9.8 |  | OS Command injection vulnerability in D-Link DIR820LA1_FW105B03 allows attackers to escalate privileges to root via a crafted payload with the ping_addr parame… |
 | [CVE-2025-25257](https://www.cve.org/CVERecord?id=CVE-2025-25257) |  | KEV | ✅ | ✅ | 2025-08-08 | 0.998 | 9.6 |  | An improper neutralization of special elements used in an SQL command ('SQL Injection') vulnerability [CWE-89] vulnerability in Fortinet FortiWeb 7.6.0 through… |
 | [CVE-2025-47812](https://www.cve.org/CVERecord?id=CVE-2025-47812) |  | KEV | ✅ | ✅ | 2025-08-04 | 0.955 | 10.0 |  | In Wing FTP Server before 7.4.4. the user and admin web interfaces mishandle '\0' bytes, ultimately allowing injection of arbitrary Lua code into user session … |
-| [CVE-2024-4358](https://www.cve.org/CVERecord?id=CVE-2024-4358) |  | KEV | ✅ | ✅ | 2024-07-04 | 0.975 | 9.8 |  | In Progress Telerik Report Server, version 2024 Q1 (10.0.24.305) or earlier, on IIS, an unauthenticated attacker can gain access to Telerik Report Server restr… |
