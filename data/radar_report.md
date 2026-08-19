@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-08-19T13:11:25+00:00`
+Generated: `2026-08-19T13:57:24+00:00`
 
 ## Executive Summary
 
@@ -14,17 +14,17 @@ Top critical items:
 | [CVE-2022-30190](https://www.cve.org/CVERecord?id=CVE-2022-30190) | 0.992 | 7.8 | 2022-07-05 | A remote code execution vulnerability exists when MSDT is called using the URL protocol from a calling application such… |
 | [CVE-2024-21412](https://www.cve.org/CVERecord?id=CVE-2024-21412) | 0.954 | 8.1 | 2024-03-05 | Internet Shortcut Files Security Feature Bypass Vulnerability |
 | [CVE-2023-36025](https://www.cve.org/CVERecord?id=CVE-2023-36025) | 0.882 | 8.8 | 2023-12-05 | Windows SmartScreen Security Feature Bypass Vulnerability |
+| [CVE-2026-33824](https://www.cve.org/CVERecord?id=CVE-2026-33824) | 0.779 | 9.8 | 2026-08-21 | Double free in Windows IKE Extension allows an unauthorized attacker to execute code over a network. |
 | [CVE-2023-36884](https://www.cve.org/CVERecord?id=CVE-2023-36884) | 0.989 | 7.5 | 2023-08-29 | Windows Search Remote Code Execution Vulnerability |
 | [CVE-2025-33053](https://www.cve.org/CVERecord?id=CVE-2025-33053) | 0.853 | 8.8 | 2025-07-01 | External control of file name or path in Internet Shortcut Files allows an unauthorized attacker to execute code over a… |
 | [CVE-2022-26923](https://www.cve.org/CVERecord?id=CVE-2022-26923) | 0.830 | 8.8 | 2022-09-08 | Active Directory Domain Services Elevation of Privilege Vulnerability |
 | [CVE-2025-33073](https://www.cve.org/CVERecord?id=CVE-2025-33073) | 0.804 | 8.8 | 2025-11-10 | Improper access control in Windows SMB allows an authorized attacker to elevate privileges over a network. |
 | [CVE-2023-4911](https://www.cve.org/CVERecord?id=CVE-2023-4911) | 0.814 | 7.8 | 2023-12-12 | A buffer overflow was discovered in the GNU C Library's dynamic loader ld.so while processing the GLIBC_TUNABLES enviro… |
 | [CVE-2024-38112](https://www.cve.org/CVERecord?id=CVE-2024-38112) | 0.842 | 7.5 | 2024-07-30 | Windows MSHTML Platform Spoofing Vulnerability |
-| [CVE-2026-33824](https://www.cve.org/CVERecord?id=CVE-2026-33824) | 0.558 | 9.8 | 2026-08-21 | Double free in Windows IKE Extension allows an unauthorized attacker to execute code over a network. |
-| [CVE-2024-43451](https://www.cve.org/CVERecord?id=CVE-2024-43451) | 0.818 | 6.5 | 2024-12-03 | NTLM Hash Disclosure Spoofing Vulnerability |
+| [CVE-2024-43451](https://www.cve.org/CVERecord?id=CVE-2024-43451) | 0.841 | 6.5 | 2024-12-03 | NTLM Hash Disclosure Spoofing Vulnerability |
 | [CVE-2022-34713](https://www.cve.org/CVERecord?id=CVE-2022-34713) | 0.680 | 7.8 | 2022-08-30 | Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerability |
 | [CVE-2024-43572](https://www.cve.org/CVERecord?id=CVE-2024-43572) | 0.666 | 7.8 | 2024-10-29 | Microsoft Management Console Remote Code Execution Vulnerability |
-| [CVE-2024-43461](https://www.cve.org/CVERecord?id=CVE-2024-43461) | 0.522 | 8.8 | 2024-10-07 | Windows MSHTML Platform Spoofing Vulnerability |
+| [CVE-2024-43461](https://www.cve.org/CVERecord?id=CVE-2024-43461) | 0.545 | 8.8 | 2024-10-07 | Windows MSHTML Platform Spoofing Vulnerability |
 | [CVE-2024-30088](https://www.cve.org/CVERecord?id=CVE-2024-30088) | 0.682 | 7.0 | 2024-11-05 | Windows Kernel Elevation of Privilege Vulnerability |
 | [CVE-2024-21338](https://www.cve.org/CVERecord?id=CVE-2024-21338) | 0.598 | 7.8 | 2024-03-25 | Windows Kernel Elevation of Privilege Vulnerability |
 | [CVE-2024-29988](https://www.cve.org/CVERecord?id=CVE-2024-29988) | 0.452 | 8.8 | 2024-05-21 | SmartScreen Prompt Security Feature Bypass Vulnerability |
@@ -52,17 +52,17 @@ Top critical items:
 | [CVE-2022-30190](https://www.cve.org/CVERecord?id=CVE-2022-30190) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2022-07-05 | 0.992 | 7.8 | ✅ | A remote code execution vulnerability exists when MSDT is called using the URL protocol from a calling application such as Word. An attacker who successfully e… |
 | [CVE-2024-21412](https://www.cve.org/CVERecord?id=CVE-2024-21412) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-03-05 | 0.954 | 8.1 | ✅ | Internet Shortcut Files Security Feature Bypass Vulnerability |
 | [CVE-2023-36025](https://www.cve.org/CVERecord?id=CVE-2023-36025) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-12-05 | 0.882 | 8.8 | ✅ | Windows SmartScreen Security Feature Bypass Vulnerability |
+| [CVE-2026-33824](https://www.cve.org/CVERecord?id=CVE-2026-33824) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-08-21 | 0.779 | 9.8 | ✅ | Double free in Windows IKE Extension allows an unauthorized attacker to execute code over a network. |
 | [CVE-2023-36884](https://www.cve.org/CVERecord?id=CVE-2023-36884) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-08-29 | 0.989 | 7.5 | ✅ | Windows Search Remote Code Execution Vulnerability |
 | [CVE-2025-33053](https://www.cve.org/CVERecord?id=CVE-2025-33053) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-07-01 | 0.853 | 8.8 | ✅ | External control of file name or path in Internet Shortcut Files allows an unauthorized attacker to execute code over a network. |
 | [CVE-2022-26923](https://www.cve.org/CVERecord?id=CVE-2022-26923) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2022-09-08 | 0.830 | 8.8 | ✅ | Active Directory Domain Services Elevation of Privilege Vulnerability |
 | [CVE-2025-33073](https://www.cve.org/CVERecord?id=CVE-2025-33073) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-11-10 | 0.804 | 8.8 | ✅ | Improper access control in Windows SMB allows an authorized attacker to elevate privileges over a network. |
 | [CVE-2023-4911](https://www.cve.org/CVERecord?id=CVE-2023-4911) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-12-12 | 0.814 | 7.8 | ✅ | A buffer overflow was discovered in the GNU C Library's dynamic loader ld.so while processing the GLIBC_TUNABLES environment variable. This issue could allow a… |
 | [CVE-2024-38112](https://www.cve.org/CVERecord?id=CVE-2024-38112) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-07-30 | 0.842 | 7.5 | ✅ | Windows MSHTML Platform Spoofing Vulnerability |
-| [CVE-2026-33824](https://www.cve.org/CVERecord?id=CVE-2026-33824) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-08-21 | 0.558 | 9.8 | ✅ | Double free in Windows IKE Extension allows an unauthorized attacker to execute code over a network. |
-| [CVE-2024-43451](https://www.cve.org/CVERecord?id=CVE-2024-43451) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-12-03 | 0.818 | 6.5 | ✅ | NTLM Hash Disclosure Spoofing Vulnerability |
+| [CVE-2024-43451](https://www.cve.org/CVERecord?id=CVE-2024-43451) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-12-03 | 0.841 | 6.5 | ✅ | NTLM Hash Disclosure Spoofing Vulnerability |
 | [CVE-2022-34713](https://www.cve.org/CVERecord?id=CVE-2022-34713) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2022-08-30 | 0.680 | 7.8 | ✅ | Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerability |
 | [CVE-2024-43572](https://www.cve.org/CVERecord?id=CVE-2024-43572) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-10-29 | 0.666 | 7.8 | ✅ | Microsoft Management Console Remote Code Execution Vulnerability |
-| [CVE-2024-43461](https://www.cve.org/CVERecord?id=CVE-2024-43461) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-10-07 | 0.522 | 8.8 | ✅ | Windows MSHTML Platform Spoofing Vulnerability |
+| [CVE-2024-43461](https://www.cve.org/CVERecord?id=CVE-2024-43461) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-10-07 | 0.545 | 8.8 | ✅ | Windows MSHTML Platform Spoofing Vulnerability |
 | [CVE-2024-30088](https://www.cve.org/CVERecord?id=CVE-2024-30088) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-11-05 | 0.682 | 7.0 | ✅ | Windows Kernel Elevation of Privilege Vulnerability |
 | [CVE-2024-21338](https://www.cve.org/CVERecord?id=CVE-2024-21338) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-03-25 | 0.598 | 7.8 | ✅ | Windows Kernel Elevation of Privilege Vulnerability |
 | [CVE-2024-29988](https://www.cve.org/CVERecord?id=CVE-2024-29988) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-05-21 | 0.452 | 8.8 | ✅ | SmartScreen Prompt Security Feature Bypass Vulnerability |
@@ -88,8 +88,8 @@ Top critical items:
 | [CVE-2024-49138](https://www.cve.org/CVERecord?id=CVE-2024-49138) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-12-31 | 0.254 | 7.8 | ✅ | Windows Common Log File System Driver Elevation of Privilege Vulnerability |
 | [CVE-2026-21513](https://www.cve.org/CVERecord?id=CVE-2026-21513) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-03-03 | 0.154 | 8.8 | ✅ | Protection mechanism failure in MSHTML Framework allows an unauthorized attacker to bypass a security feature over a network. |
 | [CVE-2024-35250](https://www.cve.org/CVERecord?id=CVE-2024-35250) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-01-06 | 0.252 | 7.8 | ✅ | Windows Kernel-Mode Driver Elevation of Privilege Vulnerability |
+| [CVE-2024-49039](https://www.cve.org/CVERecord?id=CVE-2024-49039) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-12-03 | 0.142 | 8.8 | ✅ | Windows Task Scheduler Elevation of Privilege Vulnerability |
 | [CVE-2025-30397](https://www.cve.org/CVERecord?id=CVE-2025-30397) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-06-03 | 0.268 | 7.5 | ✅ | Access of resource using incompatible type ('type confusion') in Microsoft Scripting Engine allows an unauthorized attacker to execute code over a network. |
-| [CVE-2024-49039](https://www.cve.org/CVERecord?id=CVE-2024-49039) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-12-03 | 0.137 | 8.8 | ✅ | Windows Task Scheduler Elevation of Privilege Vulnerability |
 | [CVE-2025-26633](https://www.cve.org/CVERecord?id=CVE-2025-26633) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-04-01 | 0.304 | 7.0 | ✅ | Improper neutralization in Microsoft Management Console allows an unauthorized attacker to bypass a security feature locally. |
 | [CVE-2022-22718](https://www.cve.org/CVERecord?id=CVE-2022-22718) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2022-05-10 | 0.185 | 7.8 | ✅ | Windows Print Spooler Elevation of Privilege Vulnerability |
 | [CVE-2022-22047](https://www.cve.org/CVERecord?id=CVE-2022-22047) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2022-08-02 | 0.171 | 7.8 | ✅ | Windows Client Server Run-time Subsystem (CSRSS) Elevation of Privilege Vulnerability |
@@ -139,7 +139,7 @@ Top critical items:
 | [CVE-2023-28229](https://www.cve.org/CVERecord?id=CVE-2023-28229) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-10-25 | 0.018 | 7.0 | ✅ | Windows CNG Key Isolation Service Elevation of Privilege Vulnerability |
 | [CVE-2026-68820](https://www.cve.org/CVERecord?id=CVE-2026-68820) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-08-25 | 0.003 | 7.0 | ✅ | Use after free in Windows Ancillary Function Driver for WinSock allows an authorized attacker to elevate privileges locally. |
 | [CVE-2026-21525](https://www.cve.org/CVERecord?id=CVE-2026-21525) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-03-03 | 0.050 | 6.2 | ✅ | Null pointer dereference in Windows Remote Access Connection Manager allows an unauthorized attacker to deny service locally. |
-| [CVE-2024-38217](https://www.cve.org/CVERecord?id=CVE-2024-38217) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-10-01 | 0.098 | 5.4 | ✅ | Windows Mark of the Web Security Feature Bypass Vulnerability |
+| [CVE-2024-38217](https://www.cve.org/CVERecord?id=CVE-2024-38217) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-10-01 | 0.100 | 5.4 | ✅ | Windows Mark of the Web Security Feature Bypass Vulnerability |
 | [CVE-2026-20805](https://www.cve.org/CVERecord?id=CVE-2026-20805) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-02-03 | 0.051 | 5.5 | ✅ | Exposure of sensitive information to an unauthorized actor in Desktop Windows Manager allows an authorized attacker to disclose information locally. |
 | [CVE-2023-36584](https://www.cve.org/CVERecord?id=CVE-2023-36584) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-12-07 | 0.031 | 5.4 | ✅ | Windows Mark of the Web Security Feature Bypass Vulnerability |
 | [CVE-2025-24991](https://www.cve.org/CVERecord?id=CVE-2025-24991) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-04-01 | 0.020 | 5.5 | ✅ | Out-of-bounds read in Windows NTFS allows an authorized attacker to disclose information locally. |
