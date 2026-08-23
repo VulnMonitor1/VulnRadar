@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-08-23T12:59:00+00:00`
+Generated: `2026-08-23T13:41:57+00:00`
 
 ## Executive Summary
 
@@ -233,9 +233,9 @@ Top critical items:
 | [CVE-2024-27348](https://www.cve.org/CVERecord?id=CVE-2024-27348) |  | KEV | ✅ | ✅ | 2024-10-09 | 0.992 | 9.8 |  | RCE-Remote Command Execution vulnerability in Apache HugeGraph-Server.This issue affects Apache HugeGraph-Server: from 1.0.0 before 1.3.0 in Java8 & Java11  Us… |
 | [CVE-2022-24086](https://www.cve.org/CVERecord?id=CVE-2022-24086) |  | KEV | ✅ | ✅ | 2022-03-01 | 0.991 | 9.8 |  | Adobe Commerce versions 2.4.3-p1 (and earlier) and 2.3.7-p2 (and earlier) are affected by an improper input validation vulnerability during the checkout proces… |
 | [CVE-2025-20281](https://www.cve.org/CVERecord?id=CVE-2025-20281) |  | KEV | ✅ | ✅ | 2025-08-18 | 0.971 | 10.0 |  | A vulnerability in a specific API of Cisco ISE and Cisco ISE-PIC could allow an unauthenticated, remote attacker to execute arbitrary code on the underlying op… |
+| [CVE-2025-49113](https://www.cve.org/CVERecord?id=CVE-2025-49113) |  | KEV | ✅ | ✅ | 2026-03-13 | 0.980 | 9.9 |  | Roundcube Webmail before 1.5.10 and 1.6.x before 1.6.11 allows remote code execution by authenticated users because the _from parameter in a URL is not validat… |
 | [CVE-2022-3236](https://www.cve.org/CVERecord?id=CVE-2022-3236) |  | KEV | ✅ | ✅ | 2022-10-14 | 0.989 | 9.8 |  | A code injection vulnerability in the User Portal and Webadmin allows a remote attacker to execute code in Sophos Firewall version v19.0 MR1 and older. |
 | [CVE-2023-47246](https://www.cve.org/CVERecord?id=CVE-2023-47246) |  | KEV | ✅ | ✅ | 2023-12-04 | 0.989 | 9.8 |  | In SysAid On-Premise before 23.3.36, a path traversal vulnerability leads to code execution after an attacker writes a file to the Tomcat webroot, as exploited… |
-| [CVE-2025-49113](https://www.cve.org/CVERecord?id=CVE-2025-49113) |  | KEV | ✅ | ✅ | 2026-03-13 | 0.977 | 9.9 |  | Roundcube Webmail before 1.5.10 and 1.6.x before 1.6.11 allows remote code execution by authenticated users because the _from parameter in a URL is not validat… |
 | [CVE-2024-50623](https://www.cve.org/CVERecord?id=CVE-2024-50623) |  | KEV | ✅ | ✅ | 2025-01-03 | 0.986 | 9.8 |  | In Cleo Harmony before 5.8.0.21, VLTrader before 5.8.0.21, and LexiCom before 5.8.0.21, there is an unrestricted file upload and download that could lead to re… |
 | [CVE-2022-21587](https://www.cve.org/CVERecord?id=CVE-2022-21587) |  | KEV | ✅ | ✅ | 2023-02-23 | 0.983 | 9.8 |  | Vulnerability in the Oracle Web Applications Desktop Integrator product of Oracle E-Business Suite (component: Upload). Supported versions that are affected ar… |
 | [CVE-2023-20887](https://www.cve.org/CVERecord?id=CVE-2023-20887) |  | KEV | ✅ | ✅ | 2023-07-13 | 0.983 | 9.8 |  | Aria Operations for Networks contains a command injection vulnerability. A malicious actor with network access to VMware Aria Operations for Networks may be ab… |
