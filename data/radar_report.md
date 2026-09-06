@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-09-06T09:21:06+00:00`
+Generated: `2026-09-06T13:37:54+00:00`
 
 ## Executive Summary
 
@@ -31,8 +31,8 @@ Top critical items:
 | [CVE-2022-21971](https://www.cve.org/CVERecord?id=CVE-2022-21971) | 0.539 | 7.8 | 2022-09-08 | Windows Runtime Remote Code Execution Vulnerability |
 | [CVE-2022-44698](https://www.cve.org/CVERecord?id=CVE-2022-44698) | 0.763 | 5.4 | 2023-01-03 | Windows SmartScreen Security Feature Bypass Vulnerability |
 | [CVE-2023-21674](https://www.cve.org/CVERecord?id=CVE-2023-21674) | 0.418 | 8.8 | 2023-01-31 | Windows Advanced Local Procedure Call (ALPC) Elevation of Privilege Vulnerability |
+| [CVE-2022-21882](https://www.cve.org/CVERecord?id=CVE-2022-21882) | 0.592 | 7.0 | 2022-02-18 | Win32k Elevation of Privilege Vulnerability |
 | [CVE-2023-28252](https://www.cve.org/CVERecord?id=CVE-2023-28252) | 0.490 | 7.8 | 2023-05-02 | Windows Common Log File System Driver Elevation of Privilege Vulnerability |
-| [CVE-2022-21882](https://www.cve.org/CVERecord?id=CVE-2022-21882) | 0.557 | 7.0 | 2022-02-18 | Win32k Elevation of Privilege Vulnerability |
 | [CVE-2025-24054](https://www.cve.org/CVERecord?id=CVE-2025-24054) | 0.589 | 6.5 | 2025-05-08 | External control of file name or path in Windows NTLM allows an unauthorized attacker to perform spoofing over a network. |
 | [CVE-2023-24880](https://www.cve.org/CVERecord?id=CVE-2023-24880) | 0.782 | 4.4 | 2023-04-04 | Windows SmartScreen Security Feature Bypass Vulnerability |
 
@@ -69,8 +69,8 @@ Top critical items:
 | [CVE-2022-21971](https://www.cve.org/CVERecord?id=CVE-2022-21971) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2022-09-08 | 0.539 | 7.8 | ✅ | Windows Runtime Remote Code Execution Vulnerability |
 | [CVE-2022-44698](https://www.cve.org/CVERecord?id=CVE-2022-44698) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-01-03 | 0.763 | 5.4 | ✅ | Windows SmartScreen Security Feature Bypass Vulnerability |
 | [CVE-2023-21674](https://www.cve.org/CVERecord?id=CVE-2023-21674) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-01-31 | 0.418 | 8.8 | ✅ | Windows Advanced Local Procedure Call (ALPC) Elevation of Privilege Vulnerability |
+| [CVE-2022-21882](https://www.cve.org/CVERecord?id=CVE-2022-21882) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2022-02-18 | 0.592 | 7.0 | ✅ | Win32k Elevation of Privilege Vulnerability |
 | [CVE-2023-28252](https://www.cve.org/CVERecord?id=CVE-2023-28252) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-05-02 | 0.490 | 7.8 | ✅ | Windows Common Log File System Driver Elevation of Privilege Vulnerability |
-| [CVE-2022-21882](https://www.cve.org/CVERecord?id=CVE-2022-21882) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2022-02-18 | 0.557 | 7.0 | ✅ | Win32k Elevation of Privilege Vulnerability |
 | [CVE-2025-24054](https://www.cve.org/CVERecord?id=CVE-2025-24054) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-05-08 | 0.589 | 6.5 | ✅ | External control of file name or path in Windows NTLM allows an unauthorized attacker to perform spoofing over a network. |
 | [CVE-2023-24880](https://www.cve.org/CVERecord?id=CVE-2023-24880) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-04-04 | 0.782 | 4.4 | ✅ | Windows SmartScreen Security Feature Bypass Vulnerability |
 | [CVE-2023-36874](https://www.cve.org/CVERecord?id=CVE-2023-36874) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-08-01 | 0.434 | 7.8 | ✅ | Windows Error Reporting Service Elevation of Privilege Vulnerability |
@@ -84,7 +84,7 @@ Top critical items:
 | [CVE-2024-21351](https://www.cve.org/CVERecord?id=CVE-2024-21351) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-03-05 | 0.303 | 7.6 | ✅ | Windows SmartScreen Security Feature Bypass Vulnerability |
 | [CVE-2022-37969](https://www.cve.org/CVERecord?id=CVE-2022-37969) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2022-10-05 | 0.283 | 7.8 | ✅ | Windows Common Log File System Driver Elevation of Privilege Vulnerability |
 | [CVE-2023-29360](https://www.cve.org/CVERecord?id=CVE-2023-29360) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-03-21 | 0.221 | 8.4 | ✅ | Microsoft Streaming Service Elevation of Privilege Vulnerability |
-| [CVE-2023-36802](https://www.cve.org/CVERecord?id=CVE-2023-36802) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-10-03 | 0.261 | 7.8 | ✅ | Microsoft Streaming Service Proxy Elevation of Privilege Vulnerability |
+| [CVE-2023-36802](https://www.cve.org/CVERecord?id=CVE-2023-36802) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-10-03 | 0.275 | 7.8 | ✅ | Microsoft Streaming Service Proxy Elevation of Privilege Vulnerability |
 | [CVE-2024-49138](https://www.cve.org/CVERecord?id=CVE-2024-49138) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-12-31 | 0.254 | 7.8 | ✅ | Windows Common Log File System Driver Elevation of Privilege Vulnerability |
 | [CVE-2026-21513](https://www.cve.org/CVERecord?id=CVE-2026-21513) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-03-03 | 0.154 | 8.8 | ✅ | Protection mechanism failure in MSHTML Framework allows an unauthorized attacker to bypass a security feature over a network. |
 | [CVE-2024-35250](https://www.cve.org/CVERecord?id=CVE-2024-35250) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-01-06 | 0.250 | 7.8 | ✅ | Windows Kernel-Mode Driver Elevation of Privilege Vulnerability |
@@ -127,8 +127,8 @@ Top critical items:
 | [CVE-2022-41033](https://www.cve.org/CVERecord?id=CVE-2022-41033) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2022-11-01 | 0.017 | 7.8 | ✅ | Windows COM+ Event System Service Elevation of Privilege Vulnerability |
 | [CVE-2024-38107](https://www.cve.org/CVERecord?id=CVE-2024-38107) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-09-03 | 0.016 | 7.8 | ✅ | Windows Power Dependency Coordinator Elevation of Privilege Vulnerability |
 | [CVE-2022-26904](https://www.cve.org/CVERecord?id=CVE-2022-26904) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2022-05-16 | 0.096 | 7.0 | ✅ | Windows User Profile Service Elevation of Privilege Vulnerability |
+| [CVE-2025-21418](https://www.cve.org/CVERecord?id=CVE-2025-21418) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-03-04 | 0.016 | 7.8 | ✅ | Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability |
 | [CVE-2025-21334](https://www.cve.org/CVERecord?id=CVE-2025-21334) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-02-04 | 0.016 | 7.8 | ✅ | Windows Hyper-V NT Kernel Integration VSP Elevation of Privilege Vulnerability |
-| [CVE-2025-21418](https://www.cve.org/CVERecord?id=CVE-2025-21418) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-03-04 | 0.015 | 7.8 | ✅ | Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability |
 | [CVE-2025-21335](https://www.cve.org/CVERecord?id=CVE-2025-21335) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-02-04 | 0.014 | 7.8 | ✅ | Windows Hyper-V NT Kernel Integration VSP Elevation of Privilege Vulnerability |
 | [CVE-2025-32701](https://www.cve.org/CVERecord?id=CVE-2025-32701) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-06-03 | 0.014 | 7.8 | ✅ | Use after free in Windows Common Log File System Driver allows an authorized attacker to elevate privileges locally. |
 | [CVE-2024-38213](https://www.cve.org/CVERecord?id=CVE-2024-38213) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-09-03 | 0.136 | 6.5 | ✅ | Windows Mark of the Web Security Feature Bypass Vulnerability |
