@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-09-09T14:50:43+00:00`
+Generated: `2026-09-09T18:53:43+00:00`
 
 ## Executive Summary
 
@@ -41,8 +41,8 @@ Top critical items:
 - Total items: **5681**
 - Watchlist hits: **4997**
 - CISA KEVs: **783**
-- Exploit Intel (PoC): **797**
-- Exploit Intel + Watchlist (CRITICAL): **114**
+- Exploit Intel (PoC): **799**
+- Exploit Intel + Watchlist (CRITICAL): **115**
 
 ## Top Findings (max 200)
 
@@ -131,6 +131,7 @@ Top critical items:
 | [CVE-2025-21334](https://www.cve.org/CVERecord?id=CVE-2025-21334) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-02-04 | 0.016 | 7.8 | ✅ | Windows Hyper-V NT Kernel Integration VSP Elevation of Privilege Vulnerability |
 | [CVE-2025-21335](https://www.cve.org/CVERecord?id=CVE-2025-21335) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-02-04 | 0.014 | 7.8 | ✅ | Windows Hyper-V NT Kernel Integration VSP Elevation of Privilege Vulnerability |
 | [CVE-2025-32701](https://www.cve.org/CVERecord?id=CVE-2025-32701) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-06-03 | 0.014 | 7.8 | ✅ | Use after free in Windows Common Log File System Driver allows an authorized attacker to elevate privileges locally. |
+| [CVE-2026-81963](https://www.cve.org/CVERecord?id=CVE-2026-81963) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-09-22 | 0.006 | 7.8 | ✅ | Improper link resolution before file access ('link following') in Windows Update Stack allows an authorized attacker to elevate privileges locally. |
 | [CVE-2024-38213](https://www.cve.org/CVERecord?id=CVE-2024-38213) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-09-03 | 0.136 | 6.5 | ✅ | Windows Mark of the Web Security Feature Bypass Vulnerability |
 | [CVE-2024-38106](https://www.cve.org/CVERecord?id=CVE-2024-38106) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-09-03 | 0.063 | 7.0 | ✅ | Windows Kernel Elevation of Privilege Vulnerability |
 | [CVE-2026-68820](https://www.cve.org/CVERecord?id=CVE-2026-68820) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-08-25 | 0.062 | 7.0 | ✅ | Use after free in Windows Ancillary Function Driver for WinSock allows an authorized attacker to elevate privileges locally. |
@@ -247,4 +248,3 @@ Top critical items:
 | [CVE-2023-25280](https://www.cve.org/CVERecord?id=CVE-2023-25280) |  | KEV | ✅ | ✅ | 2024-10-21 | 0.979 | 9.8 |  | OS Command injection vulnerability in D-Link DIR820LA1_FW105B03 allows attackers to escalate privileges to root via a crafted payload with the ping_addr parame… |
 | [CVE-2025-25257](https://www.cve.org/CVERecord?id=CVE-2025-25257) |  | KEV | ✅ | ✅ | 2025-08-08 | 0.998 | 9.6 |  | An improper neutralization of special elements used in an SQL command ('SQL Injection') vulnerability [CWE-89] vulnerability in Fortinet FortiWeb 7.6.0 through… |
 | [CVE-2026-8037](https://www.cve.org/CVERecord?id=CVE-2026-8037) |  | KEV | ✅ | ✅ | 2026-08-10 | 0.996 | 9.6 |  | OS Command Injection Remote Code Execution Vulnerability in API in Progress ADC Products allows an un-authenticated attacker to execute arbitrary commands on t… |
-| [CVE-2024-4358](https://www.cve.org/CVERecord?id=CVE-2024-4358) |  | KEV | ✅ | ✅ | 2024-07-04 | 0.975 | 9.8 |  | In Progress Telerik Report Server, version 2024 Q1 (10.0.24.305) or earlier, on IIS, an unauthenticated attacker can gain access to Telerik Report Server restr… |
