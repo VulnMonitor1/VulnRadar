@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-09-10T00:08:06+00:00`
+Generated: `2026-09-10T04:36:09+00:00`
 
 ## Executive Summary
 
@@ -38,11 +38,11 @@ Top critical items:
 
 ## Summary
 
-- Total items: **5684**
+- Total items: **5685**
 - Watchlist hits: **4997**
-- CISA KEVs: **786**
-- Exploit Intel (PoC): **802**
-- Exploit Intel + Watchlist (CRITICAL): **115**
+- CISA KEVs: **787**
+- Exploit Intel (PoC): **804**
+- Exploit Intel + Watchlist (CRITICAL): **116**
 
 ## Top Findings (max 200)
 
@@ -161,6 +161,7 @@ Top critical items:
 | [CVE-2024-3656](https://www.cve.org/CVERecord?id=CVE-2024-3656) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.029 | 8.1 | ✅ | A flaw was found in Keycloak. Certain endpoints in Keycloak's admin REST API allow low-privilege users to access administrative functionalities. This flaw allo… |
 | [CVE-2024-30038](https://www.cve.org/CVERecord?id=CVE-2024-30038) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.026 | 7.8 | ✅ | Win32k Elevation of Privilege Vulnerability |
 | [CVE-2024-8698](https://www.cve.org/CVERecord?id=CVE-2024-8698) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.020 | 7.7 | ✅ | A flaw exists in the SAML signature validation method within the Keycloak XMLSignatureUtil class. The method incorrectly determines whether a SAML signature is… |
+| [CVE-2026-20929](https://www.cve.org/CVERecord?id=CVE-2026-20929) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.012 | 7.5 | ✅ | Improper access control in Windows HTTP.sys allows an authorized attacker to elevate privileges over a network. |
 | [CVE-2023-30943](https://www.cve.org/CVERecord?id=CVE-2023-30943) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.066 | 6.5 | ✅ | The vulnerability was found Moodle which exists because the application allows a user to control path of the older to create in TinyMCE loaders. A remote user … |
 | [CVE-2024-8883](https://www.cve.org/CVERecord?id=CVE-2024-8883) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.021 | 6.1 | ✅ | A misconfiguration flaw was found in Keycloak. This issue can allow an attacker to redirect users to an arbitrary URL if a 'Valid Redirect URI' is set to http:… |
 | [CVE-2023-22518](https://www.cve.org/CVERecord?id=CVE-2023-22518) |  | KEV | ✅ | ✅ | 2023-11-28 | 1.000 | 10.0 |  | All versions of Confluence Data Center and Server are affected by this unexploited vulnerability. This Improper Authorization vulnerability allows an unauthent… |
@@ -247,4 +248,3 @@ Top critical items:
 | [CVE-2024-29824](https://www.cve.org/CVERecord?id=CVE-2024-29824) |  | KEV | ✅ | ✅ | 2024-10-23 | 1.000 | 9.6 |  | An unspecified SQL Injection vulnerability in Core server of Ivanti EPM 2022 SU5 and prior allows an unauthenticated attacker within the same network to execut… |
 | [CVE-2023-25280](https://www.cve.org/CVERecord?id=CVE-2023-25280) |  | KEV | ✅ | ✅ | 2024-10-21 | 0.979 | 9.8 |  | OS Command injection vulnerability in D-Link DIR820LA1_FW105B03 allows attackers to escalate privileges to root via a crafted payload with the ping_addr parame… |
 | [CVE-2025-25257](https://www.cve.org/CVERecord?id=CVE-2025-25257) |  | KEV | ✅ | ✅ | 2025-08-08 | 0.998 | 9.6 |  | An improper neutralization of special elements used in an SQL command ('SQL Injection') vulnerability [CWE-89] vulnerability in Fortinet FortiWeb 7.6.0 through… |
-| [CVE-2026-8037](https://www.cve.org/CVERecord?id=CVE-2026-8037) |  | KEV | ✅ | ✅ | 2026-08-10 | 0.996 | 9.6 |  | OS Command Injection Remote Code Execution Vulnerability in API in Progress ADC Products allows an un-authenticated attacker to execute arbitrary commands on t… |
