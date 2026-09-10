@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-09-10T09:37:43+00:00`
+Generated: `2026-09-10T14:20:13+00:00`
 
 ## Executive Summary
 
@@ -141,7 +141,7 @@ Top critical items:
 | [CVE-2023-28229](https://www.cve.org/CVERecord?id=CVE-2023-28229) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-10-25 | 0.017 | 7.0 | ✅ | Windows CNG Key Isolation Service Elevation of Privilege Vulnerability |
 | [CVE-2026-21525](https://www.cve.org/CVERecord?id=CVE-2026-21525) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-03-03 | 0.050 | 6.2 | ✅ | Null pointer dereference in Windows Remote Access Connection Manager allows an unauthorized attacker to deny service locally. |
 | [CVE-2024-38217](https://www.cve.org/CVERecord?id=CVE-2024-38217) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-10-01 | 0.100 | 5.4 | ✅ | Windows Mark of the Web Security Feature Bypass Vulnerability |
-| [CVE-2026-20805](https://www.cve.org/CVERecord?id=CVE-2026-20805) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-02-03 | 0.051 | 5.5 | ✅ | Exposure of sensitive information to an unauthorized actor in Desktop Windows Manager allows an authorized attacker to disclose information locally. |
+| [CVE-2026-20805](https://www.cve.org/CVERecord?id=CVE-2026-20805) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-02-03 | 0.052 | 5.5 | ✅ | Exposure of sensitive information to an unauthorized actor in Desktop Windows Manager allows an authorized attacker to disclose information locally. |
 | [CVE-2023-36584](https://www.cve.org/CVERecord?id=CVE-2023-36584) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-12-07 | 0.031 | 5.4 | ✅ | Windows Mark of the Web Security Feature Bypass Vulnerability |
 | [CVE-2025-24991](https://www.cve.org/CVERecord?id=CVE-2025-24991) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-04-01 | 0.020 | 5.5 | ✅ | Out-of-bounds read in Windows NTFS allows an authorized attacker to disclose information locally. |
 | [CVE-2022-41049](https://www.cve.org/CVERecord?id=CVE-2022-41049) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2022-12-09 | 0.025 | 5.4 | ✅ | Windows Mark of the Web Security Feature Bypass Vulnerability |
@@ -161,7 +161,7 @@ Top critical items:
 | [CVE-2024-3656](https://www.cve.org/CVERecord?id=CVE-2024-3656) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.029 | 8.1 | ✅ | A flaw was found in Keycloak. Certain endpoints in Keycloak's admin REST API allow low-privilege users to access administrative functionalities. This flaw allo… |
 | [CVE-2024-30038](https://www.cve.org/CVERecord?id=CVE-2024-30038) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.026 | 7.8 | ✅ | Win32k Elevation of Privilege Vulnerability |
 | [CVE-2024-8698](https://www.cve.org/CVERecord?id=CVE-2024-8698) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.020 | 7.7 | ✅ | A flaw exists in the SAML signature validation method within the Keycloak XMLSignatureUtil class. The method incorrectly determines whether a SAML signature is… |
-| [CVE-2026-20929](https://www.cve.org/CVERecord?id=CVE-2026-20929) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.012 | 7.5 | ✅ | Improper access control in Windows HTTP.sys allows an authorized attacker to elevate privileges over a network. |
+| [CVE-2026-20929](https://www.cve.org/CVERecord?id=CVE-2026-20929) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.029 | 7.5 | ✅ | Improper access control in Windows HTTP.sys allows an authorized attacker to elevate privileges over a network. |
 | [CVE-2023-30943](https://www.cve.org/CVERecord?id=CVE-2023-30943) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.066 | 6.5 | ✅ | The vulnerability was found Moodle which exists because the application allows a user to control path of the older to create in TinyMCE loaders. A remote user … |
 | [CVE-2024-8883](https://www.cve.org/CVERecord?id=CVE-2024-8883) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.021 | 6.1 | ✅ | A misconfiguration flaw was found in Keycloak. This issue can allow an attacker to redirect users to an arbitrary URL if a 'Valid Redirect URI' is set to http:… |
 | [CVE-2023-22518](https://www.cve.org/CVERecord?id=CVE-2023-22518) |  | KEV | ✅ | ✅ | 2023-11-28 | 1.000 | 10.0 |  | All versions of Confluence Data Center and Server are affected by this unexploited vulnerability. This Improper Authorization vulnerability allows an unauthent… |
