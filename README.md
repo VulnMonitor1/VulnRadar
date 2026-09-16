@@ -22,9 +22,9 @@
 <!-- METRICS START -->
 | 📊 **CVEs Tracked** | 🚨 **Critical** | ⚠️ **In KEV** | 🔥 **Exploit Intel** |
 |:---:|:---:|:---:|:---:|
-| 5703 | 116 | 794 | 811 |
+| 5704 | 116 | 795 | 812 |
 
-_Last scanned: 2026-09-16 13:29 UTC_
+_Last scanned: 2026-09-16 18:10 UTC_
 <!-- METRICS END -->
 
 </div>
