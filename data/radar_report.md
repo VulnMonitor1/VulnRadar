@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-09-17T11:42:28+00:00`
+Generated: `2026-09-17T16:53:45+00:00`
 
 ## Executive Summary
 
@@ -41,7 +41,7 @@ Top critical items:
 - Total items: **5705**
 - Watchlist hits: **5008**
 - CISA KEVs: **796**
-- Exploit Intel (PoC): **812**
+- Exploit Intel (PoC): **813**
 - Exploit Intel + Watchlist (CRITICAL): **116**
 
 ## Top Findings (max 200)
@@ -237,9 +237,9 @@ Top critical items:
 | [CVE-2022-24086](https://www.cve.org/CVERecord?id=CVE-2022-24086) |  | KEV | ✅ | ✅ | 2022-03-01 | 0.992 | 9.8 |  | Adobe Commerce versions 2.4.3-p1 (and earlier) and 2.3.7-p2 (and earlier) are affected by an improper input validation vulnerability during the checkout proces… |
 | [CVE-2022-3236](https://www.cve.org/CVERecord?id=CVE-2022-3236) |  | KEV | ✅ | ✅ | 2022-10-14 | 0.989 | 9.8 |  | A code injection vulnerability in the User Portal and Webadmin allows a remote attacker to execute code in Sophos Firewall version v19.0 MR1 and older. |
 | [CVE-2023-47246](https://www.cve.org/CVERecord?id=CVE-2023-47246) |  | KEV | ✅ | ✅ | 2023-12-04 | 0.989 | 9.8 |  | In SysAid On-Premise before 23.3.36, a path traversal vulnerability leads to code execution after an attacker writes a file to the Tomcat webroot, as exploited… |
+| [CVE-2026-1340](https://www.cve.org/CVERecord?id=CVE-2026-1340) |  | KEV | ✅ | ✅ | 2026-04-11 | 0.987 | 9.8 |  | A code injection in Ivanti Endpoint Manager Mobile allowing attackers to achieve unauthenticated remote code execution. |
 | [CVE-2024-50623](https://www.cve.org/CVERecord?id=CVE-2024-50623) |  | KEV | ✅ | ✅ | 2025-01-03 | 0.986 | 9.8 |  | In Cleo Harmony before 5.8.0.21, VLTrader before 5.8.0.21, and LexiCom before 5.8.0.21, there is an unrestricted file upload and download that could lead to re… |
-| [CVE-2026-1340](https://www.cve.org/CVERecord?id=CVE-2026-1340) |  | KEV | ✅ | ✅ | 2026-04-11 | 0.986 | 9.8 |  | A code injection in Ivanti Endpoint Manager Mobile allowing attackers to achieve unauthenticated remote code execution. |
-| [CVE-2026-1281](https://www.cve.org/CVERecord?id=CVE-2026-1281) |  | KEV | ✅ | ✅ | 2026-02-01 | 0.985 | 9.8 |  | A code injection in Ivanti Endpoint Manager Mobile allowing attackers to achieve unauthenticated remote code execution. |
+| [CVE-2026-1281](https://www.cve.org/CVERecord?id=CVE-2026-1281) |  | KEV | ✅ | ✅ | 2026-02-01 | 0.986 | 9.8 |  | A code injection in Ivanti Endpoint Manager Mobile allowing attackers to achieve unauthenticated remote code execution. |
 | [CVE-2022-21587](https://www.cve.org/CVERecord?id=CVE-2022-21587) |  | KEV | ✅ | ✅ | 2023-02-23 | 0.983 | 9.8 |  | Vulnerability in the Oracle Web Applications Desktop Integrator product of Oracle E-Business Suite (component: Upload). Supported versions that are affected ar… |
 | [CVE-2023-20887](https://www.cve.org/CVERecord?id=CVE-2023-20887) |  | KEV | ✅ | ✅ | 2023-07-13 | 0.983 | 9.8 |  | Aria Operations for Networks contains a command injection vulnerability. A malicious actor with network access to VMware Aria Operations for Networks may be ab… |
 | [CVE-2022-26138](https://www.cve.org/CVERecord?id=CVE-2022-26138) |  | KEV | ✅ | ✅ | 2022-08-19 | 0.982 | 9.8 |  | The Atlassian Questions For Confluence app for Confluence Server and Data Center creates a Confluence user account in the confluence-users group with the usern… |
