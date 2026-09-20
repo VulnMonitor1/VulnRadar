@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-09-20T11:16:25+00:00`
+Generated: `2026-09-20T16:00:10+00:00`
 
 ## Executive Summary
 
@@ -149,11 +149,11 @@ Top critical items:
 | [CVE-2025-24984](https://www.cve.org/CVERecord?id=CVE-2025-24984) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-04-01 | 0.020 | 4.6 | ✅ | Insertion of sensitive information into log file in Windows NTFS allows an unauthorized attacker to disclose information with a physical attack. |
 | [CVE-2023-21554](https://www.cve.org/CVERecord?id=CVE-2023-21554) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.955 | 9.8 | ✅ | Microsoft Message Queuing (MSMQ) Remote Code Execution Vulnerability |
 | [CVE-2024-6387](https://www.cve.org/CVERecord?id=CVE-2024-6387) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.995 | 8.1 | ✅ | A security regression (CVE-2006-5051) was discovered in OpenSSH's server (sshd). There is a race condition which can lead sshd to handle some signals in an uns… |
-| [CVE-2024-43425](https://www.cve.org/CVERecord?id=CVE-2024-43425) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.874 | 8.1 | ✅ | A flaw was found in Moodle. Additional restrictions are required to avoid a remote code execution risk in calculated question types. Note: This requires the ca… |
+| [CVE-2024-43425](https://www.cve.org/CVERecord?id=CVE-2024-43425) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.875 | 8.1 | ✅ | A flaw was found in Moodle. Additional restrictions are required to avoid a remote code execution risk in calculated question types. Note: This requires the ca… |
 | [CVE-2025-8943](https://www.cve.org/CVERecord?id=CVE-2025-8943) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.663 | 9.8 | ✅ | The Custom MCPs feature is designed to execute OS commands, for instance, using tools like `npx` to spin up local MCP Servers. However, Flowise's inherent auth… |
 | [CVE-2023-6360](https://www.cve.org/CVERecord?id=CVE-2023-6360) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.631 | 8.6 | ✅ | The 'My Calendar' WordPress Plugin, version < 3.4.22 is affected by an unauthenticated SQL injection vulnerability in the 'from' and 'to' parameters in the '/m… |
 | [CVE-2023-21768](https://www.cve.org/CVERecord?id=CVE-2023-21768) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.654 | 7.8 | ✅ | Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability |
-| [CVE-2023-38146](https://www.cve.org/CVERecord?id=CVE-2023-38146) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.392 | 8.8 | ✅ | Windows Themes Remote Code Execution Vulnerability |
+| [CVE-2023-38146](https://www.cve.org/CVERecord?id=CVE-2023-38146) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.374 | 8.8 | ✅ | Windows Themes Remote Code Execution Vulnerability |
 | [CVE-2025-21293](https://www.cve.org/CVERecord?id=CVE-2025-21293) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.190 | 8.8 | ✅ | Active Directory Domain Services Elevation of Privilege Vulnerability |
 | [CVE-2024-1061](https://www.cve.org/CVERecord?id=CVE-2024-1061) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.112 | 8.6 | ✅ | The 'HTML5 Video Player' WordPress Plugin, version < 2.5.25 is affected by an unauthenticated SQL injection vulnerability in the 'id' parameter in the  'get_vi… |
 | [CVE-2024-7340](https://www.cve.org/CVERecord?id=CVE-2024-7340) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.050 | 8.8 | ✅ | The Weave server API allows remote users to fetch files from a specific directory, but due to a lack of input validation, it is possible to traverse and leak a… |
@@ -198,11 +198,11 @@ Top critical items:
 | [CVE-2023-29300](https://www.cve.org/CVERecord?id=CVE-2023-29300) |  | KEV | ✅ | ✅ | 2024-01-29 | 1.000 | 9.8 |  | Adobe ColdFusion versions 2018u16 (and earlier), 2021u6 (and earlier) and 2023.0.0.330468 (and earlier) are affected by a Deserialization of Untrusted Data vul… |
 | [CVE-2024-7593](https://www.cve.org/CVERecord?id=CVE-2024-7593) |  | KEV | ✅ | ✅ | 2024-10-15 | 1.000 | 9.8 |  | Incorrect implementation of an authentication algorithm in Ivanti vTM other than versions 22.2R1 or 22.7R2 allows a remote unauthenticated attacker to bypass a… |
 | [CVE-2025-3248](https://www.cve.org/CVERecord?id=CVE-2025-3248) |  | KEV | ✅ | ✅ | 2025-05-26 | 1.000 | 9.8 |  | Langflow versions prior to 1.3.0 are susceptible to code injection in  the /api/v1/validate/code endpoint. A remote and unauthenticated attacker can send craft… |
+| [CVE-2023-42793](https://www.cve.org/CVERecord?id=CVE-2023-42793) |  | KEV | ✅ | ✅ | 2023-10-25 | 1.000 | 9.8 |  | In JetBrains TeamCity before 2023.05.4 authentication bypass leading to RCE on TeamCity Server was possible |
 | [CVE-2024-4577](https://www.cve.org/CVERecord?id=CVE-2024-4577) |  | KEV | ✅ | ✅ | 2024-07-03 | 1.000 | 9.8 |  | In PHP versions 8.1.* before 8.1.29, 8.2.* before 8.2.20, 8.3.* before 8.3.8, when using Apache and PHP-CGI on Windows, if the system is set up to use certain … |
 | [CVE-2022-40684](https://www.cve.org/CVERecord?id=CVE-2022-40684) |  | KEV | ✅ | ✅ | 2022-11-01 | 1.000 | 9.8 |  | An authentication bypass using an alternate path or channel [CWE-288] in Fortinet FortiOS version 7.2.0 through 7.2.1 and 7.0.0 through 7.0.6, FortiProxy versi… |
 | [CVE-2023-29357](https://www.cve.org/CVERecord?id=CVE-2023-29357) |  | KEV | ✅ | ✅ | 2024-01-31 | 1.000 | 9.8 |  | Microsoft SharePoint Server Elevation of Privilege Vulnerability |
 | [CVE-2025-59287](https://www.cve.org/CVERecord?id=CVE-2025-59287) |  | KEV | ✅ | ✅ | 2025-11-14 | 1.000 | 9.8 |  | Deserialization of untrusted data in Windows Server Update Service allows an unauthorized attacker to execute code over a network. |
-| [CVE-2023-42793](https://www.cve.org/CVERecord?id=CVE-2023-42793) |  | KEV | ✅ | ✅ | 2023-10-25 | 1.000 | 9.8 |  | In JetBrains TeamCity before 2023.05.4 authentication bypass leading to RCE on TeamCity Server was possible |
 | [CVE-2025-31161](https://www.cve.org/CVERecord?id=CVE-2025-31161) |  | KEV | ✅ | ✅ | 2025-04-28 | 1.000 | 9.8 |  | CrushFTP 10 before 10.8.4 and 11 before 11.3.1 allows authentication bypass and takeover of the crushadmin account (unless a DMZ proxy instance is used), as ex… |
 | [CVE-2022-47986](https://www.cve.org/CVERecord?id=CVE-2022-47986) |  | KEV | ✅ | ✅ | 2023-03-14 | 1.000 | 9.8 |  | IBM Aspera Faspex 4.4.2 Patch Level 1 and earlier could allow a remote attacker to execute arbitrary code on the system, caused by a YAML deserialization flaw.… |
 | [CVE-2022-1388](https://www.cve.org/CVERecord?id=CVE-2022-1388) |  | KEV | ✅ | ✅ | 2022-05-31 | 1.000 | 9.8 |  | On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.1, 14.1.x versions prior to 14.1.4.6, 13.1.x versions prior to 13.1.5, and all … |
