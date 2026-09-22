@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-09-22T09:53:34+00:00`
+Generated: `2026-09-22T14:44:15+00:00`
 
 ## Executive Summary
 
@@ -150,7 +150,7 @@ Top critical items:
 | [CVE-2023-21554](https://www.cve.org/CVERecord?id=CVE-2023-21554) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.955 | 9.8 | ✅ | Microsoft Message Queuing (MSMQ) Remote Code Execution Vulnerability |
 | [CVE-2024-6387](https://www.cve.org/CVERecord?id=CVE-2024-6387) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.995 | 8.1 | ✅ | A security regression (CVE-2006-5051) was discovered in OpenSSH's server (sshd). There is a race condition which can lead sshd to handle some signals in an uns… |
 | [CVE-2024-43425](https://www.cve.org/CVERecord?id=CVE-2024-43425) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.875 | 8.1 | ✅ | A flaw was found in Moodle. Additional restrictions are required to avoid a remote code execution risk in calculated question types. Note: This requires the ca… |
-| [CVE-2025-8943](https://www.cve.org/CVERecord?id=CVE-2025-8943) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.663 | 9.8 | ✅ | The Custom MCPs feature is designed to execute OS commands, for instance, using tools like `npx` to spin up local MCP Servers. However, Flowise's inherent auth… |
+| [CVE-2025-8943](https://www.cve.org/CVERecord?id=CVE-2025-8943) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.658 | 9.8 | ✅ | The Custom MCPs feature is designed to execute OS commands, for instance, using tools like `npx` to spin up local MCP Servers. However, Flowise's inherent auth… |
 | [CVE-2023-6360](https://www.cve.org/CVERecord?id=CVE-2023-6360) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.631 | 8.6 | ✅ | The 'My Calendar' WordPress Plugin, version < 3.4.22 is affected by an unauthenticated SQL injection vulnerability in the 'from' and 'to' parameters in the '/m… |
 | [CVE-2023-21768](https://www.cve.org/CVERecord?id=CVE-2023-21768) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.654 | 7.8 | ✅ | Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability |
 | [CVE-2023-38146](https://www.cve.org/CVERecord?id=CVE-2023-38146) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.374 | 8.8 | ✅ | Windows Themes Remote Code Execution Vulnerability |
