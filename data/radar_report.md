@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-10-05T07:10:47+00:00`
+Generated: `2026-10-05T15:56:36+00:00`
 
 ## Executive Summary
 
@@ -212,8 +212,8 @@ Top critical items:
 | [CVE-2022-22963](https://www.cve.org/CVERecord?id=CVE-2022-22963) |  | KEV | ✅ | ✅ | 2022-09-15 | 0.999 | 9.8 |  | In Spring Cloud Function versions 3.1.6, 3.2.2 and older unsupported versions, when using routing functionality it is possible for a user to provide a speciall… |
 | [CVE-2024-27198](https://www.cve.org/CVERecord?id=CVE-2024-27198) |  | KEV | ✅ | ✅ | 2024-03-28 | 0.999 | 9.8 |  | In JetBrains TeamCity before 2023.11.4 authentication bypass allowing to perform admin actions was possible |
 | [CVE-2023-34362](https://www.cve.org/CVERecord?id=CVE-2023-34362) |  | KEV | ✅ | ✅ | 2023-06-23 | 0.999 | 9.8 |  | In Progress MOVEit Transfer before 2021.0.6 (13.0.6), 2021.1.4 (13.1.4), 2022.0.4 (14.0.4), 2022.1.5 (14.1.5), and 2023.0.1 (15.0.1), a SQL injection vulnerabi… |
-| [CVE-2022-35405](https://www.cve.org/CVERecord?id=CVE-2022-35405) |  | KEV | ✅ | ✅ | 2022-10-13 | 0.999 | 9.8 |  | Zoho ManageEngine Password Manager Pro before 12101 and PAM360 before 5510 are vulnerable to unauthenticated remote code execution. (This also affects ManageEn… |
 | [CVE-2025-24813](https://www.cve.org/CVERecord?id=CVE-2025-24813) |  | KEV | ✅ | ✅ | 2025-04-22 | 0.999 | 9.8 |  | Path Equivalence: 'file.Name' (Internal Dot) leading to Remote Code Execution and/or Information disclosure and/or malicious content added to uploaded files vi… |
+| [CVE-2022-35405](https://www.cve.org/CVERecord?id=CVE-2022-35405) |  | KEV | ✅ | ✅ | 2022-10-13 | 0.999 | 9.8 |  | Zoho ManageEngine Password Manager Pro before 12101 and PAM360 before 5510 are vulnerable to unauthenticated remote code execution. (This also affects ManageEn… |
 | [CVE-2024-32113](https://www.cve.org/CVERecord?id=CVE-2024-32113) |  | KEV | ✅ | ✅ | 2024-08-28 | 0.999 | 9.8 |  | Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in Apache OFBiz.This issue affects Apache OFBiz: before 18.12.13. … |
 | [CVE-2025-49113](https://www.cve.org/CVERecord?id=CVE-2025-49113) |  | KEV | ✅ | ✅ | 2026-03-13 | 0.989 | 9.9 |  | Roundcube Webmail before 1.5.10 and 1.6.x before 1.6.11 allows remote code execution by authenticated users because the _from parameter in a URL is not validat… |
 | [CVE-2022-35914](https://www.cve.org/CVERecord?id=CVE-2022-35914) |  | KEV | ✅ | ✅ | 2023-03-28 | 0.999 | 9.8 |  | /vendor/htmlawed/htmlawed/htmLawedTest.php in the htmlawed module for GLPI through 10.0.2 allows PHP code injection. |
