@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-10-08T22:06:12+00:00`
+Generated: `2026-10-09T02:13:22+00:00`
 
 ## Executive Summary
 
@@ -41,8 +41,8 @@ Top critical items:
 - Total items: **5788**
 - Watchlist hits: **5068**
 - CISA KEVs: **819**
-- Exploit Intel (PoC): **835**
-- Exploit Intel + Watchlist (CRITICAL): **116**
+- Exploit Intel (PoC): **837**
+- Exploit Intel + Watchlist (CRITICAL): **117**
 
 ## Top Findings (max 200)
 
@@ -161,6 +161,7 @@ Top critical items:
 | [CVE-2024-3656](https://www.cve.org/CVERecord?id=CVE-2024-3656) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.029 | 8.1 | ✅ | A flaw was found in Keycloak. Certain endpoints in Keycloak's admin REST API allow low-privilege users to access administrative functionalities. This flaw allo… |
 | [CVE-2024-30038](https://www.cve.org/CVERecord?id=CVE-2024-30038) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.026 | 7.8 | ✅ | Win32k Elevation of Privilege Vulnerability |
 | [CVE-2024-8698](https://www.cve.org/CVERecord?id=CVE-2024-8698) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.020 | 7.7 | ✅ | A flaw exists in the SAML signature validation method within the Keycloak XMLSignatureUtil class. The method incorrectly determines whether a SAML signature is… |
+| [CVE-2026-3888](https://www.cve.org/CVERecord?id=CVE-2026-3888) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.002 | 7.8 | ✅ | Local privilege escalation in snapd on Linux allows local attackers to get root privilege by re-creating snap's private /tmp directory when systemd-tmpfiles is… |
 | [CVE-2026-20929](https://www.cve.org/CVERecord?id=CVE-2026-20929) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.029 | 7.5 | ✅ | Improper access control in Windows HTTP.sys allows an authorized attacker to elevate privileges over a network. |
 | [CVE-2023-30943](https://www.cve.org/CVERecord?id=CVE-2023-30943) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.066 | 6.5 | ✅ | The vulnerability was found Moodle which exists because the application allows a user to control path of the older to create in TinyMCE loaders. A remote user … |
 | [CVE-2024-8883](https://www.cve.org/CVERecord?id=CVE-2024-8883) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.021 | 6.1 | ✅ | A misconfiguration flaw was found in Keycloak. This issue can allow an attacker to redirect users to an arbitrary URL if a 'Valid Redirect URI' is set to http:… |
@@ -247,4 +248,3 @@ Top critical items:
 | [CVE-2023-25717](https://www.cve.org/CVERecord?id=CVE-2023-25717) |  | KEV | ✅ | ✅ | 2023-06-02 | 0.981 | 9.8 |  | Ruckus Wireless Admin through 10.4 allows Remote Code Execution via an unauthenticated HTTP GET Request, as demonstrated by a /forms/doLogin?login_username=adm… |
 | [CVE-2024-3272](https://www.cve.org/CVERecord?id=CVE-2024-3272) |  | KEV | ✅ | ✅ | 2024-05-02 | 0.980 | 9.8 |  | ** UNSUPPORTED WHEN ASSIGNED ** A vulnerability, which was classified as very critical, has been found in D-Link DNS-320L, DNS-325, DNS-327L and DNS-340L up to… |
 | [CVE-2022-29303](https://www.cve.org/CVERecord?id=CVE-2022-29303) |  | KEV | ✅ | ✅ | 2023-08-03 | 0.980 | 9.8 |  | SolarView Compact ver.6.00 was discovered to contain a command injection vulnerability via conf_mail.php. |
-| [CVE-2024-29824](https://www.cve.org/CVERecord?id=CVE-2024-29824) |  | KEV | ✅ | ✅ | 2024-10-23 | 0.999 | 9.6 |  | An unspecified SQL Injection vulnerability in Core server of Ivanti EPM 2022 SU5 and prior allows an unauthenticated attacker within the same network to execut… |
