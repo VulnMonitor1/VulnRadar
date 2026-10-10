@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-10-10T08:27:19+00:00`
+Generated: `2026-10-10T15:17:45+00:00`
 
 ## Executive Summary
 
@@ -105,8 +105,8 @@ Top critical items:
 | [CVE-2025-21333](https://www.cve.org/CVERecord?id=CVE-2025-21333) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-02-04 | 0.100 | 7.8 | ✅ | Windows Hyper-V NT Kernel Integration VSP Elevation of Privilege Vulnerability |
 | [CVE-2022-26904](https://www.cve.org/CVERecord?id=CVE-2022-26904) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2022-05-16 | 0.169 | 7.0 | ✅ | Windows User Profile Service Elevation of Privilege Vulnerability |
 | [CVE-2023-36563](https://www.cve.org/CVERecord?id=CVE-2023-36563) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-10-31 | 0.207 | 6.5 | ✅ | Microsoft WordPad Information Disclosure Vulnerability |
-| [CVE-2024-38080](https://www.cve.org/CVERecord?id=CVE-2024-38080) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-07-30 | 0.071 | 7.8 | ✅ | Windows Hyper-V Elevation of Privilege Vulnerability |
 | [CVE-2022-24521](https://www.cve.org/CVERecord?id=CVE-2022-24521) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2022-05-04 | 0.071 | 7.8 | ✅ | Windows Common Log File System Driver Elevation of Privilege Vulnerability |
+| [CVE-2024-38080](https://www.cve.org/CVERecord?id=CVE-2024-38080) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-07-30 | 0.071 | 7.8 | ✅ | Windows Hyper-V Elevation of Privilege Vulnerability |
 | [CVE-2025-24990](https://www.cve.org/CVERecord?id=CVE-2025-24990) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-11-04 | 0.064 | 7.8 | ✅ | Microsoft is aware of vulnerabilities in the third party Agere Modem driver that ships natively with supported Windows operating systems.  This is an announcem… |
 | [CVE-2024-38014](https://www.cve.org/CVERecord?id=CVE-2024-38014) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-10-01 | 0.063 | 7.8 | ✅ | Windows Installer Elevation of Privilege Vulnerability |
 | [CVE-2024-30051](https://www.cve.org/CVERecord?id=CVE-2024-30051) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-06-04 | 0.057 | 7.8 | ✅ | Windows DWM Core Library Elevation of Privilege Vulnerability |
@@ -192,8 +192,8 @@ Top critical items:
 | [CVE-2023-27350](https://www.cve.org/CVERecord?id=CVE-2023-27350) |  | KEV | ✅ | ✅ | 2023-05-12 | 1.000 | 9.8 |  | This vulnerability allows remote attackers to bypass authentication on affected installations of PaperCut NG 22.0.5 (Build 63914). Authentication is not requir… |
 | [CVE-2024-23897](https://www.cve.org/CVERecord?id=CVE-2024-23897) |  | KEV | ✅ | ✅ | 2024-09-09 | 1.000 | 9.8 |  | Jenkins 2.441 and earlier, LTS 2.426.2 and earlier does not disable a feature of its CLI command parser that replaces an '@' character followed by a file path … |
 | [CVE-2024-7593](https://www.cve.org/CVERecord?id=CVE-2024-7593) |  | KEV | ✅ | ✅ | 2024-10-15 | 1.000 | 9.8 |  | Incorrect implementation of an authentication algorithm in Ivanti vTM other than versions 22.2R1 or 22.7R2 allows a remote unauthenticated attacker to bypass a… |
-| [CVE-2022-22954](https://www.cve.org/CVERecord?id=CVE-2022-22954) |  | KEV | ✅ | ✅ | 2022-05-05 | 1.000 | 9.8 |  | VMware Workspace ONE Access and Identity Manager contain a remote code execution vulnerability due to server-side template injection. A malicious actor with ne… |
 | [CVE-2025-53770](https://www.cve.org/CVERecord?id=CVE-2025-53770) |  | KEV | ✅ | ✅ | 2025-07-21 | 1.000 | 9.8 |  | Deserialization of untrusted data in on-premises Microsoft SharePoint Server allows an unauthorized attacker to execute code over a network. Microsoft is aware… |
+| [CVE-2022-22954](https://www.cve.org/CVERecord?id=CVE-2022-22954) |  | KEV | ✅ | ✅ | 2022-05-05 | 1.000 | 9.8 |  | VMware Workspace ONE Access and Identity Manager contain a remote code execution vulnerability due to server-side template injection. A malicious actor with ne… |
 | [CVE-2022-44877](https://www.cve.org/CVERecord?id=CVE-2022-44877) |  | KEV | ✅ | ✅ | 2023-02-07 | 1.000 | 9.8 |  | login/index.php in CWP (aka Control Web Panel or CentOS Web Panel) 7 before 0.9.8.1147 allows remote attackers to execute arbitrary OS commands via shell metac… |
 | [CVE-2024-34102](https://www.cve.org/CVERecord?id=CVE-2024-34102) |  | KEV | ✅ | ✅ | 2024-08-07 | 1.000 | 9.8 |  | Adobe Commerce versions 2.4.7, 2.4.6-p5, 2.4.5-p7, 2.4.4-p8 and earlier are affected by an Improper Restriction of XML External Entity Reference ('XXE') vulner… |
 | [CVE-2025-3248](https://www.cve.org/CVERecord?id=CVE-2025-3248) |  | KEV | ✅ | ✅ | 2025-05-26 | 1.000 | 9.8 |  | Langflow versions prior to 1.3.0 are susceptible to code injection in  the /api/v1/validate/code endpoint. A remote and unauthenticated attacker can send craft… |
