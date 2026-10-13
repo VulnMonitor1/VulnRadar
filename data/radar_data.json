@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T18:59:52+00:00",
+  "generated_at": "2026-10-13T01:19:47+00:00",
   "count": 5792,
   "items": [
     {
@@ -991791,7 +991791,7 @@
           "CWE-191"
         ],
         "cpe_count": 4,
-        "reference_count": 6
+        "reference_count": 7
       }
     },
     {
