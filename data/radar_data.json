@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T13:39:51+00:00",
+  "generated_at": "2026-10-14T18:32:34+00:00",
   "count": 6836,
   "items": [
     {
@@ -784840,7 +784840,7 @@
       ],
       "watchlist_hit": false,
       "in_watchlist": false,
-      "in_patchthis": false,
+      "in_patchthis": true,
       "is_critical": false,
       "priority_label": "",
       "matched_terms": [],
@@ -1415571,9 +1415571,9 @@
       ],
       "watchlist_hit": true,
       "in_watchlist": true,
-      "in_patchthis": false,
-      "is_critical": false,
-      "priority_label": "",
+      "in_patchthis": true,
+      "is_critical": true,
+      "priority_label": "CRITICAL (Active Exploit in Stack)",
       "matched_terms": [
         "product:windows 11 version 23h2",
         "product:windows 11 version 24h2",
