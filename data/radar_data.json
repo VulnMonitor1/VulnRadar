@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T07:26:03+00:00",
+  "generated_at": "2026-10-15T13:29:48+00:00",
   "count": 6840,
   "items": [
     {
@@ -75031,8 +75031,8 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 12,
-        "reference_count": 28
+        "cpe_count": 21,
+        "reference_count": 30
       }
     },
     {
@@ -310752,7 +310752,7 @@
           "CWE-416"
         ],
         "cpe_count": 5,
-        "reference_count": 6
+        "reference_count": 10
       }
     },
     {
@@ -312048,7 +312048,7 @@
           "CWE-203"
         ],
         "cpe_count": 4,
-        "reference_count": 27
+        "reference_count": 28
       }
     },
     {
@@ -312894,7 +312894,7 @@
           "CWE-347"
         ],
         "cpe_count": 5,
-        "reference_count": 20
+        "reference_count": 21
       }
     },
     {
@@ -313798,7 +313798,7 @@
           "CWE-787"
         ],
         "cpe_count": 3,
-        "reference_count": 8
+        "reference_count": 9
       }
     },
     {
@@ -388075,7 +388075,7 @@
           "CWE-327"
         ],
         "cpe_count": 0,
-        "reference_count": 25
+        "reference_count": 26
       }
     },
     {
@@ -388193,7 +388193,7 @@
           "CWE-248"
         ],
         "cpe_count": 0,
-        "reference_count": 16
+        "reference_count": 17
       }
     },
     {
@@ -395647,7 +395647,7 @@
           "CWE-385"
         ],
         "cpe_count": 0,
-        "reference_count": 8
+        "reference_count": 9
       }
     },
     {
@@ -510698,7 +510698,7 @@
           "CWE-59"
         ],
         "cpe_count": 5,
-        "reference_count": 7
+        "reference_count": 8
       }
     },
     {
@@ -512194,7 +512194,7 @@
           "CWE-364"
         ],
         "cpe_count": 0,
-        "reference_count": 28
+        "reference_count": 29
       }
     },
     {
@@ -521275,7 +521275,7 @@
           "CWE-674"
         ],
         "cpe_count": 0,
-        "reference_count": 39
+        "reference_count": 41
       }
     },
     {
@@ -537939,7 +537939,7 @@
           "CWE-407"
         ],
         "cpe_count": 0,
-        "reference_count": 31
+        "reference_count": 32
       }
     },
     {
@@ -608292,7 +608292,7 @@
           "CWE-770"
         ],
         "cpe_count": 14,
-        "reference_count": 18
+        "reference_count": 19
       }
     },
     {
@@ -652934,7 +652934,7 @@
           "CWE-362"
         ],
         "cpe_count": 16,
-        "reference_count": 9
+        "reference_count": 10
       }
     },
     {
@@ -653436,7 +653436,7 @@
           "CWE-190"
         ],
         "cpe_count": 0,
-        "reference_count": 5
+        "reference_count": 7
       }
     },
     {
@@ -744927,7 +744927,7 @@
           "CWE-121"
         ],
         "cpe_count": 0,
-        "reference_count": 27
+        "reference_count": 29
       }
     },
     {
@@ -765330,7 +765330,7 @@
           "CWE-121"
         ],
         "cpe_count": 8,
-        "reference_count": 80
+        "reference_count": 82
       }
     },
     {
@@ -770726,7 +770726,7 @@
           "CWE-121"
         ],
         "cpe_count": 0,
-        "reference_count": 19
+        "reference_count": 20
       }
     },
     {
@@ -771857,6 +771857,17 @@
         "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "dueDate": "2026-10-17",
         "knownRansomwareCampaignUse": "Unknown"
+      },
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-94"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
       }
     },
     {
@@ -787977,7 +787988,7 @@
           "CWE-287"
         ],
         "cpe_count": 0,
-        "reference_count": 5
+        "reference_count": 6
       }
     },
     {
@@ -788039,7 +788050,7 @@
           "CWE-78"
         ],
         "cpe_count": 0,
-        "reference_count": 5
+        "reference_count": 6
       }
     },
     {
@@ -803968,14 +803979,14 @@
       "active_threat": false,
       "probability_score": 0.00188,
       "nvd": {
-        "cvss_v3_score": 5.3,
+        "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
           "CWE-200"
         ],
-        "cpe_count": 0,
+        "cpe_count": 1,
         "reference_count": 1
       }
     },
@@ -804082,7 +804093,7 @@
         "cwe_ids": [
           "CWE-200"
         ],
-        "cpe_count": 0,
+        "cpe_count": 1,
         "reference_count": 1
       }
     },
@@ -805856,7 +805867,7 @@
         "cwe_ids": [
           "CWE-307"
         ],
-        "cpe_count": 0,
+        "cpe_count": 1,
         "reference_count": 1
       }
     },
@@ -805963,7 +805974,7 @@
         "cwe_ids": [
           "CWE-269"
         ],
-        "cpe_count": 0,
+        "cpe_count": 1,
         "reference_count": 1
       }
     },
@@ -889967,7 +889978,7 @@
           "CWE-191"
         ],
         "cpe_count": 7,
-        "reference_count": 64
+        "reference_count": 66
       }
     },
     {
@@ -900243,7 +900254,7 @@
           "CWE-179"
         ],
         "cpe_count": 8,
-        "reference_count": 17
+        "reference_count": 19
       }
     },
     {
@@ -900905,7 +900916,7 @@
           "CWE-178"
         ],
         "cpe_count": 8,
-        "reference_count": 34
+        "reference_count": 36
       }
     },
     {
@@ -909214,7 +909225,7 @@
           "CWE-475"
         ],
         "cpe_count": 44,
-        "reference_count": 71
+        "reference_count": 73
       }
     },
     {
@@ -909940,7 +909951,7 @@
           "CWE-626"
         ],
         "cpe_count": 8,
-        "reference_count": 68
+        "reference_count": 70
       }
     },
     {
@@ -910564,7 +910575,7 @@
           "CWE-295"
         ],
         "cpe_count": 0,
-        "reference_count": 30
+        "reference_count": 32
       }
     },
     {
@@ -911138,7 +911149,7 @@
           "CWE-295"
         ],
         "cpe_count": 0,
-        "reference_count": 25
+        "reference_count": 27
       }
     },
     {
@@ -911762,7 +911773,7 @@
           "CWE-295"
         ],
         "cpe_count": 0,
-        "reference_count": 30
+        "reference_count": 32
       }
     },
     {
@@ -912336,7 +912347,7 @@
           "CWE-825"
         ],
         "cpe_count": 0,
-        "reference_count": 26
+        "reference_count": 28
       }
     },
     {
@@ -912910,7 +912921,7 @@
           "CWE-193"
         ],
         "cpe_count": 0,
-        "reference_count": 25
+        "reference_count": 27
       }
     },
     {
@@ -990015,7 +990026,7 @@
           "CWE-122"
         ],
         "cpe_count": 5,
-        "reference_count": 7
+        "reference_count": 8
       }
     },
     {
@@ -1018872,7 +1018883,7 @@
           "CWE-126"
         ],
         "cpe_count": 0,
-        "reference_count": 30
+        "reference_count": 32
       }
     },
     {
@@ -1019315,7 +1019326,7 @@
           "CWE-208"
         ],
         "cpe_count": 0,
-        "reference_count": 19
+        "reference_count": 21
       }
     },
     {
@@ -1256368,6 +1256379,17 @@
         "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "dueDate": "2026-10-17",
         "knownRansomwareCampaignUse": "Unknown"
+      },
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-23"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
       }
     },
     {
@@ -1265640,14 +1265662,14 @@
       "active_threat": false,
       "probability_score": 0.00406,
       "nvd": {
-        "cvss_v3_score": 5.4,
-        "cvss_v3_severity": "MEDIUM",
+        "cvss_v3_score": 8.1,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 1,
         "reference_count": 1
       }
     },
@@ -1403342,14 +1403364,14 @@
       "active_threat": false,
       "probability_score": 0.00247,
       "nvd": {
-        "cvss_v3_score": 8.3,
-        "cvss_v3_severity": "HIGH",
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
           "CWE-79"
         ],
-        "cpe_count": 0,
+        "cpe_count": 1,
         "reference_count": 1
       }
     },
@@ -1405172,7 +1405194,7 @@
         "cwe_ids": [
           "CWE-94"
         ],
-        "cpe_count": 0,
+        "cpe_count": 1,
         "reference_count": 1
       }
     },
@@ -1428462,7 +1428484,7 @@
         "cwe_ids": [
           "CWE-77"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 2
       }
     },
@@ -1434285,7 +1434307,7 @@
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1434572,7 +1434594,7 @@
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1434859,7 +1434881,7 @@
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1435146,7 +1435168,7 @@
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1435433,7 +1435455,7 @@
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1435672,7 +1435694,7 @@
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 24,
         "reference_count": 1
       }
     },
@@ -1435959,7 +1435981,7 @@
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1436246,7 +1436268,7 @@
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1436533,7 +1436555,7 @@
         "cwe_ids": [
           "CWE-126"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1436820,7 +1436842,7 @@
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1436963,7 +1436985,7 @@
         "cwe_ids": [
           "CWE-415"
         ],
-        "cpe_count": 0,
+        "cpe_count": 12,
         "reference_count": 1
       }
     },
@@ -1437250,7 +1437272,7 @@
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1437537,7 +1437559,7 @@
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1437824,7 +1437846,7 @@
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1438111,7 +1438133,7 @@
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1438398,7 +1438420,7 @@
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1438685,7 +1438707,7 @@
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1438972,7 +1438994,7 @@
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1439259,7 +1439281,7 @@
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1439546,7 +1439568,7 @@
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1439833,7 +1439855,7 @@
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1440120,7 +1440142,7 @@
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1440407,7 +1440429,7 @@
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1440694,7 +1440716,7 @@
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1440981,7 +1441003,7 @@
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
