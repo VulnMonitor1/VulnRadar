@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-10-16T12:21:19+00:00`
+Generated: `2026-10-16T17:23:03+00:00`
 
 ## Executive Summary
 
@@ -164,7 +164,7 @@ Top critical items:
 | [CVE-2024-8698](https://www.cve.org/CVERecord?id=CVE-2024-8698) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.020 | 7.7 | ✅ | A flaw exists in the SAML signature validation method within the Keycloak XMLSignatureUtil class. The method incorrectly determines whether a SAML signature is… |
 | [CVE-2026-3888](https://www.cve.org/CVERecord?id=CVE-2026-3888) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.005 | 7.8 | ✅ | Local privilege escalation in snapd on Linux allows local attackers to get root privilege by re-creating snap's private /tmp directory when systemd-tmpfiles is… |
 | [CVE-2026-20929](https://www.cve.org/CVERecord?id=CVE-2026-20929) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.029 | 7.5 | ✅ | Improper access control in Windows HTTP.sys allows an authorized attacker to elevate privileges over a network. |
-| [CVE-2023-30943](https://www.cve.org/CVERecord?id=CVE-2023-30943) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.066 | 6.5 | ✅ | The vulnerability was found Moodle which exists because the application allows a user to control path of the older to create in TinyMCE loaders. A remote user … |
+| [CVE-2023-30943](https://www.cve.org/CVERecord?id=CVE-2023-30943) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.068 | 6.5 | ✅ | The vulnerability was found Moodle which exists because the application allows a user to control path of the older to create in TinyMCE loaders. A remote user … |
 | [CVE-2024-8883](https://www.cve.org/CVERecord?id=CVE-2024-8883) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.021 | 6.1 | ✅ | A misconfiguration flaw was found in Keycloak. This issue can allow an attacker to redirect users to an arbitrary URL if a 'Valid Redirect URI' is set to http:… |
 | [CVE-2023-22518](https://www.cve.org/CVERecord?id=CVE-2023-22518) |  | KEV | ✅ | ✅ | 2023-11-28 | 1.000 | 10.0 |  | All versions of Confluence Data Center and Server are affected by this unexploited vulnerability. This Improper Authorization vulnerability allows an unauthent… |
 | [CVE-2023-35078](https://www.cve.org/CVERecord?id=CVE-2023-35078) |  | KEV | ✅ | ✅ | 2023-08-15 | 1.000 | 10.0 |  | An authentication bypass vulnerability in Ivanti EPMM allows unauthorized users to access restricted functionality or resources of the application without prop… |
