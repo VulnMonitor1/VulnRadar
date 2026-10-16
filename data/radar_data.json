@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-16T01:30:56+00:00",
-  "count": 6841,
+  "generated_at": "2026-10-16T07:05:07+00:00",
+  "count": 6847,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -321908,6 +321908,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat ceph storage 7.1",
+          "versions": [
+            {
+              "version": "1791452477",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat ceph storage 8",
           "versions": [
             {
@@ -521150,6 +521162,11 @@
               "status": "unaffected"
             }
           ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat jboss core services 2.4.62.sp1",
+          "versions": null
         },
         {
           "vendor": "red hat",
@@ -806245,6 +806262,394 @@
       }
     },
     {
+      "cve_id": "CVE-2026-18659",
+      "description": "In Eclipse Jetty, across various versions of `jetty-security`, and `jetty-eeN-security`, and `jetty-eeN-servlet`, the Jakarta Spec constraints defined as `http-method-omission` can be bypassed by using substrings of the defined HTTP Methods.",
+      "cvss_score": 6.9,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:L/VA:N/SC:N/SI:N/SA:N",
+      "affected": [
+        {
+          "vendor": "eclipse foundation",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "12.1.0",
+              "lessThanOrEqual": "12.1.11",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "eclipse foundation",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "12.1.0",
+              "lessThanOrEqual": "12.1.11",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "12.0.0",
+              "lessThanOrEqual": "12.0.38",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "eclipse foundation",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "12.1.0",
+              "lessThanOrEqual": "12.1.11",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "12.0.0",
+              "lessThanOrEqual": "12.0.38",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "eclipse foundation",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "12.1.0",
+              "lessThanOrEqual": "12.1.11",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "12.0.0",
+              "lessThanOrEqual": "12.0.38",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "eclipse foundation",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "11.0.0",
+              "lessThanOrEqual": "11.0.32",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "10.0.0",
+              "lessThanOrEqual": "10.0.32",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "7.6.13",
+              "lessThanOrEqual": "9.4.64",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "vendor:eclipse foundation"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00428
+    },
+    {
+      "cve_id": "CVE-2026-18660",
+      "description": "In Eclipse Jetty, across various versions of `jetty-server`, and `jetty-proxy`, the host whitelist/blacklist is case-sensitive, and would allow hosts through that only differ by case.",
+      "cvss_score": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:L/VA:N/SC:N/SI:N/SA:N",
+      "affected": [
+        {
+          "vendor": "eclipse foundation",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "12.1.0",
+              "lessThanOrEqual": "12.1.11",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "12.0.0",
+              "lessThanOrEqual": "12.0.38",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "eclipse foundation",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "11.0.0",
+              "lessThanOrEqual": "11.0.32",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "10.0.0",
+              "lessThanOrEqual": "10.0.32",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "9.0.0",
+              "lessThanOrEqual": "9.4.64",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "vendor:eclipse foundation"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00421
+    },
+    {
+      "cve_id": "CVE-2026-18661",
+      "description": "In Eclipse Jetty, across various versions of `jetty-annotations`, and `jetty-eeN-annotations`, the Jakarta Spec authoritative url-pattern rules for mixed `@ServletSecurity` annotation, and `web.xml` defined `security-constraint` on the same `url-pattern` were not being applied if the `web.xml` had more than 1 `url-pattern` for a servlet, and had a `security-constraint` applying to only some of those `url-pattern` definitions.",
+      "cvss_score": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:L/VA:N/SC:N/SI:N/SA:N",
+      "affected": [
+        {
+          "vendor": "eclipse foundation",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "12.1.0",
+              "lessThanOrEqual": "12.1.11",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "eclipse foundation",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "12.1.0",
+              "lessThanOrEqual": "12.1.11",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "12.0.0",
+              "lessThanOrEqual": "12.0.38",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "eclipse foundation",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "12.1.0",
+              "lessThanOrEqual": "12.1.11",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "12.0.0",
+              "lessThanOrEqual": "12.0.38",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "eclipse foundation",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "12.1.0",
+              "lessThanOrEqual": "12.1.11",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "12.0.0",
+              "lessThanOrEqual": "12.0.38",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "eclipse foundation",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "11.0.0",
+              "lessThanOrEqual": "11.0.32",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "10.0.0",
+              "lessThanOrEqual": "10.0.32",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "9.4.0",
+              "lessThanOrEqual": "9.4.64",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "vendor:eclipse foundation"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00335
+    },
+    {
+      "cve_id": "CVE-2026-18662",
+      "description": "In Eclipse Jetty, across various versions of `jetty-security`, and `jetty-eeN-security`, two or more security constraints with the same http-method-omission set, and no url-patterns, are not combined properly per Jakarta Servlet Spec.\n\n\n\nResulting in later http-method-omission sets overriding previous constraints with the same http-method-omission set.",
+      "cvss_score": 6.9,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:L/VA:N/SC:N/SI:N/SA:N",
+      "affected": [
+        {
+          "vendor": "eclipse foundation",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "12.1.0",
+              "lessThanOrEqual": "12.1.11",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "eclipse foundation",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "12.1.0",
+              "lessThanOrEqual": "12.1.11",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "12.0.0",
+              "lessThanOrEqual": "12.0.38",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "eclipse foundation",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "12.1.0",
+              "lessThanOrEqual": "12.1.11",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "12.0.0",
+              "lessThanOrEqual": "12.0.38",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "eclipse foundation",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "12.1.0",
+              "lessThanOrEqual": "12.1.11",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "12.0.0",
+              "lessThanOrEqual": "12.0.38",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "eclipse foundation",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "11.0.0",
+              "lessThanOrEqual": "11.0.32",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "10.0.0",
+              "lessThanOrEqual": "10.0.32",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "7.6.13",
+              "lessThanOrEqual": "9.4.64",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "vendor:eclipse foundation"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00403
+    },
+    {
       "cve_id": "CVE-2026-18669",
       "description": "IBM i 7.6, 7.5, 7.4, and 7.3 is vulnerable to a privilege escalation as the result of a remote code execution vulnerability in the activation engine component. An authenticated attacker can execute a maliciously planted script with root authority.",
       "cvss_score": 8.8,
@@ -807249,6 +807654,92 @@
         "cpe_count": 0,
         "reference_count": 3
       }
+    },
+    {
+      "cve_id": "CVE-2026-19863",
+      "description": "An unauthenticated client may access certain protected resources when using EthereumAuthenticator if the request path contains the configured login path.\n\n\n\nThis is caused by the authenticator using an unanchored substring match when identifying the login page. If the login path appears later within a protected request path, the request may be treated as the login page and its authentication or role requirement replaced with ALLOWED.\n\n\n\nExploitation requires the protected resource path to contain the configured login path as a later segment. Explicitly FORBIDDEN routes are not affected.",
+      "cvss_score": 9.3,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:N/SC:N/SI:N/SA:N",
+      "affected": [
+        {
+          "vendor": "eclipse foundation",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "12.1.0",
+              "lessThanOrEqual": "12.1.12",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "vendor:eclipse foundation"
+      ],
+      "active_threat": false,
+      "probability_score": 0.0054
+    },
+    {
+      "cve_id": "CVE-2026-19864",
+      "description": "Eclipse Jetty's `SessionAuthentication` retains authentication credentials in a serializable object. When the credentials contain a plaintext password and the authenticated session is persisted to a session data store, the password may consequently be written to persistent storage in plaintext.\n\n\n\nAn attacker with sufficient privileges to read the persisted session data may obtain the plaintext passwords of authenticated users.",
+      "cvss_score": 5.6,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:4.0/AV:L/AC:L/AT:P/PR:H/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N",
+      "affected": [
+        {
+          "vendor": "eclipse foundation",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "9.4.0",
+              "lessThanOrEqual": "9.4.64",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "10.0.0",
+              "lessThanOrEqual": "10.0.32",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "11.0.0",
+              "lessThanOrEqual": "11.0.32",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "12.0.0",
+              "lessThanOrEqual": "12.0.38",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "12.1.0",
+              "lessThanOrEqual": "12.1.12",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "vendor:eclipse foundation"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00126
     },
     {
       "cve_id": "CVE-2026-19872",
@@ -879644,103 +880135,7 @@
           "versions": [
             {
               "version": "1.2.0.0",
-              "lessThan": "2.0.1070.0",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows 10 version 1607",
-          "versions": [
-            {
-              "version": "10.0.14393.0",
-              "lessThan": "10.0.14393.9060",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows 10 version 1809",
-          "versions": [
-            {
-              "version": "10.0.17763.0",
-              "lessThan": "10.0.17763.8644",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows 10 version 21h2",
-          "versions": [
-            {
-              "version": "10.0.19044.0",
-              "lessThan": "10.0.19044.7184",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows 10 version 22h2",
-          "versions": [
-            {
-              "version": "10.0.19045.0",
-              "lessThan": "10.0.19045.7184",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows 11 version 23h2",
-          "versions": [
-            {
-              "version": "10.0.22631.0",
-              "lessThan": "10.0.22631.6936",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows 11 version 23h2",
-          "versions": [
-            {
-              "version": "10.0.22631.0",
-              "lessThan": "10.0.22631.6936",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows 11 version 24h2",
-          "versions": [
-            {
-              "version": "10.0.26100.0",
-              "lessThan": "10.0.26100.8246",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows 11 version 25h2",
-          "versions": [
-            {
-              "version": "10.0.26200.0",
-              "lessThan": "10.0.26200.8246",
+              "lessThan": "1.2.7099.0",
               "versionType": "custom",
               "status": "affected"
             }
@@ -879757,150 +880152,6 @@
               "status": "affected"
             }
           ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2012",
-          "versions": [
-            {
-              "version": "6.2.9200.0",
-              "lessThan": "6.2.9200.26026",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2012 (server core installation)",
-          "versions": [
-            {
-              "version": "6.2.9200.0",
-              "lessThan": "6.2.9200.26026",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2012 r2",
-          "versions": [
-            {
-              "version": "6.3.9600.0",
-              "lessThan": "6.3.9600.23132",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2012 r2 (server core installation)",
-          "versions": [
-            {
-              "version": "6.3.9600.0",
-              "lessThan": "6.3.9600.23132",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2016",
-          "versions": [
-            {
-              "version": "10.0.14393.0",
-              "lessThan": "10.0.14393.9060",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2016 (server core installation)",
-          "versions": [
-            {
-              "version": "10.0.14393.0",
-              "lessThan": "10.0.14393.9060",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2019",
-          "versions": [
-            {
-              "version": "10.0.17763.0",
-              "lessThan": "10.0.17763.8644",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2019 (server core installation)",
-          "versions": [
-            {
-              "version": "10.0.17763.0",
-              "lessThan": "10.0.17763.8644",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2022",
-          "versions": [
-            {
-              "version": "10.0.20348.0",
-              "lessThan": "10.0.20348.5020",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2022, 23h2 edition (server core installation)",
-          "versions": [
-            {
-              "version": "10.0.25398.0",
-              "lessThan": "10.0.25398.2274",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2025",
-          "versions": [
-            {
-              "version": "10.0.26100.0",
-              "lessThan": "10.0.26100.32690",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2025 (server core installation)",
-          "versions": [
-            {
-              "version": "10.0.26100.0",
-              "lessThan": "10.0.26100.32690",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
         }
       ],
       "watchlist_hit": true,
@@ -879909,9 +880160,6 @@
       "is_critical": false,
       "priority_label": "",
       "matched_terms": [
-        "product:windows 11 version 23h2",
-        "product:windows 11 version 24h2",
-        "product:windows 11 version 25h2",
         "product:windows 11 version 26h1",
         "vendor:microsoft"
       ],
@@ -1018727,6 +1018975,18 @@
           "versions": [
             {
               "version": "412.86.202608241157-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4.13",
+          "versions": [
+            {
+              "version": "413.92.202609302032-0",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -1193403,7 +1193663,7 @@
           "versions": [
             {
               "version": "1.0.0",
-              "lessThan": "publication",
+              "lessThan": "16.114.26101123",
               "versionType": "custom",
               "status": "affected"
             }
@@ -1193439,7 +1193699,7 @@
           "versions": [
             {
               "version": "16.0.1",
-              "lessThan": "publication",
+              "lessThan": "16.114.26101123",
               "versionType": "custom",
               "status": "affected"
             }
@@ -1193451,7 +1193711,7 @@
           "versions": [
             {
               "version": "16.0.0",
-              "lessThan": "publication",
+              "lessThan": "16.114.26101123",
               "versionType": "custom",
               "status": "affected"
             }
@@ -1233898,11 +1234158,83 @@
       "affected": [
         {
           "vendor": "microsoft",
+          "product": "windows 10 version 1607",
+          "versions": [
+            {
+              "version": "10.0.14393.0",
+              "lessThan": "10.0.14393.9612",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 10 version 1809",
+          "versions": [
+            {
+              "version": "10.0.17763.0",
+              "lessThan": "10.0.17763.9376",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 10 version 21h2",
+          "versions": [
+            {
+              "version": "10.0.19044.0",
+              "lessThan": "10.0.19044.7807",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 10 version 22h2",
+          "versions": [
+            {
+              "version": "10.0.19045.0",
+              "lessThan": "10.0.19044.7807",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 11 version 23h2",
+          "versions": [
+            {
+              "version": "10.0.22631.0",
+              "lessThan": "10.0.22631.7652",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 11 version 23h2",
+          "versions": [
+            {
+              "version": "10.0.22631.0",
+              "lessThan": "10.0.22631.7652",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
           "product": "windows 11 version 24h2",
           "versions": [
             {
               "version": "10.0.26100.0",
-              "lessThan": "10.0.26100.9445",
+              "lessThan": "10.0.26100.9711",
               "versionType": "custom",
               "status": "affected"
             }
@@ -1233914,7 +1234246,7 @@
           "versions": [
             {
               "version": "10.0.26200.0",
-              "lessThan": "10.0.26200.9445",
+              "lessThan": "10.0.26200.9711",
               "versionType": "custom",
               "status": "affected"
             }
@@ -1233926,7 +1234258,19 @@
           "versions": [
             {
               "version": "10.0.28000.0",
-              "lessThan": "10.0.28000.2954",
+              "lessThan": "10.0.28000.3231",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 11 version 26h2",
+          "versions": [
+            {
+              "version": "10.0.26300.0",
+              "lessThan": "10.0.26300.9711",
               "versionType": "custom",
               "status": "affected"
             }
@@ -1233939,9 +1234283,11 @@
       "is_critical": false,
       "priority_label": "",
       "matched_terms": [
+        "product:windows 11 version 23h2",
         "product:windows 11 version 24h2",
         "product:windows 11 version 25h2",
         "product:windows 11 version 26h1",
+        "product:windows 11 version 26h2",
         "vendor:microsoft"
       ],
       "active_threat": false,
@@ -1402160,6 +1402506,30 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat build of quarkus 3.27.6.redhat",
+          "versions": [
+            {
+              "version": "6.2.19.Final-redhat-00003",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of quarkus 3.33.4.redhat",
+          "versions": [
+            {
+              "version": "6.2.19.Final-redhat-00003",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat build of apache camel 4 for quarkus 3",
           "versions": null
         },
@@ -1402181,11 +1402551,6 @@
         {
           "vendor": "red hat",
           "product": "red hat build of keycloak",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat build of quarkus",
           "versions": null
         },
         {
@@ -1402324,6 +1402689,30 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat build of quarkus 3.27.6.redhat",
+          "versions": [
+            {
+              "version": "6.2.19.Final-redhat-00003",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of quarkus 3.33.4.redhat",
+          "versions": [
+            {
+              "version": "6.2.19.Final-redhat-00003",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat build of apache camel 4 for quarkus 3",
           "versions": null
         },
@@ -1402345,11 +1402734,6 @@
         {
           "vendor": "red hat",
           "product": "red hat build of keycloak",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat build of quarkus",
           "versions": null
         },
         {
@@ -1402601,7 +1402985,7 @@
             },
             {
               "status": "affected",
-              "version": "V7.2.45.12",
+              "version": "V7.2.54.12",
               "lessThan": "V7.2.54.18",
               "versionType": "custom"
             }
