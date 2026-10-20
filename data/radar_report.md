@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-10-20T11:48:02+00:00`
+Generated: `2026-10-20T16:56:18+00:00`
 
 ## Executive Summary
 
@@ -27,7 +27,7 @@ Top critical items:
 | [CVE-2024-30088](https://www.cve.org/CVERecord?id=CVE-2024-30088) | 0.682 | 7.0 | 2024-11-05 | Windows Kernel Elevation of Privilege Vulnerability |
 | [CVE-2024-21338](https://www.cve.org/CVERecord?id=CVE-2024-21338) | 0.598 | 7.8 | 2024-03-25 | Windows Kernel Elevation of Privilege Vulnerability |
 | [CVE-2024-29988](https://www.cve.org/CVERecord?id=CVE-2024-29988) | 0.452 | 8.8 | 2024-05-21 | SmartScreen Prompt Security Feature Bypass Vulnerability |
-| [CVE-2022-21971](https://www.cve.org/CVERecord?id=CVE-2022-21971) | 0.539 | 7.8 | 2022-09-08 | Windows Runtime Remote Code Execution Vulnerability |
+| [CVE-2022-21971](https://www.cve.org/CVERecord?id=CVE-2022-21971) | 0.538 | 7.8 | 2022-09-08 | Windows Runtime Remote Code Execution Vulnerability |
 | [CVE-2022-44698](https://www.cve.org/CVERecord?id=CVE-2022-44698) | 0.763 | 5.4 | 2023-01-03 | Windows SmartScreen Security Feature Bypass Vulnerability |
 | [CVE-2022-21882](https://www.cve.org/CVERecord?id=CVE-2022-21882) | 0.592 | 7.0 | 2022-02-18 | Win32k Elevation of Privilege Vulnerability |
 | [CVE-2023-21674](https://www.cve.org/CVERecord?id=CVE-2023-21674) | 0.410 | 8.8 | 2023-01-31 | Windows Advanced Local Procedure Call (ALPC) Elevation of Privilege Vulnerability |
@@ -41,7 +41,7 @@ Top critical items:
 - Total items: **6881**
 - Watchlist hits: **6153**
 - CISA KEVs: **828**
-- Exploit Intel (PoC): **845**
+- Exploit Intel (PoC): **846**
 - Exploit Intel + Watchlist (CRITICAL): **118**
 
 ## Top Findings (max 200)
@@ -65,7 +65,7 @@ Top critical items:
 | [CVE-2024-30088](https://www.cve.org/CVERecord?id=CVE-2024-30088) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-11-05 | 0.682 | 7.0 | ✅ | Windows Kernel Elevation of Privilege Vulnerability |
 | [CVE-2024-21338](https://www.cve.org/CVERecord?id=CVE-2024-21338) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-03-25 | 0.598 | 7.8 | ✅ | Windows Kernel Elevation of Privilege Vulnerability |
 | [CVE-2024-29988](https://www.cve.org/CVERecord?id=CVE-2024-29988) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-05-21 | 0.452 | 8.8 | ✅ | SmartScreen Prompt Security Feature Bypass Vulnerability |
-| [CVE-2022-21971](https://www.cve.org/CVERecord?id=CVE-2022-21971) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2022-09-08 | 0.539 | 7.8 | ✅ | Windows Runtime Remote Code Execution Vulnerability |
+| [CVE-2022-21971](https://www.cve.org/CVERecord?id=CVE-2022-21971) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2022-09-08 | 0.538 | 7.8 | ✅ | Windows Runtime Remote Code Execution Vulnerability |
 | [CVE-2022-44698](https://www.cve.org/CVERecord?id=CVE-2022-44698) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-01-03 | 0.763 | 5.4 | ✅ | Windows SmartScreen Security Feature Bypass Vulnerability |
 | [CVE-2022-21882](https://www.cve.org/CVERecord?id=CVE-2022-21882) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2022-02-18 | 0.592 | 7.0 | ✅ | Win32k Elevation of Privilege Vulnerability |
 | [CVE-2023-21674](https://www.cve.org/CVERecord?id=CVE-2023-21674) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-01-31 | 0.410 | 8.8 | ✅ | Windows Advanced Local Procedure Call (ALPC) Elevation of Privilege Vulnerability |
@@ -86,8 +86,8 @@ Top critical items:
 | [CVE-2026-21513](https://www.cve.org/CVERecord?id=CVE-2026-21513) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-03-03 | 0.159 | 8.8 | ✅ | Protection mechanism failure in MSHTML Framework allows an unauthorized attacker to bypass a security feature over a network. |
 | [CVE-2024-21351](https://www.cve.org/CVERecord?id=CVE-2024-21351) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-03-05 | 0.278 | 7.6 | ✅ | Windows SmartScreen Security Feature Bypass Vulnerability |
 | [CVE-2024-35250](https://www.cve.org/CVERecord?id=CVE-2024-35250) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-01-06 | 0.252 | 7.8 | ✅ | Windows Kernel-Mode Driver Elevation of Privilege Vulnerability |
+| [CVE-2025-30397](https://www.cve.org/CVERecord?id=CVE-2025-30397) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-06-03 | 0.273 | 7.5 | ✅ | Access of resource using incompatible type ('type confusion') in Microsoft Scripting Engine allows an unauthorized attacker to execute code over a network. |
 | [CVE-2024-49039](https://www.cve.org/CVERecord?id=CVE-2024-49039) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-12-03 | 0.142 | 8.8 | ✅ | Windows Task Scheduler Elevation of Privilege Vulnerability |
-| [CVE-2025-30397](https://www.cve.org/CVERecord?id=CVE-2025-30397) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-06-03 | 0.270 | 7.5 | ✅ | Access of resource using incompatible type ('type confusion') in Microsoft Scripting Engine allows an unauthorized attacker to execute code over a network. |
 | [CVE-2025-26633](https://www.cve.org/CVERecord?id=CVE-2025-26633) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-04-01 | 0.304 | 7.0 | ✅ | Improper neutralization in Microsoft Management Console allows an unauthorized attacker to bypass a security feature locally. |
 | [CVE-2026-33824](https://www.cve.org/CVERecord?id=CVE-2026-33824) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-08-21 | 0.016 | 9.8 | ✅ | Double free in Windows IKE Extension allows an unauthorized attacker to execute code over a network. |
 | [CVE-2022-22047](https://www.cve.org/CVERecord?id=CVE-2022-22047) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2022-08-02 | 0.188 | 7.8 | ✅ | Windows Client Server Run-time Subsystem (CSRSS) Elevation of Privilege Vulnerability |
