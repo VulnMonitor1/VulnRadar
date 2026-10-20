@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-20T00:15:59+00:00",
-  "count": 6865,
+  "generated_at": "2026-10-20T05:57:53+00:00",
+  "count": 6881,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -395327,6 +395327,21 @@
         },
         {
           "vendor": "red hat",
+          "product": "fast datapath for rhel 10",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "fast datapath for rhel 10",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "fast datapath for rhel 10",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
           "product": "fast datapath for rhel 7",
           "versions": null
         },
@@ -395378,6 +395393,76 @@
         {
           "vendor": "red hat",
           "product": "fast datapath for rhel 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "fast datapath for rhel 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "fast datapath for rhel 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "fast datapath for rhel 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "fast datapath for rhel 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "fast datapath for rhel 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openstack platform 13 (queens)",
           "versions": null
         }
       ],
@@ -596043,8 +596128,15 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat jboss enterprise application platform 8.1",
-          "versions": null
+          "product": "red hat jboss enterprise application platform 8.1.6.ga",
+          "versions": [
+            {
+              "version": "27.1.9.Final-redhat-00002",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
         },
         {
           "vendor": "red hat",
@@ -794677,6 +794769,441 @@
       }
     },
     {
+      "cve_id": "CVE-2026-110672",
+      "description": "Cpanel::JSON::XS versions before 4.80 for Perl leak the decoded key of an object rejected for a duplicate key or a missing colon in decode_hv.\n\nA quoted key of 24 or more bytes, or one containing a non-ASCII byte or an escape sequence, is decoded into a new scalar. Nothing frees that scalar when the object is rejected for a missing ':' after the key or, from 4.09, for a duplicate key. Duplicate keys are an error unless allow_dupkeys, dupkeys_as_arrayref or relaxed is set.\n\nA process that keeps running after a failed decode retains one key per rejected document, with its size chosen by the sender. Repeated requests exhaust process memory.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "4.80",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-110673",
+      "description": "Cpanel::JSON::XS versions before 4.80 for Perl allow stack exhaustion via nested tagged values under allow_tags in decode_tag.\n\nWith allow_tags, \"(\" starts a tagged value. Its tag and value are decoded recursively, and each can start another tagged value. Unlike arrays and objects, this nesting is not counted against max_depth.\n\nA run of \"(\" bytes exhausts the C stack and triggers an uncatchable segmentation fault regardless of max_depth.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "4.80",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-110674",
+      "description": "Cpanel::JSON::XS versions from 4.33 before 4.80 for Perl miss duplicate non-ASCII bare keys, allowing type confusion under dupkeys_as_arrayref in decode_hv.\n\nWith allow_barekey, which relaxed enables, a bare key containing a non-ASCII byte is stored as UTF-8 but looked up as raw bytes, so a repeated key escapes the duplicate-key check and replaces the earlier value.\n\nFrom 4.41, under dupkeys_as_arrayref, a bare repeat replaces the array that collects a key's values with a plain value, and the next quoted repeat pushes onto that value as if it were an array. A JSON integer there is dereferenced as a pointer.\n\nUntrusted JSON decoded with relaxed and dupkeys_as_arrayref can crash the process or dereference an address chosen by a JSON number.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "4.80",
+              "status": "affected",
+              "version": "4.33",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-110675",
+      "description": "Cpanel::JSON::XS versions from 4.33 before 4.80 for Perl accept malformed UTF-8 in bare hash keys under allow_barekey in decode_hv.\n\nWith utf8 and allow_barekey, which relaxed enables, a quoted key is validated as UTF-8 but a bare key's bytes are stored as a UTF-8 flagged string without any check. Malformed UTF-8, control bytes and backslashes reach the decoded hash, while malformed UTF-8 and control bytes in a quoted key or a value are rejected.\n\nLater operations on the key, including lc, uc or encoding the hash again, die with a malformed UTF-8 error.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "4.80",
+              "status": "affected",
+              "version": "4.33",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-110676",
+      "description": "Cpanel::JSON::XS versions before 4.80 for Perl allow memory exhaustion by encoding exponent notation as full decimal digits under allow_bignum.\n\nWith allow_bignum, a JSON number with a fraction or exponent decodes to a Math::BigFloat, which stores the exponent separately and so decodes cheaply. Encoding it untyped or as JSON_TYPE_FLOAT writes the plain decimal form with one digit per unit of exponent. Nothing bounds the exponent, so the 12-byte text [1e30000000] encodes to 30 MB.\n\nUntrusted JSON decoded with allow_bignum and encoded again can exhaust memory and CPU.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "4.80",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-110677",
+      "description": "Cpanel::JSON::XS versions from 4.28 before 4.80 for Perl leak the array collecting duplicate key values under dupkeys_as_arrayref in decode_hv.\n\nWith dupkeys_as_arrayref, the values of a duplicate object key are collected into a new array. An extra reference is never released, so the array and every value in it outlive the decoded structure. The array also leaks when decoding fails after a duplicate key.\n\nRepeatedly decoding untrusted JSON with a duplicate key holding a large value exhausts process memory.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "4.80",
+              "status": "affected",
+              "version": "4.28",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-110678",
+      "description": "Cpanel::JSON::XS versions before 4.80 for Perl allow memory exhaustion by buffering incremental input past max_size in incr_parse.\n\nThe parser appends each chunk to its buffer. In scalar or list context, it compares max_size with how far it has progressed, not with the buffer length. A chunk that starts with a NUL byte stops the parser before it progresses, and a call in void context skips the check, so the buffer grows without limit.\n\nA peer streaming data to an incr_parse consumer can exhaust process memory regardless of max_size.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "4.80",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-110680",
+      "description": "Cpanel::JSON::XS versions from 4.20 before 4.80 for Perl write out of bounds when a tied or shared hash grows during canonical encoding in encode_hv.\n\nWith canonical, the keys of a tied or threads::shared hash are counted before a second pass collects them for sorting. The encoder uses a fixed 64-entry stack array or, for larger counts, a heap array sized from the first pass. If the second pass exceeds that capacity, entries are written out of bounds before the counts are compared.\n\nThis corrupts stack or heap memory and can crash the process.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "4.80",
+              "status": "affected",
+              "version": "4.20",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-110681",
+      "description": "Cpanel::JSON::XS versions before 4.80 for Perl use the parent interpreter's scalars from a parser object cloned into a new ithread.\n\nA parser object holds its callbacks and its incremental parse buffer as raw scalar pointers. When a thread is created, these are copied into the new interpreter unchanged, so the child's parser uses, and later frees, scalars that belong to the parent and may already have been freed there.\n\nA parser created before a thread starts and used inside it can call freed callbacks, corrupt reference counts and crash the process.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "4.80",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-110682",
+      "description": "Cpanel::JSON::XS versions from 4.42 before 4.80 for Perl let input chunking change the decoded value of top-level numbers in incr_parse.\n\nallow_nonref is enabled by default and incr_parse inherits it. A top-level number, true, false or null has no closing delimiter, so the incremental parser decodes whatever has arrived. The bytes 12 decode as one value when read together, but as 1 and then 2 when split across two reads.\n\nA peer that can influence read boundaries can change how many messages a stream consumer decodes and what values they carry.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "4.80",
+              "status": "affected",
+              "version": "4.42",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-110684",
+      "description": "Cpanel::JSON::XS versions from 3.0202 before 4.80 for Perl leak memory and retain overloaded objects when encoding values as strings in encode_stringify.\n\nencode_stringify writes a value in its string form under allow_stringify, under convert_blessed for objects without TO_JSON, and under allow_bignum. For an array or hash object with a \"\" overload, and from 4.20 a scalar object, it takes an extra reference that is never released, so the object and everything it references are never freed. From 4.10 it also never frees its copy of the string.\n\nRepeatedly encoding data that contains such values grows process memory without bound.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "4.80",
+              "status": "affected",
+              "version": "3.0202",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-110685",
+      "description": "Cpanel::JSON::XS versions before 4.80 for Perl leak the decoded arguments of a tagged value when its THAW method dies in decode_tag.\n\nWith allow_tags, a tagged value's class name and argument array are decoded and passed to the class's THAW method. Both are released only after THAW returns, so a THAW that dies leaves the whole decoded argument structure allocated.\n\nEach rejected document leaks data of a size the sender chooses, so a process that catches the error and keeps running exhausts its memory.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "4.80",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-110686",
+      "description": "Cpanel::JSON::XS versions before 4.80 for Perl use freed filter callbacks when a filter removes itself during decoding in decode_hv.\n\nA decode copies the parser's filter_json_object and filter_json_single_key_object callbacks without taking references to them. A filter callback that removes the last single-key filter frees the callback table while the decode in progress still uses it. The next object is dispatched through freed memory and can crash the process.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "4.80",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-110687",
+      "description": "Cpanel::JSON::XS versions from 4.43 before 4.80 for Perl misorder byte-string keys during canonical encoding in utf16_cmp.\n\ncanonical sorts keys by UTF-16 code units. When any key in a hash is UTF-8 flagged, every key is decoded as UTF-8 for the comparison, including byte-string keys that the encoder writes out as Latin-1 characters. A byte-string key whose bytes are valid UTF-8 is sorted out of order, and two keys that encode differently can compare equal and are left in hash order.\n\nThe same data can encode to different canonical documents across processes.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "4.80",
+              "status": "affected",
+              "version": "4.43",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-110688",
+      "description": "Cpanel::JSON::XS versions from 4.51 before 4.80 for Perl allow quadratic CPU use by revalidating the remaining buffer per value in incr_parse.\n\nAt the first non-ASCII byte in a string, the decoder validates UTF-8 from there to the end of its input. incr_parse decodes each buffered value with a fresh decoder, so every value revalidates the rest of the buffer, and doubling the input quadruples the work.\n\nA peer that sends about a megabyte of ordinary non-ASCII JSON in one read ties up the process for seconds of CPU time.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "4.80",
+              "status": "affected",
+              "version": "4.51",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
       "cve_id": "CVE-2026-110752",
       "description": "Text::CSV_XS versions before 1.65 for Perl allow memory exhaustion by allocating one entry per index of an RFC 7111 selector in fragment.\n\nfragment expands a row= or col= selector into an array with one element per selected index before it reads any data, and it does not clamp an explicit end column in a cell= selector to the row. Only the syntax and order of the ranges are checked, so row=1-400000000 on a two-line file allocates 400 million elements.\n\nAn application that passes a request-supplied fragment to fragment or csv can be made to exhaust memory, which ends the process with an Out of memory error that eval cannot catch.",
       "cvss_score": null,
@@ -794907,6 +795434,35 @@
       "matched_terms": [],
       "active_threat": false,
       "probability_score": 0.00192
+    },
+    {
+      "cve_id": "CVE-2026-111946",
+      "description": "Plack::Middleware::ETag versions from 0.04 before 0.06 for Perl disclose file inode numbers in the default ETag header.\n\nWhen the response body is a filehandle and the file_etag option is not set, the ETag is built from the file's inode number, modification time and size. Clients receiving affected responses may use the disclosed inode numbers to aid backend fingerprinting and correlation of files served through different URLs.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "0.06",
+              "status": "affected",
+              "version": "0.04",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
     },
     {
       "cve_id": "CVE-2026-11645",
@@ -795407,13 +795963,27 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift ai (rhoai)",
-          "versions": null
+          "product": "red hat openshift ai 3.4",
+          "versions": [
+            {
+              "version": "1791468368",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift ai (rhoai)",
-          "versions": null
+          "product": "red hat openshift ai 3.4",
+          "versions": [
+            {
+              "version": "1790958159",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
         },
         {
           "vendor": "red hat",
@@ -798931,13 +799501,27 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift ai (rhoai)",
-          "versions": null
+          "product": "red hat openshift ai 3.4",
+          "versions": [
+            {
+              "version": "1791537794",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift ai (rhoai)",
-          "versions": null
+          "product": "red hat openshift ai 3.4",
+          "versions": [
+            {
+              "version": "1791535841",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
         }
       ],
       "watchlist_hit": true,
@@ -799123,8 +799707,15 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift ai (rhoai)",
-          "versions": null
+          "product": "red hat openshift ai 3.4",
+          "versions": [
+            {
+              "version": "1791790095",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
         }
       ],
       "watchlist_hit": true,
@@ -847908,11 +848499,168 @@
     },
     {
       "cve_id": "CVE-2026-21589",
-      "description": "",
-      "cvss_score": 7.5,
-      "cvss_severity": "HIGH",
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
-      "affected": [],
+      "description": "This is a vulnerability in Bitbucket Data Center, Confluence Data Center, Jira Service Management Data Center, Jira Software Data Center, Bamboo Data Center. Crowd Data Center, Crucible and Fisheye. This Arbitrary File Access vulnerability allows an unauthenticated attacker to access specific files within the web application root directory in affected versions. Exploitation requires prior knowledge of the target file's exact name and path; this vulnerability does not allow attackers to enumerate or list directory contents. In some configurations, there may be some sensitive files that make this highly severe. This vulnerability allows an unauthenticated remote attacker to access specific files within the web application root directory in affected versions. The vulnerability must be addressed for affected versions of: -- Bitbucket Data Center, introduced in version >= 4.6.0, fix versions: 9.4.26, 10.2.8, 10.5.1 -- Confluence Data Center, introduced in version >= 5.10.0, fix versions 9.2.26, 10.2.19 -- Crowd Data Center, introduced in version >= 2.11.0, fix versions 6.3.7, 7.0.3, 7.1.7, 7.2.4 -- Jira Software Data Center, introduced in version >= 7.1.0, fix versions 9.12.40, 10.3.26, 11.3.12 -- Jira Service Management Data Center, introduced in version >= 3.1.0, fix versions 5.12.40, 10.3.26, 11.3.12 -- Bamboo Data Center >= 7.0.1, fix versions 10.2.24, 12.1.12 -- Crucible, fix versions 4.9.15 -- Fisheye, fix version 4.9.15 -- Exploitation requires prior knowledge of the target file's exact name and path. The vulnerability does not include the capability to enumerate or list directory contents.",
+      "cvss_score": 9.3,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:H/SI:H/SA:H",
+      "affected": [
+        {
+          "vendor": "atlassian",
+          "product": "bamboo data center",
+          "versions": [
+            {
+              "version": "All other versions",
+              "status": "affected"
+            },
+            {
+              "version": "Patch version 10.2.24 and later",
+              "status": "unaffected"
+            },
+            {
+              "version": "Patch version 12.1.12 and later",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "atlassian",
+          "product": "bitbucket data center",
+          "versions": [
+            {
+              "version": "All other versions",
+              "status": "affected"
+            },
+            {
+              "version": "Patch version 10.2.8 and later",
+              "status": "unaffected"
+            },
+            {
+              "version": "Patch version 10.5.1 and later",
+              "status": "unaffected"
+            },
+            {
+              "version": "Patch version 9.4.26 and later",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "atlassian",
+          "product": "confluence data center",
+          "versions": [
+            {
+              "version": "All other versions",
+              "status": "affected"
+            },
+            {
+              "version": "Patch version 10.2.19 and later",
+              "status": "unaffected"
+            },
+            {
+              "version": "Patch version 9.2.26 and later",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "atlassian",
+          "product": "crowd data center",
+          "versions": [
+            {
+              "version": "All other versions",
+              "status": "affected"
+            },
+            {
+              "version": "Patch version 7.2.4 and later",
+              "status": "unaffected"
+            },
+            {
+              "version": "Patch version 7.1.7 and later",
+              "status": "unaffected"
+            },
+            {
+              "version": "Patch version 7.0.3 and later",
+              "status": "unaffected"
+            },
+            {
+              "version": "Patch version 6.3.7 and later",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "atlassian",
+          "product": "crucible data center",
+          "versions": [
+            {
+              "version": "All other versions",
+              "status": "affected"
+            },
+            {
+              "version": "Patch version 4.9.15 and later",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "atlassian",
+          "product": "fisheye data center",
+          "versions": [
+            {
+              "version": "All other versions",
+              "status": "affected"
+            },
+            {
+              "version": "Patch version 4.9.15 and later",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "atlassian",
+          "product": "jira service management data center",
+          "versions": [
+            {
+              "version": "All other versions",
+              "status": "affected"
+            },
+            {
+              "version": "Patch version 11.3.12 and later",
+              "status": "unaffected"
+            },
+            {
+              "version": "Patch version 10.3.26 and later",
+              "status": "unaffected"
+            },
+            {
+              "version": "Patch version 5.12.40 and later",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "atlassian",
+          "product": "jira software data center",
+          "versions": [
+            {
+              "version": "All other versions",
+              "status": "affected"
+            },
+            {
+              "version": "Patch version 11.3.12 and later",
+              "status": "unaffected"
+            },
+            {
+              "version": "Patch version 10.3.26 and later",
+              "status": "unaffected"
+            },
+            {
+              "version": "Patch version 9.12.40 and later",
+              "status": "unaffected"
+            }
+          ]
+        }
+      ],
       "watchlist_hit": false,
       "in_watchlist": false,
       "in_patchthis": false,
@@ -1403220,6 +1403968,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": [
+            {
+              "version": "0:3.0.26-20.el9_8.1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat build of apache camel 4 for quarkus 3",
           "versions": null
         },
@@ -1403261,11 +1404021,6 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 8",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat enterprise linux 9",
           "versions": null
         },
         {
@@ -1403403,6 +1404158,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": [
+            {
+              "version": "0:3.0.26-20.el9_8.1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat build of apache camel 4 for quarkus 3",
           "versions": null
         },
@@ -1403444,11 +1404211,6 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 8",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat enterprise linux 9",
           "versions": null
         },
         {
