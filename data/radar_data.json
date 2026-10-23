@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-23T19:13:28+00:00",
-  "count": 6899,
+  "generated_at": "2026-10-23T22:14:44+00:00",
+  "count": 6900,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -795073,6 +795073,57 @@
       }
     },
     {
+      "cve_id": "CVE-2026-110447",
+      "description": "Collabora Online Built-in CODE Server before 26.4.303 (richdocumentscode), a Nextcloud app, allows remote code execution, as exploited in the wild in September and October 2026, a different vulnerability than CVE-2025-66208. This is an OS command injection in proxy.php when the CODE server isn't running (e.g., the product was recently restarted). The vulnerability is not present in standalone Collabora Online servers; only this deployment with CODE Server is affected.",
+      "cvss_score": 9.2,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N",
+      "affected": [
+        {
+          "vendor": "collabora",
+          "product": "collabora online - built-in code server",
+          "versions": [
+            {
+              "lessThan": "26.4.303",
+              "status": "affected",
+              "version": "0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": false,
+      "in_watchlist": false,
+      "in_patchthis": true,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": true,
+      "probability_score": 0.01225,
+      "kev": {
+        "cveID": "CVE-2026-110447",
+        "vendorProject": "Collabora",
+        "product": "Collabora Online \u2013 Built-in CODE Server",
+        "vulnerabilityName": "Collabora Online \u2013 Built-in CODE Server OS Command Injection Vulnerability",
+        "dateAdded": "2026-10-23",
+        "shortDescription": "Collabora Collabora Online \u2013 Built-in CODE Server when used within the NextCloud platform contains an OS command injection vulnerability that allows for remote code execution when the CODE server isn't running.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-10-26",
+        "knownRansomwareCampaignUse": "Unknown"
+      },
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-78"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
       "cve_id": "CVE-2026-110672",
       "description": "Cpanel::JSON::XS versions before 4.80 for Perl leak the decoded key of an object rejected for a duplicate key or a missing colon in decode_hv.\n\nA quoted key of 24 or more bytes, or one containing a non-ASCII byte or an escape sequence, is decoded into a new scalar. Nothing frees that scalar when the object is rejected for a missing ':' after the key or, from 4.09, for a duplicate key. Duplicate keys are an error unless allow_dupkeys, dupkeys_as_arrayref or relaxed is set.\n\nA process that keeps running after a failed decode retains one key per rejected document, with its size chosen by the sender. Repeated requests exhaust process memory.",
       "cvss_score": null,
@@ -796331,7 +796382,7 @@
       ],
       "watchlist_hit": false,
       "in_watchlist": false,
-      "in_patchthis": false,
+      "in_patchthis": true,
       "is_critical": false,
       "priority_label": "",
       "matched_terms": [],
