@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T23:31:09+00:00",
+  "generated_at": "2026-10-23T04:56:58+00:00",
   "count": 6898,
   "items": [
     {
@@ -351771,59 +351771,11 @@
     },
     {
       "cve_id": "CVE-2024-21762",
-      "description": "A out-of-bounds write in Fortinet FortiOS versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.6, 7.0.0 through 7.0.13, 6.4.0 through 6.4.14, 6.2.0 through 6.2.15, 6.0.0 through 6.0.17, FortiProxy versions 7.4.0 through 7.4.2, 7.2.0 through 7.2.8, 7.0.0 through 7.0.14, 2.0.0 through 2.0.13, 1.2.0 through 1.2.13, 1.1.0 through 1.1.6, 1.0.0 through 1.0.7 allows attacker to execute unauthorized code or commands via specifically crafted requests",
+      "description": "A out-of-bounds write vulnerability in Fortinet FortiOS 7.4.0 through 7.4.2, FortiOS 7.2.0 through 7.2.6, FortiOS 7.0.0 through 7.0.13, FortiOS 6.4.0 through 6.4.14, FortiOS 6.2.0 through 6.2.15, FortiOS 6.0 all versions, FortiProxy 7.4.0 through 7.4.2, FortiProxy 7.2.0 through 7.2.8, FortiProxy 7.0.0 through 7.0.14, FortiProxy 2.0.0 through 2.0.13, FortiProxy 01.02 all versions, FortiProxy 1.2 all versions, FortiProxy 01.01 all versions, FortiProxy 1.1 all versions, FortiProxy 01.00 all versions allows attacker to execute unauthorized code or commands via specifically crafted requests",
       "cvss_score": 9.6,
       "cvss_severity": "CRITICAL",
       "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:H/RL:W/RC:C",
       "affected": [
-        {
-          "vendor": "fortinet",
-          "product": "fortiproxy",
-          "versions": [
-            {
-              "versionType": "semver",
-              "version": "7.4.0",
-              "lessThanOrEqual": "7.4.2",
-              "status": "affected"
-            },
-            {
-              "versionType": "semver",
-              "version": "7.2.0",
-              "lessThanOrEqual": "7.2.8",
-              "status": "affected"
-            },
-            {
-              "versionType": "semver",
-              "version": "7.0.0",
-              "lessThanOrEqual": "7.0.14",
-              "status": "affected"
-            },
-            {
-              "versionType": "semver",
-              "version": "2.0.0",
-              "lessThanOrEqual": "2.0.13",
-              "status": "affected"
-            },
-            {
-              "versionType": "semver",
-              "version": "1.2.0",
-              "lessThanOrEqual": "1.2.13",
-              "status": "affected"
-            },
-            {
-              "versionType": "semver",
-              "version": "1.1.0",
-              "lessThanOrEqual": "1.1.6",
-              "status": "affected"
-            },
-            {
-              "versionType": "semver",
-              "version": "1.0.0",
-              "lessThanOrEqual": "1.0.7",
-              "status": "affected"
-            }
-          ]
-        },
         {
           "vendor": "fortinet",
           "product": "fortios",
@@ -351861,7 +351813,65 @@
             {
               "versionType": "semver",
               "version": "6.0.0",
-              "lessThanOrEqual": "6.0.17",
+              "lessThanOrEqual": "6.0.18",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "fortinet",
+          "product": "fortiproxy",
+          "versions": [
+            {
+              "versionType": "semver",
+              "version": "7.4.0",
+              "lessThanOrEqual": "7.4.2",
+              "status": "affected"
+            },
+            {
+              "versionType": "semver",
+              "version": "7.2.0",
+              "lessThanOrEqual": "7.2.8",
+              "status": "affected"
+            },
+            {
+              "versionType": "semver",
+              "version": "7.0.0",
+              "lessThanOrEqual": "7.0.14",
+              "status": "affected"
+            },
+            {
+              "versionType": "semver",
+              "version": "2.0.0",
+              "lessThanOrEqual": "2.0.13",
+              "status": "affected"
+            },
+            {
+              "versionType": "semver",
+              "version": "1.2.1",
+              "lessThanOrEqual": "1.2.13",
+              "status": "affected"
+            },
+            {
+              "version": "01.02.00",
+              "status": "affected"
+            },
+            {
+              "versionType": "semver",
+              "version": "1.1.4",
+              "lessThanOrEqual": "1.1.6",
+              "status": "affected"
+            },
+            {
+              "versionType": "semver",
+              "version": "01.01.00",
+              "lessThanOrEqual": "01.01.03",
+              "status": "affected"
+            },
+            {
+              "versionType": "semver",
+              "version": "01.00.00",
+              "lessThanOrEqual": "01.00.07",
               "status": "affected"
             }
           ]
@@ -502242,6 +502252,11 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4",
           "versions": null
         },
         {
@@ -747724,7 +747739,7 @@
       "affected": [
         {
           "vendor": "microsoft",
-          "product": ".net 10.0",
+          "product": ".net 10.0 runtime",
           "versions": [
             {
               "version": "10.0.0",
@@ -747736,7 +747751,7 @@
         },
         {
           "vendor": "microsoft",
-          "product": ".net 11.0",
+          "product": ".net 11.0 runtime",
           "versions": [
             {
               "version": "11.0.0",
@@ -747748,7 +747763,7 @@
         },
         {
           "vendor": "microsoft",
-          "product": ".net 8.0",
+          "product": ".net 8.0 runtime",
           "versions": [
             {
               "version": "8.0.0",
@@ -747760,7 +747775,7 @@
         },
         {
           "vendor": "microsoft",
-          "product": ".net 9.0",
+          "product": ".net 9.0 runtime",
           "versions": [
             {
               "version": "9.0.0",
@@ -758951,6 +758966,30 @@
               "version": "0",
               "lessThan": "985c6d5a4a84360ff8b447b94e4a3cdfbda3da90",
               "versionType": "git"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift ai 2.25",
+          "versions": [
+            {
+              "version": "1791364320",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift ai 2.25",
+          "versions": [
+            {
+              "version": "1791367475",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
             }
           ]
         },
@@ -966645,6 +966684,18 @@
           "versions": [
             {
               "version": "414.92.202609111941-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4.15",
+          "versions": [
+            {
+              "version": "415.92.202610081130-0",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
