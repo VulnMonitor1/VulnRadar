@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T05:44:31+00:00",
+  "generated_at": "2026-10-24T10:51:31+00:00",
   "count": 6902,
   "items": [
     {
@@ -783737,7 +783737,7 @@
         "cwe_ids": [
           "CWE-269"
         ],
-        "cpe_count": 0,
+        "cpe_count": 4,
         "reference_count": 1
       }
     },
@@ -789187,7 +789187,7 @@
           "CWE-287"
         ],
         "cpe_count": 0,
-        "reference_count": 2
+        "reference_count": 3
       }
     },
     {
@@ -789381,14 +789381,14 @@
       "active_threat": false,
       "probability_score": 0.0006,
       "nvd": {
-        "cvss_v3_score": 5.1,
+        "cvss_v3_score": 4.4,
         "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
           "CWE-667"
         ],
-        "cpe_count": 0,
+        "cpe_count": 4,
         "reference_count": 1
       }
     },
@@ -791080,7 +791080,7 @@
         "cwe_ids": [
           "CWE-415"
         ],
-        "cpe_count": 0,
+        "cpe_count": 16,
         "reference_count": 1
       }
     },
@@ -791280,7 +791280,7 @@
         "cwe_ids": [
           "CWE-59"
         ],
-        "cpe_count": 0,
+        "cpe_count": 16,
         "reference_count": 1
       }
     },
@@ -791567,7 +791567,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -791770,7 +791770,7 @@
         "cwe_ids": [
           "CWE-367"
         ],
-        "cpe_count": 0,
+        "cpe_count": 21,
         "reference_count": 1
       }
     },
@@ -795120,7 +795120,7 @@
           "CWE-78"
         ],
         "cpe_count": 0,
-        "reference_count": 2
+        "reference_count": 3
       }
     },
     {
@@ -796123,7 +796123,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": null,
+      "nvd": {
+        "cvss_v3_score": 7.4,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-256"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-111879",
@@ -796404,7 +796415,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": null,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-624"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-114625",
@@ -796465,8 +796487,8 @@
         "cwe_ids": [
           "CWE-89"
         ],
-        "cpe_count": 0,
-        "reference_count": 1
+        "cpe_count": 3,
+        "reference_count": 2
       }
     },
     {
@@ -803433,14 +803455,14 @@
       "active_threat": false,
       "probability_score": 0.00139,
       "nvd": {
-        "cvss_v3_score": 5.4,
-        "cvss_v3_severity": "MEDIUM",
+        "cvss_v3_score": 3.3,
+        "cvss_v3_severity": "LOW",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
           "CWE-285"
         ],
-        "cpe_count": 0,
+        "cpe_count": 4,
         "reference_count": 1
       }
     },
@@ -803592,14 +803614,14 @@
       "active_threat": false,
       "probability_score": 0.00131,
       "nvd": {
-        "cvss_v3_score": 5.4,
+        "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
           "CWE-284"
         ],
-        "cpe_count": 0,
+        "cpe_count": 4,
         "reference_count": 1
       }
     },
@@ -805731,14 +805753,14 @@
       "active_threat": false,
       "probability_score": 0.00187,
       "nvd": {
-        "cvss_v3_score": 3.7,
-        "cvss_v3_severity": "LOW",
+        "cvss_v3_score": 5.3,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
           "CWE-285"
         ],
-        "cpe_count": 0,
+        "cpe_count": 4,
         "reference_count": 1
       }
     },
@@ -806475,14 +806497,14 @@
       "active_threat": false,
       "probability_score": 0.0026,
       "nvd": {
-        "cvss_v3_score": 4.3,
+        "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
           "CWE-287"
         ],
-        "cpe_count": 0,
+        "cpe_count": 4,
         "reference_count": 1
       }
     },
@@ -806535,7 +806557,7 @@
         "cwe_ids": [
           "CWE-269"
         ],
-        "cpe_count": 0,
+        "cpe_count": 4,
         "reference_count": 1
       }
     },
@@ -1065765,7 +1065787,7 @@
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1087347,7 +1087369,7 @@
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1093049,7 +1093071,7 @@
           "CWE-122",
           "CWE-190"
         ],
-        "cpe_count": 0,
+        "cpe_count": 24,
         "reference_count": 1
       }
     },
@@ -1094558,7 +1094580,7 @@
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 24,
         "reference_count": 1
       }
     },
@@ -1098368,7 +1098390,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 25,
         "reference_count": 1
       }
     },
@@ -1108780,7 +1108802,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1112651,7 +1112673,7 @@
           "CWE-122",
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1119845,7 +1119867,7 @@
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 25,
         "reference_count": 1
       }
     },
@@ -1122212,7 +1122234,7 @@
         "cwe_ids": [
           "CWE-190"
         ],
-        "cpe_count": 0,
+        "cpe_count": 24,
         "reference_count": 1
       }
     },
@@ -1143920,7 +1143942,7 @@
         "cwe_ids": [
           "CWE-59"
         ],
-        "cpe_count": 0,
+        "cpe_count": 11,
         "reference_count": 1
       }
     },
@@ -1149983,7 +1150005,7 @@
         "cwe_ids": [
           "CWE-77"
         ],
-        "cpe_count": 0,
+        "cpe_count": 11,
         "reference_count": 1
       }
     },
@@ -1151729,7 +1151751,7 @@
         "cwe_ids": [
           "CWE-426"
         ],
-        "cpe_count": 0,
+        "cpe_count": 11,
         "reference_count": 1
       }
     },
@@ -1406840,7 +1406862,7 @@
           "CWE-290"
         ],
         "cpe_count": 0,
-        "reference_count": 7
+        "reference_count": 8
       }
     },
     {
