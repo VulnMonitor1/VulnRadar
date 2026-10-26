@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-26T19:14:16+00:00",
-  "count": 6908,
+  "generated_at": "2026-10-26T23:58:30+00:00",
+  "count": 6910,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -794888,6 +794888,150 @@
         ],
         "cpe_count": 0,
         "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2026-109618",
+      "description": "PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the request. Some contexts may not properly account for this scenario and leave request memory in an uninitialized state before performing an allocation. The subsequent request cleanup procedure may read or branch on this memory. Multiple OOM strategies can consistently trigger this condition and lead to remote code execution (RCE).",
+      "cvss_score": 9.2,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:H/AT:P/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N",
+      "affected": [
+        {
+          "vendor": "php group",
+          "product": "php",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "8.2.*",
+              "lessThan": "8.2.35",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "8.3.*",
+              "lessThan": "8.3.36",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "8.4.*",
+              "lessThan": "8.4.27",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "8.5.*",
+              "lessThan": "8.5.12",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": false,
+      "in_watchlist": false,
+      "in_patchthis": true,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": true,
+      "probability_score": 0.99981,
+      "kev": {
+        "cveID": "CVE-2026-109618",
+        "vendorProject": "PHP Group",
+        "product": "PHP",
+        "vulnerabilityName": "PHP Memory Corruption Vulnerability",
+        "dateAdded": "2026-10-26",
+        "shortDescription": "PHP contains an out-of-memory corruption vulnerability that allows for unauthenticated remote code execution.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-10-29",
+        "knownRansomwareCampaignUse": "Unknown"
+      },
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-416",
+          "CWE-755",
+          "CWE-824",
+          "CWE-1325"
+        ],
+        "cpe_count": 306,
+        "reference_count": 5
+      }
+    },
+    {
+      "cve_id": "CVE-2026-109619",
+      "description": "PHP has various global state that temporarily points into request memory. In some scenarios, global state may not be correctly reset, or may be repopulated after being reset. The global state may then refer to request memory even after it has been freed. Subsequent requests may read or branch on this stale state before it is fully initialized. Multiple strategies can trigger this condition and produce remote code execution (RCE).",
+      "cvss_score": 9.2,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:H/AT:P/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N",
+      "affected": [
+        {
+          "vendor": "php group",
+          "product": "php",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "8.2.*",
+              "lessThan": "8.2.35",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "8.3.*",
+              "lessThan": "8.3.36",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "8.4.*",
+              "lessThan": "8.4.27",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "8.5.*",
+              "lessThan": "8.5.12",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": false,
+      "in_watchlist": false,
+      "in_patchthis": true,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": true,
+      "probability_score": 0.99997,
+      "kev": {
+        "cveID": "CVE-2026-109619",
+        "vendorProject": "PHP Group",
+        "product": "PHP",
+        "vulnerabilityName": "PHP Stale Internal Request-State Vulnerability",
+        "dateAdded": "2026-10-26",
+        "shortDescription": "PHP contains a stale internal request-state vulnerability that allows for unauthenticated remote code execution.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-10-29",
+        "knownRansomwareCampaignUse": "Unknown"
+      },
+      "nvd": {
+        "cvss_v3_score": 8.1,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-416",
+          "CWE-755",
+          "CWE-824",
+          "CWE-1325"
+        ],
+        "cpe_count": 306,
+        "reference_count": 14
       }
     },
     {
