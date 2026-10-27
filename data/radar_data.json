@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-27T16:28:27+00:00",
-  "count": 6919,
+  "generated_at": "2026-10-27T21:14:53+00:00",
+  "count": 6921,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -797185,6 +797185,70 @@
       }
     },
     {
+      "cve_id": "CVE-2026-111497",
+      "description": "A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3 through 1.2.0 on all platforms allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary code using a crafted Brotli-compressed stream.\n\n\n\n\n\nUsers need to update any Brotli libraries or binaries between 1.0.3 through 1.2.0 to the latest available version: 1.0.10 or 1.1.1 or 1.2.1.",
+      "cvss_score": 9.2,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N",
+      "affected": [
+        {
+          "vendor": "google",
+          "product": "brotli",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "1.0.3",
+              "lessThan": "1.0.10",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "1.1.0",
+              "lessThan": "1.1.1",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "1.2.0",
+              "lessThan": "1.2.1",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": false,
+      "in_watchlist": false,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": true,
+      "probability_score": 0.55483,
+      "kev": {
+        "cveID": "CVE-2026-111497",
+        "vendorProject": "Google",
+        "product": "Brotli",
+        "vulnerabilityName": "Google Brotli Unchecked Return Value Vulnerability",
+        "dateAdded": "2026-10-27",
+        "shortDescription": "Google Brotli contains an unchecked return value vulnerability that allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary code using a crafted Brotli-compressed stream.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-11-10",
+        "knownRansomwareCampaignUse": "Unknown"
+      },
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-252",
+          "CWE-787"
+        ],
+        "cpe_count": 0,
+        "reference_count": 13
+      }
+    },
+    {
       "cve_id": "CVE-2026-111879",
       "description": "DBI versions before 1.656 for Perl hang on a later open of a DBD::DBM table because a failed open_data does not release the table's lock.\n\nopen_data creates the table's lock file and takes an exclusive flock on it for a CREATE, before the checks that can croak: a dbm_mldbm value that is not a module name, a failing tie, or a missing data file. The croak unwinds before the table object is blessed, so nothing releases the lock, and the meta data holding the open descriptor stays cached on the database handle.\n\nThe dbm_mldbm and dbm_type values come from the DSN or the connect attributes, so a caller that chooses the serializer or the storage backend can trigger the failure.\n\nThe flock has no timeout, so a later open of that table (even through a separate database handle) blocks for as long as the handle holding the stale lock lives, in the same process or any other.",
       "cvss_score": null,
@@ -940984,6 +941048,113 @@
         ],
         "cpe_count": 31,
         "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2026-48356",
+      "description": "Adobe Commerce is affected by an Unrestricted Upload of File with Dangerous Type vulnerability that could result in arbitrary code execution in the context of the current user, potentially gaining elevated access or control over the victim's account or session. Exploitation of this issue requires user interaction in that a victim must visit a maliciously crafted URL or interact with a compromised web page. Scope is changed.",
+      "cvss_score": 9.3,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "adobe",
+          "product": "adobe commerce",
+          "versions": [
+            {
+              "lessThanOrEqual": "2.4.9, 2.4.8-p5, 2.4.7-p10, 2.4.6-p15, 2.4.5-p17, 2.4.4-p18",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            },
+            {
+              "status": "unaffected",
+              "version": "2.4.9-2026-jul, 2.4.8-2026-jul, 2.4.7-2026-jul, 2.4.6-2026-jul, 2.4.5-2026-jul, 2.4.4-2026-jul",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "adobe",
+          "product": "adobe commerce b2b",
+          "versions": [
+            {
+              "lessThanOrEqual": "1.5.3, 1.5.2-p5, 1.4.2-p10, 1.3.4-p17, 1.3.3-p18",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            },
+            {
+              "status": "unaffected",
+              "version": "1.5.3-2026-jul, 1.5.2-2026-jul, 1.4.2-2026-jul, 1.3.4-2026-jul, 1.3.3-2026-jul",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "adobe",
+          "product": "magento open source",
+          "versions": [
+            {
+              "lessThanOrEqual": "2.4.9, 2.4.8-p5, 2.4.7-p10, 2.4.6-p15",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            },
+            {
+              "status": "unaffected",
+              "version": "2.4.9-2026-jul, 2.4.8-2026-jul, 2.4.7-2026-jul, 2.4.6-2026-jul",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "adobe",
+          "product": "adobe commerce events",
+          "versions": [
+            {
+              "lessThanOrEqual": "1.20.0",
+              "status": "affected",
+              "version": "0",
+              "versionType": "semver"
+            },
+            {
+              "status": "unaffected",
+              "version": "1.21.0",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": false,
+      "in_watchlist": false,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": true,
+      "probability_score": 0.30582,
+      "kev": {
+        "cveID": "CVE-2026-48356",
+        "vendorProject": "Adobe",
+        "product": "Commerce and Magento",
+        "vulnerabilityName": "Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability",
+        "dateAdded": "2026-10-27",
+        "shortDescription": "Adobe Commerce and Magento contain an unrestricted upload of file with dangerous type vulnerability that could result in arbitrary code execution in the context of the current user, potentially gaining elevated access or control over the victim's account or session.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-11-10",
+        "knownRansomwareCampaignUse": "Unknown"
+      },
+      "nvd": {
+        "cvss_v3_score": 9.3,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-434"
+        ],
+        "cpe_count": 171,
+        "reference_count": 1
       }
     },
     {
