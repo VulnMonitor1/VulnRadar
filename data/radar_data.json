@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-28T15:59:22+00:00",
-  "count": 6921,
+  "generated_at": "2026-10-28T21:01:26+00:00",
+  "count": 6923,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -913083,6 +913083,117 @@
       }
     },
     {
+      "cve_id": "CVE-2026-41709",
+      "description": "VMware ESX contains an insufficient logging vulnerability.\u00a0A malicious administrator could exploit this issue to perform certain operations without them being logged.",
+      "cvss_score": 2.7,
+      "cvss_severity": "LOW",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "vmware",
+          "product": "cloud foundation",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "9.1.x.x"
+            },
+            {
+              "status": "affected",
+              "version": "9.0.x.x"
+            },
+            {
+              "status": "affected",
+              "version": "5.x",
+              "lessThan": "5.2.4",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "vmware",
+          "product": "vsphere foundation",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "9.1.x.x"
+            },
+            {
+              "status": "affected",
+              "version": "9.0.x.x"
+            }
+          ]
+        },
+        {
+          "vendor": "vmware",
+          "product": "esx",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "9.1.x.x",
+              "lessThan": "ESXi-9.1.0.0-25370933",
+              "versionType": "custom"
+            },
+            {
+              "status": "affected",
+              "version": "9.0.x.x",
+              "lessThan": "ESXi-9.0.2.0100-25595025",
+              "versionType": "custom"
+            },
+            {
+              "status": "affected",
+              "version": "8.0",
+              "lessThan": "ESXi80U3j-25429389",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "vmware",
+          "product": "telco cloud platform",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "5.1.x"
+            },
+            {
+              "status": "affected",
+              "version": "5.0.x"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": false,
+      "in_watchlist": false,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": true,
+      "probability_score": 0.00297,
+      "kev": {
+        "cveID": "CVE-2026-41709",
+        "vendorProject": "Broadcom",
+        "product": "VMware ESX",
+        "vulnerabilityName": "Broadcom VMWare ESX Insufficient Logging Vulnerability",
+        "dateAdded": "2026-10-28",
+        "shortDescription": "Broadcom VMWare ESX contains an insufficient logging vulnerability that could allow a malicious actor with admin access to perform certain operations without being logged.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-11-11",
+        "knownRansomwareCampaignUse": "Unknown"
+      },
+      "nvd": {
+        "cvss_v3_score": 2.7,
+        "cvss_v3_severity": "LOW",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-778"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
       "cve_id": "CVE-2026-41940",
       "description": "cPanel and WHM versions after 11.40 contain an authentication bypass vulnerability in the login flow that allows unauthenticated remote attackers to gain unauthorized access to the control panel.",
       "cvss_score": 9.3,
@@ -939420,6 +939531,165 @@
         ],
         "cpe_count": 1,
         "reference_count": 33
+      }
+    },
+    {
+      "cve_id": "CVE-2026-46300",
+      "description": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: skbuff: preserve shared-frag marker during coalescing\n\nskb_try_coalesce() can attach paged frags from @from to @to.  If @from\nhas SKBFL_SHARED_FRAG set, the resulting @to skb can contain the same\nexternally-owned or page-cache-backed frags, but the shared-frag marker\nis currently lost.\n\nThat breaks the invariant relied on by later in-place writers.  In\nparticular, ESP input checks skb_has_shared_frag() before deciding\nwhether an uncloned nonlinear skb can skip skb_cow_data().  If TCP\nreceive coalescing has moved shared frags into an unmarked skb, ESP can\nsee skb_has_shared_frag() as false and decrypt in place over page-cache\nbacked frags.\n\nPropagate SKBFL_SHARED_FRAG when skb_try_coalesce() transfers paged\nfrags.  The tailroom copy path does not need the marker because it copies\nbytes into @to's linear data rather than transferring frag descriptors.",
+      "cvss_score": 7.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "linux",
+          "product": "linux",
+          "versions": [
+            {
+              "version": "cef401de7be8c4e155c6746bfccf721a4fa5fab9",
+              "lessThan": "3599e6b3cc1ada96883d496a50a210d3afbb6987",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "cef401de7be8c4e155c6746bfccf721a4fa5fab9",
+              "lessThan": "2f2b16022a2e10ca7bccfb98db5ed2ec0f72641c",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "cef401de7be8c4e155c6746bfccf721a4fa5fab9",
+              "lessThan": "9d3e5fd19fe1063bf607219e8562fbd567b8e8d5",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "cef401de7be8c4e155c6746bfccf721a4fa5fab9",
+              "lessThan": "78bf6b6bb19541d19fbda6242e7cfe2c682763c0",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "cef401de7be8c4e155c6746bfccf721a4fa5fab9",
+              "lessThan": "760e1addc27ba1a7beb4a0a7e8b3e9ec49e7a34e",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "cef401de7be8c4e155c6746bfccf721a4fa5fab9",
+              "lessThan": "3bd9e113d50034db99d7ef69fd8e5242d15e414a",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "cef401de7be8c4e155c6746bfccf721a4fa5fab9",
+              "lessThan": "3884358a9286b17f389a72b1426fc4547c23c111",
+              "status": "affected",
+              "versionType": "git"
+            },
+            {
+              "version": "cef401de7be8c4e155c6746bfccf721a4fa5fab9",
+              "lessThan": "f84eca5817390257cef78013d0112481c503b4a3",
+              "status": "affected",
+              "versionType": "git"
+            }
+          ]
+        },
+        {
+          "vendor": "linux",
+          "product": "linux",
+          "versions": [
+            {
+              "version": "3.9",
+              "status": "affected"
+            },
+            {
+              "version": "0",
+              "lessThan": "3.9",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "5.10.257",
+              "lessThanOrEqual": "5.10.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "5.15.208",
+              "lessThanOrEqual": "5.15.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.1.174",
+              "lessThanOrEqual": "6.1.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.6.141",
+              "lessThanOrEqual": "6.6.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.12.91",
+              "lessThanOrEqual": "6.12.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "6.18.33",
+              "lessThanOrEqual": "6.18.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "7.0.10",
+              "lessThanOrEqual": "7.0.*",
+              "status": "unaffected",
+              "versionType": "semver"
+            },
+            {
+              "version": "7.1",
+              "lessThanOrEqual": "*",
+              "status": "unaffected",
+              "versionType": "original_commit_for_fix"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": false,
+      "in_watchlist": false,
+      "in_patchthis": true,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": true,
+      "probability_score": 0.10192,
+      "kev": {
+        "cveID": "CVE-2026-46300",
+        "vendorProject": "Linux",
+        "product": "Kernel",
+        "vulnerabilityName": "Linux Kernel Missing Initialization of a Variable Vulnerability",
+        "dateAdded": "2026-10-28",
+        "shortDescription": "Linux Kernel contains a missing initialization of a variable vulnerability that could allow for unintended modification of page-cache-backed data via failure to preserve the shared-fragment marker during socket buffer coalescing, causing ESP input processing to decrypt shared fragments in place. This vulnerability can be chained with CVE-2026-109618 and CVE-2026-109619 to implant PHP webshells and run commands as root.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-10-31",
+        "knownRansomwareCampaignUse": "Unknown"
+      },
+      "nvd": {
+        "cvss_v3_score": 7.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-787",
+          "CWE-456",
+          "CWE-123"
+        ],
+        "cpe_count": 11,
+        "reference_count": 50
       }
     },
     {
