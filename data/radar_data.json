@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T07:00:34+00:00",
+  "generated_at": "2026-10-29T14:27:45+00:00",
   "count": 6940,
   "items": [
     {
@@ -13118,7 +13118,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.06768,
+      "probability_score": 0.08632,
       "nvd": {
         "cvss_v3_score": 4.4,
         "cvss_v3_severity": "MEDIUM",
@@ -58856,7 +58856,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.006,
+      "probability_score": 0.00595,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -62008,7 +62008,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.03976,
+      "probability_score": 0.04053,
       "nvd": {
         "cvss_v3_score": 7.2,
         "cvss_v3_severity": "HIGH",
@@ -113068,7 +113068,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99174,
+      "probability_score": 0.99077,
       "kev": {
         "cveID": "CVE-2022-36804",
         "vendorProject": "Atlassian",
@@ -115028,7 +115028,7 @@
         "vendor:microsoft"
       ],
       "active_threat": true,
-      "probability_score": 0.28275,
+      "probability_score": 0.28483,
       "kev": {
         "cveID": "CVE-2022-37969",
         "vendorProject": "Microsoft",
@@ -131306,7 +131306,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.46725,
+      "probability_score": 0.47914,
       "kev": {
         "cveID": "CVE-2022-39197",
         "vendorProject": "Fortra",
@@ -144122,7 +144122,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01066,
+      "probability_score": 0.01062,
       "kev": {
         "cveID": "CVE-2022-42827",
         "vendorProject": "Apple",
@@ -150864,7 +150864,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.03672,
+      "probability_score": 0.03702,
       "kev": {
         "cveID": "CVE-2023-0266",
         "vendorProject": "Linux",
@@ -156301,7 +156301,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.02484,
+      "probability_score": 0.02504,
       "kev": {
         "cveID": "CVE-2023-20109",
         "vendorProject": "Cisco",
@@ -228818,7 +228818,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.05739,
+      "probability_score": 0.05786,
       "kev": {
         "cveID": "CVE-2023-2136",
         "vendorProject": "Google",
@@ -297719,7 +297719,7 @@
         "vendor:ibm"
       ],
       "active_threat": false,
-      "probability_score": 0.00154,
+      "probability_score": 0.00156,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -297760,7 +297760,7 @@
         "vendor:ibm"
       ],
       "active_threat": false,
-      "probability_score": 0.0015,
+      "probability_score": 0.00151,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -303283,7 +303283,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.9675,
+      "probability_score": 0.96715,
       "kev": {
         "cveID": "CVE-2023-46747",
         "vendorProject": "F5",
@@ -303393,7 +303393,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.04228,
+      "probability_score": 0.04262,
       "kev": {
         "cveID": "CVE-2023-46748",
         "vendorProject": "F5",
@@ -306992,7 +306992,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.02187,
+      "probability_score": 0.02506,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -307002,7 +307002,7 @@
           "CWE-122",
           "CWE-787"
         ],
-        "cpe_count": 3,
+        "cpe_count": 28,
         "reference_count": 43
       }
     },
@@ -310903,7 +310903,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00235,
+      "probability_score": 0.00239,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -312884,7 +312884,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.01392,
+      "probability_score": 0.0138,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -315224,7 +315224,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00398,
+      "probability_score": 0.00395,
       "nvd": {
         "cvss_v3_score": 6.1,
         "cvss_v3_severity": "MEDIUM",
@@ -320962,7 +320962,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00528,
+      "probability_score": 0.00524,
       "nvd": {
         "cvss_v3_score": 5.0,
         "cvss_v3_severity": "MEDIUM",
@@ -396829,7 +396829,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00288,
+      "probability_score": 0.00309,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -396999,7 +396999,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.01191,
+      "probability_score": 0.01181,
       "nvd": {
         "cvss_v3_score": 7.3,
         "cvss_v3_severity": "HIGH",
@@ -457031,7 +457031,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00545,
+      "probability_score": 0.00534,
       "nvd": {
         "cvss_v3_score": 7.7,
         "cvss_v3_severity": "HIGH",
@@ -457425,7 +457425,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.02036,
+      "probability_score": 0.02053,
       "nvd": {
         "cvss_v3_score": 8.1,
         "cvss_v3_severity": "HIGH",
@@ -509475,7 +509475,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00814,
+      "probability_score": 0.00807,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -511577,7 +511577,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00276,
+      "probability_score": 0.00274,
       "nvd": {
         "cvss_v3_score": 3.2,
         "cvss_v3_severity": "LOW",
@@ -528749,7 +528749,7 @@
           "CWE-457"
         ],
         "cpe_count": 0,
-        "reference_count": 21
+        "reference_count": 22
       }
     },
     {
@@ -532032,7 +532032,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00682,
+      "probability_score": 0.00701,
       "nvd": {
         "cvss_v3_score": 5.4,
         "cvss_v3_severity": "MEDIUM",
@@ -533612,7 +533612,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.31085,
+      "probability_score": 0.31309,
       "kev": {
         "cveID": "CVE-2025-0994",
         "vendorProject": "Trimble",
@@ -535947,7 +535947,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00804,
+      "probability_score": 0.00823,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -536189,7 +536189,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00697,
+      "probability_score": 0.00747,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -638219,7 +638219,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.65756,
+      "probability_score": 0.74939,
       "kev": {
         "cveID": "CVE-2025-31125",
         "vendorProject": "Vite",
@@ -652407,7 +652407,7 @@
         "vendor:ibm"
       ],
       "active_threat": false,
-      "probability_score": 0.0054,
+      "probability_score": 0.00553,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -652460,7 +652460,7 @@
         "vendor:ibm"
       ],
       "active_threat": false,
-      "probability_score": 0.00199,
+      "probability_score": 0.00217,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -671198,7 +671198,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99707,
+      "probability_score": 0.99491,
       "kev": {
         "cveID": "CVE-2025-49113",
         "vendorProject": "Roundcube",
@@ -684017,7 +684017,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00505,
+      "probability_score": 0.00543,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -712346,7 +712346,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.13084,
+      "probability_score": 0.13513,
       "kev": {
         "cveID": "CVE-2025-55177",
         "vendorProject": "Meta Platforms",
@@ -735097,7 +735097,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00254,
+      "probability_score": 0.00253,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -735252,7 +735252,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00254,
+      "probability_score": 0.00253,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -744029,7 +744029,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01864,
+      "probability_score": 0.01956,
       "kev": {
         "cveID": "CVE-2025-59689",
         "vendorProject": "Libraesva",
@@ -744227,7 +744227,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.96915,
+      "probability_score": 0.97039,
       "kev": {
         "cveID": "CVE-2025-5086",
         "vendorProject": "Dassault Syst\u00e8mes",
@@ -745594,7 +745594,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.07821,
+      "probability_score": 0.07486,
       "kev": {
         "cveID": "CVE-2025-5419",
         "vendorProject": "Google",
@@ -767012,7 +767012,7 @@
         "vendor:microsoft, inc"
       ],
       "active_threat": false,
-      "probability_score": 0.00155,
+      "probability_score": 0.00166,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -767336,7 +767336,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.94509,
+      "probability_score": 0.94008,
       "kev": {
         "cveID": "CVE-2025-8088",
         "vendorProject": "RARLAB",
@@ -767656,7 +767656,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00339,
+      "probability_score": 0.00365,
       "nvd": {
         "cvss_v3_score": 3.7,
         "cvss_v3_severity": "LOW",
@@ -768506,7 +768506,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01899,
+      "probability_score": 0.02514,
       "kev": {
         "cveID": "CVE-2025-8875",
         "vendorProject": "N-able",
@@ -768557,7 +768557,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.03448,
+      "probability_score": 0.04125,
       "kev": {
         "cveID": "CVE-2025-8876",
         "vendorProject": "N-able",
@@ -769174,7 +769174,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.37731,
+      "probability_score": 0.413,
       "kev": {
         "cveID": "CVE-2025-9377",
         "vendorProject": "TP-Link",
@@ -775588,7 +775588,16 @@
         "vendor:pretix"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00346,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 1
+      }
     },
     {
       "cve_id": "CVE-2026-101273",
@@ -775631,7 +775640,16 @@
         "vendor:pretix"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00366,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 1
+      }
     },
     {
       "cve_id": "CVE-2026-101274",
@@ -775674,7 +775692,16 @@
         "vendor:pretix"
       ],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00392,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": null,
+        "cpe_count": 0,
+        "reference_count": 1
+      }
     },
     {
       "cve_id": "CVE-2026-102186",
@@ -782855,7 +782882,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01955,
+      "probability_score": 0.22478,
       "kev": {
         "cveID": "CVE-2026-102489",
         "vendorProject": "Zammad GmbH",
@@ -782918,7 +782945,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00857,
+      "probability_score": 0.10936,
       "kev": {
         "cveID": "CVE-2026-102490",
         "vendorProject": "Zammad GmbH",
@@ -786446,7 +786473,7 @@
         "cwe_ids": [
           "CWE-22"
         ],
-        "cpe_count": 3,
+        "cpe_count": 5,
         "reference_count": 2
       }
     },
@@ -790099,14 +790126,16 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00376,
+      "probability_score": 0.00329,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
-        "cpe_count": 0,
+        "cwe_ids": [
+          "CWE-863"
+        ],
+        "cpe_count": 18,
         "reference_count": 1
       }
     },
@@ -791566,7 +791595,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00376,
+      "probability_score": 0.00367,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -791575,7 +791604,7 @@
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 9,
         "reference_count": 1
       }
     },
@@ -792110,7 +792139,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00286,
+      "probability_score": 0.00279,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -792119,7 +792148,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 6,
         "reference_count": 1
       }
     },
@@ -793018,7 +793047,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00391,
+      "probability_score": 0.00382,
       "nvd": {
         "cvss_v3_score": 7.2,
         "cvss_v3_severity": "HIGH",
@@ -793027,7 +793056,7 @@
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -795929,7 +795958,7 @@
           "CWE-1325"
         ],
         "cpe_count": 306,
-        "reference_count": 8
+        "reference_count": 9
       }
     },
     {
@@ -796213,7 +796242,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.11634,
+      "probability_score": 0.73307,
       "kev": {
         "cveID": "CVE-2026-110447",
         "vendorProject": "Collabora",
@@ -797289,7 +797318,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.87988,
+      "probability_score": 0.82641,
       "kev": {
         "cveID": "CVE-2026-111497",
         "vendorProject": "Google",
@@ -797302,15 +797331,15 @@
         "knownRansomwareCampaignUse": "Unknown"
       },
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
           "CWE-252",
           "CWE-787"
         ],
-        "cpe_count": 0,
+        "cpe_count": 36,
         "reference_count": 18
       }
     },
@@ -798381,7 +798410,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.0031,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-770"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-116132",
@@ -798410,7 +798450,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00342,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-459"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-116133",
@@ -798439,7 +798490,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.0031,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-407"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-116134",
@@ -798468,7 +798530,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.0031,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-770"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-116135",
@@ -798497,7 +798570,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00342,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-178"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-116264",
@@ -798526,7 +798610,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00177,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-436"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
     },
     {
       "cve_id": "CVE-2026-116265",
@@ -798555,7 +798650,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00177,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-436"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
     },
     {
       "cve_id": "CVE-2026-116266",
@@ -798584,7 +798690,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00177,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-436"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
     },
     {
       "cve_id": "CVE-2026-116267",
@@ -798613,7 +798730,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00177,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-407"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
     },
     {
       "cve_id": "CVE-2026-116268",
@@ -798642,7 +798770,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00177,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-1333"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
     },
     {
       "cve_id": "CVE-2026-116269",
@@ -798671,7 +798810,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00177,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-436"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
     },
     {
       "cve_id": "CVE-2026-116270",
@@ -798700,7 +798850,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00177,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-407"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
     },
     {
       "cve_id": "CVE-2026-116271",
@@ -798729,7 +798890,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00191,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-59"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
     },
     {
       "cve_id": "CVE-2026-116272",
@@ -798758,7 +798930,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00177,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-436"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
     },
     {
       "cve_id": "CVE-2026-116273",
@@ -798787,7 +798970,19 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00177,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-770",
+          "CWE-1188"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
     },
     {
       "cve_id": "CVE-2026-116285",
@@ -798816,7 +799011,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00288,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-1333"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-116531",
@@ -798845,7 +799051,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00288,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-130"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-117500",
@@ -798874,7 +799091,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00264,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-1333"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-117501",
@@ -798903,7 +799131,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.0024,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-770"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-11645",
@@ -804037,7 +804276,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01001,
+      "probability_score": 0.0176,
       "kev": {
         "cveID": "CVE-2026-16812",
         "vendorProject": "Arista",
@@ -913762,7 +914001,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00297,
+      "probability_score": 0.00764,
       "kev": {
         "cveID": "CVE-2026-41709",
         "vendorProject": "Broadcom",
@@ -913783,7 +914022,7 @@
           "CWE-778"
         ],
         "cpe_count": 0,
-        "reference_count": 1
+        "reference_count": 2
       }
     },
     {
@@ -916064,7 +916303,7 @@
           "CWE-295"
         ],
         "cpe_count": 0,
-        "reference_count": 32
+        "reference_count": 35
       }
     },
     {
@@ -916638,7 +916877,7 @@
           "CWE-295"
         ],
         "cpe_count": 0,
-        "reference_count": 27
+        "reference_count": 30
       }
     },
     {
@@ -917262,7 +917501,7 @@
           "CWE-295"
         ],
         "cpe_count": 0,
-        "reference_count": 32
+        "reference_count": 35
       }
     },
     {
@@ -940259,7 +940498,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.10192,
+      "probability_score": 0.15719,
       "kev": {
         "cveID": "CVE-2026-46300",
         "vendorProject": "Linux",
@@ -940282,7 +940521,7 @@
           "CWE-123"
         ],
         "cpe_count": 11,
-        "reference_count": 50
+        "reference_count": 51
       }
     },
     {
@@ -942120,7 +942359,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.59078,
+      "probability_score": 0.44579,
       "kev": {
         "cveID": "CVE-2026-48356",
         "vendorProject": "Adobe",
@@ -1024164,7 +1024403,7 @@
           "CWE-126"
         ],
         "cpe_count": 0,
-        "reference_count": 34
+        "reference_count": 38
       }
     },
     {
@@ -1024194,7 +1024433,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.13514,
+      "probability_score": 0.13743,
       "kev": {
         "cveID": "CVE-2026-5281",
         "vendorProject": "Google",
@@ -1144135,7 +1144374,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00954,
+      "probability_score": 0.00932,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -1144144,7 +1144383,7 @@
         "cwe_ids": [
           "CWE-497"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1144801,7 +1145040,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00258,
+      "probability_score": 0.00253,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1144810,7 +1145049,7 @@
         "cwe_ids": [
           "CWE-347"
         ],
-        "cpe_count": 0,
+        "cpe_count": 18,
         "reference_count": 1
       }
     },
@@ -1154551,7 +1154790,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00307,
+      "probability_score": 0.003,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1154560,7 +1154799,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 11,
         "reference_count": 1
       }
     },
@@ -1155988,7 +1156227,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00235,
+      "probability_score": 0.0023,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1155998,7 +1156237,7 @@
           "CWE-362",
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 21,
         "reference_count": 1
       }
     },
@@ -1183489,7 +1183728,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00645,
+      "probability_score": 0.00631,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -1183498,7 +1183737,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1186992,7 +1187231,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00645,
+      "probability_score": 0.00631,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -1187001,7 +1187240,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1191831,7 +1192070,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00388,
+      "probability_score": 0.00379,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1191840,7 +1192079,7 @@
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 24,
         "reference_count": 1
       }
     },
@@ -1192034,7 +1192273,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00361,
+      "probability_score": 0.00353,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1192043,7 +1192282,7 @@
         "cwe_ids": [
           "CWE-843"
         ],
-        "cpe_count": 0,
+        "cpe_count": 21,
         "reference_count": 1
       }
     },
@@ -1192177,7 +1192416,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00373,
+      "probability_score": 0.00365,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1192187,7 +1192426,7 @@
           "CWE-122",
           "CWE-190"
         ],
-        "cpe_count": 0,
+        "cpe_count": 12,
         "reference_count": 1
       }
     },
@@ -1192465,7 +1192704,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00468,
+      "probability_score": 0.00457,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1192474,7 +1192713,7 @@
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1192752,7 +1192991,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00954,
+      "probability_score": 0.00932,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -1192761,7 +1193000,7 @@
         "cwe_ids": [
           "CWE-497"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1192955,7 +1193194,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00307,
+      "probability_score": 0.003,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1192964,7 +1193203,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 21,
         "reference_count": 1
       }
     },
@@ -1193242,7 +1193481,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00327,
+      "probability_score": 0.0032,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -1193251,7 +1193490,7 @@
         "cwe_ids": [
           "CWE-863"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1193529,7 +1193768,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00388,
+      "probability_score": 0.00379,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1193538,7 +1193777,7 @@
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1193816,7 +1194055,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00433,
+      "probability_score": 0.00423,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1193825,7 +1194064,7 @@
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1194019,7 +1194258,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00787,
+      "probability_score": 0.0077,
       "nvd": {
         "cvss_v3_score": 8.1,
         "cvss_v3_severity": "HIGH",
@@ -1194028,7 +1194267,7 @@
         "cwe_ids": [
           "CWE-415"
         ],
-        "cpe_count": 0,
+        "cpe_count": 21,
         "reference_count": 1
       }
     },
@@ -1194306,7 +1194545,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00362,
+      "probability_score": 0.00353,
       "nvd": {
         "cvss_v3_score": 4.7,
         "cvss_v3_severity": "MEDIUM",
@@ -1194315,7 +1194554,7 @@
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1194593,7 +1194832,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00388,
+      "probability_score": 0.00379,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1194602,7 +1194841,7 @@
         "cwe_ids": [
           "CWE-191"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1194867,7 +1195106,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00307,
+      "probability_score": 0.003,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1194876,7 +1195115,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 22,
         "reference_count": 1
       }
     },
@@ -1195154,7 +1195393,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00948,
+      "probability_score": 0.00928,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -1195164,7 +1195403,7 @@
           "CWE-122",
           "CWE-822"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1195442,7 +1195681,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.01233,
+      "probability_score": 0.01234,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -1195451,7 +1195690,7 @@
         "cwe_ids": [
           "CWE-770"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1195645,7 +1195884,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00315,
+      "probability_score": 0.00308,
       "nvd": {
         "cvss_v3_score": 4.4,
         "cvss_v3_severity": "MEDIUM",
@@ -1195654,7 +1195893,7 @@
         "cwe_ids": [
           "CWE-367"
         ],
-        "cpe_count": 0,
+        "cpe_count": 21,
         "reference_count": 1
       }
     },
@@ -1195751,7 +1195990,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00337,
+      "probability_score": 0.00329,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1195760,7 +1195999,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 9,
         "reference_count": 1
       }
     },
@@ -1196038,7 +1196277,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00362,
+      "probability_score": 0.00353,
       "nvd": {
         "cvss_v3_score": 4.7,
         "cvss_v3_severity": "MEDIUM",
@@ -1196047,7 +1196286,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1196241,7 +1196480,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00506,
+      "probability_score": 0.00495,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -1196250,7 +1196489,7 @@
         "cwe_ids": [
           "CWE-22"
         ],
-        "cpe_count": 0,
+        "cpe_count": 21,
         "reference_count": 1
       }
     },
@@ -1196444,7 +1196683,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00286,
+      "probability_score": 0.00279,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1196453,7 +1196692,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 21,
         "reference_count": 1
       }
     },
@@ -1196731,7 +1196970,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00948,
+      "probability_score": 0.00928,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -1196740,7 +1196979,7 @@
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1197018,7 +1197257,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.0047,
+      "probability_score": 0.00459,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -1197027,7 +1197266,7 @@
         "cwe_ids": [
           "CWE-908"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1201175,7 +1201414,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00286,
+      "probability_score": 0.00279,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1201184,7 +1201423,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 9,
         "reference_count": 1
       }
     },
@@ -1201281,7 +1201520,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00368,
+      "probability_score": 0.0036,
       "nvd": {
         "cvss_v3_score": 4.2,
         "cvss_v3_severity": "MEDIUM",
@@ -1201290,7 +1201529,7 @@
         "cwe_ids": [
           "CWE-121"
         ],
-        "cpe_count": 0,
+        "cpe_count": 8,
         "reference_count": 1
       }
     },
@@ -1201626,7 +1201865,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00307,
+      "probability_score": 0.003,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1201635,7 +1201874,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 9,
         "reference_count": 1
       }
     },
@@ -1201960,7 +1202199,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00301,
+      "probability_score": 0.00294,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -1201969,7 +1202208,7 @@
         "cwe_ids": [
           "CWE-367"
         ],
-        "cpe_count": 0,
+        "cpe_count": 16,
         "reference_count": 1
       }
     },
@@ -1202247,7 +1202486,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00348,
+      "probability_score": 0.0034,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1202257,7 +1202496,7 @@
           "CWE-122",
           "CWE-197"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1202511,7 +1202750,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00533,
+      "probability_score": 0.00522,
       "nvd": {
         "cvss_v3_score": 7.1,
         "cvss_v3_severity": "HIGH",
@@ -1202521,7 +1202760,7 @@
           "CWE-20",
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 25,
         "reference_count": 1
       }
     },
@@ -1202715,7 +1202954,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00432,
+      "probability_score": 0.00422,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -1202724,7 +1202963,7 @@
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 21,
         "reference_count": 1
       }
     },
@@ -1203002,7 +1203241,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00505,
+      "probability_score": 0.00494,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1203011,7 +1203250,7 @@
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1203289,7 +1203528,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00404,
+      "probability_score": 0.00395,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1203298,7 +1203537,7 @@
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1203576,7 +1203815,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.01301,
+      "probability_score": 0.01273,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -1203585,7 +1203824,7 @@
         "cwe_ids": [
           "CWE-770"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1203779,7 +1204018,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00307,
+      "probability_score": 0.003,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1203788,7 +1204027,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 21,
         "reference_count": 1
       }
     },
@@ -1204018,7 +1204257,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.0047,
+      "probability_score": 0.00459,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -1204027,7 +1204266,7 @@
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 24,
         "reference_count": 1
       }
     },
@@ -1204281,7 +1204520,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00286,
+      "probability_score": 0.00279,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1204290,7 +1204529,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 25,
         "reference_count": 1
       }
     },
@@ -1204568,7 +1204807,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00406,
+      "probability_score": 0.00397,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -1204577,7 +1204816,7 @@
         "cwe_ids": [
           "CWE-306"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1204855,7 +1205094,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00388,
+      "probability_score": 0.00379,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1204864,7 +1205103,7 @@
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1205142,7 +1205381,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00388,
+      "probability_score": 0.00379,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1205151,7 +1205390,7 @@
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1205345,7 +1205584,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00307,
+      "probability_score": 0.003,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1205354,7 +1205593,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 21,
         "reference_count": 1
       }
     },
@@ -1205632,7 +1205871,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.0045,
+      "probability_score": 0.0044,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -1205641,7 +1205880,7 @@
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1205763,7 +1206002,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00414,
+      "probability_score": 0.0052,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1205772,7 +1206011,7 @@
         "cwe_ids": [
           "CWE-426"
         ],
-        "cpe_count": 0,
+        "cpe_count": 11,
         "reference_count": 1
       }
     },
@@ -1206050,7 +1206289,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00388,
+      "probability_score": 0.00379,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1206059,7 +1206298,7 @@
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1206742,7 +1206981,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.01094,
+      "probability_score": 0.0107,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",
@@ -1206751,7 +1206990,7 @@
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1206909,7 +1207148,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00406,
+      "probability_score": 0.00397,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -1206918,7 +1207157,7 @@
         "cwe_ids": [
           "CWE-441"
         ],
-        "cpe_count": 0,
+        "cpe_count": 19,
         "reference_count": 1
       }
     },
@@ -1207196,7 +1207435,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00948,
+      "probability_score": 0.00928,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -1207206,7 +1207445,7 @@
           "CWE-122",
           "CWE-190"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1207484,7 +1207723,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00286,
+      "probability_score": 0.00279,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1207493,7 +1207732,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1207651,7 +1207890,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00404,
+      "probability_score": 0.00395,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1207660,7 +1207899,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 18,
         "reference_count": 1
       }
     },
@@ -1207938,7 +1208177,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.01094,
+      "probability_score": 0.0107,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",
@@ -1207947,7 +1208186,7 @@
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1208225,7 +1208464,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00304,
+      "probability_score": 0.00297,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1208234,7 +1208473,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1208512,7 +1208751,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.01084,
+      "probability_score": 0.01061,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",
@@ -1208521,7 +1208760,7 @@
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1208808,7 +1209047,7 @@
         "cwe_ids": [
           "CWE-415"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1209289,7 +1209528,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.01252,
+      "probability_score": 0.01225,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -1209298,7 +1209537,7 @@
         "cwe_ids": [
           "CWE-770"
         ],
-        "cpe_count": 0,
+        "cpe_count": 21,
         "reference_count": 1
       }
     },
@@ -1209576,7 +1209815,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00307,
+      "probability_score": 0.003,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1209585,7 +1209824,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1209863,7 +1210102,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00307,
+      "probability_score": 0.003,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1209872,7 +1210111,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1210066,7 +1210305,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00219,
+      "probability_score": 0.00214,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1210076,7 +1210315,7 @@
           "CWE-362",
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 21,
         "reference_count": 1
       }
     },
@@ -1210641,7 +1210880,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00388,
+      "probability_score": 0.00379,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1210650,7 +1210889,7 @@
         "cwe_ids": [
           "CWE-822"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1210928,7 +1211167,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.0045,
+      "probability_score": 0.0044,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -1210937,7 +1211176,7 @@
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1211454,7 +1211693,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00361,
+      "probability_score": 0.00353,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1211464,7 +1211703,7 @@
           "CWE-20",
           "CWE-197"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1211586,7 +1211825,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00431,
+      "probability_score": 0.00421,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1211595,7 +1211834,7 @@
         "cwe_ids": [
           "CWE-41"
         ],
-        "cpe_count": 0,
+        "cpe_count": 16,
         "reference_count": 1
       }
     },
@@ -1211873,7 +1212112,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00311,
+      "probability_score": 0.00304,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -1211882,7 +1212121,7 @@
         "cwe_ids": [
           "CWE-639"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1212160,7 +1212399,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00266,
+      "probability_score": 0.0026,
       "nvd": {
         "cvss_v3_score": 4.7,
         "cvss_v3_severity": "MEDIUM",
@@ -1212170,7 +1212409,7 @@
           "CWE-362",
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1213212,7 +1213451,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00307,
+      "probability_score": 0.003,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1213221,7 +1213460,7 @@
         "cwe_ids": [
           "CWE-843"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1213508,7 +1213747,7 @@
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1213786,7 +1214025,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00452,
+      "probability_score": 0.00442,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -1213795,7 +1214034,7 @@
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1214360,7 +1214599,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00948,
+      "probability_score": 0.00928,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -1214370,7 +1214609,7 @@
           "CWE-122",
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1214851,7 +1215090,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00274,
+      "probability_score": 0.00268,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1214860,7 +1215099,7 @@
         "cwe_ids": [
           "CWE-923"
         ],
-        "cpe_count": 0,
+        "cpe_count": 22,
         "reference_count": 1
       }
     },
@@ -1215090,7 +1215329,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00351,
+      "probability_score": 0.00343,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -1215099,7 +1215338,7 @@
         "cwe_ids": [
           "CWE-1220"
         ],
-        "cpe_count": 0,
+        "cpe_count": 24,
         "reference_count": 1
       }
     },
@@ -1215172,7 +1215411,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.0036,
+      "probability_score": 0.00353,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1215182,7 +1215421,7 @@
           "CWE-285",
           "CWE-1220"
         ],
-        "cpe_count": 0,
+        "cpe_count": 8,
         "reference_count": 1
       }
     },
@@ -1215460,7 +1215699,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00402,
+      "probability_score": 0.00392,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1215469,7 +1215708,7 @@
         "cwe_ids": [
           "CWE-23"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1215747,7 +1215986,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00314,
+      "probability_score": 0.00306,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1215756,7 +1215995,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1216034,7 +1216273,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00388,
+      "probability_score": 0.00379,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1216043,7 +1216282,7 @@
         "cwe_ids": [
           "CWE-843"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1216165,7 +1216404,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.0047,
+      "probability_score": 0.00459,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -1216174,7 +1216413,7 @@
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 11,
         "reference_count": 1
       }
     },
@@ -1216368,7 +1216607,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00373,
+      "probability_score": 0.00364,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1216377,7 +1216616,7 @@
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 21,
         "reference_count": 1
       }
     },
@@ -1216655,7 +1216894,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.01065,
+      "probability_score": 0.01042,
       "nvd": {
         "cvss_v3_score": 8.1,
         "cvss_v3_severity": "HIGH",
@@ -1216664,7 +1216903,7 @@
         "cwe_ids": [
           "CWE-863"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1216858,7 +1217097,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00307,
+      "probability_score": 0.003,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1216867,7 +1217106,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 21,
         "reference_count": 1
       }
     },
@@ -1217432,7 +1217671,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00495,
+      "probability_score": 0.00484,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1217441,7 +1217680,7 @@
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1217671,7 +1217910,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00432,
+      "probability_score": 0.00422,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -1217680,7 +1217919,7 @@
         "cwe_ids": [
           "CWE-126"
         ],
-        "cpe_count": 0,
+        "cpe_count": 24,
         "reference_count": 1
       }
     },
@@ -1217777,7 +1218016,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00327,
+      "probability_score": 0.0032,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -1217786,7 +1218025,7 @@
         "cwe_ids": [
           "CWE-862"
         ],
-        "cpe_count": 0,
+        "cpe_count": 9,
         "reference_count": 1
       }
     },
@@ -1218351,7 +1218590,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00326,
+      "probability_score": 0.00318,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1218360,7 +1218599,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1218638,7 +1218877,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00361,
+      "probability_score": 0.00353,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1218647,7 +1218886,7 @@
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1218925,7 +1219164,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00304,
+      "probability_score": 0.00297,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1218934,7 +1219173,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1219578,7 +1219817,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00433,
+      "probability_score": 0.00423,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1219587,7 +1219826,7 @@
         "cwe_ids": [
           "CWE-843"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1219865,7 +1220104,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00348,
+      "probability_score": 0.0034,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1219874,7 +1220113,7 @@
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1220104,7 +1220343,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00445,
+      "probability_score": 0.00434,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -1220113,7 +1220352,7 @@
         "cwe_ids": [
           "CWE-476"
         ],
-        "cpe_count": 0,
+        "cpe_count": 24,
         "reference_count": 1
       }
     },
@@ -1220630,7 +1220869,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00286,
+      "probability_score": 0.00279,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1220639,7 +1220878,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1221072,7 +1221311,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00404,
+      "probability_score": 0.00394,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1221081,7 +1221320,7 @@
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 21,
         "reference_count": 1
       }
     },
@@ -1221359,7 +1221598,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00948,
+      "probability_score": 0.00928,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -1221369,7 +1221608,7 @@
           "CWE-122",
           "CWE-190"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1221647,7 +1221886,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00954,
+      "probability_score": 0.00932,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -1221656,7 +1221895,7 @@
         "cwe_ids": [
           "CWE-497"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1221934,7 +1222173,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00954,
+      "probability_score": 0.00932,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -1221943,7 +1222182,7 @@
         "cwe_ids": [
           "CWE-497"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1222221,16 +1222460,16 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00948,
+      "probability_score": 0.00928,
       "nvd": {
-        "cvss_v3_score": 8.8,
-        "cvss_v3_severity": "HIGH",
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1222460,7 +1222699,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.0045,
+      "probability_score": 0.0044,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -1222469,7 +1222708,7 @@
         "cwe_ids": [
           "CWE-822"
         ],
-        "cpe_count": 0,
+        "cpe_count": 24,
         "reference_count": 1
       }
     },
@@ -1223034,7 +1223273,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00286,
+      "probability_score": 0.00279,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1223043,7 +1223282,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1223271,7 +1223510,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00361,
+      "probability_score": 0.00353,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1223280,7 +1223519,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 11,
         "reference_count": 1
       }
     },
@@ -1223558,16 +1223797,16 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00948,
+      "probability_score": 0.00928,
       "nvd": {
-        "cvss_v3_score": 8.8,
-        "cvss_v3_severity": "HIGH",
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
           "CWE-822"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1223845,7 +1224084,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00628,
+      "probability_score": 0.00615,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -1223854,7 +1224093,7 @@
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1224132,7 +1224371,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00307,
+      "probability_score": 0.003,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1224141,7 +1224380,7 @@
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1224263,16 +1224502,16 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00431,
+      "probability_score": 0.00386,
       "nvd": {
-        "cvss_v3_score": 4.4,
+        "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
           "CWE-863"
         ],
-        "cpe_count": 0,
+        "cpe_count": 16,
         "reference_count": 1
       }
     },
@@ -1225350,7 +1225589,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.0042,
+      "probability_score": 0.0041,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1225359,7 +1225598,7 @@
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1227687,7 +1227926,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00346,
+      "probability_score": 0.00339,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -1227696,7 +1227935,7 @@
         "cwe_ids": [
           "CWE-863"
         ],
-        "cpe_count": 0,
+        "cpe_count": 3,
         "reference_count": 1
       }
     },
@@ -1231618,7 +1231857,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00388,
+      "probability_score": 0.00379,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1231627,7 +1231866,7 @@
         "cwe_ids": [
           "CWE-476"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1233875,16 +1234114,16 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00346,
+      "probability_score": 0.00339,
       "nvd": {
-        "cvss_v3_score": 8.8,
+        "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
           "CWE-306"
         ],
-        "cpe_count": 0,
+        "cpe_count": 21,
         "reference_count": 1
       }
     },
@@ -1238545,17 +1238784,17 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00246,
+      "probability_score": 0.00233,
       "nvd": {
-        "cvss_v3_score": 6.4,
-        "cvss_v3_severity": "MEDIUM",
+        "cvss_v3_score": 7.0,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
           "CWE-362",
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 20,
         "reference_count": 1
       }
     },
@@ -1242489,7 +1242728,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00307,
+      "probability_score": 0.003,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1242498,7 +1242737,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 11,
         "reference_count": 1
       }
     },
@@ -1245658,7 +1245897,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00314,
+      "probability_score": 0.00306,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1245667,7 +1245906,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 12,
         "reference_count": 1
       }
     },
@@ -1248156,7 +1248395,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00307,
+      "probability_score": 0.003,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1248165,7 +1248404,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 24,
         "reference_count": 1
       }
     },
@@ -1248299,7 +1248538,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00307,
+      "probability_score": 0.003,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1248308,7 +1248547,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 12,
         "reference_count": 1
       }
     },
@@ -1258346,7 +1258585,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00414,
+      "probability_score": 0.0052,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1258355,7 +1258594,7 @@
         "cwe_ids": [
           "CWE-15"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1262783,7 +1263022,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00948,
+      "probability_score": 0.00928,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -1262792,7 +1263031,7 @@
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1267482,7 +1267721,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00373,
+      "probability_score": 0.00364,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1267491,7 +1267730,7 @@
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1271202,7 +1271441,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00351,
+      "probability_score": 0.00343,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -1271211,7 +1271450,7 @@
         "cwe_ids": [
           "CWE-798"
         ],
-        "cpe_count": 0,
+        "cpe_count": 18,
         "reference_count": 1
       }
     },
@@ -1271489,7 +1271728,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00241,
+      "probability_score": 0.00235,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1271499,7 +1271738,7 @@
           "CWE-362",
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1272084,7 +1272323,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.0046,
+      "probability_score": 0.0045,
       "nvd": {
         "cvss_v3_score": 6.1,
         "cvss_v3_severity": "MEDIUM",
@@ -1272093,7 +1272332,7 @@
         "cwe_ids": [
           "CWE-601"
         ],
-        "cpe_count": 0,
+        "cpe_count": 24,
         "reference_count": 1
       }
     },
@@ -1272296,7 +1272535,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00278,
+      "probability_score": 0.00271,
       "nvd": {
         "cvss_v3_score": 4.7,
         "cvss_v3_severity": "MEDIUM",
@@ -1272305,7 +1272544,7 @@
         "cwe_ids": [
           "CWE-367"
         ],
-        "cpe_count": 0,
+        "cpe_count": 8,
         "reference_count": 1
       }
     },
@@ -1272535,7 +1272774,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00257,
+      "probability_score": 0.00322,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1272545,7 +1272784,7 @@
           "CWE-367",
           "CWE-426"
         ],
-        "cpe_count": 0,
+        "cpe_count": 24,
         "reference_count": 1
       }
     },
@@ -1272823,7 +1273062,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00414,
+      "probability_score": 0.00404,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1272832,7 +1273071,7 @@
         "cwe_ids": [
           "CWE-426"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1272990,7 +1273229,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00506,
+      "probability_score": 0.00495,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -1272999,7 +1273238,7 @@
         "cwe_ids": [
           "CWE-59"
         ],
-        "cpe_count": 0,
+        "cpe_count": 18,
         "reference_count": 1
       }
     },
@@ -1273277,7 +1273516,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00388,
+      "probability_score": 0.00379,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1273286,7 +1273525,7 @@
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1273564,7 +1273803,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00335,
+      "probability_score": 0.00421,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1273573,7 +1273812,7 @@
         "cwe_ids": [
           "CWE-426"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1273851,7 +1274090,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00241,
+      "probability_score": 0.00235,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1273860,7 +1274099,7 @@
         "cwe_ids": [
           "CWE-367"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1276847,7 +1277086,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.0047,
+      "probability_score": 0.00459,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -1276856,7 +1277095,7 @@
         "cwe_ids": [
           "CWE-126"
         ],
-        "cpe_count": 0,
+        "cpe_count": 24,
         "reference_count": 1
       }
     },
@@ -1276953,7 +1277192,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00307,
+      "probability_score": 0.003,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1276962,7 +1277201,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 8,
         "reference_count": 1
       }
     },
@@ -1277240,7 +1277479,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00388,
+      "probability_score": 0.00379,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1277249,7 +1277488,7 @@
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1277346,7 +1277585,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00346,
+      "probability_score": 0.00339,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1277355,7 +1277594,7 @@
         "cwe_ids": [
           "CWE-862"
         ],
-        "cpe_count": 0,
+        "cpe_count": 9,
         "reference_count": 1
       }
     },
@@ -1277812,7 +1278051,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00388,
+      "probability_score": 0.00379,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1277821,7 +1278060,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 25,
         "reference_count": 1
       }
     },
@@ -1278386,7 +1278625,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00509,
+      "probability_score": 0.00498,
       "nvd": {
         "cvss_v3_score": 6.8,
         "cvss_v3_severity": "MEDIUM",
@@ -1278395,7 +1278634,7 @@
         "cwe_ids": [
           "CWE-190"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1278673,7 +1278912,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00307,
+      "probability_score": 0.003,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1278682,7 +1278921,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1278960,7 +1279199,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00307,
+      "probability_score": 0.003,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1278969,7 +1279208,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1279536,7 +1279775,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00388,
+      "probability_score": 0.00379,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1279545,7 +1279784,7 @@
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1280110,7 +1280349,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00362,
+      "probability_score": 0.00353,
       "nvd": {
         "cvss_v3_score": 4.7,
         "cvss_v3_severity": "MEDIUM",
@@ -1280119,7 +1280358,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1280636,7 +1280875,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00286,
+      "probability_score": 0.00279,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1280645,7 +1280884,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1280923,7 +1281162,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00361,
+      "probability_score": 0.00353,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1280932,7 +1281171,7 @@
         "cwe_ids": [
           "CWE-134"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1281580,7 +1281819,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00361,
+      "probability_score": 0.00353,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1281589,7 +1281828,7 @@
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1281723,7 +1281962,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00361,
+      "probability_score": 0.00353,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1281732,7 +1281971,7 @@
         "cwe_ids": [
           "CWE-415"
         ],
-        "cpe_count": 0,
+        "cpe_count": 12,
         "reference_count": 1
       }
     },
@@ -1281890,7 +1282129,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00445,
+      "probability_score": 0.00434,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -1281899,7 +1282138,7 @@
         "cwe_ids": [
           "CWE-476"
         ],
-        "cpe_count": 0,
+        "cpe_count": 18,
         "reference_count": 1
       }
     },
@@ -1282125,7 +1282364,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00388,
+      "probability_score": 0.00379,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1282134,7 +1282373,7 @@
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 18,
         "reference_count": 1
       }
     },
@@ -1282412,7 +1282651,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00361,
+      "probability_score": 0.00353,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1282421,7 +1282660,7 @@
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1282651,7 +1282890,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00361,
+      "probability_score": 0.00353,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1282660,7 +1282899,7 @@
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 24,
         "reference_count": 1
       }
     },
@@ -1282938,7 +1283177,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00361,
+      "probability_score": 0.00353,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1282947,7 +1283186,7 @@
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1312380,16 +1312619,16 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00869,
+      "probability_score": 0.0085,
       "nvd": {
-        "cvss_v3_score": 8.8,
-        "cvss_v3_severity": "HIGH",
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1312511,7 +1312750,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00286,
+      "probability_score": 0.00279,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1312520,7 +1312759,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 16,
         "reference_count": 1
       }
     },
@@ -1312690,7 +1312929,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00323,
+      "probability_score": 0.00316,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1312699,7 +1312938,7 @@
         "cwe_ids": [
           "CWE-283"
         ],
-        "cpe_count": 0,
+        "cpe_count": 20,
         "reference_count": 1
       }
     },
@@ -1312857,7 +1313096,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00323,
+      "probability_score": 0.00316,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1312866,7 +1313105,7 @@
         "cwe_ids": [
           "CWE-863"
         ],
-        "cpe_count": 0,
+        "cpe_count": 18,
         "reference_count": 1
       }
     },
@@ -1313024,7 +1313263,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00326,
+      "probability_score": 0.00318,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1313033,7 +1313272,7 @@
         "cwe_ids": [
           "CWE-59"
         ],
-        "cpe_count": 0,
+        "cpe_count": 18,
         "reference_count": 1
       }
     },
@@ -1317899,7 +1318138,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00304,
+      "probability_score": 0.00297,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1317908,7 +1318147,7 @@
         "cwe_ids": [
           "CWE-415"
         ],
-        "cpe_count": 0,
+        "cpe_count": 24,
         "reference_count": 1
       }
     },
@@ -1318186,7 +1318425,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.01301,
+      "probability_score": 0.01273,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -1318195,7 +1318434,7 @@
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1351911,7 +1352150,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00557,
+      "probability_score": 0.00545,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -1351921,7 +1352160,7 @@
           "CWE-122",
           "CWE-191"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1352199,7 +1352438,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00319,
+      "probability_score": 0.00312,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1352208,7 +1352447,7 @@
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1352462,7 +1352701,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00253,
+      "probability_score": 0.00247,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1352471,7 +1352710,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 25,
         "reference_count": 1
       }
     },
@@ -1352749,7 +1352988,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00355,
+      "probability_score": 0.00346,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1352758,7 +1352997,7 @@
         "cwe_ids": [
           "CWE-59"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1353012,7 +1353251,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00253,
+      "probability_score": 0.00247,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1353021,7 +1353260,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 25,
         "reference_count": 1
       }
     },
@@ -1353299,7 +1353538,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.01005,
+      "probability_score": 0.00983,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -1353308,7 +1353547,7 @@
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1353586,7 +1353825,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00253,
+      "probability_score": 0.00247,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1353595,7 +1353834,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1353873,7 +1354112,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00288,
+      "probability_score": 0.00281,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1353882,7 +1354121,7 @@
         "cwe_ids": [
           "CWE-829"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1354160,7 +1354399,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00319,
+      "probability_score": 0.00312,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1354169,7 +1354408,7 @@
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1354279,7 +1354518,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00194,
+      "probability_score": 0.00189,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1354289,7 +1354528,7 @@
           "CWE-362",
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 11,
         "reference_count": 1
       }
     },
@@ -1354567,7 +1354806,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00319,
+      "probability_score": 0.00312,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1354576,7 +1354815,7 @@
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1354854,7 +1355093,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00747,
+      "probability_score": 0.00302,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1354863,7 +1355102,7 @@
         "cwe_ids": [
           "CWE-94"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1355415,7 +1355654,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00253,
+      "probability_score": 0.00247,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1355424,7 +1355663,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1355702,7 +1355941,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00253,
+      "probability_score": 0.00247,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1355711,7 +1355950,7 @@
         "cwe_ids": [
           "CWE-763"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1355989,7 +1356228,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00253,
+      "probability_score": 0.00247,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1355998,7 +1356237,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1356563,7 +1356802,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00319,
+      "probability_score": 0.00312,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1356572,7 +1356811,7 @@
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1356802,7 +1357041,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00253,
+      "probability_score": 0.00247,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1356811,7 +1357050,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 24,
         "reference_count": 1
       }
     },
@@ -1357089,7 +1357328,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00319,
+      "probability_score": 0.00312,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1357098,7 +1357337,7 @@
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1357256,16 +1357495,16 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00333,
+      "probability_score": 0.00358,
       "nvd": {
-        "cvss_v3_score": 8.2,
+        "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 18,
         "reference_count": 1
       }
     },
@@ -1379608,7 +1379847,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00361,
+      "probability_score": 0.00353,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -1379617,7 +1379856,7 @@
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1379775,7 +1380014,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00348,
+      "probability_score": 0.0034,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1379784,7 +1380023,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 18,
         "reference_count": 1
       }
     },
@@ -1380062,7 +1380301,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00434,
+      "probability_score": 0.00424,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1380072,7 +1380311,7 @@
           "CWE-122",
           "CWE-190"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1382662,7 +1382901,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00318,
+      "probability_score": 0.00311,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1382671,7 +1382910,7 @@
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1382949,7 +1383188,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00648,
+      "probability_score": 0.00634,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",
@@ -1382958,7 +1383197,7 @@
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1383116,7 +1383355,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00204,
+      "probability_score": 0.00199,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1383125,7 +1383364,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 18,
         "reference_count": 1
       }
     },
@@ -1383403,7 +1383642,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00851,
+      "probability_score": 0.00852,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -1383412,7 +1383651,7 @@
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1383690,7 +1383929,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00245,
+      "probability_score": 0.0024,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1383699,7 +1383938,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1383893,7 +1384132,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00252,
+      "probability_score": 0.00246,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1383902,7 +1384141,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 21,
         "reference_count": 1
       }
     },
@@ -1384180,7 +1384419,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00396,
+      "probability_score": 0.00387,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -1384189,7 +1384428,7 @@
         "cwe_ids": [
           "CWE-126"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1384467,7 +1384706,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00557,
+      "probability_score": 0.00545,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -1384477,7 +1384716,7 @@
           "CWE-122",
           "CWE-415"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1384635,7 +1384874,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00342,
+      "probability_score": 0.00335,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -1384644,7 +1384883,7 @@
         "cwe_ids": [
           "CWE-862"
         ],
-        "cpe_count": 0,
+        "cpe_count": 19,
         "reference_count": 1
       }
     },
@@ -1384874,7 +1385113,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00378,
+      "probability_score": 0.0037,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",
@@ -1384883,7 +1385122,7 @@
         "cwe_ids": [
           "CWE-1390"
         ],
-        "cpe_count": 0,
+        "cpe_count": 24,
         "reference_count": 1
       }
     },
@@ -1385161,7 +1385400,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00233,
+      "probability_score": 0.00228,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1385171,7 +1385410,7 @@
           "CWE-362",
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1385737,7 +1385976,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00369,
+      "probability_score": 0.00361,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1385746,7 +1385985,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1386429,7 +1386668,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00245,
+      "probability_score": 0.0024,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1386438,7 +1386677,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 11,
         "reference_count": 1
       }
     },
@@ -1386716,7 +1386955,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00258,
+      "probability_score": 0.00252,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1386725,7 +1386964,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1387864,7 +1388103,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.0031,
+      "probability_score": 0.00303,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1387873,7 +1388112,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1388151,7 +1388390,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00361,
+      "probability_score": 0.00353,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1388160,1134 +1388399,12 @@
         "cwe_ids": [
           "CWE-190"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
     {
       "cve_id": "CVE-2026-87704",
-      "description": "Use after free in Windows Installer allows an authorized attacker to elevate privileges locally.",
-      "cvss_score": 7.0,
-      "cvss_severity": "HIGH",
-      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C",
-      "affected": [
-        {
-          "vendor": "microsoft",
-          "product": "windows 10 version 1607",
-          "versions": [
-            {
-              "version": "10.0.14393.0",
-              "lessThan": "10.0.14393.9612",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows 10 version 1809",
-          "versions": [
-            {
-              "version": "10.0.17763.0",
-              "lessThan": "10.0.17763.9376",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows 10 version 21h2",
-          "versions": [
-            {
-              "version": "10.0.19044.0",
-              "lessThan": "10.0.19044.7807",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows 10 version 22h2",
-          "versions": [
-            {
-              "version": "10.0.19045.0",
-              "lessThan": "10.0.19045.7807",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows 11 version 23h2",
-          "versions": [
-            {
-              "version": "10.0.22631.0",
-              "lessThan": "10.0.22631.7652",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows 11 version 23h2",
-          "versions": [
-            {
-              "version": "10.0.22631.0",
-              "lessThan": "10.0.22631.7652",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows 11 version 24h2",
-          "versions": [
-            {
-              "version": "10.0.26100.0",
-              "lessThan": "10.0.26100.9711",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows 11 version 25h2",
-          "versions": [
-            {
-              "version": "10.0.26200.0",
-              "lessThan": "10.0.26200.9711",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows 11 version 26h1",
-          "versions": [
-            {
-              "version": "10.0.28000.0",
-              "lessThan": "10.0.28000.3231",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows 11 version 26h2",
-          "versions": [
-            {
-              "version": "10.0.26300.0",
-              "lessThan": "10.0.26300.9711",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2012",
-          "versions": [
-            {
-              "version": "6.2.9200.0",
-              "lessThan": "6.2.9200.26434",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2012 (server core installation)",
-          "versions": [
-            {
-              "version": "6.2.9200.0",
-              "lessThan": "6.2.9200.26434",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2012 r2",
-          "versions": [
-            {
-              "version": "6.3.9600.0",
-              "lessThan": "6.3.9600.23470",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2012 r2 (server core installation)",
-          "versions": [
-            {
-              "version": "6.3.9600.0",
-              "lessThan": "6.3.9600.23470",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2016",
-          "versions": [
-            {
-              "version": "10.0.14393.0",
-              "lessThan": "10.0.14393.9612",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2016 (server core installation)",
-          "versions": [
-            {
-              "version": "10.0.14393.0",
-              "lessThan": "10.0.14393.9612",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2019",
-          "versions": [
-            {
-              "version": "10.0.17763.0",
-              "lessThan": "10.0.17763.9376",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2019 (server core installation)",
-          "versions": [
-            {
-              "version": "10.0.17763.0",
-              "lessThan": "10.0.17763.9376",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2022",
-          "versions": [
-            {
-              "version": "10.0.20348.0",
-              "lessThan": "10.0.20348.5761",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2025",
-          "versions": [
-            {
-              "version": "10.0.26100.0",
-              "lessThan": "10.0.26100.33650",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2025 (server core installation)",
-          "versions": [
-            {
-              "version": "10.0.26100.0",
-              "lessThan": "10.0.26100.33650",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        }
-      ],
-      "watchlist_hit": true,
-      "in_watchlist": true,
-      "in_patchthis": false,
-      "is_critical": false,
-      "priority_label": "",
-      "matched_terms": [
-        "product:windows 11 version 23h2",
-        "product:windows 11 version 24h2",
-        "product:windows 11 version 25h2",
-        "product:windows 11 version 26h1",
-        "product:windows 11 version 26h2",
-        "vendor:microsoft"
-      ],
-      "active_threat": false,
-      "probability_score": 0.00258,
-      "nvd": {
-        "cvss_v3_score": 7.0,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-416"
-        ],
-        "cpe_count": 0,
-        "reference_count": 1
-      }
-    },
-    {
-      "cve_id": "CVE-2026-87705",
-      "description": "Improper verification of source of a communication channel in Windows Hyper-V allows an unauthorized attacker to bypass a security feature over an adjacent network.",
-      "cvss_score": 7.4,
-      "cvss_severity": "HIGH",
-      "cvss_vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N/E:U/RL:O/RC:C",
-      "affected": [
-        {
-          "vendor": "microsoft",
-          "product": "windows 10 version 1607",
-          "versions": [
-            {
-              "version": "10.0.14393.0",
-              "lessThan": "10.0.14393.9612",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows 10 version 1809",
-          "versions": [
-            {
-              "version": "10.0.17763.0",
-              "lessThan": "10.0.17763.9376",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows 10 version 21h2",
-          "versions": [
-            {
-              "version": "10.0.19044.0",
-              "lessThan": "10.0.19044.7807",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows 10 version 22h2",
-          "versions": [
-            {
-              "version": "10.0.19045.0",
-              "lessThan": "10.0.19045.7807",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows 11 version 23h2",
-          "versions": [
-            {
-              "version": "10.0.22631.0",
-              "lessThan": "10.0.22631.7652",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows 11 version 23h2",
-          "versions": [
-            {
-              "version": "10.0.22631.0",
-              "lessThan": "10.0.22631.7652",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows 11 version 24h2",
-          "versions": [
-            {
-              "version": "10.0.26100.0",
-              "lessThan": "10.0.26100.9711",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows 11 version 25h2",
-          "versions": [
-            {
-              "version": "10.0.26200.0",
-              "lessThan": "10.0.26200.9711",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows 11 version 26h1",
-          "versions": [
-            {
-              "version": "10.0.28000.0",
-              "lessThan": "10.0.28000.3231",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows 11 version 26h2",
-          "versions": [
-            {
-              "version": "10.0.26300.0",
-              "lessThan": "10.0.26300.9711",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2012",
-          "versions": [
-            {
-              "version": "6.2.9200.0",
-              "lessThan": "6.2.9200.26434",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2012 (server core installation)",
-          "versions": [
-            {
-              "version": "6.2.9200.0",
-              "lessThan": "6.2.9200.26434",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2012 r2",
-          "versions": [
-            {
-              "version": "6.3.9600.0",
-              "lessThan": "6.3.9600.23470",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2012 r2 (server core installation)",
-          "versions": [
-            {
-              "version": "6.3.9600.0",
-              "lessThan": "6.3.9600.23470",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2016",
-          "versions": [
-            {
-              "version": "10.0.14393.0",
-              "lessThan": "10.0.14393.9612",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2016 (server core installation)",
-          "versions": [
-            {
-              "version": "10.0.14393.0",
-              "lessThan": "10.0.14393.9612",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2019",
-          "versions": [
-            {
-              "version": "10.0.17763.0",
-              "lessThan": "10.0.17763.9376",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2019 (server core installation)",
-          "versions": [
-            {
-              "version": "10.0.17763.0",
-              "lessThan": "10.0.17763.9376",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2022",
-          "versions": [
-            {
-              "version": "10.0.20348.0",
-              "lessThan": "10.0.20348.5761",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2025",
-          "versions": [
-            {
-              "version": "10.0.26100.0",
-              "lessThan": "10.0.26100.33650",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2025 (server core installation)",
-          "versions": [
-            {
-              "version": "10.0.26100.0",
-              "lessThan": "10.0.26100.33650",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        }
-      ],
-      "watchlist_hit": true,
-      "in_watchlist": true,
-      "in_patchthis": false,
-      "is_critical": false,
-      "priority_label": "",
-      "matched_terms": [
-        "product:windows 11 version 23h2",
-        "product:windows 11 version 24h2",
-        "product:windows 11 version 25h2",
-        "product:windows 11 version 26h1",
-        "product:windows 11 version 26h2",
-        "vendor:microsoft"
-      ],
-      "active_threat": false,
-      "probability_score": 0.00441,
-      "nvd": {
-        "cvss_v3_score": 7.4,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-940"
-        ],
-        "cpe_count": 0,
-        "reference_count": 1
-      }
-    },
-    {
-      "cve_id": "CVE-2026-87706",
-      "description": "Heap-based buffer overflow in Windows Storage Spaces Controller allows an authorized attacker to elevate privileges locally.",
-      "cvss_score": 7.8,
-      "cvss_severity": "HIGH",
-      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C",
-      "affected": [
-        {
-          "vendor": "microsoft",
-          "product": "windows 10 version 1607",
-          "versions": [
-            {
-              "version": "10.0.14393.0",
-              "lessThan": "10.0.14393.9512",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows 10 version 1809",
-          "versions": [
-            {
-              "version": "10.0.17763.0",
-              "lessThan": "10.0.17763.9245",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows 10 version 21h2",
-          "versions": [
-            {
-              "version": "10.0.19044.0",
-              "lessThan": "10.0.19044.7725",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows 10 version 22h2",
-          "versions": [
-            {
-              "version": "10.0.19045.0",
-              "lessThan": "10.0.19045.7725",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows 11 version 23h2",
-          "versions": [
-            {
-              "version": "10.0.22631.0",
-              "lessThan": "10.0.22631.7582",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows 11 version 23h2",
-          "versions": [
-            {
-              "version": "10.0.22631.0",
-              "lessThan": "10.0.22631.7582",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows 11 version 24h2",
-          "versions": [
-            {
-              "version": "10.0.26100.0",
-              "lessThan": "10.0.26100.9445",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows 11 version 25h2",
-          "versions": [
-            {
-              "version": "10.0.26200.0",
-              "lessThan": "10.0.26200.9445",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows 11 version 26h1",
-          "versions": [
-            {
-              "version": "10.0.28000.0",
-              "lessThan": "10.0.28000.2954",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2012",
-          "versions": [
-            {
-              "version": "6.2.9200.0",
-              "lessThan": "6.2.9200.26349",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2012 (server core installation)",
-          "versions": [
-            {
-              "version": "6.2.9200.0",
-              "lessThan": "6.2.9200.26349",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2012 r2",
-          "versions": [
-            {
-              "version": "6.3.9600.0",
-              "lessThan": "6.3.9600.23398",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2012 r2 (server core installation)",
-          "versions": [
-            {
-              "version": "6.3.9600.0",
-              "lessThan": "6.3.9600.23398",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2016",
-          "versions": [
-            {
-              "version": "10.0.14393.0",
-              "lessThan": "10.0.14393.9512",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2016 (server core installation)",
-          "versions": [
-            {
-              "version": "10.0.14393.0",
-              "lessThan": "10.0.14393.9512",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2019",
-          "versions": [
-            {
-              "version": "10.0.17763.0",
-              "lessThan": "10.0.17763.9245",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2019 (server core installation)",
-          "versions": [
-            {
-              "version": "10.0.17763.0",
-              "lessThan": "10.0.17763.9245",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2022",
-          "versions": [
-            {
-              "version": "10.0.20348.0",
-              "lessThan": "10.0.20348.5622",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2025",
-          "versions": [
-            {
-              "version": "10.0.26100.0",
-              "lessThan": "10.0.26100.33438",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2025 (server core installation)",
-          "versions": [
-            {
-              "version": "10.0.26100.0",
-              "lessThan": "10.0.26100.33438",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        }
-      ],
-      "watchlist_hit": true,
-      "in_watchlist": true,
-      "in_patchthis": false,
-      "is_critical": false,
-      "priority_label": "",
-      "matched_terms": [
-        "product:windows 11 version 23h2",
-        "product:windows 11 version 24h2",
-        "product:windows 11 version 25h2",
-        "product:windows 11 version 26h1",
-        "vendor:microsoft"
-      ],
-      "active_threat": false,
-      "probability_score": 0.00245,
-      "nvd": {
-        "cvss_v3_score": 7.8,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-122"
-        ],
-        "cpe_count": 0,
-        "reference_count": 1
-      }
-    },
-    {
-      "cve_id": "CVE-2026-87707",
-      "description": "Heap-based buffer overflow in Windows Fax and Scan Service allows an authorized attacker to elevate privileges locally.",
-      "cvss_score": 7.8,
-      "cvss_severity": "HIGH",
-      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C",
-      "affected": [
-        {
-          "vendor": "microsoft",
-          "product": "windows 10 version 1607",
-          "versions": [
-            {
-              "version": "10.0.14393.0",
-              "lessThan": "10.0.14393.9512",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows 10 version 1809",
-          "versions": [
-            {
-              "version": "10.0.17763.0",
-              "lessThan": "10.0.17763.9245",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows 10 version 21h2",
-          "versions": [
-            {
-              "version": "10.0.19044.0",
-              "lessThan": "10.0.19044.7725",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows 10 version 22h2",
-          "versions": [
-            {
-              "version": "10.0.19045.0",
-              "lessThan": "10.0.19045.7725",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows 11 version 23h2",
-          "versions": [
-            {
-              "version": "10.0.22631.0",
-              "lessThan": "10.0.22631.7582",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows 11 version 23h2",
-          "versions": [
-            {
-              "version": "10.0.22631.0",
-              "lessThan": "10.0.22631.7582",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows 11 version 24h2",
-          "versions": [
-            {
-              "version": "10.0.26100.0",
-              "lessThan": "10.0.26100.9445",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows 11 version 25h2",
-          "versions": [
-            {
-              "version": "10.0.26200.0",
-              "lessThan": "10.0.26200.9445",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows 11 version 26h1",
-          "versions": [
-            {
-              "version": "10.0.28000.0",
-              "lessThan": "10.0.28000.2954",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2012",
-          "versions": [
-            {
-              "version": "6.2.9200.0",
-              "lessThan": "6.2.9200.26349",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2012 (server core installation)",
-          "versions": [
-            {
-              "version": "6.2.9200.0",
-              "lessThan": "6.2.9200.26349",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2012 r2",
-          "versions": [
-            {
-              "version": "6.3.9600.0",
-              "lessThan": "6.3.9600.23398",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2012 r2 (server core installation)",
-          "versions": [
-            {
-              "version": "6.3.9600.0",
-              "lessThan": "6.3.9600.23398",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2016",
-          "versions": [
-            {
-              "version": "10.0.14393.0",
-              "lessThan": "10.0.14393.9512",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2016 (server core installation)",
-          "versions": [
-            {
-              "version": "10.0.14393.0",
-              "lessThan": "10.0.14393.9512",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2019",
-          "versions": [
-            {
-              "version": "10.0.17763.0",
-              "lessThan": "10.0.17763.9245",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2019 (server core installation)",
-          "versions": [
-            {
-              "version": "10.0.17763.0",
-              "lessThan": "10.0.17763.9245",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2022",
-          "versions": [
-            {
-              "version": "10.0.20348.0",
-              "lessThan": "10.0.20348.5622",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2025",
-          "versions": [
-            {
-              "version": "10.0.26100.0",
-              "lessThan": "10.0.26100.33438",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        },
-        {
-          "vendor": "microsoft",
-          "product": "windows server 2025 (server core installation)",
-          "versions": [
-            {
-              "version": "10.0.26100.0",
-              "lessThan": "10.0.26100.33438",
-              "versionType": "custom",
-              "status": "affected"
-            }
-          ]
-        }
-      ],
-      "watchlist_hit": true,
-      "in_watchlist": true,
-      "in_patchthis": false,
-      "is_critical": false,
-      "priority_label": "",
-      "matched_terms": [
-        "product:windows 11 version 23h2",
-        "product:windows 11 version 24h2",
-        "product:windows 11 version 25h2",
-        "product:windows 11 version 26h1",
-        "vendor:microsoft"
-      ],
-      "active_threat": false,
-      "probability_score": 0.00245,
-      "nvd": {
-        "cvss_v3_score": 7.8,
-        "cvss_v3_severity": "HIGH",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-122"
-        ],
-        "cpe_count": 0,
-        "reference_count": 1
-      }
-    },
-    {
-      "cve_id": "CVE-2026-87708",
       "description": "Use after free in Windows Installer allows an authorized attacker to elevate privileges locally.",
       "cvss_score": 7.0,
       "cvss_severity": "HIGH",
@@ -1389569,7 +1388686,1129 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2026-87705",
+      "description": "Improper verification of source of a communication channel in Windows Hyper-V allows an unauthorized attacker to bypass a security feature over an adjacent network.",
+      "cvss_score": 7.4,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N/E:U/RL:O/RC:C",
+      "affected": [
+        {
+          "vendor": "microsoft",
+          "product": "windows 10 version 1607",
+          "versions": [
+            {
+              "version": "10.0.14393.0",
+              "lessThan": "10.0.14393.9612",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 10 version 1809",
+          "versions": [
+            {
+              "version": "10.0.17763.0",
+              "lessThan": "10.0.17763.9376",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 10 version 21h2",
+          "versions": [
+            {
+              "version": "10.0.19044.0",
+              "lessThan": "10.0.19044.7807",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 10 version 22h2",
+          "versions": [
+            {
+              "version": "10.0.19045.0",
+              "lessThan": "10.0.19045.7807",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 11 version 23h2",
+          "versions": [
+            {
+              "version": "10.0.22631.0",
+              "lessThan": "10.0.22631.7652",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 11 version 23h2",
+          "versions": [
+            {
+              "version": "10.0.22631.0",
+              "lessThan": "10.0.22631.7652",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 11 version 24h2",
+          "versions": [
+            {
+              "version": "10.0.26100.0",
+              "lessThan": "10.0.26100.9711",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 11 version 25h2",
+          "versions": [
+            {
+              "version": "10.0.26200.0",
+              "lessThan": "10.0.26200.9711",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 11 version 26h1",
+          "versions": [
+            {
+              "version": "10.0.28000.0",
+              "lessThan": "10.0.28000.3231",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 11 version 26h2",
+          "versions": [
+            {
+              "version": "10.0.26300.0",
+              "lessThan": "10.0.26300.9711",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2012",
+          "versions": [
+            {
+              "version": "6.2.9200.0",
+              "lessThan": "6.2.9200.26434",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2012 (server core installation)",
+          "versions": [
+            {
+              "version": "6.2.9200.0",
+              "lessThan": "6.2.9200.26434",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2012 r2",
+          "versions": [
+            {
+              "version": "6.3.9600.0",
+              "lessThan": "6.3.9600.23470",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2012 r2 (server core installation)",
+          "versions": [
+            {
+              "version": "6.3.9600.0",
+              "lessThan": "6.3.9600.23470",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2016",
+          "versions": [
+            {
+              "version": "10.0.14393.0",
+              "lessThan": "10.0.14393.9612",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2016 (server core installation)",
+          "versions": [
+            {
+              "version": "10.0.14393.0",
+              "lessThan": "10.0.14393.9612",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2019",
+          "versions": [
+            {
+              "version": "10.0.17763.0",
+              "lessThan": "10.0.17763.9376",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2019 (server core installation)",
+          "versions": [
+            {
+              "version": "10.0.17763.0",
+              "lessThan": "10.0.17763.9376",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2022",
+          "versions": [
+            {
+              "version": "10.0.20348.0",
+              "lessThan": "10.0.20348.5761",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2025",
+          "versions": [
+            {
+              "version": "10.0.26100.0",
+              "lessThan": "10.0.26100.33650",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2025 (server core installation)",
+          "versions": [
+            {
+              "version": "10.0.26100.0",
+              "lessThan": "10.0.26100.33650",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:windows 11 version 23h2",
+        "product:windows 11 version 24h2",
+        "product:windows 11 version 25h2",
+        "product:windows 11 version 26h1",
+        "product:windows 11 version 26h2",
+        "vendor:microsoft"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00432,
+      "nvd": {
+        "cvss_v3_score": 7.4,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-940"
+        ],
+        "cpe_count": 26,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2026-87706",
+      "description": "Heap-based buffer overflow in Windows Storage Spaces Controller allows an authorized attacker to elevate privileges locally.",
+      "cvss_score": 7.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C",
+      "affected": [
+        {
+          "vendor": "microsoft",
+          "product": "windows 10 version 1607",
+          "versions": [
+            {
+              "version": "10.0.14393.0",
+              "lessThan": "10.0.14393.9512",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 10 version 1809",
+          "versions": [
+            {
+              "version": "10.0.17763.0",
+              "lessThan": "10.0.17763.9245",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 10 version 21h2",
+          "versions": [
+            {
+              "version": "10.0.19044.0",
+              "lessThan": "10.0.19044.7725",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 10 version 22h2",
+          "versions": [
+            {
+              "version": "10.0.19045.0",
+              "lessThan": "10.0.19045.7725",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 11 version 23h2",
+          "versions": [
+            {
+              "version": "10.0.22631.0",
+              "lessThan": "10.0.22631.7582",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 11 version 23h2",
+          "versions": [
+            {
+              "version": "10.0.22631.0",
+              "lessThan": "10.0.22631.7582",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 11 version 24h2",
+          "versions": [
+            {
+              "version": "10.0.26100.0",
+              "lessThan": "10.0.26100.9445",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 11 version 25h2",
+          "versions": [
+            {
+              "version": "10.0.26200.0",
+              "lessThan": "10.0.26200.9445",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 11 version 26h1",
+          "versions": [
+            {
+              "version": "10.0.28000.0",
+              "lessThan": "10.0.28000.2954",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2012",
+          "versions": [
+            {
+              "version": "6.2.9200.0",
+              "lessThan": "6.2.9200.26349",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2012 (server core installation)",
+          "versions": [
+            {
+              "version": "6.2.9200.0",
+              "lessThan": "6.2.9200.26349",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2012 r2",
+          "versions": [
+            {
+              "version": "6.3.9600.0",
+              "lessThan": "6.3.9600.23398",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2012 r2 (server core installation)",
+          "versions": [
+            {
+              "version": "6.3.9600.0",
+              "lessThan": "6.3.9600.23398",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2016",
+          "versions": [
+            {
+              "version": "10.0.14393.0",
+              "lessThan": "10.0.14393.9512",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2016 (server core installation)",
+          "versions": [
+            {
+              "version": "10.0.14393.0",
+              "lessThan": "10.0.14393.9512",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2019",
+          "versions": [
+            {
+              "version": "10.0.17763.0",
+              "lessThan": "10.0.17763.9245",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2019 (server core installation)",
+          "versions": [
+            {
+              "version": "10.0.17763.0",
+              "lessThan": "10.0.17763.9245",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2022",
+          "versions": [
+            {
+              "version": "10.0.20348.0",
+              "lessThan": "10.0.20348.5622",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2025",
+          "versions": [
+            {
+              "version": "10.0.26100.0",
+              "lessThan": "10.0.26100.33438",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2025 (server core installation)",
+          "versions": [
+            {
+              "version": "10.0.26100.0",
+              "lessThan": "10.0.26100.33438",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:windows 11 version 23h2",
+        "product:windows 11 version 24h2",
+        "product:windows 11 version 25h2",
+        "product:windows 11 version 26h1",
+        "vendor:microsoft"
+      ],
+      "active_threat": false,
+      "probability_score": 0.0024,
+      "nvd": {
+        "cvss_v3_score": 7.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-122"
+        ],
+        "cpe_count": 24,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2026-87707",
+      "description": "Heap-based buffer overflow in Windows Fax and Scan Service allows an authorized attacker to elevate privileges locally.",
+      "cvss_score": 7.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C",
+      "affected": [
+        {
+          "vendor": "microsoft",
+          "product": "windows 10 version 1607",
+          "versions": [
+            {
+              "version": "10.0.14393.0",
+              "lessThan": "10.0.14393.9512",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 10 version 1809",
+          "versions": [
+            {
+              "version": "10.0.17763.0",
+              "lessThan": "10.0.17763.9245",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 10 version 21h2",
+          "versions": [
+            {
+              "version": "10.0.19044.0",
+              "lessThan": "10.0.19044.7725",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 10 version 22h2",
+          "versions": [
+            {
+              "version": "10.0.19045.0",
+              "lessThan": "10.0.19045.7725",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 11 version 23h2",
+          "versions": [
+            {
+              "version": "10.0.22631.0",
+              "lessThan": "10.0.22631.7582",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 11 version 23h2",
+          "versions": [
+            {
+              "version": "10.0.22631.0",
+              "lessThan": "10.0.22631.7582",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 11 version 24h2",
+          "versions": [
+            {
+              "version": "10.0.26100.0",
+              "lessThan": "10.0.26100.9445",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 11 version 25h2",
+          "versions": [
+            {
+              "version": "10.0.26200.0",
+              "lessThan": "10.0.26200.9445",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 11 version 26h1",
+          "versions": [
+            {
+              "version": "10.0.28000.0",
+              "lessThan": "10.0.28000.2954",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2012",
+          "versions": [
+            {
+              "version": "6.2.9200.0",
+              "lessThan": "6.2.9200.26349",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2012 (server core installation)",
+          "versions": [
+            {
+              "version": "6.2.9200.0",
+              "lessThan": "6.2.9200.26349",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2012 r2",
+          "versions": [
+            {
+              "version": "6.3.9600.0",
+              "lessThan": "6.3.9600.23398",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2012 r2 (server core installation)",
+          "versions": [
+            {
+              "version": "6.3.9600.0",
+              "lessThan": "6.3.9600.23398",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2016",
+          "versions": [
+            {
+              "version": "10.0.14393.0",
+              "lessThan": "10.0.14393.9512",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2016 (server core installation)",
+          "versions": [
+            {
+              "version": "10.0.14393.0",
+              "lessThan": "10.0.14393.9512",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2019",
+          "versions": [
+            {
+              "version": "10.0.17763.0",
+              "lessThan": "10.0.17763.9245",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2019 (server core installation)",
+          "versions": [
+            {
+              "version": "10.0.17763.0",
+              "lessThan": "10.0.17763.9245",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2022",
+          "versions": [
+            {
+              "version": "10.0.20348.0",
+              "lessThan": "10.0.20348.5622",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2025",
+          "versions": [
+            {
+              "version": "10.0.26100.0",
+              "lessThan": "10.0.26100.33438",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2025 (server core installation)",
+          "versions": [
+            {
+              "version": "10.0.26100.0",
+              "lessThan": "10.0.26100.33438",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:windows 11 version 23h2",
+        "product:windows 11 version 24h2",
+        "product:windows 11 version 25h2",
+        "product:windows 11 version 26h1",
+        "vendor:microsoft"
+      ],
+      "active_threat": false,
+      "probability_score": 0.0024,
+      "nvd": {
+        "cvss_v3_score": 7.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-122"
+        ],
+        "cpe_count": 24,
+        "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2026-87708",
+      "description": "Use after free in Windows Installer allows an authorized attacker to elevate privileges locally.",
+      "cvss_score": 7.0,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C",
+      "affected": [
+        {
+          "vendor": "microsoft",
+          "product": "windows 10 version 1607",
+          "versions": [
+            {
+              "version": "10.0.14393.0",
+              "lessThan": "10.0.14393.9612",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 10 version 1809",
+          "versions": [
+            {
+              "version": "10.0.17763.0",
+              "lessThan": "10.0.17763.9376",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 10 version 21h2",
+          "versions": [
+            {
+              "version": "10.0.19044.0",
+              "lessThan": "10.0.19044.7807",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 10 version 22h2",
+          "versions": [
+            {
+              "version": "10.0.19045.0",
+              "lessThan": "10.0.19045.7807",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 11 version 23h2",
+          "versions": [
+            {
+              "version": "10.0.22631.0",
+              "lessThan": "10.0.22631.7652",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 11 version 23h2",
+          "versions": [
+            {
+              "version": "10.0.22631.0",
+              "lessThan": "10.0.22631.7652",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 11 version 24h2",
+          "versions": [
+            {
+              "version": "10.0.26100.0",
+              "lessThan": "10.0.26100.9711",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 11 version 25h2",
+          "versions": [
+            {
+              "version": "10.0.26200.0",
+              "lessThan": "10.0.26200.9711",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 11 version 26h1",
+          "versions": [
+            {
+              "version": "10.0.28000.0",
+              "lessThan": "10.0.28000.3231",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows 11 version 26h2",
+          "versions": [
+            {
+              "version": "10.0.26300.0",
+              "lessThan": "10.0.26300.9711",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2012",
+          "versions": [
+            {
+              "version": "6.2.9200.0",
+              "lessThan": "6.2.9200.26434",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2012 (server core installation)",
+          "versions": [
+            {
+              "version": "6.2.9200.0",
+              "lessThan": "6.2.9200.26434",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2012 r2",
+          "versions": [
+            {
+              "version": "6.3.9600.0",
+              "lessThan": "6.3.9600.23470",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2012 r2 (server core installation)",
+          "versions": [
+            {
+              "version": "6.3.9600.0",
+              "lessThan": "6.3.9600.23470",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2016",
+          "versions": [
+            {
+              "version": "10.0.14393.0",
+              "lessThan": "10.0.14393.9612",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2016 (server core installation)",
+          "versions": [
+            {
+              "version": "10.0.14393.0",
+              "lessThan": "10.0.14393.9612",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2019",
+          "versions": [
+            {
+              "version": "10.0.17763.0",
+              "lessThan": "10.0.17763.9376",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2019 (server core installation)",
+          "versions": [
+            {
+              "version": "10.0.17763.0",
+              "lessThan": "10.0.17763.9376",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2022",
+          "versions": [
+            {
+              "version": "10.0.20348.0",
+              "lessThan": "10.0.20348.5761",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2025",
+          "versions": [
+            {
+              "version": "10.0.26100.0",
+              "lessThan": "10.0.26100.33650",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "windows server 2025 (server core installation)",
+          "versions": [
+            {
+              "version": "10.0.26100.0",
+              "lessThan": "10.0.26100.33650",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:windows 11 version 23h2",
+        "product:windows 11 version 24h2",
+        "product:windows 11 version 25h2",
+        "product:windows 11 version 26h1",
+        "product:windows 11 version 26h2",
+        "vendor:microsoft"
+      ],
+      "active_threat": false,
+      "probability_score": 0.00246,
+      "nvd": {
+        "cvss_v3_score": 7.0,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-416"
+        ],
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1389763,7 +1390002,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00314,
+      "probability_score": 0.00307,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -1389772,7 +1390011,7 @@
         "cwe_ids": [
           "CWE-250"
         ],
-        "cpe_count": 0,
+        "cpe_count": 21,
         "reference_count": 1
       }
     },
@@ -1395286,7 +1395525,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00204,
+      "probability_score": 0.002,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1395295,7 +1395534,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 21,
         "reference_count": 1
       }
     },
@@ -1395489,7 +1395728,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00157,
+      "probability_score": 0.00153,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1395499,7 +1395738,7 @@
           "CWE-362",
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 21,
         "reference_count": 1
       }
     },
@@ -1395583,7 +1395822,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00286,
+      "probability_score": 0.00279,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1395592,7 +1395831,7 @@
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 7,
         "reference_count": 1
       }
     },
@@ -1395989,7 +1396228,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00258,
+      "probability_score": 0.00252,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1395998,7 +1396237,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 18,
         "reference_count": 1
       }
     },
@@ -1396754,7 +1396993,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.0042,
+      "probability_score": 0.0041,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1396764,7 +1397003,7 @@
           "CWE-122",
           "CWE-190"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1397042,16 +1397281,16 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00554,
+      "probability_score": 0.01158,
       "nvd": {
-        "cvss_v3_score": 8.0,
+        "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1397329,7 +1397568,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00252,
+      "probability_score": 0.00246,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1397338,7 +1397577,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1397855,7 +1398094,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00286,
+      "probability_score": 0.00279,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1397864,7 +1398103,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 24,
         "reference_count": 1
       }
     },
@@ -1398058,7 +1398297,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00361,
+      "probability_score": 0.00353,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1398067,7 +1398306,7 @@
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 21,
         "reference_count": 1
       }
     },
@@ -1398345,7 +1398584,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.0055,
+      "probability_score": 0.00537,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1398354,7 +1398593,7 @@
         "cwe_ids": [
           "CWE-59"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1398632,7 +1398871,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00361,
+      "probability_score": 0.00353,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1398641,7 +1398880,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1399599,7 +1399838,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00258,
+      "probability_score": 0.00252,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1399608,7 +1399847,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 9,
         "reference_count": 1
       }
     },
@@ -1399838,7 +1400077,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00396,
+      "probability_score": 0.00387,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -1399847,7 +1400086,7 @@
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 24,
         "reference_count": 1
       }
     },
@@ -1399981,7 +1400220,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00253,
+      "probability_score": 0.00247,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1399990,7 +1400229,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 12,
         "reference_count": 1
       }
     },
@@ -1400268,7 +1400507,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00851,
+      "probability_score": 0.00852,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -1400277,7 +1400516,7 @@
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1400507,17 +1400746,17 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00256,
+      "probability_score": 0.00243,
       "nvd": {
-        "cvss_v3_score": 6.7,
-        "cvss_v3_severity": "MEDIUM",
+        "cvss_v3_score": 7.8,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
           "CWE-122",
           "CWE-191"
         ],
-        "cpe_count": 0,
+        "cpe_count": 24,
         "reference_count": 1
       }
     },
@@ -1400711,7 +1400950,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00193,
+      "probability_score": 0.00188,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1400721,7 +1400960,7 @@
           "CWE-362",
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 21,
         "reference_count": 1
       }
     },
@@ -1400975,7 +1401214,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00344,
+      "probability_score": 0.00336,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1400984,7 +1401223,7 @@
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 25,
         "reference_count": 1
       }
     },
@@ -1401262,7 +1401501,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00204,
+      "probability_score": 0.00199,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1401271,7 +1401510,7 @@
         "cwe_ids": [
           "CWE-415"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1401549,7 +1401788,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00355,
+      "probability_score": 0.00347,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1401558,7 +1401797,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1401752,7 +1401991,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00535,
+      "probability_score": 0.00524,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -1401761,7 +1402000,7 @@
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 21,
         "reference_count": 1
       }
     },
@@ -1402326,7 +1402565,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.01441,
+      "probability_score": 0.01418,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -1402335,7 +1402574,7 @@
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1423544,7 +1423783,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00472,
+      "probability_score": 0.00462,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -1423553,7 +1423792,7 @@
         "cwe_ids": [
           "CWE-306"
         ],
-        "cpe_count": 0,
+        "cpe_count": 18,
         "reference_count": 1
       }
     },
@@ -1423831,7 +1424070,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00396,
+      "probability_score": 0.00387,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -1423840,7 +1424079,7 @@
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1424118,7 +1424357,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00396,
+      "probability_score": 0.00387,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -1424128,7 +1424367,7 @@
           "CWE-125",
           "CWE-170"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1424406,7 +1424645,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00318,
+      "probability_score": 0.00311,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1424415,7 +1424654,7 @@
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1424537,7 +1424776,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00311,
+      "probability_score": 0.00305,
       "nvd": {
         "cvss_v3_score": 6.8,
         "cvss_v3_severity": "MEDIUM",
@@ -1424546,7 +1424785,7 @@
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 11,
         "reference_count": 1
       }
     },
@@ -1424776,7 +1425015,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00361,
+      "probability_score": 0.00353,
       "nvd": {
         "cvss_v3_score": 5.6,
         "cvss_v3_severity": "MEDIUM",
@@ -1424785,7 +1425024,7 @@
         "cwe_ids": [
           "CWE-497"
         ],
-        "cpe_count": 0,
+        "cpe_count": 24,
         "reference_count": 1
       }
     },
