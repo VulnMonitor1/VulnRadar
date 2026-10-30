@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-30T14:03:08+00:00",
-  "count": 6943,
+  "generated_at": "2026-10-30T19:13:04+00:00",
+  "count": 6944,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -797315,6 +797315,56 @@
         ],
         "cpe_count": 0,
         "reference_count": 3
+      }
+    },
+    {
+      "cve_id": "CVE-2026-111357",
+      "description": "Ivanti Connect Secure 22.8R2.4 mishandles the manner in which the dsinvoked broker trusts DSCache configuration data, leading to privilege escalation to root, as exploited in the wild in October 2026.",
+      "cvss_score": 7.0,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "ivanti",
+          "product": "connect secure",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "22.8R2.4",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": false,
+      "in_watchlist": false,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": true,
+      "probability_score": 0.00316,
+      "kev": {
+        "cveID": "CVE-2026-111357",
+        "vendorProject": "Ivanti",
+        "product": "Connect Secure",
+        "vulnerabilityName": "Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability",
+        "dateAdded": "2026-10-30",
+        "shortDescription": "Ivanti Connect Secure contains a missing authentication for critical function vulnerability that could allow a local authenticated attacker to escalate their privileges. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-118527.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-11-02",
+        "knownRansomwareCampaignUse": "Unknown"
+      },
+      "nvd": {
+        "cvss_v3_score": 7.0,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-829"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
       }
     },
     {
