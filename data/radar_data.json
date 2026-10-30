@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-29T20:26:05+00:00",
-  "count": 6942,
+  "generated_at": "2026-10-30T01:01:47+00:00",
+  "count": 6943,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -310889,11 +310889,6 @@
           "vendor": "red hat",
           "product": "red hat enterprise linux 7",
           "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat enterprise linux 9",
-          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -370069,7 +370064,7 @@
     },
     {
       "cve_id": "CVE-2024-22047",
-      "description": "A race condition exists in Audited 4.0.0 to 5.3.3 that can result in an authenticated user to cause audit log entries to be attributed to another user.",
+      "description": "A race condition exists in Audited 4.0.0 before 5.3.3 that can result in an authenticated user to cause audit log entries to be attributed to another user.",
       "cvss_score": 3.1,
       "cvss_severity": "LOW",
       "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:N",
@@ -457010,11 +457005,6 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat enterprise linux 9",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
           "product": "red hat openshift container platform 3.11",
           "versions": null
         },
@@ -527989,6 +527979,30 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 8.4 advanced mission critical update support",
+          "versions": [
+            {
+              "version": "1:0.2.0-6.el8_4.2",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8.4 extended update support long-life add-on",
+          "versions": [
+            {
+              "version": "1:0.2.0-6.el8_4.2",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 8.6 advanced mission critical update support",
           "versions": [
             {
@@ -528049,10 +528063,34 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 8.8 telecommunications update service",
+          "versions": [
+            {
+              "version": "1:0.2.2-1.el8_8.3",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 8.8 update services for sap solutions",
           "versions": [
             {
               "version": "0:75-10.el8_8",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8.8 update services for sap solutions",
+          "versions": [
+            {
+              "version": "1:0.2.2-1.el8_8.3",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -798384,6 +798422,35 @@
       }
     },
     {
+      "cve_id": "CVE-2026-115943",
+      "description": "Spreadsheet::XLSX versions before 0.19 for Perl allow code execution via string eval of number format conditions in ExcelFmt.\n\nWhen a number format has a condition such as [>100], ExcelFmt chooses the format section by passing the condition and the cell value to a string eval. Both come from the workbook, and the eval runs while Spreadsheet::XLSX->new parses it.\n\nAn attacker who supplies an XLSX file can run arbitrary Perl code.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "0.19",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
       "cve_id": "CVE-2026-116131",
       "description": "HTTP::Body versions before 1.23_01 for Perl allow memory and temporary file exhaustion via an unlimited number of form fields and multipart parts.\n\nThe urlencoded parser splits the whole body on its separators at once, creating one scalar per separator before any field is stored. This costs about 90 bytes of memory per separator byte. The multipart parser creates a temporary file for every part that carries a filename. Neither parser limits how many fields or parts a body may hold.\n\nA remote attacker can exhaust worker memory with a body made of separators, or create thousands of temporary files with one request of small file parts.",
       "cvss_score": null,
@@ -799667,8 +799734,15 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift ai (rhoai)",
-          "versions": null
+          "product": "red hat openshift ai 3.4",
+          "versions": [
+            {
+              "version": "1793001859",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
         },
         {
           "vendor": "red hat",
@@ -916025,6 +916099,42 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat openshift container platform 4.20",
+          "versions": [
+            {
+              "version": "4.20.9.6.202610242033-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4.21",
+          "versions": [
+            {
+              "version": "4.21.9.6.202610241345-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4.22",
+          "versions": [
+            {
+              "version": "4.22.9.8.202610241758-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "cert manager support for red hat openshift release 1.17",
           "versions": [
             {
@@ -916589,6 +916699,42 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat openshift container platform 4.20",
+          "versions": [
+            {
+              "version": "4.20.9.6.202610242033-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4.21",
+          "versions": [
+            {
+              "version": "4.21.9.6.202610241345-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4.22",
+          "versions": [
+            {
+              "version": "4.22.9.8.202610241758-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "cert manager support for red hat openshift release 1.17",
           "versions": [
             {
@@ -916842,11 +916988,6 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 6",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat openshift container platform 4",
           "versions": null
         },
         {
@@ -917215,6 +917356,42 @@
           "versions": [
             {
               "version": "4.19.9.6.202607151909-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4.20",
+          "versions": [
+            {
+              "version": "4.20.9.6.202610242033-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4.21",
+          "versions": [
+            {
+              "version": "4.21.9.6.202610241345-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4.22",
+          "versions": [
+            {
+              "version": "4.22.9.8.202610241758-0",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -1024112,6 +1024289,54 @@
           "versions": [
             {
               "version": "4.19.9.6.202607151909-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4.19",
+          "versions": [
+            {
+              "version": "4.19.9.6.202610241701-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4.20",
+          "versions": [
+            {
+              "version": "4.20.9.6.202610242033-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4.21",
+          "versions": [
+            {
+              "version": "4.21.9.6.202610241345-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4.22",
+          "versions": [
+            {
+              "version": "4.22.9.8.202610241758-0",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -1260126,7 +1260351,7 @@
       ],
       "watchlist_hit": false,
       "in_watchlist": false,
-      "in_patchthis": false,
+      "in_patchthis": true,
       "is_critical": false,
       "priority_label": "",
       "matched_terms": [],
@@ -1407997,6 +1408222,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 10",
+          "versions": [
+            {
+              "version": "0:11.9.0-6.el10_2.1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 9",
           "versions": [
             {
@@ -1408040,11 +1408277,6 @@
         {
           "vendor": "red hat",
           "product": "red hat certificate system 11",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat enterprise linux 10",
           "versions": null
         },
         {
@@ -1408187,6 +1408419,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 10",
+          "versions": [
+            {
+              "version": "0:11.9.0-6.el10_2.1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 9",
           "versions": [
             {
@@ -1408230,11 +1408474,6 @@
         {
           "vendor": "red hat",
           "product": "red hat certificate system 11",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat enterprise linux 10",
           "versions": null
         },
         {
@@ -1434624,6 +1434863,18 @@
       "affected": [
         {
           "vendor": "microsoft",
+          "product": "microsoft edge (chromium-based)",
+          "versions": [
+            {
+              "version": "1.0.0.0",
+              "lessThan": "154.0.4258.62",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
           "product": "outlook.com",
           "versions": [
             {
@@ -1435425,7 +1435676,7 @@
       ],
       "watchlist_hit": false,
       "in_watchlist": false,
-      "in_patchthis": false,
+      "in_patchthis": true,
       "is_critical": false,
       "priority_label": "",
       "matched_terms": [],
