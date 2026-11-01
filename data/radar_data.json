@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-31T21:28:05+00:00",
-  "count": 6958,
+  "generated_at": "2026-11-01T01:02:13+00:00",
+  "count": 6968,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -656561,18 +656561,6 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat enterprise linux 7 extended lifecycle support",
-          "versions": [
-            {
-              "version": "0:2.62.2-6.el7_9",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
           "product": "red hat enterprise linux 8",
           "versions": [
             {
@@ -659447,18 +659435,6 @@
           "versions": [
             {
               "version": "0:2.62.2-9.el7_9",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat enterprise linux 7 extended lifecycle support",
-          "versions": [
-            {
-              "version": "0:2.62.2-6.el7_9",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -664872,18 +664848,6 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat enterprise linux 7 extended lifecycle support",
-          "versions": [
-            {
-              "version": "0:2.62.2-6.el7_9",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
           "product": "red hat enterprise linux 8",
           "versions": [
             {
@@ -665522,18 +665486,6 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat enterprise linux 7 extended lifecycle support",
-          "versions": [
-            {
-              "version": "0:2.62.2-6.el7_9",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
           "product": "red hat enterprise linux 8",
           "versions": [
             {
@@ -665860,18 +665812,6 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat enterprise linux 7 extended lifecycle support",
-          "versions": [
-            {
-              "version": "0:2.62.2-6.el7_9",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
           "product": "red hat enterprise linux 8",
           "versions": [
             {
@@ -666130,18 +666070,6 @@
           "versions": [
             {
               "version": "0:2.62.2-9.el7_9",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat enterprise linux 7 extended lifecycle support",
-          "versions": [
-            {
-              "version": "0:2.62.2-6.el7_9",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -706753,18 +706681,6 @@
           "versions": [
             {
               "version": "0:2.62.2-9.el7_9",
-              "lessThan": "*",
-              "versionType": "rpm",
-              "status": "unaffected"
-            }
-          ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat enterprise linux 7 extended lifecycle support",
-          "versions": [
-            {
-              "version": "0:2.62.2-6.el7_9",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -765149,7 +765065,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.10.2",
+          "product": "red hat openshift distributed tracing 3.10.1",
           "versions": [
             {
               "version": "1782501180",
@@ -765161,7 +765077,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.10.2",
+          "product": "red hat openshift distributed tracing 3.10.1",
           "versions": [
             {
               "version": "1782501200",
@@ -765173,7 +765089,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.10.2",
+          "product": "red hat openshift distributed tracing 3.10.1",
           "versions": [
             {
               "version": "1782498923",
@@ -765185,7 +765101,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.10.2",
+          "product": "red hat openshift distributed tracing 3.10.1",
           "versions": [
             {
               "version": "1782510941",
@@ -765197,7 +765113,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.10.2",
+          "product": "red hat openshift distributed tracing 3.10.1",
           "versions": [
             {
               "version": "1782501220",
@@ -765209,7 +765125,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.10.2",
+          "product": "red hat openshift distributed tracing 3.10.1",
           "versions": [
             {
               "version": "1782501196",
@@ -765221,7 +765137,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.10.2",
+          "product": "red hat openshift distributed tracing 3.10.1",
           "versions": [
             {
               "version": "1782501195",
@@ -765233,7 +765149,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.10.2",
+          "product": "red hat openshift distributed tracing 3.10.1",
           "versions": [
             {
               "version": "1785704636",
@@ -765245,7 +765161,7 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift distributed tracing 3.10.2",
+          "product": "red hat openshift distributed tracing 3.10.1",
           "versions": [
             {
               "version": "1785704547",
@@ -818667,6 +818583,47 @@
       }
     },
     {
+      "cve_id": "CVE-2026-114217",
+      "description": "A flaw was found in konflux-ci. Continuous Integration (CI) automation scripts store sensitive GitHub access tokens in plaintext on the runner without cleaning them up after execution. A local attacker with access to the CI environment can read these stored credentials to gain unauthorized repository access, potentially allowing them to modify source code or release artifacts.",
+      "cvss_score": 8.6,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0.2.2",
+              "versionType": "semver",
+              "lessThanOrEqual": "0.2.2"
+            },
+            {
+              "status": "affected",
+              "version": "0.2.3-rc.0",
+              "versionType": "semver",
+              "lessThanOrEqual": "0.2.3-rc.0"
+            },
+            {
+              "status": "affected",
+              "version": "main",
+              "versionType": "semver",
+              "lessThanOrEqual": "main"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00086
+    },
+    {
       "cve_id": "CVE-2026-114625",
       "description": "VeloCloud Orchestrator (VCO) on-prem has a security issue where this issue may allow a remote attacker to access privileged internal functionality and impact the VCO host. Successful exploitation may compromise the confidentiality, integrity, and availability of the orchestrator and data managed by the orchestrator.\n\nOn an affected system, any authenticated user can gain operator privileges and masquerade as a local \"superuser operator\" user. This includes access to functionality that is intended for internal use only and which is not intended to be remotely accessible.\n\nHosted, including Dedicated, versions of VCO were impacted and have already been patched.",
       "cvss_score": 9.9,
@@ -819513,6 +819470,70 @@
       }
     },
     {
+      "cve_id": "CVE-2026-115946",
+      "description": "XS::libbrotli versions before 1.2.1.0 for Perl bundle a brotli library with an out-of-bounds write in the decoder.\n\nAffected versions compile a bundled brotli into static archives that dependent XS modules link against at build time, rather than using the system library. The bundled copy, 1.0.7 or 1.1.0 across the range, carries the decoder out-of-bounds write described in CVE-2026-111497. Version 1.2.1.0 updates it to brotli 1.2.1.\n\nXS::libbrotli has no Perl interface, so the decoder is reached through any dependent module that decompresses untrusted data with it. An attacker supplying a crafted brotli stream can corrupt decoder state, disclose memory, crash the process, or potentially execute arbitrary code. Upgrading the system brotli does not remediate this.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "1.2.1.0",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-116086",
+      "description": "A flaw was found in konflux-ci. An attacker with permission to trigger automated workflow runs can cause an information disclosure by providing crafted issue titles to workflow scripts. The affected script incorporates user-provided titles directly into data queries without adequate sanitization, allowing the attacker to inject malicious filter commands. As a result, sensitive information such as API credentials, deployment keys, and internal notes returned from repository queries may be exposed in workflow logs.",
+      "cvss_score": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0.2.2",
+              "versionType": "semver",
+              "lessThanOrEqual": "0.2.2"
+            },
+            {
+              "status": "affected",
+              "version": "0.2.3-rc.0",
+              "versionType": "semver",
+              "lessThanOrEqual": "0.2.3-rc.0"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.0031
+    },
+    {
       "cve_id": "CVE-2026-116127",
       "description": "Starlet versions before 0.33 for Perl send a body in responses to HEAD requests, corrupting the next response on a persistent or pipelined connection.\n\nThe request method is not passed to the response writer, so whatever body the application returns for a HEAD request is sent. With Plack::Middleware::Head the body is empty, but an HTTP/1.1 response without a Content-Length header still gets the chunked encoding terminator. Responses with status 204 or 304 are also sent with their body.\n\nPipelined GET and HEAD requests keep the connection open even when keep-alive is disabled, which is the default. A client or proxy reading the connection takes the extra bytes as the start of the next response, which may desynchronize a proxy that shares the connection across clients.",
       "cvss_score": null,
@@ -820281,6 +820302,41 @@
       }
     },
     {
+      "cve_id": "CVE-2026-116964",
+      "description": "A flaw was found in konflux-ci. An attacker with repository write access can achieve arbitrary code execution within the Continuous Integration and Continuous Delivery (CI/CD) workflow environment. By injecting shell commands into environment export scripts, the attacker causes manifest synchronization scripts to dynamically evaluate unvalidated script output. Successful exploitation allows the attacker to compromise CI/CD pipelines, steal sensitive authentication tokens and deployment credentials, and gain unauthorized access to production systems.",
+      "cvss_score": 8.4,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0.2.2",
+              "versionType": "semver",
+              "lessThanOrEqual": "0.2.2"
+            },
+            {
+              "status": "affected",
+              "version": "0.2.3-rc.0",
+              "versionType": "semver",
+              "lessThanOrEqual": "0.2.3-rc.0"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00337
+    },
+    {
       "cve_id": "CVE-2026-117500",
       "description": "HTTP::Body versions before 1.24_01 for Perl allow CPU exhaustion via regex backtracking on the filename of a multipart upload.\n\nFor every file part, the multipart parser finds the suffix of the uploaded filename by matching the default $basename_regexp, qr/[^.]+(\\.[^\\\\\\/]+)$/, against the whole basename. A basename made of many dots and ending in a backslash makes the regex backtrack in time quadratic in its length.\n\nA remote attacker can exhaust CPU with one request, as a basename of about 32 KB takes several seconds to match and every file part is matched separately.",
       "cvss_score": null,
@@ -820359,6 +820415,35 @@
         "cpe_count": 0,
         "reference_count": 2
       }
+    },
+    {
+      "cve_id": "CVE-2026-117681",
+      "description": "A flaw was found in konflux-ci. This vulnerability allows privilege escalation when the user interface proxy automatically disables Transport Layer Security (TLS) certificate verification for connections to internal backend services in environments lacking a default service certificate authority. Because the proxy attaches a cluster-scoped authentication token with user impersonation rights to these requests, an adjacent network attacker capable of intercepting traffic can capture the credentials to gain full administrative control of the cluster.",
+      "cvss_score": 8.0,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:A/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0.2.2-rc.2",
+              "lessThan": "*",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00097
     },
     {
       "cve_id": "CVE-2026-118986",
@@ -1219700,6 +1219785,18 @@
       "affected": [
         {
           "vendor": "microsoft",
+          "product": "microsoft office 365 for mac",
+          "versions": [
+            {
+              "version": "1.0.0",
+              "lessThan": "16.114.26101123",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
           "product": "windows 10 version 1607",
           "versions": [
             {
@@ -1235060,6 +1235157,54 @@
       "affected": [
         {
           "vendor": "microsoft",
+          "product": "microsoft office 365 for mac",
+          "versions": [
+            {
+              "version": "1.0.0",
+              "lessThan": "16.114.26101123",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "microsoft office for android",
+          "versions": [
+            {
+              "version": "16.0.1",
+              "lessThan": "16.0.20430.20000",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "microsoft office ltsc for mac 2021",
+          "versions": [
+            {
+              "version": "16.0.1",
+              "lessThan": "16.114.26101123",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "microsoft office ltsc for mac 2024",
+          "versions": [
+            {
+              "version": "16.0.0",
+              "lessThan": "16.114.26101123",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
           "product": "windows 10 version 1607",
           "versions": [
             {
@@ -1243157,6 +1243302,18 @@
       "cvss_severity": "HIGH",
       "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C",
       "affected": [
+        {
+          "vendor": "microsoft",
+          "product": "microsoft office for android",
+          "versions": [
+            {
+              "version": "16.0.1",
+              "lessThan": "16.0.20430.20000",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
         {
           "vendor": "microsoft",
           "product": "windows 10 version 1607",
@@ -1286408,6 +1286565,151 @@
       }
     },
     {
+      "cve_id": "CVE-2026-78188",
+      "description": "WebDyne versions from 2.014 before 3.022 for Perl issue session cookies without the Secure, HttpOnly and SameSite attributes.\n\nWebDyne::Session sets its session cookie with only a name, value and path.\n\nBrowsers then send the session ID over plain HTTP and with cross-site requests, and expose it to page scripts. A network attacker or an injected script can steal the session, and another site can make requests that carry it.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "3.022",
+              "status": "affected",
+              "version": "2.014",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-78189",
+      "description": "WebDyne versions from 3.007 before 3.022 for Perl execute .psp files outside the document root via path traversal in the PSGI API route fallback.\n\nWhen a request matches no file, the PSGI handler retries it as an API route through api_filename. That keeps .. segments in the request path and only checks that the joined path starts with the document root, which a request for /../private passes.\n\nA remote attacker can run the embedded Perl in any .psp file the server can read, such as one uploaded to a directory outside the document root.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "3.022",
+              "status": "affected",
+              "version": "3.007",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-78190",
+      "description": "WebDyne versions from 2.014 before 3.022 for Perl reflect request parameters unescaped into form field values, allowing cross-site scripting.\n\nThe textfield, password_field and filefield tags fill their value attribute from the request parameter of the same name. WEBDYNE_CGI_AUTOESCAPE, which controls escaping of these values, defaults to off. From 2.022, WebDyne::HTML::Tiny also replaced its entity_encode method with one that returns its input unchanged, so enabling WEBDYNE_CGI_AUTOESCAPE has no effect.\n\nA remote attacker can inject script into any page using these tags through a crafted link.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "3.022",
+              "status": "affected",
+              "version": "2.014",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-78191",
+      "description": "WebDyne versions from 2.031 before 3.022 for Perl execute files with .psp anywhere in the name as Perl pages.\n\nWebDyne decides whether to run a requested file as a page by matching its name against WEBDYNE_PSP_EXT_RE, which has no end anchor.\n\nAn application that accepts uploads by checking only the final extension lets a remote attacker upload a file such as report.psp.pdf and run its embedded Perl by requesting it.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "3.022",
+              "status": "affected",
+              "version": "2.031",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-78192",
+      "description": "WebDyne versions from 2.022 before 3.022 for Perl disclose application source to unauthenticated clients via the viewer in the default index page.\n\nWebDyne's wrapper scripts, such as webdyne.psgi, enable the built-in index page by default. Its source viewer returns files under the document root named in the source parameter of an HTMX request, including .psp, .pm and .pl files.\n\nA remote attacker can read the application's Perl code, including the __PERL__ blocks of .psp pages and any credentials they hold.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "3.022",
+              "status": "affected",
+              "version": "2.022",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
       "cve_id": "CVE-2026-78446",
       "description": "Use after free in Windows Distributed File System (DFS) allows an authorized attacker to execute code over a network.",
       "cvss_score": 7.5,
@@ -1306352,6 +1306654,54 @@
       "cvss_severity": "MEDIUM",
       "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C",
       "affected": [
+        {
+          "vendor": "microsoft",
+          "product": "microsoft office 365 for mac",
+          "versions": [
+            {
+              "version": "1.0.0",
+              "lessThan": "16.114.26101123",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "microsoft office for android",
+          "versions": [
+            {
+              "version": "16.0.1",
+              "lessThan": "16.0.20430.20000",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "microsoft office ltsc for mac 2021",
+          "versions": [
+            {
+              "version": "16.0.1",
+              "lessThan": "16.114.26101123",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "microsoft office ltsc for mac 2024",
+          "versions": [
+            {
+              "version": "16.0.0",
+              "lessThan": "16.114.26101123",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
         {
           "vendor": "microsoft",
           "product": "windows 10 version 1607",
@@ -1401133,6 +1401483,54 @@
       "cvss_severity": "HIGH",
       "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C",
       "affected": [
+        {
+          "vendor": "microsoft",
+          "product": "microsoft office 365 for mac",
+          "versions": [
+            {
+              "version": "1.0.0",
+              "lessThan": "16.114.26101123",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "microsoft office for android",
+          "versions": [
+            {
+              "version": "16.0.1",
+              "lessThan": "16.0.20430.20000",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "microsoft office ltsc for mac 2021",
+          "versions": [
+            {
+              "version": "16.0.1",
+              "lessThan": "16.114.26101123",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "microsoft office ltsc for mac 2024",
+          "versions": [
+            {
+              "version": "16.0.0",
+              "lessThan": "16.114.26101123",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
         {
           "vendor": "microsoft",
           "product": "windows 10 version 1607",
