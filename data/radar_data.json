@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-01T23:33:14+00:00",
-  "count": 6968,
+  "generated_at": "2026-11-02T05:58:11+00:00",
+  "count": 6971,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -821486,6 +821486,35 @@
       }
     },
     {
+      "cve_id": "CVE-2026-13575",
+      "description": "HTTP::Session versions before 0.54 for Perl allow memcached command injection via unfiltered session ids in HTTP::Session::Store::CHI.\n\nThe session id from the client's cookie reaches the CHI cache unchanged. The sibling HTTP::Session::Store::Memcached rejects ids that contain control characters, but the CHI store has no such check, and CHI does not escape keys for its memcached drivers.\n\nWith a memcached driver, a CR and LF in the session id end the cache command early, and the server reads the bytes after them as further commands.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "0.54",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
       "cve_id": "CVE-2026-13576",
       "description": "CallBackery versions before 0.62.0 for Perl store user passwords as unsalted HMAC-SHA1 hashes.\n\nPasswords are hashed with hmac_sha1_sum() from Mojo::Util with no key, a single fast SHA-1 HMAC. There is no salt, so equal passwords give equal hashes, and no work factor slows down guessing.\n\nAn attacker who obtains the user table can recover passwords by fast offline guessing.",
       "cvss_score": null,
@@ -1279405,6 +1279434,63 @@
         "cpe_count": 0,
         "reference_count": 6
       }
+    },
+    {
+      "cve_id": "CVE-2026-74759",
+      "description": "Google::Auth versions 0.12 for Perl allow server side request forgery via unvalidated credential_source URLs in AWS external account credentials.\n\nAn external_account configuration with the AWS subject token type selects Google::Auth::ExternalAccountCredentials::Aws. Its retrieve_subject_token sends requests to the imdsv2_session_token_url, url and region_url fields of credential_source without the host check that the other credential classes apply.\n\nAny caller that builds credentials from a configuration it does not fully control issues GET and PUT requests to hosts the configuration names, including internal services and link-local metadata endpoints.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0.12",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-74760",
+      "description": "Google::Auth versions from 0.11 through 0.12 for Perl accept an authorization code from any local process because the gcloud-auth login callback does not check the OAuth state.\n\nThe gcloud-auth login and application-default login commands send a state parameter with the authorization request, then take the code from the first request to reach their loopback listener without comparing the returned state.\n\nA local attacker can submit an authorization code for their own Google account. The CLI exchanges it and stores the refresh token as the user's credentials, so the user's tools then act as the attacker's account.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThanOrEqual": "0.12",
+              "status": "affected",
+              "version": "0.11",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
     },
     {
       "cve_id": "CVE-2026-74765",
