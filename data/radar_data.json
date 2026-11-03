@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-02T23:28:45+00:00",
-  "count": 6971,
+  "generated_at": "2026-11-03T06:36:04+00:00",
+  "count": 6973,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -785355,6 +785355,30 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 8.4 advanced mission critical update support",
+          "versions": [
+            {
+              "version": "0:2.9.7-9.el8_4.20",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8.4 extended update support long-life add-on",
+          "versions": [
+            {
+              "version": "0:2.9.7-9.el8_4.20",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 8.6 advanced mission critical update support",
           "versions": [
             {
@@ -786524,7 +786548,7 @@
           "CWE-121"
         ],
         "cpe_count": 8,
-        "reference_count": 84
+        "reference_count": 85
       }
     },
     {
@@ -818595,21 +818619,13 @@
           "versions": [
             {
               "status": "affected",
-              "version": "0.2.2",
-              "versionType": "semver",
-              "lessThanOrEqual": "0.2.2"
+              "version": "0.2.2"
             },
             {
               "status": "affected",
               "version": "0.2.3-rc.0",
-              "versionType": "semver",
-              "lessThanOrEqual": "0.2.3-rc.0"
-            },
-            {
-              "status": "affected",
-              "version": "main",
-              "versionType": "semver",
-              "lessThanOrEqual": "main"
+              "lessThan": "*",
+              "versionType": "semver"
             }
           ]
         }
@@ -819553,15 +819569,11 @@
           "versions": [
             {
               "status": "affected",
-              "version": "0.2.2",
-              "versionType": "semver",
-              "lessThanOrEqual": "0.2.2"
+              "version": "0.2.2"
             },
             {
               "status": "affected",
-              "version": "0.2.3-rc.0",
-              "versionType": "semver",
-              "lessThanOrEqual": "0.2.3-rc.0"
+              "version": "0.2.3-rc.0"
             }
           ]
         }
@@ -820388,6 +820400,37 @@
       }
     },
     {
+      "cve_id": "CVE-2026-116958",
+      "description": "A flaw was found in konflux-ci. This vulnerability allows arbitrary code execution due to improper quoting of shell variables in deployment scripts. A local attacker who can supply arguments to the affected scripts could exploit this issue to trigger unintended command substitution, executing commands with the privileges of the deployment runner.",
+      "cvss_score": 6.7,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0.2.2"
+            },
+            {
+              "status": "affected",
+              "version": "0.2.3-rc.0"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
       "cve_id": "CVE-2026-116964",
       "description": "A flaw was found in konflux-ci. An attacker with repository write access can achieve arbitrary code execution within the Continuous Integration and Continuous Delivery (CI/CD) workflow environment. By injecting shell commands into environment export scripts, the attacker causes manifest synchronization scripts to dynamically evaluate unvalidated script output. Successful exploitation allows the attacker to compromise CI/CD pipelines, steal sensitive authentication tokens and deployment credentials, and gain unauthorized access to production systems.",
       "cvss_score": 8.4,
@@ -820400,15 +820443,11 @@
           "versions": [
             {
               "status": "affected",
-              "version": "0.2.2",
-              "versionType": "semver",
-              "lessThanOrEqual": "0.2.2"
+              "version": "0.2.2"
             },
             {
               "status": "affected",
-              "version": "0.2.3-rc.0",
-              "versionType": "semver",
-              "lessThanOrEqual": "0.2.3-rc.0"
+              "version": "0.2.3-rc.0"
             }
           ]
         }
@@ -820526,9 +820565,7 @@
           "versions": [
             {
               "status": "affected",
-              "version": "0.2.2-rc.2",
-              "lessThan": "*",
-              "versionType": "semver"
+              "version": "0.2.2-rc.2"
             }
           ]
         }
@@ -821512,7 +821549,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00933
+      "probability_score": 0.00933,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-93"
+        ],
+        "cpe_count": 0,
+        "reference_count": 4
+      }
     },
     {
       "cve_id": "CVE-2026-13576",
@@ -1041930,6 +1041978,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 9.2 update services for sap solutions",
+          "versions": [
+            {
+              "version": "2:2.99.8-4.el9_2.7",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 9.4 update services for sap solutions",
           "versions": [
             {
@@ -1081082,6 +1081142,35 @@
         "cpe_count": 1,
         "reference_count": 6
       }
+    },
+    {
+      "cve_id": "CVE-2026-65059",
+      "description": "Furl versions through 3.15 for Perl allow memory exhaustion via unbounded decompression of HTTP responses.\n\nFurl inflates a response body sent with a gzip, x-gzip or deflate Content-Encoding and appends the output to the response string with no size limit. It does this whether or not the request asked for compression, and no option caps the decompressed size. Responses read with write_file or write_code are streamed rather than held in memory.\n\nA malicious server, or an attacker on a plain HTTP connection, can send a small compressed response that expands to exhaust the client's memory and end the process.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThanOrEqual": "3.15",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
     },
     {
       "cve_id": "CVE-2026-65400",
@@ -1279461,7 +1279550,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00177
+      "probability_score": 0.00177,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-918"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
     },
     {
       "cve_id": "CVE-2026-74760",
@@ -1279490,7 +1279590,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00124
+      "probability_score": 0.00124,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-346"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
     },
     {
       "cve_id": "CVE-2026-74765",
