@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-03T20:58:25+00:00",
-  "count": 6974,
+  "generated_at": "2026-11-04T09:28:50+00:00",
+  "count": 6996,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -519052,7 +519052,7 @@
           "product": "red hat openshift container platform 4.14",
           "versions": [
             {
-              "version": "sha256:5593067bbf79e50ab9ed89c684c8ee03b4b2a0b6443068459967df623c0643de",
+              "version": "openshift-enterprise-console-container-v4.14.0-202510211320.p2.g0682746.assembly.stream.el8",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -519064,7 +519064,7 @@
           "product": "red hat openshift container platform 4.15",
           "versions": [
             {
-              "version": "sha256:8d6e2390929560bdddddf8caab133f14fa50dbd53a5e551f134680837778e180",
+              "version": "openshift-enterprise-console-container-v4.15.0-202508180724.p2.g69615d5.assembly.stream.el8",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -790725,7 +790725,7 @@
           "CWE-22"
         ],
         "cpe_count": 0,
-        "reference_count": 34
+        "reference_count": 36
       }
     },
     {
@@ -816878,7 +816878,7 @@
           "CWE-824",
           "CWE-1325"
         ],
-        "cpe_count": 306,
+        "cpe_count": 316,
         "reference_count": 11
       }
     },
@@ -816950,7 +816950,7 @@
           "CWE-824",
           "CWE-1325"
         ],
-        "cpe_count": 306,
+        "cpe_count": 317,
         "reference_count": 19
       }
     },
@@ -818197,7 +818197,7 @@
           "CWE-256"
         ],
         "cpe_count": 0,
-        "reference_count": 3
+        "reference_count": 4
       }
     },
     {
@@ -818311,7 +818311,7 @@
           "CWE-787"
         ],
         "cpe_count": 46,
-        "reference_count": 21
+        "reference_count": 22
       }
     },
     {
@@ -818569,9 +818569,9 @@
     {
       "cve_id": "CVE-2026-113877",
       "description": "HTTP::Headers::ActionPack versions before 0.10 for Perl allow CPU exhaustion via Accept-Language ranges matched as regular expressions.\n\n_language_match interpolates each Accept-Language range into the pattern `/^$range\\-/i` without escaping it, so regular expression syntax in the header reaches the regex engine. A 12-byte range such as `(a?|b?){26}z` backtracks for seconds, and each increment of the quantifier doubles the time. An invalid range such as `(` fails to compile.\n\nA remote attacker can exhaust CPU, or make choose_language die, in any application that passes an untrusted Accept-Language header to it.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "",
@@ -818595,8 +818595,8 @@
       "active_threat": false,
       "probability_score": 0.00708,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -818716,9 +818716,9 @@
     {
       "cve_id": "CVE-2026-114629",
       "description": "Web::Simple versions before 0.035 for Perl allocate a buffer sized by the Content-Length header for urlencoded body parameters.\n\nWeb::Dispatch::ParamParser::get_unpacked_body_from reads an application/x-www-form-urlencoded body using a single read call, with no cap and the return value ignored. Perl's read grows the buffer to the requested length before reading, so the declared Content-Length determines the allocation.\n\nAn attacker can trigger this through any route whose dispatch specification has a % body-parameter match, such as sub (POST + %name=), sending a Content-Length far larger than the body actually sent. No authentication is involved.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
       "affected": [
         {
           "vendor": "",
@@ -818742,8 +818742,8 @@
       "active_threat": false,
       "probability_score": 0.00495,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -819201,9 +819201,9 @@
     {
       "cve_id": "CVE-2026-115817",
       "description": "Starman versions before 0.4019 for Perl allow a stalled request body to hold a worker indefinitely, as read_timeout covers only the headers.\n\nContent-Length and chunked request bodies are read with blocking reads and no deadline. A client that sends complete headers and then stalls or trickles the body keeps the worker waiting until it disconnects.\n\nA remote attacker can take every worker with a few such connections, five with the default worker count, so the server stops answering requests.\n\nVersion 0.4019 applies read_timeout to each wait for body data and adds a body_timeout limit, 300 seconds by default, on the total time to read a body.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
       "affected": [
         {
           "vendor": "",
@@ -819227,8 +819227,8 @@
       "active_threat": false,
       "probability_score": 0.00514,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -819241,9 +819241,9 @@
     {
       "cve_id": "CVE-2026-115822",
       "description": "Starman versions before 0.4019 for Perl allow CPU exhaustion via quadratic regex backtracking when parsing chunked request bodies.\n\nStarman decodes chunked request bodies before calling the application, matching each chunk-size line with `s/^(([0-9a-fA-F]+).*\\015\\012)//`. A line of hex digits followed by a bare LF and then CRLF never matches, because `.` does not match LF, and each failed attempt backtracks in time quadratic in the length of the hex run. Nothing limits the length of the line.\n\nA remote attacker can exhaust worker CPU by sending such requests to any route.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "",
@@ -819267,8 +819267,8 @@
       "active_threat": false,
       "probability_score": 0.00506,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -819281,9 +819281,9 @@
     {
       "cve_id": "CVE-2026-115823",
       "description": "Starman versions before 0.4019 for Perl send response bodies for HEAD requests, desynchronizing responses on keep-alive connections.\n\nFor a HEAD request Starman omits chunked framing but still writes the body returned by the application, on both the array and streaming response paths. Responses with a 1xx, 204 or 304 status also carry the body.\n\nOn a keep-alive or pipelined connection the client reads those bytes as the start of the next response. A front-end proxy that reuses upstream connections may then pair responses with the wrong requests.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 9.1,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
       "affected": [
         {
           "vendor": "",
@@ -819307,8 +819307,8 @@
       "active_threat": false,
       "probability_score": 0.0035,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 9.1,
+        "cvss_v3_severity": "CRITICAL",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -819321,9 +819321,9 @@
     {
       "cve_id": "CVE-2026-115824",
       "description": "Starman versions before 0.4019 for Perl allow memory exhaustion via unbounded buffering of chunked request bodies.\n\nThe chunked body decoder keeps each chunk in memory until the whole chunk and its CRLF have arrived, and sets no limit on the length of a chunk-size line. A client that declares a huge chunk size and streams data, or sends a chunk-size line that never ends, grows the buffer for as long as it keeps sending.\n\nA remote attacker can exhaust worker memory with a single connection.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "",
@@ -819347,8 +819347,8 @@
       "active_threat": false,
       "probability_score": 0.00608,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -819361,9 +819361,9 @@
     {
       "cve_id": "CVE-2026-115825",
       "description": "HTTP::Server::PSGI versions before 1.0056 for Perl allow a single request to crash the server by declaring a large Content-Length.\n\nThe request body is read with sysread() calls sized by the remaining Content-Length. Perl grows the read buffer to the requested length before any data arrives, so the server tries to allocate as much memory as the client declares.\n\nA remote attacker can send one request with a large Content-Length and a few body bytes, and perl exits with an out-of-memory error before the application is called. HTTP::Server::PSGI runs as a single process, so the server stays down until restarted.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "",
@@ -819387,8 +819387,8 @@
       "active_threat": false,
       "probability_score": 0.00655,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -820428,7 +820428,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.0013
+      "probability_score": 0.0013,
+      "nvd": {
+        "cvss_v3_score": 6.7,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-78"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
     },
     {
       "cve_id": "CVE-2026-116964",
@@ -820587,6 +820598,59 @@
           "CWE-295"
         ],
         "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2026-118527",
+      "description": "Use of predictable filenames in Ivanti Connect Secure before versions 25.1.1.3 and 22.8R2.6 allows a remote authenticated attacker to upload files with attacker-controlled content to a known location on disk.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "ivanti",
+          "product": "connect secure",
+          "versions": [
+            {
+              "status": "unaffected",
+              "version": "25.1.1.3"
+            },
+            {
+              "status": "unaffected",
+              "version": "22.8R2.6"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": false,
+      "in_watchlist": false,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": true,
+      "probability_score": null,
+      "kev": {
+        "cveID": "CVE-2026-118527",
+        "vendorProject": "Ivanti",
+        "product": "Connect Secure",
+        "vulnerabilityName": "Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability",
+        "dateAdded": "2026-10-30",
+        "shortDescription": "Ivanti Connect Secure contains a generation of predictable numbers or identifiers vulnerability that allows a remote authenticated attacker to upload files with attacker-controlled content to a known location on disk. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-111357.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-11-13",
+        "knownRansomwareCampaignUse": "Unknown"
+      },
+      "nvd": {
+        "cvss_v3_score": 4.3,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-340"
+        ],
+        "cpe_count": 7,
         "reference_count": 2
       }
     },
@@ -821275,7 +821339,7 @@
       ],
       "watchlist_hit": false,
       "in_watchlist": false,
-      "in_patchthis": false,
+      "in_patchthis": true,
       "is_critical": false,
       "priority_label": "",
       "matched_terms": [],
@@ -821301,7 +821365,7 @@
           "CWE-367"
         ],
         "cpe_count": 0,
-        "reference_count": 8
+        "reference_count": 10
       }
     },
     {
@@ -821354,6 +821418,811 @@
         ],
         "cpe_count": 4,
         "reference_count": 3
+      }
+    },
+    {
+      "cve_id": "CVE-2026-120631",
+      "description": "CGI::Cookie versions from 4.67 before 5.00 for Perl allow denial of service via the client cookie expires value used as a regex in parse.\n\nCGI's cookie method reads the Cookie request header through parse, which interpolates the header's expires value unescaped into the substitution pattern that removes it from the cookie string.\n\nA client can make the request die with an invalid pattern, or tie up the process with one that backtracks catastrophically.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "5.00",
+              "status": "affected",
+              "version": "4.67",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-625",
+          "CWE-1333"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
+    },
+    {
+      "cve_id": "CVE-2026-120632",
+      "description": "CGI versions before 5.00 for Perl allow CPU exhaustion via a backtracking regex on the XForms multipart/related Content-Type.\n\nWhen a POST Content-Type contains multipart/related, the boundary and start parameters are extracted with an unanchored pattern that puts .+ on either side of the boundary capture, which backtracks in cubic time on a header that does not match. No request body is needed.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "5.00",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-1333"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
+    },
+    {
+      "cve_id": "CVE-2026-120633",
+      "description": "CGI versions before 5.00 for Perl trust the client X-Forwarded-Host header in url, self_url, virtual_host and virtual_port.\n\nThese take the host name and port from the X-Forwarded-Host request header when present, and otherwise from Host, without validating either. The URLs from url and self_url are the default redirect location and the start_html(-base=>1) base href, and the default start_form action when REQUEST_URI is not set.\n\nA client can poison shared caches, and URLs the application stores or sends, with redirects, links and scripts that point at a host it controls.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "5.00",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-348",
+          "CWE-601"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
+    },
+    {
+      "cve_id": "CVE-2026-120634",
+      "description": "CGI::Carp versions before 5.00 for Perl leak warnings across requests in persistent environments via the warningsToBrowser buffer.\n\nWarnings are held in a package-level buffer until warningsToBrowser writes them into the page as HTML comments, and the buffer is never cleared between requests. Under mod_perl, FastCGI or PSGI, warnings from one request are written into a later one.\n\nWarnings that contain one user's request data can appear in the HTML sent to another user.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "5.00",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-488"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
+    },
+    {
+      "cve_id": "CVE-2026-120635",
+      "description": "CGI versions before 5.00 for Perl allow form fields to be smuggled past proxies and WAFs via multipart parsing that differs from the RFCs.\n\nThe multipart/form-data parser matches the boundary anywhere rather than at the start of a line, uses the boundary without its leading -- for some client-supplied User-Agent values, finds the Content-Disposition name and filename inside the quoted values of other parameters, and corrupts parts when the boundary nears the 4096-byte read size.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "5.00",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-436"
+        ],
+        "cpe_count": 0,
+        "reference_count": 7
+      }
+    },
+    {
+      "cve_id": "CVE-2026-120636",
+      "description": "CGI versions before 5.00 for Perl allow open redirects and script injection via URLs built from REQUEST_URI in url and start_form.\n\nurl(-absolute=>1), url(-relative=>1) and the default start_form action are built from the client-supplied REQUEST_URI without validation. The result can be protocol-relative (//evil.example), absolute-form (http://evil.example/) or contain backslashes, and url(-relative=>1) can return a javascript: URL. Links and form posts built from these URLs can go to another host.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "5.00",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79",
+          "CWE-601"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
+    },
+    {
+      "cve_id": "CVE-2026-120637",
+      "description": "CGI versions before 5.00 for Perl take request parameters from the process command line arguments for an unrecognised REQUEST_METHOD.\n\nFor a REQUEST_METHOD such as OPTIONS, CGI falls through to its offline debugging mode, which is on by default, and builds the parameters and path_info from the process's command line arguments.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "5.00",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-489"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
+    },
+    {
+      "cve_id": "CVE-2026-120638",
+      "description": "CGI versions before 5.00 for Perl allow open redirects via HTML entity decoding of the URL after application validation in redirect.\n\nredirect decodes HTML entities in its URL before writing the Location header, so a URL the application has already validated can change meaning. For example, /&#47;evil.example/ becomes //evil.example/ and sends the user to another host.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "5.00",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-180",
+          "CWE-601"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
+    },
+    {
+      "cve_id": "CVE-2026-120639",
+      "description": "CGI versions before 5.00 for Perl allow HTTP header injection via entity decoding after the newline check in header and unchecked values in multipart_start and do_push.\n\nWith autoEscape off, header decodes HTML entities in extra header values after its newline check, so an encoded CR or LF reaches the response. multipart_start does not check header values for newlines, and do_push does not check the type it prints in each part.\n\nAn application that passes request data into these header values can be made to add headers or split the response.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "5.00",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-113"
+        ],
+        "cpe_count": 0,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2026-120640",
+      "description": "CGI versions before 5.00 for Perl allow the POSTDATA, PUTDATA, PATCHDATA and XForms:Model parameters to be set from the query string or form fields.\n\nCGI stores a non-form request body under POSTDATA, PUTDATA or PATCHDATA, and an XForms body under XForms:Model, but also accepts these names from the query string, a form field or a multipart part, so an application cannot tell a client-sent value from the real body.\n\nA cross-site HTML form can post POSTDATA={\"admin\":true} to an endpoint that reads JSON from param('POSTDATA'), a request forgery that needs no CORS preflight.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "5.00",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-352"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
+    },
+    {
+      "cve_id": "CVE-2026-120641",
+      "description": "CGI versions before 5.00 for Perl return upload filenames with any client-supplied path, including ../ and Windows paths.\n\nThe name returned for an uploaded file is the filename parameter of the part's Content-Disposition header, unchanged.\n\nAn application that saves the upload under this name can be made to write outside the intended directory.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "5.00",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-22"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
+    },
+    {
+      "cve_id": "CVE-2026-120642",
+      "description": "CGI versions before 5.00 for Perl return request-derived values untainted under taint mode.\n\nThe upload filename, uploadInfo values, some path_info and script_name values, Accept results, and the name lists from url_param and cookie are returned without the taint flag, as is a cookie named expires from 4.67 on.\n\nThese values come from regex captures or hash keys, which Perl does not taint, so they pass -T checks unvalidated.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "5.00",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-1173"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
+    },
+    {
+      "cve_id": "CVE-2026-120643",
+      "description": "CGI versions from 4.62 before 5.00 for Perl allow cross-site scripting via a raw apostrophe in URLs returned by url and self_url.\n\nBoth pass the URL through URI's canonical method, which leaves an apostrophe in the path raw and decodes the %27 that query parameter escaping produces, so an apostrophe in the request path or a parameter appears raw in the result.\n\nAn application that places the URL in a single-quoted HTML attribute or JavaScript string is open to cross-site scripting.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "5.00",
+              "status": "affected",
+              "version": "4.62",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
+    },
+    {
+      "cve_id": "CVE-2026-120644",
+      "description": "CGI::Cookie versions before 5.00 for Perl allow cookie attribute injection via unvalidated path, domain and expires values.\n\nThe path, domain and expires values are written into the Set-Cookie header without checking for semicolons or control characters.\n\nAn application that sets them from request data can be made to add other cookie attributes, such as Domain or SameSite.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "5.00",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-116"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
+    },
+    {
+      "cve_id": "CVE-2026-120645",
+      "description": "CGI versions before 5.00 for Perl allow denial of service via submitted values used as a regex for optgroup selection in scrolling_list.\n\nWhen rendering option groups, scrolling_list marks the selected options by interpolating each selected value, by default taken from the request parameters, unescaped into a substitution pattern.\n\nA client can make the request die with an invalid pattern, or tie up the process with one that backtracks heavily.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "5.00",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-625",
+          "CWE-1333"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
+    },
+    {
+      "cve_id": "CVE-2026-120646",
+      "description": "CGI versions from 4.71 before 5.00 for Perl allow denial of service via a plain string dereferenced as a symbolic reference in uploadInfo.\n\nuploadInfo dereferences its argument and calls its filename method without checking that it is an upload filehandle. A plain string naming a defined global variable, such as the parameter value from ?upload=0, is treated as a symbolic reference, and the method call on it dies.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "5.00",
+              "status": "affected",
+              "version": "4.71",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-843"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
+    },
+    {
+      "cve_id": "CVE-2026-120647",
+      "description": "CGI versions before 5.00 for Perl allow Content-Disposition parameter injection via unescaped double quotes in the header attachment filename.\n\nheader(-attachment => $name) writes $name into the quoted filename parameter of Content-Disposition without escaping double quotes.\n\nAn application that passes request data as the attachment name can be made to send a second filename parameter, changing the name the response is saved under.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "5.00",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-116"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
+    },
+    {
+      "cve_id": "CVE-2026-120648",
+      "description": "CGI versions before 5.00 for Perl allow HTML injection via text containing --> in comment.\n\nArguments are placed between <!-- and --> without escaping, so text containing --> closes the comment early.\n\nAn application that passes request data to comment can be made to inject HTML into the page.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "5.00",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-79"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
+    },
+    {
+      "cve_id": "CVE-2026-120650",
+      "description": "CGI versions before 5.00 for Perl allow memory, CPU and disk exhaustion via missing or unenforced request size, parameter and upload limits.\n\n$CGI::POST_MAX defaults to no limit, and when set is not enforced for chunked multipart bodies or for the boundary line of a multipart body without a boundary= parameter. Bodies saved as PUTDATA, POSTDATA or PATCHDATA uploads are read into memory in one go, and nothing limits the number of parameters or uploads.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "5.00",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-770"
+        ],
+        "cpe_count": 0,
+        "reference_count": 6
+      }
+    },
+    {
+      "cve_id": "CVE-2026-120651",
+      "description": "CGI versions before 5.00 for Perl allow an infinite loop on a short request body when $DISABLE_UPLOADS is set.\n\nWhen $CGI::PUTDATA_UPLOAD or an upload hook is set, read_postdata_putdata takes a request body that is not a form submission. With $CGI::DISABLE_UPLOADS set, it discards the body by reading until Content-Length bytes have arrived. Once a body shorter than its Content-Length runs out, every read returns 0, so the loop never ends.\n\nA client can keep a server process spinning with one such request.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "5.00",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-835"
+        ],
+        "cpe_count": 0,
+        "reference_count": 4
       }
     },
     {
@@ -938648,6 +939517,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 6 extended lifecycle support - extension",
+          "versions": [
+            {
+              "version": "0:2.12.23-22.el6_10.1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 7 extended lifecycle support",
           "versions": [
             {
@@ -939176,11 +940057,6 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat enterprise linux 6",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
           "product": "red hat openshift container platform 4",
           "versions": null
         },
@@ -939212,7 +940088,7 @@
           "CWE-295"
         ],
         "cpe_count": 0,
-        "reference_count": 30
+        "reference_count": 31
       }
     },
     {
@@ -940432,6 +941308,11 @@
           "vendor": "red hat",
           "product": "red hat openshift container platform 4",
           "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 5",
+          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -941005,6 +941886,11 @@
         {
           "vendor": "red hat",
           "product": "red hat openshift container platform 4",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 5",
           "versions": null
         }
       ],
@@ -1042240,7 +1043126,7 @@
           "CWE-191"
         ],
         "cpe_count": 4,
-        "reference_count": 7
+        "reference_count": 8
       }
     },
     {
@@ -1047267,6 +1048153,11 @@
         {
           "vendor": "red hat",
           "product": "red hat openshift container platform 4",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 5",
           "versions": null
         }
       ],
@@ -1081365,7 +1082256,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00227
+      "probability_score": 0.00227,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-409"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-65400",
@@ -1170483,7 +1171385,7 @@
         "cwe_ids": [
           "CWE-787"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1173423,7 +1174325,7 @@
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1175291,7 +1176193,7 @@
           "CWE-362",
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1189769,7 +1190671,7 @@
         "cwe_ids": [
           "CWE-125"
         ],
-        "cpe_count": 0,
+        "cpe_count": 24,
         "reference_count": 1
       }
     },
@@ -1200558,7 +1201460,7 @@
           "CWE-122",
           "CWE-190"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1200845,7 +1201747,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1279880,6 +1280782,46 @@
       }
     },
     {
+      "cve_id": "CVE-2026-74846",
+      "description": "Catalyst::Plugin::Authentication versions before 0.10029 for Perl allow timing attacks on stored passwords via eq comparisons in the legacy password verifier.\n\nCVE-2026-5091 was fixed in the realm-based verifier. The legacy verifier, used by the deprecated login method, compares clear-text passwords, crypt hashes and base64 digests with eq, so the comparison time depends on how many leading bytes match.\n\nA remote attacker can use response-time differences to guess the stored password or hash.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "0.10029",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00273,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-208"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
+    },
+    {
       "cve_id": "CVE-2026-75589",
       "description": "Net::OAuth versions before 0.33 for Perl check HMAC-SHA1, HMAC-SHA256 and PLAINTEXT signatures with a non-constant-time comparison in verify.\n\nEach of the three compares the signature carried in the message against the locally computed one with the eq operator, which returns as soon as the two strings differ. The time taken to reject a signature varies with the length of the matching prefix. RSA-SHA1 is not affected, as it verifies through the RSA key object rather than by comparing strings.\n\nA client that can submit messages and time the replies may recover a valid signature one byte at a time rather than searching the whole signature space. Under PLAINTEXT the value compared against is the signature key itself, so the search recovers consumer_secret and token_secret.",
       "cvss_score": 7.5,
@@ -1330785,7 +1331727,7 @@
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1330928,7 +1331870,7 @@
         "cwe_ids": [
           "CWE-416"
         ],
-        "cpe_count": 0,
+        "cpe_count": 12,
         "reference_count": 1
       }
     },
@@ -1331010,7 +1331952,7 @@
         "cwe_ids": [
           "CWE-497"
         ],
-        "cpe_count": 0,
+        "cpe_count": 8,
         "reference_count": 1
       }
     },
@@ -1331585,7 +1332527,7 @@
           "CWE-122",
           "CWE-362"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1332063,7 +1333005,7 @@
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 24,
         "reference_count": 1
       }
     },
@@ -1332637,7 +1333579,7 @@
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1332780,7 +1333722,7 @@
         "cwe_ids": [
           "CWE-170"
         ],
-        "cpe_count": 0,
+        "cpe_count": 12,
         "reference_count": 1
       }
     },
@@ -1333067,7 +1334009,7 @@
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1333354,7 +1334296,7 @@
         "cwe_ids": [
           "CWE-122"
         ],
-        "cpe_count": 0,
+        "cpe_count": 26,
         "reference_count": 1
       }
     },
@@ -1456868,7 +1457810,7 @@
         "cwe_ids": [
           "CWE-190"
         ],
-        "cpe_count": 6,
+        "cpe_count": 9,
         "reference_count": 7
       }
     },
