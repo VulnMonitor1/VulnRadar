@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-04T22:36:48+00:00",
-  "count": 6997,
+  "generated_at": "2026-11-05T03:28:49+00:00",
+  "count": 7003,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -392055,7 +392055,7 @@
       ],
       "watchlist_hit": false,
       "in_watchlist": false,
-      "in_patchthis": false,
+      "in_patchthis": true,
       "is_critical": false,
       "priority_label": "",
       "matched_terms": [],
@@ -524725,11 +524725,6 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat build of apache camel - hawtio 4",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
           "product": "red hat build of keycloak",
           "versions": null
         },
@@ -556375,11 +556370,6 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 6",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat openshift container platform 4",
           "versions": null
         }
       ],
@@ -766150,10 +766140,10 @@
         },
         {
           "vendor": "red hat",
-          "product": "red hat openshift sandboxed containers 1.1",
+          "product": "red hat openshift sandboxed containers 1.10",
           "versions": [
             {
-              "version": "sha256:a6f29da891174e57fcfd131da7aa90c50459ba24164111b83120a1b91f2eabba",
+              "version": "1.10-1753885668",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -811558,6 +811548,11 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat openshift container platform 5",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift dev spaces",
           "versions": null
         },
@@ -818819,6 +818814,35 @@
       }
     },
     {
+      "cve_id": "CVE-2026-114627",
+      "description": "Web::Simple versions before 0.036 for Perl do not escape values interpolated into double-quoted strings in HTML::Tags output.\n\nUnder use HTML::Tags or use XML::Tags, a double-quoted string literal becomes a StringThing object that holds each interpolated value as a separate part. The escaping step passes such objects through, and stringify joins their interpolated parts as is. A value passed on its own, as in <p>, $value, </p>, is entity-escaped, but the same value in \"Hello $value\" is not.\n\nAn attacker who controls a value that an application interpolates into a double-quoted string can inject script into the generated page.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "0.036",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
       "cve_id": "CVE-2026-114629",
       "description": "Web::Simple versions before 0.035 for Perl allocate a buffer sized by the Content-Length header for urlencoded body parameters.\n\nWeb::Dispatch::ParamParser::get_unpacked_body_from reads an application/x-www-form-urlencoded body using a single read call, with no cap and the return value ignored. Perl's read grows the buffer to the requested length before reading, so the declared Content-Length determines the allocation.\n\nAn attacker can trigger this through any route whose dispatch specification has a % body-parameter match, such as sub (POST + %name=), sending a Content-Length far larger than the body actually sent. No authentication is involved.",
       "cvss_score": 7.5,
@@ -820730,7 +820754,7 @@
       ],
       "watchlist_hit": false,
       "in_watchlist": false,
-      "in_patchthis": false,
+      "in_patchthis": true,
       "is_critical": false,
       "priority_label": "",
       "matched_terms": [],
@@ -822329,6 +822353,182 @@
         "cpe_count": 0,
         "reference_count": 4
       }
+    },
+    {
+      "cve_id": "CVE-2026-121007",
+      "description": "SQL::Abstract versions from 1.90_01 before 2.000001_04 for Perl allow SQL injection via the where values of a nested statement in an identifier position.\n\nA nested statement such as { -select => ... } in a position where plain scalars are identifiers treats its own plain scalars as identifiers too. These positions are the select list, ORDER BY, GROUP BY, RETURNING, and with the ExtraClauses plugin FROM (-as) and JOIN (to). The values of the statement's where, having and set clauses, and the rows of a -values, go into the SQL text instead of the bind list, unescaped unless quote_char is set. Subselects in a WHERE condition are not affected.\n\nAn application that passes untrusted input as a where value of such a nested statement, expecting it to be bound, allows SQL injection.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "2.000001_04",
+              "status": "affected",
+              "version": "1.90_01",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-121008",
+      "description": "SQL::Abstract::Tree versions before 2.000001_04 for Perl allow cross-site scripting via unescaped SQL text and bind values in the html profile.\n\nThe html profile wraps keywords and placeholders in span elements and breaks lines with br elements, so its output is meant to go into a page as is. The format method does not HTML-escape the SQL text or the bind values it fills in around that markup.\n\nAn application that renders SQL formatted with the html profile, such as in a debug panel or query log, allows an attacker who controls a bind value or part of the SQL text to embed JavaScript in the page.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "2.000001_04",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-121009",
+      "description": "SQL::Abstract versions from 1.90_01 before 2.000001_04 for Perl skip the injection_guard check for function names given with -func.\n\ninjection_guard is documented to apply to every function name, but only the { -name => ... } shorthand goes through it. The explicit { -func => [ $name, ... ] } form puts $name into the SQL unchecked.\n\nAn application that relies on injection_guard to reject an untrusted function name passed with -func allows SQL injection.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "2.000001_04",
+              "status": "affected",
+              "version": "1.90_01",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-121259",
+      "description": "A flaw was found in the GStreamer JPEG 2000 decimator in gst-plugins-bad. Crafted JPEG 2000 media can cause integer overflows or division by zero during tile processing. An application that processes the malicious media may crash, resulting in a denial of service.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 10",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 7",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "version": "0",
+              "lessThan": "1.28.2",
+              "status": "affected",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00332,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-190"
+        ],
+        "cpe_count": 0,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2026-121632",
+      "description": "Data::MuForm versions through 0.05 for Perl render attribute values and option labels into HTML without escaping.\n\nprocess_attrs writes each attribute value into the markup as is. The select, radio group and checkbox group renderers pass each option to it, so an option's value becomes an unescaped attribute. Option and option group labels are also unescaped, the group label inside a label attribute and the others in element content.\n\nAny application whose option list is built from data rather than literals, using an options_<field_name> method, a build_options method or a DBIC model, allows attacker-influenced text in an option value or label that can embed JavaScript in rendered pages. Attribute values built from data, such as through element_attr, are affected the same way.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThanOrEqual": "0.05",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
     },
     {
       "cve_id": "CVE-2026-12249",
@@ -1208085,6 +1208285,42 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat ansible automation platform 2.5 for rhel 8",
+          "versions": [
+            {
+              "version": "0:4.6.28-3.el8ap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ansible automation platform 2.5 for rhel 8",
+          "versions": [
+            {
+              "version": "0:2.5.20260422-2.el8ap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ansible automation platform 2.5 for rhel 8",
+          "versions": [
+            {
+              "version": "0:2.5.20260422-2.el8ap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat ansible automation platform 2.5 for rhel 9",
           "versions": [
             {
@@ -1208113,6 +1208349,78 @@
           "versions": [
             {
               "version": "0:2.5.20260422-2.el9ap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ansible automation platform 2.5 for rhel 9",
+          "versions": [
+            {
+              "version": "0:4.6.28-3.el9ap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ansible automation platform 2.5 for rhel 9",
+          "versions": [
+            {
+              "version": "0:2.5.20260422-2.el9ap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ansible automation platform 2.5 for rhel 9",
+          "versions": [
+            {
+              "version": "0:2.5.20260422-2.el9ap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ansible automation platform 2.6 for rhel 9",
+          "versions": [
+            {
+              "version": "0:4.7.11-2.el9ap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ansible automation platform 2.6 for rhel 9",
+          "versions": [
+            {
+              "version": "0:2.6.20260422-1.el9ap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ansible automation platform 2.6 for rhel 9",
+          "versions": [
+            {
+              "version": "0:2.6.20260422-1.el9ap",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -1430430,6 +1430738,11 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat jboss enterprise application platform 8.1",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat build of apache camel 4 for quarkus 3",
           "versions": null
         },
@@ -1430624,6 +1430937,11 @@
               "status": "unaffected"
             }
           ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat jboss enterprise application platform 8.1",
+          "versions": null
         },
         {
           "vendor": "red hat",
