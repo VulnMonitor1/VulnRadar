@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-05T20:40:56+00:00",
-  "count": 7003,
+  "generated_at": "2026-11-06T01:32:42+00:00",
+  "count": 7002,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -313841,6 +313841,54 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat ansible automation platform 2.4 for rhel 8",
+          "versions": [
+            {
+              "version": "1:2.15.9-1.el8ap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ansible automation platform 2.4 for rhel 8",
+          "versions": [
+            {
+              "version": "1:2.15.9-1.el8ap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ansible automation platform 2.4 for rhel 9",
+          "versions": [
+            {
+              "version": "1:2.15.9-1.el9ap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ansible automation platform 2.4 for rhel 9",
+          "versions": [
+            {
+              "version": "1:2.15.9-1.el9ap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat ansible automation platform 2.4 for rhel 9",
           "versions": [
             {
@@ -320126,6 +320174,54 @@
           "versions": [
             {
               "version": "1:2.16.14-1.el8ap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ansible automation platform 2.5 for rhel 8",
+          "versions": [
+            {
+              "version": "1:2.16.14-1.el8ap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ansible automation platform 2.5 for rhel 8",
+          "versions": [
+            {
+              "version": "1:2.16.14-1.el8ap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ansible automation platform 2.5 for rhel 9",
+          "versions": [
+            {
+              "version": "1:2.16.14-1.el9ap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ansible automation platform 2.5 for rhel 9",
+          "versions": [
+            {
+              "version": "1:2.16.14-1.el9ap",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -400914,11 +401010,6 @@
         {
           "vendor": "red hat",
           "product": "red hat build of apache camel 4 for quarkus 3",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat build of apache camel - hawtio 4",
           "versions": null
         },
         {
@@ -512003,10 +512094,10 @@
           "product": "red hat enterprise linux 9",
           "versions": [
             {
-              "lessThan": "*",
-              "status": "unaffected",
               "version": "0:0.8-22.el9_6",
-              "versionType": "rpm"
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
             }
           ]
         },
@@ -512015,10 +512106,10 @@
           "product": "red hat enterprise linux 9",
           "versions": [
             {
-              "lessThan": "*",
-              "status": "unaffected",
               "version": "0:0.8-22.el9_6",
-              "versionType": "rpm"
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
             }
           ]
         },
@@ -519550,6 +519641,30 @@
           "versions": [
             {
               "version": "0:4.5.10-1.el8ap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ansible automation platform 2.4 for rhel 8",
+          "versions": [
+            {
+              "version": "0:4.5.10-1.el8ap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ansible automation platform 2.4 for rhel 9",
+          "versions": [
+            {
+              "version": "0:4.5.10-1.el9ap",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -528203,6 +528318,54 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat ansible automation platform 2.4 for rhel 8",
+          "versions": [
+            {
+              "version": "1:2.15.13-1.el8ap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ansible automation platform 2.4 for rhel 8",
+          "versions": [
+            {
+              "version": "1:2.15.13-1.el8ap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ansible automation platform 2.4 for rhel 9",
+          "versions": [
+            {
+              "version": "1:2.15.13-1.el9ap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ansible automation platform 2.4 for rhel 9",
+          "versions": [
+            {
+              "version": "1:2.15.13-1.el9ap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat ansible automation platform 2.4 for rhel 9",
           "versions": [
             {
@@ -528219,6 +528382,54 @@
           "versions": [
             {
               "version": "1:2.16.13-1.el8ap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ansible automation platform 2.5 for rhel 8",
+          "versions": [
+            {
+              "version": "1:2.16.13-1.el8ap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ansible automation platform 2.5 for rhel 8",
+          "versions": [
+            {
+              "version": "1:2.16.13-1.el8ap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ansible automation platform 2.5 for rhel 9",
+          "versions": [
+            {
+              "version": "1:2.16.13-1.el9ap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ansible automation platform 2.5 for rhel 9",
+          "versions": [
+            {
+              "version": "1:2.16.13-1.el9ap",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -547608,7 +547819,7 @@
           "product": "ansible automation platform execution environments",
           "versions": [
             {
-              "version": "3.0.1-96",
+              "version": "1.2.0-91",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -547644,7 +547855,7 @@
           "product": "ansible automation platform execution environments",
           "versions": [
             {
-              "version": "2.14.13-21",
+              "version": "2.12.10-54",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -547656,7 +547867,31 @@
           "product": "ansible automation platform execution environments",
           "versions": [
             {
-              "version": "2.17.6-2",
+              "version": "2.15.12-17",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ansible automation platform 2.4 for rhel 8",
+          "versions": [
+            {
+              "version": "1:2.15.13-1.el8ap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ansible automation platform 2.4 for rhel 8",
+          "versions": [
+            {
+              "version": "1:2.15.13-1.el8ap",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -547689,10 +547924,82 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat ansible automation platform 2.4 for rhel 9",
+          "versions": [
+            {
+              "version": "1:2.15.13-1.el9ap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ansible automation platform 2.4 for rhel 9",
+          "versions": [
+            {
+              "version": "1:2.15.13-1.el9ap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat ansible automation platform 2.5 for rhel 8",
           "versions": [
             {
               "version": "1:2.16.13-1.el8ap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ansible automation platform 2.5 for rhel 8",
+          "versions": [
+            {
+              "version": "1:2.16.13-1.el8ap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ansible automation platform 2.5 for rhel 8",
+          "versions": [
+            {
+              "version": "1:2.16.13-1.el8ap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ansible automation platform 2.5 for rhel 9",
+          "versions": [
+            {
+              "version": "1:2.16.13-1.el9ap",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat ansible automation platform 2.5 for rhel 9",
+          "versions": [
+            {
+              "version": "1:2.16.13-1.el9ap",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -557566,11 +557873,6 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 8",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat openshift container platform 4",
           "versions": null
         }
       ],
@@ -765889,11 +766191,6 @@
               "status": "unaffected"
             }
           ]
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat openshift container platform 4",
-          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -822483,66 +822780,6 @@
         ],
         "cpe_count": 0,
         "reference_count": 2
-      }
-    },
-    {
-      "cve_id": "CVE-2026-121259",
-      "description": "A flaw was found in the GStreamer JPEG 2000 decimator in gst-plugins-bad. Crafted JPEG 2000 media can cause integer overflows or division by zero during tile processing. An application that processes the malicious media may crash, resulting in a denial of service.",
-      "cvss_score": 6.5,
-      "cvss_severity": "MEDIUM",
-      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
-      "affected": [
-        {
-          "vendor": "red hat",
-          "product": "red hat enterprise linux 10",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat enterprise linux 7",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat enterprise linux 8",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat enterprise linux 9",
-          "versions": null
-        },
-        {
-          "vendor": "",
-          "product": "",
-          "versions": [
-            {
-              "version": "0",
-              "lessThan": "1.28.2",
-              "status": "affected",
-              "versionType": "semver"
-            }
-          ]
-        }
-      ],
-      "watchlist_hit": true,
-      "in_watchlist": true,
-      "in_patchthis": false,
-      "is_critical": false,
-      "priority_label": "",
-      "matched_terms": [],
-      "active_threat": false,
-      "probability_score": 0.00332,
-      "nvd": {
-        "cvss_v3_score": 6.5,
-        "cvss_v3_severity": "MEDIUM",
-        "cvss_v2_score": null,
-        "cvss_v2_severity": null,
-        "cwe_ids": [
-          "CWE-190"
-        ],
-        "cpe_count": 0,
-        "reference_count": 4
       }
     },
     {
@@ -969006,6 +969243,11 @@
         {
           "vendor": "red hat",
           "product": "red hat openshift container platform 4",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 5",
           "versions": null
         }
       ],
@@ -1430983,10 +1431225,46 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 10.0 extended update support",
+          "versions": [
+            {
+              "version": "0:11.6.0-3.el10_0.2",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 9",
           "versions": [
             {
               "version": "0:3.0.26-20.el9_8.1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9.4 update services for sap solutions",
+          "versions": [
+            {
+              "version": "0:3.0.26-20.el9_4.2",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9.6 extended update support",
+          "versions": [
+            {
+              "version": "0:3.0.26-20.el9_6.2",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
