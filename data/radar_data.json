@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07T16:21:03+00:00",
+  "generated_at": "2026-11-07T20:50:32+00:00",
   "count": 7006,
   "items": [
     {
@@ -837757,7 +837757,7 @@
       ],
       "watchlist_hit": false,
       "in_watchlist": false,
-      "in_patchthis": false,
+      "in_patchthis": true,
       "is_critical": false,
       "priority_label": "",
       "matched_terms": [],
