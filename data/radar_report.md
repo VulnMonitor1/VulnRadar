@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-11-09T06:05:02+00:00`
+Generated: `2026-11-09T16:03:56+00:00`
 
 ## Executive Summary
 
@@ -26,15 +26,15 @@ Top critical items:
 | [CVE-2024-43572](https://www.cve.org/CVERecord?id=CVE-2024-43572) | 0.667 | 7.8 | 2024-10-29 | Microsoft Management Console Remote Code Execution Vulnerability |
 | [CVE-2024-43461](https://www.cve.org/CVERecord?id=CVE-2024-43461) | 0.545 | 8.8 | 2024-10-07 | Windows MSHTML Platform Spoofing Vulnerability |
 | [CVE-2023-4911](https://www.cve.org/CVERecord?id=CVE-2023-4911) | 0.638 | 7.8 | 2023-12-12 | A buffer overflow was discovered in the GNU C Library's dynamic loader ld.so while processing the GLIBC_TUNABLES enviro… |
+| [CVE-2024-21338](https://www.cve.org/CVERecord?id=CVE-2024-21338) | 0.622 | 7.8 | 2024-03-25 | Windows Kernel Elevation of Privilege Vulnerability |
 | [CVE-2024-30088](https://www.cve.org/CVERecord?id=CVE-2024-30088) | 0.682 | 7.0 | 2024-11-05 | Windows Kernel Elevation of Privilege Vulnerability |
-| [CVE-2024-21338](https://www.cve.org/CVERecord?id=CVE-2024-21338) | 0.598 | 7.8 | 2024-03-25 | Windows Kernel Elevation of Privilege Vulnerability |
 | [CVE-2024-29988](https://www.cve.org/CVERecord?id=CVE-2024-29988) | 0.452 | 8.8 | 2024-05-21 | SmartScreen Prompt Security Feature Bypass Vulnerability |
 | [CVE-2022-21971](https://www.cve.org/CVERecord?id=CVE-2022-21971) | 0.539 | 7.8 | 2022-09-08 | Windows Runtime Remote Code Execution Vulnerability |
 | [CVE-2022-21882](https://www.cve.org/CVERecord?id=CVE-2022-21882) | 0.592 | 7.0 | 2022-02-18 | Win32k Elevation of Privilege Vulnerability |
 | [CVE-2022-44698](https://www.cve.org/CVERecord?id=CVE-2022-44698) | 0.750 | 5.4 | 2023-01-03 | Windows SmartScreen Security Feature Bypass Vulnerability |
 | [CVE-2025-24054](https://www.cve.org/CVERecord?id=CVE-2025-24054) | 0.623 | 6.5 | 2025-05-08 | External control of file name or path in Windows NTLM allows an unauthorized attacker to perform spoofing over a network. |
 | [CVE-2023-28252](https://www.cve.org/CVERecord?id=CVE-2023-28252) | 0.489 | 7.8 | 2023-05-02 | Windows Common Log File System Driver Elevation of Privilege Vulnerability |
-| [CVE-2023-21674](https://www.cve.org/CVERecord?id=CVE-2023-21674) | 0.342 | 8.8 | 2023-01-31 | Windows Advanced Local Procedure Call (ALPC) Elevation of Privilege Vulnerability |
+| [CVE-2023-36874](https://www.cve.org/CVERecord?id=CVE-2023-36874) | 0.444 | 7.8 | 2023-08-01 | Windows Error Reporting Service Elevation of Privilege Vulnerability |
 
 ## Summary
 
@@ -64,23 +64,23 @@ Top critical items:
 | [CVE-2024-43572](https://www.cve.org/CVERecord?id=CVE-2024-43572) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-10-29 | 0.667 | 7.8 | ✅ | Microsoft Management Console Remote Code Execution Vulnerability |
 | [CVE-2024-43461](https://www.cve.org/CVERecord?id=CVE-2024-43461) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-10-07 | 0.545 | 8.8 | ✅ | Windows MSHTML Platform Spoofing Vulnerability |
 | [CVE-2023-4911](https://www.cve.org/CVERecord?id=CVE-2023-4911) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-12-12 | 0.638 | 7.8 | ✅ | A buffer overflow was discovered in the GNU C Library's dynamic loader ld.so while processing the GLIBC_TUNABLES environment variable. This issue could allow a… |
+| [CVE-2024-21338](https://www.cve.org/CVERecord?id=CVE-2024-21338) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-03-25 | 0.622 | 7.8 | ✅ | Windows Kernel Elevation of Privilege Vulnerability |
 | [CVE-2024-30088](https://www.cve.org/CVERecord?id=CVE-2024-30088) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-11-05 | 0.682 | 7.0 | ✅ | Windows Kernel Elevation of Privilege Vulnerability |
-| [CVE-2024-21338](https://www.cve.org/CVERecord?id=CVE-2024-21338) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-03-25 | 0.598 | 7.8 | ✅ | Windows Kernel Elevation of Privilege Vulnerability |
 | [CVE-2024-29988](https://www.cve.org/CVERecord?id=CVE-2024-29988) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-05-21 | 0.452 | 8.8 | ✅ | SmartScreen Prompt Security Feature Bypass Vulnerability |
 | [CVE-2022-21971](https://www.cve.org/CVERecord?id=CVE-2022-21971) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2022-09-08 | 0.539 | 7.8 | ✅ | Windows Runtime Remote Code Execution Vulnerability |
 | [CVE-2022-21882](https://www.cve.org/CVERecord?id=CVE-2022-21882) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2022-02-18 | 0.592 | 7.0 | ✅ | Win32k Elevation of Privilege Vulnerability |
 | [CVE-2022-44698](https://www.cve.org/CVERecord?id=CVE-2022-44698) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-01-03 | 0.750 | 5.4 | ✅ | Windows SmartScreen Security Feature Bypass Vulnerability |
 | [CVE-2025-24054](https://www.cve.org/CVERecord?id=CVE-2025-24054) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-05-08 | 0.623 | 6.5 | ✅ | External control of file name or path in Windows NTLM allows an unauthorized attacker to perform spoofing over a network. |
 | [CVE-2023-28252](https://www.cve.org/CVERecord?id=CVE-2023-28252) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-05-02 | 0.489 | 7.8 | ✅ | Windows Common Log File System Driver Elevation of Privilege Vulnerability |
+| [CVE-2023-36874](https://www.cve.org/CVERecord?id=CVE-2023-36874) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-08-01 | 0.444 | 7.8 | ✅ | Windows Error Reporting Service Elevation of Privilege Vulnerability |
 | [CVE-2023-21674](https://www.cve.org/CVERecord?id=CVE-2023-21674) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-01-31 | 0.342 | 8.8 | ✅ | Windows Advanced Local Procedure Call (ALPC) Elevation of Privilege Vulnerability |
 | [CVE-2023-24880](https://www.cve.org/CVERecord?id=CVE-2023-24880) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-04-04 | 0.782 | 4.4 | ✅ | Windows SmartScreen Security Feature Bypass Vulnerability |
-| [CVE-2023-36874](https://www.cve.org/CVERecord?id=CVE-2023-36874) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-08-01 | 0.426 | 7.8 | ✅ | Windows Error Reporting Service Elevation of Privilege Vulnerability |
 | [CVE-2022-21999](https://www.cve.org/CVERecord?id=CVE-2022-21999) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2022-04-15 | 0.410 | 7.8 | ✅ | Windows Print Spooler Elevation of Privilege Vulnerability |
 | [CVE-2024-38178](https://www.cve.org/CVERecord?id=CVE-2024-38178) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-09-03 | 0.414 | 7.5 | ✅ | Scripting Engine Memory Corruption Vulnerability |
 | [CVE-2026-32202](https://www.cve.org/CVERecord?id=CVE-2026-32202) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-05-12 | 0.709 | 4.3 | ✅ | Protection mechanism failure in Windows Shell allows an unauthorized attacker to perform spoofing over a network. |
 | [CVE-2022-41128](https://www.cve.org/CVERecord?id=CVE-2022-41128) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2022-12-09 | 0.246 | 8.8 | ✅ | Windows Scripting Languages Remote Code Execution Vulnerability |
 | [CVE-2024-43573](https://www.cve.org/CVERecord?id=CVE-2024-43573) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-10-29 | 0.461 | 6.5 | ✅ | Windows MSHTML Platform Spoofing Vulnerability |
-| [CVE-2024-38193](https://www.cve.org/CVERecord?id=CVE-2024-38193) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-09-03 | 0.287 | 7.8 | ✅ | Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability |
+| [CVE-2024-38193](https://www.cve.org/CVERecord?id=CVE-2024-38193) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-09-03 | 0.285 | 7.8 | ✅ | Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability |
 | [CVE-2022-37969](https://www.cve.org/CVERecord?id=CVE-2022-37969) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2022-10-05 | 0.285 | 7.8 | ✅ | Windows Common Log File System Driver Elevation of Privilege Vulnerability |
 | [CVE-2023-36802](https://www.cve.org/CVERecord?id=CVE-2023-36802) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-10-03 | 0.279 | 7.8 | ✅ | Microsoft Streaming Service Proxy Elevation of Privilege Vulnerability |
 | [CVE-2023-29360](https://www.cve.org/CVERecord?id=CVE-2023-29360) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-03-21 | 0.216 | 8.4 | ✅ | Microsoft Streaming Service Elevation of Privilege Vulnerability |
@@ -111,7 +111,7 @@ Top critical items:
 | [CVE-2024-38080](https://www.cve.org/CVERecord?id=CVE-2024-38080) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-07-30 | 0.071 | 7.8 | ✅ | Windows Hyper-V Elevation of Privilege Vulnerability |
 | [CVE-2025-24990](https://www.cve.org/CVERecord?id=CVE-2025-24990) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-11-04 | 0.065 | 7.8 | ✅ | Microsoft is aware of vulnerabilities in the third party Agere Modem driver that ships natively with supported Windows operating systems.  This is an announcem… |
 | [CVE-2024-38014](https://www.cve.org/CVERecord?id=CVE-2024-38014) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-10-01 | 0.063 | 7.8 | ✅ | Windows Installer Elevation of Privilege Vulnerability |
-| [CVE-2024-30051](https://www.cve.org/CVERecord?id=CVE-2024-30051) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-06-04 | 0.057 | 7.8 | ✅ | Windows DWM Core Library Elevation of Privilege Vulnerability |
+| [CVE-2024-30051](https://www.cve.org/CVERecord?id=CVE-2024-30051) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-06-04 | 0.062 | 7.8 | ✅ | Windows DWM Core Library Elevation of Privilege Vulnerability |
 | [CVE-2023-21823](https://www.cve.org/CVERecord?id=CVE-2023-21823) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-03-07 | 0.056 | 7.8 | ✅ | Windows Graphics Component Remote Code Execution Vulnerability |
 | [CVE-2025-60710](https://www.cve.org/CVERecord?id=CVE-2025-60710) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-04-27 | 0.046 | 7.8 | ✅ | Improper link resolution before file access ('link following') in Host Process for Windows Tasks allows an authorized attacker to elevate privileges locally. |
 | [CVE-2026-21533](https://www.cve.org/CVERecord?id=CVE-2026-21533) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-03-03 | 0.043 | 7.8 | ✅ | Improper privilege management in Windows Remote Desktop allows an authorized attacker to elevate privileges locally. |
@@ -186,8 +186,8 @@ Top critical items:
 | [CVE-2023-22515](https://www.cve.org/CVERecord?id=CVE-2023-22515) |  | KEV | ✅ | ✅ | 2023-10-13 | 0.992 | 10.0 |  | Atlassian has been made aware of an issue reported by a handful of customers where external attackers may have exploited a previously unknown vulnerability in … |
 | [CVE-2025-68613](https://www.cve.org/CVERecord?id=CVE-2025-68613) |  | KEV | ✅ | ✅ | 2026-03-25 | 0.990 | 10.0 |  | n8n is an open source workflow automation platform. Versions starting with 0.211.0 and prior to 1.120.4, 1.121.1, and 1.122.0 contain a critical Remote Code Ex… |
 | [CVE-2025-32433](https://www.cve.org/CVERecord?id=CVE-2025-32433) |  | KEV | ✅ | ✅ | 2025-06-30 | 0.989 | 10.0 |  | Erlang/OTP is a set of libraries for the Erlang programming language. Prior to versions OTP-27.3.3, OTP-26.2.5.11, and OTP-25.3.2.20, a SSH server may allow an… |
+| [CVE-2025-49113](https://www.cve.org/CVERecord?id=CVE-2025-49113) |  | KEV | ✅ | ✅ | 2026-03-13 | 0.996 | 9.9 |  | Roundcube Webmail before 1.5.10 and 1.6.x before 1.6.11 allows remote code execution by authenticated users because the _from parameter in a URL is not validat… |
 | [CVE-2024-50603](https://www.cve.org/CVERecord?id=CVE-2024-50603) |  | KEV | ✅ | ✅ | 2025-02-06 | 0.985 | 10.0 |  | An issue was discovered in Aviatrix Controller before 7.1.4191 and 7.2.x before 7.2.4996. Due to the improper neutralization of special elements used in an OS … |
-| [CVE-2025-49113](https://www.cve.org/CVERecord?id=CVE-2025-49113) |  | KEV | ✅ | ✅ | 2026-03-13 | 0.995 | 9.9 |  | Roundcube Webmail before 1.5.10 and 1.6.x before 1.6.11 allows remote code execution by authenticated users because the _from parameter in a URL is not validat… |
 | [CVE-2022-22947](https://www.cve.org/CVERecord?id=CVE-2022-22947) |  | KEV | ✅ | ✅ | 2022-06-06 | 0.983 | 10.0 |  | In spring cloud gateway versions prior to 3.1.1+ and 3.0.7+ , applications are vulnerable to a code injection attack when the Gateway Actuator endpoint is enab… |
 | [CVE-2026-72898](https://www.cve.org/CVERecord?id=CVE-2026-72898) |  | KEV | ✅ | ✅ | 2026-08-14 | 0.982 | 10.0 |  | Metabase allows a remote, unauthenticated attacker to inject arbitrary SQL via the '/reset_password' database endpoint and gain administrator access to the con… |
 | [CVE-2022-26134](https://www.cve.org/CVERecord?id=CVE-2022-26134) |  | KEV | ✅ | ✅ | 2022-06-06 | 1.000 | 9.8 |  | In affected versions of Confluence Server and Data Center, an OGNL injection vulnerability exists that would allow an unauthenticated attacker to execute arbit… |
