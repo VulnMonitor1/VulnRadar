@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-10T00:10:59+00:00",
-  "count": 7014,
+  "generated_at": "2026-11-10T08:20:10+00:00",
+  "count": 7016,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -806065,7 +806065,18 @@
         "vendor:ibm"
       ],
       "active_threat": false,
-      "probability_score": 0.00091
+      "probability_score": 0.00091,
+      "nvd": {
+        "cvss_v3_score": 3.6,
+        "cvss_v3_severity": "LOW",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-693"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
     },
     {
       "cve_id": "CVE-2026-102764",
@@ -820911,6 +820922,35 @@
         "cpe_count": 0,
         "reference_count": 3
       }
+    },
+    {
+      "cve_id": "CVE-2026-115864",
+      "description": "Monoceros versions before 0.30 for Perl allow a request declaring a large Content-Length to kill a worker by exhausting memory.\n\nThe request body is read in a loop that asks sysread for all of the remaining declared length at once. Perl grows the read buffer to that size before any data arrives, so a length larger than available memory makes the worker exit with an uncatchable out of memory error before the application is called.\n\nA remote attacker can force a worker restart with each request of a few bytes.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "0.30",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
     },
     {
       "cve_id": "CVE-2026-115865",
@@ -941212,6 +941252,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat openshift container platform 4.14",
+          "versions": [
+            {
+              "version": "414.92.202611040941-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift container platform 4.16",
           "versions": [
             {
@@ -942486,6 +942538,18 @@
           "versions": [
             {
               "version": "412.86.202608241157-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4.14",
+          "versions": [
+            {
+              "version": "414.92.202611040941-0",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -980016,6 +980080,178 @@
         ],
         "cpe_count": 4,
         "reference_count": 1
+      }
+    },
+    {
+      "cve_id": "CVE-2026-50240",
+      "description": "A flaw was found in OpenShift Pipelines-as-Code (PAC). PAC does not verify whether the creator of a Repository custom resource has permission to create PipelineRuns. A namespace user with only Repository and Secret create/delete permissions can cause PAC to execute attacker-controlled PipelineRuns as the auto-provisioned pipeline ServiceAccount, which carries ClusterRole/edit by default. This results in namespace-scoped privilege escalation, enabling Secret read, resource creation/modification/deletion, and potential supply chain injection in CI/CD namespaces.",
+      "cvss_score": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "0.42.4",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "0.43.0",
+              "lessThan": "0.48.2",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "0.49.0",
+              "lessThan": "0.50.1",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "builds for red hat openshift",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "openshift pipelines",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "openshift pipelines",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "openshift pipelines",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "openshift pipelines",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "openshift pipelines",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "openshift pipelines",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "openshift pipelines",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "openshift pipelines",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "openshift pipelines",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "openshift pipelines",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "openshift pipelines",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "openshift pipelines",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "openshift pipelines",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "openshift pipelines",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "openshift pipelines",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "openshift pipelines",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "openshift pipelines",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "openshift pipelines",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "openshift serverless",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "openshift serverless",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "openshift serverless",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift dev spaces",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat web terminal",
+          "versions": null
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.0037,
+      "nvd": {
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
       }
     },
     {
@@ -1286491,7 +1286727,18 @@
         "vendor:ibm"
       ],
       "active_threat": false,
-      "probability_score": 0.00229
+      "probability_score": 0.00229,
+      "nvd": {
+        "cvss_v3_score": 4.8,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
     },
     {
       "cve_id": "CVE-2026-77489",
@@ -1432612,6 +1432859,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 9.2 update services for sap solutions",
+          "versions": [
+            {
+              "version": "0:3.0.26-16.el9_2.1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 9.4 update services for sap solutions",
           "versions": [
             {
@@ -1432760,7 +1433019,7 @@
           "CWE-942"
         ],
         "cpe_count": 0,
-        "reference_count": 15
+        "reference_count": 16
       }
     },
     {
@@ -1432854,6 +1433113,18 @@
           "versions": [
             {
               "version": "0:3.0.26-20.el9_8.1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9.2 update services for sap solutions",
+          "versions": [
+            {
+              "version": "0:3.0.26-16.el9_2.1",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -1433009,7 +1433280,7 @@
           "CWE-409"
         ],
         "cpe_count": 0,
-        "reference_count": 16
+        "reference_count": 17
       }
     },
     {
