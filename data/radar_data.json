@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T08:20:10+00:00",
+  "generated_at": "2026-11-10T17:01:46+00:00",
   "count": 7016,
   "items": [
     {
@@ -5382,7 +5382,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00677,
+      "probability_score": 0.00693,
       "nvd": {
         "cvss_v3_score": 4.7,
         "cvss_v3_severity": "MEDIUM",
@@ -29356,7 +29356,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00602,
+      "probability_score": 0.00617,
       "nvd": {
         "cvss_v3_score": 6.6,
         "cvss_v3_severity": "MEDIUM",
@@ -29697,7 +29697,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.02109,
+      "probability_score": 0.0216,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -30038,7 +30038,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.32699,
+      "probability_score": 0.33376,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -30722,7 +30722,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.02228,
+      "probability_score": 0.02282,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -31262,7 +31262,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.06248,
+      "probability_score": 0.06073,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -31877,7 +31877,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00506,
+      "probability_score": 0.00518,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -32218,7 +32218,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.02498,
+      "probability_score": 0.02559,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -32816,7 +32816,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.01498,
+      "probability_score": 0.01534,
       "nvd": {
         "cvss_v3_score": 7.3,
         "cvss_v3_severity": "HIGH",
@@ -33073,7 +33073,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.02705,
+      "probability_score": 0.0277,
       "nvd": {
         "cvss_v3_score": 6.8,
         "cvss_v3_severity": "MEDIUM",
@@ -33342,7 +33342,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.0266,
+      "probability_score": 0.02725,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -33683,7 +33683,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00721,
+      "probability_score": 0.00738,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -33880,7 +33880,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.0055,
+      "probability_score": 0.00563,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -34221,7 +34221,7 @@
         "vendor:microsoft"
       ],
       "active_threat": true,
-      "probability_score": 0.18765,
+      "probability_score": 0.18264,
       "kev": {
         "cveID": "CVE-2022-22047",
         "vendorProject": "Microsoft",
@@ -34575,7 +34575,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.0076,
+      "probability_score": 0.00778,
       "nvd": {
         "cvss_v3_score": 6.1,
         "cvss_v3_severity": "MEDIUM",
@@ -35259,7 +35259,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00634,
+      "probability_score": 0.00649,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -36523,7 +36523,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00513,
+      "probability_score": 0.00526,
       "nvd": {
         "cvss_v3_score": 5.7,
         "cvss_v3_severity": "MEDIUM",
@@ -36821,7 +36821,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.13505,
+      "probability_score": 0.13612,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -84763,7 +84763,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.04469,
+      "probability_score": 0.04343,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -85104,7 +85104,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.01497,
+      "probability_score": 0.01556,
       "nvd": {
         "cvss_v3_score": 7.4,
         "cvss_v3_severity": "HIGH",
@@ -85447,7 +85447,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.01195,
+      "probability_score": 0.01224,
       "nvd": {
         "cvss_v3_score": 6.6,
         "cvss_v3_severity": "MEDIUM",
@@ -86131,7 +86131,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.02501,
+      "probability_score": 0.02562,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -86472,7 +86472,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.02562,
+      "probability_score": 0.02561,
       "nvd": {
         "cvss_v3_score": 7.4,
         "cvss_v3_severity": "HIGH",
@@ -86813,7 +86813,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.02067,
+      "probability_score": 0.02066,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -86962,7 +86962,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00455,
+      "probability_score": 0.00466,
       "nvd": {
         "cvss_v3_score": 4.7,
         "cvss_v3_severity": "MEDIUM",
@@ -87305,7 +87305,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.0073,
+      "probability_score": 0.00748,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -87406,7 +87406,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.88617,
+      "probability_score": 0.88232,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -87749,7 +87749,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.05204,
+      "probability_score": 0.05058,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -88042,7 +88042,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.02119,
+      "probability_score": 0.02118,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -88227,7 +88227,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00729,
+      "probability_score": 0.00747,
       "nvd": {
         "cvss_v3_score": 8.4,
         "cvss_v3_severity": "HIGH",
@@ -88496,7 +88496,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00832,
+      "probability_score": 0.00852,
       "nvd": {
         "cvss_v3_score": 5.7,
         "cvss_v3_severity": "MEDIUM",
@@ -88837,7 +88837,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00513,
+      "probability_score": 0.00526,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -89178,7 +89178,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00562,
+      "probability_score": 0.00576,
       "nvd": {
         "cvss_v3_score": 7.1,
         "cvss_v3_severity": "HIGH",
@@ -89799,7 +89799,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.09931,
+      "probability_score": 0.10492,
       "kev": {
         "cveID": "CVE-2022-32893",
         "vendorProject": "Apple",
@@ -150864,7 +150864,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.03702,
+      "probability_score": 0.02601,
       "kev": {
         "cveID": "CVE-2023-0266",
         "vendorProject": "Linux",
@@ -159550,7 +159550,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.0041,
+      "probability_score": 0.00422,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -159894,7 +159894,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.01549,
+      "probability_score": 0.01629,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",
@@ -160530,7 +160530,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.02032,
+      "probability_score": 0.02137,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -160961,7 +160961,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00461,
+      "probability_score": 0.00424,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -161257,7 +161257,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.01114,
+      "probability_score": 0.01049,
       "nvd": {
         "cvss_v3_score": 8.1,
         "cvss_v3_severity": "HIGH",
@@ -161410,7 +161410,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00407,
+      "probability_score": 0.00419,
       "nvd": {
         "cvss_v3_score": 4.7,
         "cvss_v3_severity": "MEDIUM",
@@ -161756,7 +161756,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00542,
+      "probability_score": 0.00557,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -161860,7 +161860,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.01195,
+      "probability_score": 0.01257,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -162012,7 +162012,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00596,
+      "probability_score": 0.00613,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -162356,7 +162356,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00577,
+      "probability_score": 0.00531,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -162698,7 +162698,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.0177,
+      "probability_score": 0.01667,
       "nvd": {
         "cvss_v3_score": 8.1,
         "cvss_v3_severity": "HIGH",
@@ -163042,7 +163042,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.01133,
+      "probability_score": 0.01067,
       "nvd": {
         "cvss_v3_score": 8.1,
         "cvss_v3_severity": "HIGH",
@@ -163588,7 +163588,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.01114,
+      "probability_score": 0.01049,
       "nvd": {
         "cvss_v3_score": 8.1,
         "cvss_v3_severity": "HIGH",
@@ -163848,7 +163848,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.01473,
+      "probability_score": 0.01387,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -164001,7 +164001,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00596,
+      "probability_score": 0.00613,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -164153,7 +164153,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00446,
+      "probability_score": 0.00459,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -165151,7 +165151,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.01133,
+      "probability_score": 0.01067,
       "nvd": {
         "cvss_v3_score": 8.1,
         "cvss_v3_severity": "HIGH",
@@ -165495,7 +165495,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.01504,
+      "probability_score": 0.01416,
       "nvd": {
         "cvss_v3_score": 8.1,
         "cvss_v3_severity": "HIGH",
@@ -165839,7 +165839,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.02081,
+      "probability_score": 0.02189,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -166100,7 +166100,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00471,
+      "probability_score": 0.00485,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -166252,7 +166252,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00596,
+      "probability_score": 0.00613,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -166596,7 +166596,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.01167,
+      "probability_score": 0.01201,
       "nvd": {
         "cvss_v3_score": 6.6,
         "cvss_v3_severity": "MEDIUM",
@@ -166941,7 +166941,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00446,
+      "probability_score": 0.00459,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -167286,7 +167286,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.01496,
+      "probability_score": 0.0149,
       "nvd": {
         "cvss_v3_score": 6.8,
         "cvss_v3_severity": "MEDIUM",
@@ -167944,7 +167944,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00849,
+      "probability_score": 0.00873,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -168096,7 +168096,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.0155,
+      "probability_score": 0.0163,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -168354,7 +168354,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.02032,
+      "probability_score": 0.02137,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -168698,7 +168698,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00596,
+      "probability_score": 0.00548,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -169042,7 +169042,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.01133,
+      "probability_score": 0.01067,
       "nvd": {
         "cvss_v3_score": 8.1,
         "cvss_v3_severity": "HIGH",
@@ -169387,7 +169387,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.0049,
+      "probability_score": 0.00503,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -169731,7 +169731,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.01413,
+      "probability_score": 0.01487,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -170075,7 +170075,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.01412,
+      "probability_score": 0.01485,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",
@@ -170335,7 +170335,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.02032,
+      "probability_score": 0.02137,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -175379,7 +175379,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00512,
+      "probability_score": 0.00527,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -175723,7 +175723,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00464,
+      "probability_score": 0.00462,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -176375,7 +176375,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.02032,
+      "probability_score": 0.02137,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -177027,7 +177027,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00535,
+      "probability_score": 0.00492,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -177372,7 +177372,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.01413,
+      "probability_score": 0.01487,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -177476,7 +177476,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00295,
+      "probability_score": 0.00303,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -177629,7 +177629,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.0058,
+      "probability_score": 0.00596,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -178235,7 +178235,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.02431,
+      "probability_score": 0.025,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -178577,7 +178577,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00849,
+      "probability_score": 0.00873,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -178921,7 +178921,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00849,
+      "probability_score": 0.00873,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -179263,7 +179263,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00828,
+      "probability_score": 0.00851,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -179607,7 +179607,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00731,
+      "probability_score": 0.00752,
       "nvd": {
         "cvss_v3_score": 7.1,
         "cvss_v3_severity": "HIGH",
@@ -179771,7 +179771,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.0547,
+      "probability_score": 0.05549,
       "nvd": {
         "cvss_v3_score": 7.1,
         "cvss_v3_severity": "HIGH",
@@ -180115,7 +180115,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00471,
+      "probability_score": 0.00485,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -180231,7 +180231,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00507,
+      "probability_score": 0.00522,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -180812,7 +180812,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.02063,
+      "probability_score": 0.02137,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -181116,7 +181116,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00607,
+      "probability_score": 0.00615,
       "nvd": {
         "cvss_v3_score": 3.3,
         "cvss_v3_severity": "LOW",
@@ -181458,7 +181458,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00549,
+      "probability_score": 0.00556,
       "nvd": {
         "cvss_v3_score": 7.1,
         "cvss_v3_severity": "HIGH",
@@ -181802,7 +181802,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00478,
+      "probability_score": 0.00485,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -182002,7 +182002,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00897,
+      "probability_score": 0.00922,
       "nvd": {
         "cvss_v3_score": 4.7,
         "cvss_v3_severity": "MEDIUM",
@@ -182239,7 +182239,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00471,
+      "probability_score": 0.00485,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -182719,7 +182719,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00408,
+      "probability_score": 0.0042,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -183064,7 +183064,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00739,
+      "probability_score": 0.0076,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -183409,7 +183409,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00721,
+      "probability_score": 0.00741,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -183754,7 +183754,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00739,
+      "probability_score": 0.0076,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -184099,7 +184099,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.0104,
+      "probability_score": 0.01069,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -281244,7 +281244,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.07332,
+      "probability_score": 0.06784,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -281928,7 +281928,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.0061,
+      "probability_score": 0.00592,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -306388,7 +306388,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.96921,
+      "probability_score": 0.97115,
       "kev": {
         "cveID": "CVE-2023-52163",
         "vendorProject": "Digiever",
@@ -306992,7 +306992,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.02506,
+      "probability_score": 0.02721,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -436953,7 +436953,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.70564,
+      "probability_score": 0.73572,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",
@@ -467711,7 +467711,7 @@
         "vendor:microsoft"
       ],
       "active_threat": true,
-      "probability_score": 0.54486,
+      "probability_score": 0.54207,
       "kev": {
         "cveID": "CVE-2024-43461",
         "vendorProject": "Microsoft",
@@ -513669,7 +513669,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.32284,
+      "probability_score": 0.321,
       "kev": {
         "cveID": "CVE-2024-57968",
         "vendorProject": "Advantive",
@@ -623967,7 +623967,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.03213,
+      "probability_score": 0.03186,
       "nvd": {
         "cvss_v3_score": 7.3,
         "cvss_v3_severity": "HIGH",
@@ -628731,7 +628731,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.55549,
+      "probability_score": 0.54836,
       "kev": {
         "cveID": "CVE-2025-25181",
         "vendorProject": "Advantive",
@@ -657590,7 +657590,7 @@
         "vendor:ibm"
       ],
       "active_threat": false,
-      "probability_score": 0.00442,
+      "probability_score": 0.00451,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",
@@ -704888,7 +704888,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.93315,
+      "probability_score": 0.93437,
       "kev": {
         "cveID": "CVE-2025-4008",
         "vendorProject": "Smartbedded",
@@ -707015,7 +707015,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00203,
+      "probability_score": 0.00219,
       "nvd": {
         "cvss_v3_score": 4.5,
         "cvss_v3_severity": "MEDIUM",
@@ -789680,7 +789680,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.85202,
+      "probability_score": 0.80252,
       "kev": {
         "cveID": "CVE-2025-8110",
         "vendorProject": "Gogs",
@@ -791375,7 +791375,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.0055,
+      "probability_score": 0.00584,
       "nvd": {
         "cvss_v3_score": 9.1,
         "cvss_v3_severity": "CRITICAL",
@@ -791415,7 +791415,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00738,
+      "probability_score": 0.00783,
       "nvd": {
         "cvss_v3_score": 9.1,
         "cvss_v3_severity": "CRITICAL",
@@ -797881,13 +797881,15 @@
         "vendor:pretix"
       ],
       "active_threat": false,
-      "probability_score": 0.00346,
+      "probability_score": 0.00338,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
+        "cwe_ids": [
+          "CWE-384"
+        ],
         "cpe_count": 0,
         "reference_count": 1
       }
@@ -806154,7 +806156,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00331,
+      "probability_score": 0.00555,
       "kev": {
         "cveID": "CVE-2026-102895",
         "vendorProject": "GPUStack",
@@ -806176,8 +806178,8 @@
           "CWE-290",
           "CWE-346"
         ],
-        "cpe_count": 0,
-        "reference_count": 4
+        "cpe_count": 1,
+        "reference_count": 5
       }
     },
     {
@@ -820950,7 +820952,18 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00352,
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-789"
+        ],
+        "cpe_count": 0,
+        "reference_count": 3
+      }
     },
     {
       "cve_id": "CVE-2026-115865",
@@ -821075,9 +821088,9 @@
     {
       "cve_id": "CVE-2026-115946",
       "description": "XS::libbrotli versions before 1.2.1.0 for Perl bundle a brotli library with an out-of-bounds write in the decoder.\n\nAffected versions compile a bundled brotli into static archives that dependent XS modules link against at build time, rather than using the system library. The bundled copy, 1.0.7 or 1.1.0 across the range, carries the decoder out-of-bounds write described in CVE-2026-111497. Version 1.2.1.0 updates it to brotli 1.2.1.\n\nXS::libbrotli has no Perl interface, so the decoder is reached through any dependent module that decompresses untrusted data with it. An attacker supplying a crafted brotli stream can corrupt decoder state, disclose memory, crash the process, or potentially execute arbitrary code. Upgrading the system brotli does not remediate this.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 9.8,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
       "affected": [
         {
           "vendor": "",
@@ -821099,10 +821112,10 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00244,
+      "probability_score": 0.00589,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": null,
@@ -821978,7 +821991,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01299,
+      "probability_score": 0.02177,
       "kev": {
         "cveID": "CVE-2026-116779",
         "vendorProject": "SignalWire",
@@ -822000,8 +822013,8 @@
           "CWE-78",
           "CWE-749"
         ],
-        "cpe_count": 0,
-        "reference_count": 4
+        "cpe_count": 1,
+        "reference_count": 5
       }
     },
     {
@@ -823028,9 +823041,9 @@
     {
       "cve_id": "CVE-2026-120631",
       "description": "CGI::Cookie versions from 4.67 before 5.00 for Perl allow denial of service via the client cookie expires value used as a regex in parse.\n\nCGI's cookie method reads the Cookie request header through parse, which interpolates the header's expires value unescaped into the substitution pattern that removes it from the cookie string.\n\nA client can make the request die with an invalid pattern, or tie up the process with one that backtracks catastrophically.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "",
@@ -823052,10 +823065,10 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00389,
+      "probability_score": 0.00495,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -823069,9 +823082,9 @@
     {
       "cve_id": "CVE-2026-120632",
       "description": "CGI versions before 5.00 for Perl allow CPU exhaustion via a backtracking regex on the XForms multipart/related Content-Type.\n\nWhen a POST Content-Type contains multipart/related, the boundary and start parameters are extracted with an unanchored pattern that puts .+ on either side of the boundary capture, which backtracks in cubic time on a header that does not match. No request body is needed.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "",
@@ -823093,10 +823106,10 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00191,
+      "probability_score": 0.00431,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -823109,9 +823122,9 @@
     {
       "cve_id": "CVE-2026-120633",
       "description": "CGI versions before 5.00 for Perl trust the client X-Forwarded-Host header in url, self_url, virtual_host and virtual_port.\n\nThese take the host name and port from the X-Forwarded-Host request header when present, and otherwise from Host, without validating either. The URLs from url and self_url are the default redirect location and the start_html(-base=>1) base href, and the default start_form action when REQUEST_URI is not set.\n\nA client can poison shared caches, and URLs the application stores or sends, with redirects, links and scripts that point at a host it controls.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 6.1,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
       "affected": [
         {
           "vendor": "",
@@ -823133,10 +823146,10 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00131,
+      "probability_score": 0.00152,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 6.1,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -823150,9 +823163,9 @@
     {
       "cve_id": "CVE-2026-120634",
       "description": "CGI::Carp versions before 5.00 for Perl leak warnings across requests in persistent environments via the warningsToBrowser buffer.\n\nWarnings are held in a package-level buffer until warningsToBrowser writes them into the page as HTML comments, and the buffer is never cleared between requests. Under mod_perl, FastCGI or PSGI, warnings from one request are written into a later one.\n\nWarnings that contain one user's request data can appear in the HTML sent to another user.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
       "affected": [
         {
           "vendor": "",
@@ -823174,10 +823187,10 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00191,
+      "probability_score": 0.00368,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -823190,9 +823203,9 @@
     {
       "cve_id": "CVE-2026-120635",
       "description": "CGI versions before 5.00 for Perl allow form fields to be smuggled past proxies and WAFs via multipart parsing that differs from the RFCs.\n\nThe multipart/form-data parser matches the boundary anywhere rather than at the start of a line, uses the boundary without its leading -- for some client-supplied User-Agent values, finds the Content-Disposition name and filename inside the quoted values of other parameters, and corrupts parts when the boundary nears the 4096-byte read size.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 8.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
       "affected": [
         {
           "vendor": "",
@@ -823214,10 +823227,10 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00198,
+      "probability_score": 0.0051,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 8.1,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -823230,9 +823243,9 @@
     {
       "cve_id": "CVE-2026-120636",
       "description": "CGI versions before 5.00 for Perl allow open redirects and script injection via URLs built from REQUEST_URI in url and start_form.\n\nurl(-absolute=>1), url(-relative=>1) and the default start_form action are built from the client-supplied REQUEST_URI without validation. The result can be protocol-relative (//evil.example), absolute-form (http://evil.example/) or contain backslashes, and url(-relative=>1) can return a javascript: URL. Links and form posts built from these URLs can go to another host.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 6.1,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
       "affected": [
         {
           "vendor": "",
@@ -823254,10 +823267,10 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00212,
+      "probability_score": 0.0026,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 6.1,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -823271,9 +823284,9 @@
     {
       "cve_id": "CVE-2026-120637",
       "description": "CGI versions before 5.00 for Perl take request parameters from the process command line arguments for an unrecognised REQUEST_METHOD.\n\nFor a REQUEST_METHOD such as OPTIONS, CGI falls through to its offline debugging mode, which is on by default, and builds the parameters and path_info from the process's command line arguments.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 9.8,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
       "affected": [
         {
           "vendor": "",
@@ -823295,10 +823308,10 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00191,
+      "probability_score": 0.00527,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -823311,9 +823324,9 @@
     {
       "cve_id": "CVE-2026-120638",
       "description": "CGI versions before 5.00 for Perl allow open redirects via HTML entity decoding of the URL after application validation in redirect.\n\nredirect decodes HTML entities in its URL before writing the Location header, so a URL the application has already validated can change meaning. For example, /&#47;evil.example/ becomes //evil.example/ and sends the user to another host.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 6.1,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
       "affected": [
         {
           "vendor": "",
@@ -823335,10 +823348,10 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00181,
+      "probability_score": 0.0026,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 6.1,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -823352,9 +823365,9 @@
     {
       "cve_id": "CVE-2026-120639",
       "description": "CGI versions before 5.00 for Perl allow HTTP header injection via entity decoding after the newline check in header and unchecked values in multipart_start and do_push.\n\nWith autoEscape off, header decodes HTML entities in extra header values after its newline check, so an encoded CR or LF reaches the response. multipart_start does not check header values for newlines, and do_push does not check the type it prints in each part.\n\nAn application that passes request data into these header values can be made to add headers or split the response.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N",
       "affected": [
         {
           "vendor": "",
@@ -823376,10 +823389,10 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00227,
+      "probability_score": 0.00313,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 7.2,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -823392,9 +823405,9 @@
     {
       "cve_id": "CVE-2026-120640",
       "description": "CGI versions before 5.00 for Perl allow the POSTDATA, PUTDATA, PATCHDATA and XForms:Model parameters to be set from the query string or form fields.\n\nCGI stores a non-form request body under POSTDATA, PUTDATA or PATCHDATA, and an XForms body under XForms:Model, but also accepts these names from the query string, a form field or a multipart part, so an application cannot tell a client-sent value from the real body.\n\nA cross-site HTML form can post POSTDATA={\"admin\":true} to an endpoint that reads JSON from param('POSTDATA'), a request forgery that needs no CORS preflight.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
       "affected": [
         {
           "vendor": "",
@@ -823416,10 +823429,10 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00131,
+      "probability_score": 0.00167,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -823432,9 +823445,9 @@
     {
       "cve_id": "CVE-2026-120641",
       "description": "CGI versions before 5.00 for Perl return upload filenames with any client-supplied path, including ../ and Windows paths.\n\nThe name returned for an uploaded file is the filename parameter of the part's Content-Disposition header, unchanged.\n\nAn application that saves the upload under this name can be made to write outside the intended directory.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 8.8,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
       "affected": [
         {
           "vendor": "",
@@ -823456,10 +823469,10 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00196,
+      "probability_score": 0.00508,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 8.8,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -823472,9 +823485,9 @@
     {
       "cve_id": "CVE-2026-120642",
       "description": "CGI versions before 5.00 for Perl return request-derived values untainted under taint mode.\n\nThe upload filename, uploadInfo values, some path_info and script_name values, Accept results, and the name lists from url_param and cookie are returned without the taint flag, as is a cookie named expires from 4.67 on.\n\nThese values come from regex captures or hash keys, which Perl does not taint, so they pass -T checks unvalidated.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 9.1,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
       "affected": [
         {
           "vendor": "",
@@ -823496,10 +823509,10 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00191,
+      "probability_score": 0.00424,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 9.1,
+        "cvss_v3_severity": "CRITICAL",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -823512,9 +823525,9 @@
     {
       "cve_id": "CVE-2026-120643",
       "description": "CGI versions from 4.62 before 5.00 for Perl allow cross-site scripting via a raw apostrophe in URLs returned by url and self_url.\n\nBoth pass the URL through URI's canonical method, which leaves an apostrophe in the path raw and decodes the %27 that query parameter escaping produces, so an apostrophe in the request path or a parameter appears raw in the result.\n\nAn application that places the URL in a single-quoted HTML attribute or JavaScript string is open to cross-site scripting.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 6.1,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
       "affected": [
         {
           "vendor": "",
@@ -823536,10 +823549,10 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00208,
+      "probability_score": 0.00275,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 6.1,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -823552,9 +823565,9 @@
     {
       "cve_id": "CVE-2026-120644",
       "description": "CGI::Cookie versions before 5.00 for Perl allow cookie attribute injection via unvalidated path, domain and expires values.\n\nThe path, domain and expires values are written into the Set-Cookie header without checking for semicolons or control characters.\n\nAn application that sets them from request data can be made to add other cookie attributes, such as Domain or SameSite.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 9.1,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
       "affected": [
         {
           "vendor": "",
@@ -823576,10 +823589,10 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00205,
+      "probability_score": 0.00424,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 9.1,
+        "cvss_v3_severity": "CRITICAL",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -823592,9 +823605,9 @@
     {
       "cve_id": "CVE-2026-120645",
       "description": "CGI versions before 5.00 for Perl allow denial of service via submitted values used as a regex for optgroup selection in scrolling_list.\n\nWhen rendering option groups, scrolling_list marks the selected options by interpolating each selected value, by default taken from the request parameters, unescaped into a substitution pattern.\n\nA client can make the request die with an invalid pattern, or tie up the process with one that backtracks heavily.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "",
@@ -823616,10 +823629,10 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00389,
+      "probability_score": 0.00495,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -823633,9 +823646,9 @@
     {
       "cve_id": "CVE-2026-120646",
       "description": "CGI versions from 4.71 before 5.00 for Perl allow denial of service via a plain string dereferenced as a symbolic reference in uploadInfo.\n\nuploadInfo dereferences its argument and calls its filename method without checking that it is an upload filehandle. A plain string naming a defined global variable, such as the parameter value from ?upload=0, is treated as a symbolic reference, and the method call on it dies.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "",
@@ -823657,10 +823670,10 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00183,
+      "probability_score": 0.00474,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -823673,9 +823686,9 @@
     {
       "cve_id": "CVE-2026-120647",
       "description": "CGI versions before 5.00 for Perl allow Content-Disposition parameter injection via unescaped double quotes in the header attachment filename.\n\nheader(-attachment => $name) writes $name into the quoted filename parameter of Content-Disposition without escaping double quotes.\n\nAn application that passes request data as the attachment name can be made to send a second filename parameter, changing the name the response is saved under.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 9.8,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
       "affected": [
         {
           "vendor": "",
@@ -823697,10 +823710,10 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00205,
+      "probability_score": 0.00521,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -823713,9 +823726,9 @@
     {
       "cve_id": "CVE-2026-120648",
       "description": "CGI versions before 5.00 for Perl allow HTML injection via text containing --> in comment.\n\nArguments are placed between <!-- and --> without escaping, so text containing --> closes the comment early.\n\nAn application that passes request data to comment can be made to inject HTML into the page.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 6.1,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
       "affected": [
         {
           "vendor": "",
@@ -823737,10 +823750,10 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00209,
+      "probability_score": 0.00218,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 6.1,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -823753,9 +823766,9 @@
     {
       "cve_id": "CVE-2026-120650",
       "description": "CGI versions before 5.00 for Perl allow memory, CPU and disk exhaustion via missing or unenforced request size, parameter and upload limits.\n\n$CGI::POST_MAX defaults to no limit, and when set is not enforced for chunked multipart bodies or for the boundary line of a multipart body without a boundary= parameter. Bodies saved as PUTDATA, POSTDATA or PATCHDATA uploads are read into memory in one go, and nothing limits the number of parameters or uploads.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "",
@@ -823777,10 +823790,10 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00185,
+      "probability_score": 0.00377,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -823793,9 +823806,9 @@
     {
       "cve_id": "CVE-2026-120651",
       "description": "CGI versions before 5.00 for Perl allow an infinite loop on a short request body when $DISABLE_UPLOADS is set.\n\nWhen $CGI::PUTDATA_UPLOAD or an upload hook is set, read_postdata_putdata takes a request body that is not a form submission. With $CGI::DISABLE_UPLOADS set, it discards the body by reading until Content-Length bytes have arrived. Once a body shorter than its Content-Length runs out, every read returns 0, so the loop never ends.\n\nA client can keep a server process spinning with one such request.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "",
@@ -823817,10 +823830,10 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.0018,
+      "probability_score": 0.00401,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -824147,7 +824160,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01014,
+      "probability_score": 0.16501,
       "kev": {
         "cveID": "CVE-2026-123158",
         "vendorProject": "OpenBSD",
@@ -824167,8 +824180,8 @@
         "cwe_ids": [
           "CWE-394"
         ],
-        "cpe_count": 0,
-        "reference_count": 14
+        "cpe_count": 7,
+        "reference_count": 18
       }
     },
     {
@@ -824198,7 +824211,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00396,
+      "probability_score": 0.00705,
       "kev": {
         "cveID": "CVE-2026-123218",
         "vendorProject": "IBM",
@@ -824219,7 +824232,7 @@
           "CWE-863"
         ],
         "cpe_count": 0,
-        "reference_count": 1
+        "reference_count": 2
       }
     },
     {
@@ -824684,9 +824697,9 @@
     {
       "cve_id": "CVE-2026-13575",
       "description": "HTTP::Session versions before 0.54 for Perl allow memcached command injection via unfiltered session ids in HTTP::Session::Store::CHI.\n\nThe session id from the client's cookie reaches the CHI cache unchanged. The sibling HTTP::Session::Store::Memcached rejects ids that contain control characters, but the CHI store has no such check, and CHI does not escape keys for its memcached drivers.\n\nWith a memcached driver, a CR and LF in the session id end the cache command early, and the server reads the bytes after them as further commands.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.6,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L",
       "affected": [
         {
           "vendor": "",
@@ -824708,10 +824721,10 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00933,
+      "probability_score": 0.0107,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.6,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -833192,16 +833205,16 @@
         "vendor:ibm"
       ],
       "active_threat": false,
-      "probability_score": 0.00293,
+      "probability_score": 0.00251,
       "nvd": {
-        "cvss_v3_score": 5.4,
+        "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
           "CWE-78"
         ],
-        "cpe_count": 0,
+        "cpe_count": 1,
         "reference_count": 1
       }
     },
@@ -837462,7 +837475,7 @@
         "vendor:ibm"
       ],
       "active_threat": false,
-      "probability_score": 0.00304,
+      "probability_score": 0.00289,
       "nvd": {
         "cvss_v3_score": 6.4,
         "cvss_v3_severity": "MEDIUM",
@@ -837471,7 +837484,7 @@
         "cwe_ids": [
           "CWE-918"
         ],
-        "cpe_count": 0,
+        "cpe_count": 1,
         "reference_count": 1
       }
     },
@@ -838150,7 +838163,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00621,
+      "probability_score": 0.00532,
       "kev": {
         "cveID": "CVE-2026-19868",
         "vendorProject": "SonicWall",
@@ -838170,7 +838183,7 @@
         "cwe_ids": [
           "CWE-308"
         ],
-        "cpe_count": 0,
+        "cpe_count": 40,
         "reference_count": 2
       }
     },
@@ -941631,7 +941644,7 @@
           "CWE-295"
         ],
         "cpe_count": 0,
-        "reference_count": 35
+        "reference_count": 36
       }
     },
     {
@@ -942925,7 +942938,7 @@
           "CWE-295"
         ],
         "cpe_count": 0,
-        "reference_count": 35
+        "reference_count": 36
       }
     },
     {
@@ -980241,7 +980254,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.0037,
+      "probability_score": 0.00441,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -980251,7 +980264,7 @@
           "CWE-862"
         ],
         "cpe_count": 0,
-        "reference_count": 2
+        "reference_count": 4
       }
     },
     {
@@ -1084605,7 +1084618,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.005,
+      "probability_score": 0.00516,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -1084669,7 +1084682,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01723,
+      "probability_score": 0.18057,
       "kev": {
         "cveID": "CVE-2026-65400",
         "vendorProject": "Apple",
@@ -1295731,9 +1295744,9 @@
     {
       "cve_id": "CVE-2026-80490",
       "description": "Algorithm::AhoCorasick::XS versions through 0.04 for Perl read the haystack string length before the scalar is stringified.\n\nThe matches, first_match and match_details methods use the T_STD_STRING typemap to translate Perl scalars (SVs) into strings via the std::string constructor, using the SvPV macro to stringify the haystack input, and the SvCUR macro to determine the length of the SV.\n\nWhen the input SVs are references, integers (IVs) or floats (NVs), the SvCUR macro will return an invalid length if it is run before the input is stringified, leading to an out-of-bounds read which can abort the process.\n\nNote that the evaluation order of arguments to std::string is unspecified. Depending on the compiler, SvCUR may be run first and lead to an abort that cannot be caught within Perl.\n\nThis can be triggered when the haystack is a numeric value, for example,\n\n    my $ac = Algorithm::AhoCorasick::XS->new( [ \"11\", \"22\" ] );\n    $ac->matches( 211 );\n\nThis can occur when the haystack is the result of reading data from decoded JSON or a numeric database column. It can also be triggered when using a blessed object as a haystack.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 4.4,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:L",
       "affected": [
         {
           "vendor": "",
@@ -1295755,10 +1295768,10 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00187,
+      "probability_score": 0.00123,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 4.4,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -1411791,7 +1411804,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00468,
+      "probability_score": 0.00646,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",

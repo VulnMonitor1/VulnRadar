@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-11-10T08:20:12+00:00`
+Generated: `2026-11-10T17:01:48+00:00`
 
 ## Executive Summary
 
@@ -24,7 +24,7 @@ Top critical items:
 | [CVE-2026-21510](https://www.cve.org/CVERecord?id=CVE-2026-21510) | 0.612 | 8.8 | 2026-03-03 | Protection mechanism failure in Windows Shell allows an unauthorized attacker to bypass a security feature over a network. |
 | [CVE-2022-34713](https://www.cve.org/CVERecord?id=CVE-2022-34713) | 0.678 | 7.8 | 2022-08-30 | Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerability |
 | [CVE-2024-43572](https://www.cve.org/CVERecord?id=CVE-2024-43572) | 0.667 | 7.8 | 2024-10-29 | Microsoft Management Console Remote Code Execution Vulnerability |
-| [CVE-2024-43461](https://www.cve.org/CVERecord?id=CVE-2024-43461) | 0.545 | 8.8 | 2024-10-07 | Windows MSHTML Platform Spoofing Vulnerability |
+| [CVE-2024-43461](https://www.cve.org/CVERecord?id=CVE-2024-43461) | 0.542 | 8.8 | 2024-10-07 | Windows MSHTML Platform Spoofing Vulnerability |
 | [CVE-2023-4911](https://www.cve.org/CVERecord?id=CVE-2023-4911) | 0.638 | 7.8 | 2023-12-12 | A buffer overflow was discovered in the GNU C Library's dynamic loader ld.so while processing the GLIBC_TUNABLES enviro… |
 | [CVE-2024-21338](https://www.cve.org/CVERecord?id=CVE-2024-21338) | 0.622 | 7.8 | 2024-03-25 | Windows Kernel Elevation of Privilege Vulnerability |
 | [CVE-2024-30088](https://www.cve.org/CVERecord?id=CVE-2024-30088) | 0.682 | 7.0 | 2024-11-05 | Windows Kernel Elevation of Privilege Vulnerability |
@@ -62,7 +62,7 @@ Top critical items:
 | [CVE-2026-21510](https://www.cve.org/CVERecord?id=CVE-2026-21510) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-03-03 | 0.612 | 8.8 | ✅ | Protection mechanism failure in Windows Shell allows an unauthorized attacker to bypass a security feature over a network. |
 | [CVE-2022-34713](https://www.cve.org/CVERecord?id=CVE-2022-34713) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2022-08-30 | 0.678 | 7.8 | ✅ | Microsoft Windows Support Diagnostic Tool (MSDT) Remote Code Execution Vulnerability |
 | [CVE-2024-43572](https://www.cve.org/CVERecord?id=CVE-2024-43572) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-10-29 | 0.667 | 7.8 | ✅ | Microsoft Management Console Remote Code Execution Vulnerability |
-| [CVE-2024-43461](https://www.cve.org/CVERecord?id=CVE-2024-43461) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-10-07 | 0.545 | 8.8 | ✅ | Windows MSHTML Platform Spoofing Vulnerability |
+| [CVE-2024-43461](https://www.cve.org/CVERecord?id=CVE-2024-43461) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-10-07 | 0.542 | 8.8 | ✅ | Windows MSHTML Platform Spoofing Vulnerability |
 | [CVE-2023-4911](https://www.cve.org/CVERecord?id=CVE-2023-4911) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-12-12 | 0.638 | 7.8 | ✅ | A buffer overflow was discovered in the GNU C Library's dynamic loader ld.so while processing the GLIBC_TUNABLES environment variable. This issue could allow a… |
 | [CVE-2024-21338](https://www.cve.org/CVERecord?id=CVE-2024-21338) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-03-25 | 0.622 | 7.8 | ✅ | Windows Kernel Elevation of Privilege Vulnerability |
 | [CVE-2024-30088](https://www.cve.org/CVERecord?id=CVE-2024-30088) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-11-05 | 0.682 | 7.0 | ✅ | Windows Kernel Elevation of Privilege Vulnerability |
@@ -93,8 +93,8 @@ Top critical items:
 | [CVE-2025-26633](https://www.cve.org/CVERecord?id=CVE-2025-26633) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-04-01 | 0.304 | 7.0 | ✅ | Improper neutralization in Microsoft Management Console allows an unauthorized attacker to bypass a security feature locally. |
 | [CVE-2026-96951](https://www.cve.org/CVERecord?id=CVE-2026-96951) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-10-16 | 0.098 | 8.8 | ✅ | Improper neutralization of special elements used in a command ('command injection') in Windows Shell allows an unauthorized attacker to bypass a security featu… |
 | [CVE-2025-29824](https://www.cve.org/CVERecord?id=CVE-2025-29824) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-04-29 | 0.193 | 7.8 | ✅ | Use after free in Windows Common Log File System Driver allows an authorized attacker to elevate privileges locally. |
-| [CVE-2022-22047](https://www.cve.org/CVERecord?id=CVE-2022-22047) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2022-08-02 | 0.188 | 7.8 | ✅ | Windows Client Server Run-time Subsystem (CSRSS) Elevation of Privilege Vulnerability |
 | [CVE-2022-22718](https://www.cve.org/CVERecord?id=CVE-2022-22718) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2022-05-10 | 0.185 | 7.8 | ✅ | Windows Print Spooler Elevation of Privilege Vulnerability |
+| [CVE-2022-22047](https://www.cve.org/CVERecord?id=CVE-2022-22047) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2022-08-02 | 0.183 | 7.8 | ✅ | Windows Client Server Run-time Subsystem (CSRSS) Elevation of Privilege Vulnerability |
 | [CVE-2023-36036](https://www.cve.org/CVERecord?id=CVE-2023-36036) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-12-05 | 0.167 | 7.8 | ✅ | Windows Cloud Files Mini Filter Driver Elevation of Privilege Vulnerability |
 | [CVE-2022-38028](https://www.cve.org/CVERecord?id=CVE-2022-38028) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-05-14 | 0.149 | 7.8 | ✅ | Windows Print Spooler Elevation of Privilege Vulnerability |
 | [CVE-2023-32049](https://www.cve.org/CVERecord?id=CVE-2023-32049) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-08-01 | 0.042 | 8.8 | ✅ | Windows SmartScreen Security Feature Bypass Vulnerability |
