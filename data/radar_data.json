@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-11T18:38:47+00:00",
-  "count": 7708,
+  "generated_at": "2026-11-12T01:31:13+00:00",
+  "count": 7710,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -548942,6 +548942,11 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat build of keycloak",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat single sign-on 7",
           "versions": null
         }
@@ -907986,6 +907991,66 @@
       "probability_score": 0.00333
     },
     {
+      "cve_id": "CVE-2026-121885",
+      "description": "A flaw was found in Podman. An attacker can trigger a Denial of Service (DoS) by supplying a container image containing crafted metadata labels. Podman's auto-update mechanism improperly trusts these image labels to determine which system services to restart. If a user runs the malicious container and auto-update processes it, arbitrary system services are restarted with the user's privileges, potentially allowing an attacker to shut down the host system when Podman runs with administrative privileges.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "1.8.2",
+              "lessThan": "5.8.10",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "6.0.0",
+              "lessThan": "6.2.0",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 10",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat hardened images",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4",
+          "versions": null
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00379
+    },
+    {
       "cve_id": "CVE-2026-122162",
       "description": "Integer underflow (wrap or wraparound) in Windows Update Stack allows an authorized attacker to disclose information locally.",
       "cvss_score": 5.5,
@@ -913722,7 +913787,7 @@
       ],
       "watchlist_hit": false,
       "in_watchlist": false,
-      "in_patchthis": false,
+      "in_patchthis": true,
       "is_critical": false,
       "priority_label": "",
       "matched_terms": [],
@@ -915238,7 +915303,7 @@
       ],
       "watchlist_hit": false,
       "in_watchlist": false,
-      "in_patchthis": false,
+      "in_patchthis": true,
       "is_critical": false,
       "priority_label": "",
       "matched_terms": [],
@@ -915255,6 +915320,35 @@
         "dueDate": "2026-11-24",
         "knownRansomwareCampaignUse": "Unknown"
       }
+    },
+    {
+      "cve_id": "CVE-2026-125637",
+      "description": "A flaw was found in the Konflux UI proxy. Hostname values defined in the KonfluxUI custom resource are inserted directly into proxy configuration files without adequate validation or sanitization. An authenticated user with permissions to modify the custom resource can inject malicious configuration directives to bypass authentication and authorization controls, potentially exposing internal backend services. In addition, providing malformed input can cause the configuration generator to fail, resulting in a denial of service (DoS) by preventing the proxy from starting.",
+      "cvss_score": 7.2,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "versionType": "semver",
+              "lessThanOrEqual": "0.2.2"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
     },
     {
       "cve_id": "CVE-2026-125729",
@@ -1032309,10 +1032403,34 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat openshift container platform 4.13",
+          "versions": [
+            {
+              "version": "413.92.202611041925-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift container platform 4.14",
           "versions": [
             {
               "version": "414.92.202611040941-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4.15",
+          "versions": [
+            {
+              "version": "415.92.202611051005-0",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -1033603,10 +1033721,34 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat openshift container platform 4.13",
+          "versions": [
+            {
+              "version": "413.92.202611041925-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift container platform 4.14",
           "versions": [
             {
               "version": "414.92.202611040941-0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4.15",
+          "versions": [
+            {
+              "version": "415.92.202611051005-0",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -1535972,6 +1536114,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 10",
+          "versions": [
+            {
+              "version": "0:11.9.0-9.el10_3.1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 10.0 extended update support",
           "versions": [
             {
@@ -1535988,6 +1536142,18 @@
           "versions": [
             {
               "version": "0:3.0.26-20.el9_8.1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": [
+            {
+              "version": "0:3.0.26-20.el9_9.1",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -1536234,6 +1536400,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 10",
+          "versions": [
+            {
+              "version": "0:11.9.0-9.el10_3.1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 10.0 extended update support",
           "versions": [
             {
@@ -1536250,6 +1536428,18 @@
           "versions": [
             {
               "version": "0:3.0.26-20.el9_8.1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": [
+            {
+              "version": "0:3.0.26-20.el9_9.1",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -1536701,7 +1536891,7 @@
             {
               "version": "12.5.0.2421",
               "versionType": "semver",
-              "lessThan": "2.6.0.*",
+              "lessThan": "12.6.0.*",
               "status": "affected"
             }
           ]
