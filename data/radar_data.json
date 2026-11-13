@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T07:50:27+00:00",
+  "generated_at": "2026-11-13T16:11:22+00:00",
   "count": 7711,
   "items": [
     {
@@ -131565,7 +131565,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.03439,
+      "probability_score": 0.03515,
       "kev": {
         "cveID": "CVE-2022-40139",
         "vendorProject": "Trend Micro",
@@ -131664,7 +131664,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00766,
+      "probability_score": 0.00772,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -131705,7 +131705,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00828,
+      "probability_score": 0.00835,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -320557,7 +320557,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.33259,
+      "probability_score": 0.33494,
       "kev": {
         "cveID": "CVE-2024-11182",
         "vendorProject": "MDaemon",
@@ -445317,7 +445317,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.01323,
+      "probability_score": 0.01312,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -503036,7 +503036,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.01529,
+      "probability_score": 0.01542,
       "nvd": {
         "cvss_v3_score": 8.4,
         "cvss_v3_severity": "HIGH",
@@ -504691,7 +504691,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00748,
+      "probability_score": 0.00754,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -505167,7 +505167,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.01448,
+      "probability_score": 0.0146,
       "nvd": {
         "cvss_v3_score": 8.1,
         "cvss_v3_severity": "HIGH",
@@ -507104,7 +507104,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.01291,
+      "probability_score": 0.01302,
       "nvd": {
         "cvss_v3_score": 8.1,
         "cvss_v3_severity": "HIGH",
@@ -554522,7 +554522,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.31309,
+      "probability_score": 0.3522,
       "kev": {
         "cveID": "CVE-2025-0994",
         "vendorProject": "Trimble",
@@ -558140,7 +558140,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00264,
+      "probability_score": 0.00283,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -648207,7 +648207,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.01376,
+      "probability_score": 0.014,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -648541,7 +648541,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.01376,
+      "probability_score": 0.014,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -649137,7 +649137,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.01376,
+      "probability_score": 0.014,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -649472,7 +649472,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.01405,
+      "probability_score": 0.01429,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -650408,7 +650408,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.01041,
+      "probability_score": 0.01059,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -650802,7 +650802,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00442,
+      "probability_score": 0.0045,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -651100,7 +651100,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.01475,
+      "probability_score": 0.01501,
       "nvd": {
         "cvss_v3_score": 5.9,
         "cvss_v3_severity": "MEDIUM",
@@ -651514,7 +651514,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.0112,
+      "probability_score": 0.0114,
       "nvd": {
         "cvss_v3_score": 5.4,
         "cvss_v3_severity": "MEDIUM",
@@ -652184,7 +652184,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.01445,
+      "probability_score": 0.0147,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -652518,7 +652518,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.01532,
+      "probability_score": 0.01559,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -652852,7 +652852,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.01532,
+      "probability_score": 0.01559,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -653186,7 +653186,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.01445,
+      "probability_score": 0.0147,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -653711,7 +653711,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.01093,
+      "probability_score": 0.01112,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -653902,7 +653902,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.01093,
+      "probability_score": 0.01112,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -654237,7 +654237,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.01427,
+      "probability_score": 0.01318,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -654572,7 +654572,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.01343,
+      "probability_score": 0.0124,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -654907,7 +654907,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.01162,
+      "probability_score": 0.01182,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -672973,7 +672973,7 @@
         "vendor:ibm"
       ],
       "active_threat": false,
-      "probability_score": 0.00423,
+      "probability_score": 0.00441,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -679367,7 +679367,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.62512,
+      "probability_score": 0.63245,
       "kev": {
         "cveID": "CVE-2025-47813",
         "vendorProject": "Wing FTP Server",
@@ -688203,7 +688203,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.0058,
+      "probability_score": 0.00612,
       "nvd": {
         "cvss_v3_score": 6.7,
         "cvss_v3_severity": "MEDIUM",
@@ -702326,7 +702326,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00534,
+      "probability_score": 0.00566,
       "nvd": {
         "cvss_v3_score": 6.7,
         "cvss_v3_severity": "MEDIUM",
@@ -702793,7 +702793,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00535,
+      "probability_score": 0.00596,
       "nvd": {
         "cvss_v3_score": 6.8,
         "cvss_v3_severity": "MEDIUM",
@@ -703341,7 +703341,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00437,
+      "probability_score": 0.00463,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -703675,7 +703675,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00274,
+      "probability_score": 0.0029,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -706007,7 +706007,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.01989,
+      "probability_score": 0.02,
       "nvd": {
         "cvss_v3_score": 9.1,
         "cvss_v3_severity": "CRITICAL",
@@ -706652,7 +706652,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00564,
+      "probability_score": 0.00574,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -706915,7 +706915,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.24066,
+      "probability_score": 0.22377,
       "kev": {
         "cveID": "CVE-2025-4632",
         "vendorProject": "Samsung",
@@ -708569,7 +708569,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00437,
+      "probability_score": 0.00463,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -708903,7 +708903,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.31768,
+      "probability_score": 0.33046,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -709189,7 +709189,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00437,
+      "probability_score": 0.00463,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -709524,7 +709524,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00385,
+      "probability_score": 0.00408,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -709810,7 +709810,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00588,
+      "probability_score": 0.00622,
       "nvd": {
         "cvss_v3_score": 7.3,
         "cvss_v3_severity": "HIGH",
@@ -710144,7 +710144,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.006,
+      "probability_score": 0.00635,
       "nvd": {
         "cvss_v3_score": 7.3,
         "cvss_v3_severity": "HIGH",
@@ -710211,7 +710211,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.10799,
+      "probability_score": 0.14655,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",
@@ -710546,7 +710546,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.01412,
+      "probability_score": 0.01532,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -710832,7 +710832,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.0038,
+      "probability_score": 0.00402,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -710951,7 +710951,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00977,
+      "probability_score": 0.01035,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -711019,7 +711019,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.0069,
+      "probability_score": 0.0073,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -711210,7 +711210,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00399,
+      "probability_score": 0.00423,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -711364,7 +711364,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.01042,
+      "probability_score": 0.01103,
       "nvd": {
         "cvss_v3_score": 9.1,
         "cvss_v3_severity": "CRITICAL",
@@ -711554,7 +711554,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.0155,
+      "probability_score": 0.01681,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -711900,7 +711900,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.0055,
+      "probability_score": 0.00581,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -712313,7 +712313,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00538,
+      "probability_score": 0.00568,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -712648,7 +712648,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.04609,
+      "probability_score": 0.06307,
       "nvd": {
         "cvss_v3_score": 8.1,
         "cvss_v3_severity": "HIGH",
@@ -712888,7 +712888,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00968,
+      "probability_score": 0.01025,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -713222,7 +713222,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.0046,
+      "probability_score": 0.00487,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -713290,7 +713290,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00357,
+      "probability_score": 0.00378,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -713624,7 +713624,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00318,
+      "probability_score": 0.00337,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -713887,7 +713887,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00268,
+      "probability_score": 0.00284,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -714221,7 +714221,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00975,
+      "probability_score": 0.01058,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -714555,7 +714555,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00387,
+      "probability_score": 0.0041,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -715032,7 +715032,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00357,
+      "probability_score": 0.00378,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -715366,7 +715366,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00437,
+      "probability_score": 0.00463,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -715484,7 +715484,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.0036,
+      "probability_score": 0.00381,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -715818,7 +715818,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.09033,
+      "probability_score": 0.12321,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -716152,7 +716152,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.08488,
+      "probability_score": 0.11588,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -716486,7 +716486,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.08488,
+      "probability_score": 0.11588,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -716820,7 +716820,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00449,
+      "probability_score": 0.00476,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -717154,7 +717154,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00768,
+      "probability_score": 0.00813,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -717536,7 +717536,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00437,
+      "probability_score": 0.00463,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -717797,7 +717797,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00446,
+      "probability_score": 0.00473,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -718131,7 +718131,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00437,
+      "probability_score": 0.00463,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -718417,7 +718417,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.0049,
+      "probability_score": 0.00518,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -718496,7 +718496,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00714,
+      "probability_score": 0.00775,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -718818,7 +718818,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.0155,
+      "probability_score": 0.01681,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -719247,7 +719247,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00364,
+      "probability_score": 0.00386,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -719437,7 +719437,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00357,
+      "probability_score": 0.00378,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -719747,7 +719747,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.23424,
+      "probability_score": 0.31811,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -720033,7 +720033,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.0049,
+      "probability_score": 0.00518,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -720320,7 +720320,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00446,
+      "probability_score": 0.00473,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -720606,7 +720606,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00437,
+      "probability_score": 0.00463,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -720892,7 +720892,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00446,
+      "probability_score": 0.00473,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -721250,7 +721250,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.08459,
+      "probability_score": 0.11517,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",
@@ -721815,7 +721815,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.51622,
+      "probability_score": 0.40548,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -722053,7 +722053,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00356,
+      "probability_score": 0.00377,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -766731,7 +766731,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99964,
+      "probability_score": 0.99919,
       "kev": {
         "cveID": "CVE-2025-5777",
         "vendorProject": "Citrix",
@@ -773520,7 +773520,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99728,
+      "probability_score": 0.9976,
       "kev": {
         "cveID": "CVE-2025-61882",
         "vendorProject": "Oracle",
@@ -785958,7 +785958,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00472,
+      "probability_score": 0.00492,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -788037,7 +788037,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00235,
+      "probability_score": 0.00253,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -788122,7 +788122,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00206,
+      "probability_score": 0.00215,
       "nvd": {
         "cvss_v3_score": 3.3,
         "cvss_v3_severity": "LOW",
@@ -842399,7 +842399,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.06196,
+      "probability_score": 0.09082,
       "kev": {
         "cveID": "CVE-2026-111560",
         "vendorProject": "Barracuda Networks",
@@ -850145,7 +850145,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.0047,
+      "probability_score": 0.00406,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -851225,7 +851225,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.0047,
+      "probability_score": 0.00406,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -864016,7 +864016,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00388,
+      "probability_score": 0.00346,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -867373,7 +867373,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00352,
+      "probability_score": 0.00615,
       "nvd": {
         "cvss_v3_score": null,
         "cvss_v3_severity": null,
@@ -868414,7 +868414,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.08934,
+      "probability_score": 0.10947,
       "kev": {
         "cveID": "CVE-2026-116606",
         "vendorProject": "Barracuda Networks",
@@ -882910,7 +882910,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00257,
+      "probability_score": 0.00331,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -887128,7 +887128,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00379,
+      "probability_score": 0.00338,
       "nvd": {
         "cvss_v3_score": 5.9,
         "cvss_v3_severity": "MEDIUM",
@@ -944948,7 +944948,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.0082,
+      "probability_score": 0.00976,
       "kev": {
         "cveID": "CVE-2026-20320",
         "vendorProject": "Cisco",
@@ -974208,7 +974208,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.13525,
+      "probability_score": 0.13335,
       "kev": {
         "cveID": "CVE-2026-22769",
         "vendorProject": "Dell",
@@ -1013501,7 +1013501,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.60425,
+      "probability_score": 0.61515,
       "kev": {
         "cveID": "CVE-2026-33634",
         "vendorProject": "Aquasecurity",
@@ -1474832,7 +1474832,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00924,
+      "probability_score": 0.01173,
       "kev": {
         "cveID": "CVE-2026-84869",
         "vendorProject": "ConnectWise",
