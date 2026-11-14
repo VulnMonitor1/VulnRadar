@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-13T22:33:14+00:00",
-  "count": 7713,
+  "generated_at": "2026-11-14T03:06:46+00:00",
+  "count": 7715,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -829943,6 +829943,91 @@
       }
     },
     {
+      "cve_id": "CVE-2026-107174",
+      "description": "A flaw was found in source-to-image. When unpacking archive files, the application fails to properly sanitize symbolic links pointing to absolute file paths. An attacker who supplies a malicious builder image can exploit this vulnerability by embedding links pointing outside the extraction directory. This allows the attacker to bypass sandbox boundaries, potentially leading to unauthorized information disclosure or file modification on the host system.",
+      "cvss_score": 6.4,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "versionType": "semver",
+              "lessThanOrEqual": "1.6.4"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "openshift serverless",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "openshift serverless",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "openshift serverless",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "openshift source-to-image (s2i)",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "openshift source-to-image (s2i)",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 4",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 5",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat web terminal",
+          "versions": null
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00285,
+      "nvd": {
+        "cvss_v3_score": 6.4,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-61"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
       "cve_id": "CVE-2026-107373",
       "description": "ExtUtils::Typemaps::STL::String versions before 1.06 for Perl T_STD_STRING typemap may read the SV length before stringifying the argument.\n\nThe typemap uses\n\n    $var = std::string( SvPV_nolen($arg), SvCUR($arg) )\n\nHowever, evaluation order for C++ arguments is not specified, and some compilers may produce code that evalutes SvCUR($arg) first.\n\nWhen $arg is not a string (for example, an interger, number or a reference) then SvCUR will return an invalid value, and the program may abort or segfault.",
       "cvss_score": 9.1,
@@ -842412,14 +842497,14 @@
         "knownRansomwareCampaignUse": "Unknown"
       },
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 7.2,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
           "CWE-78"
         ],
-        "cpe_count": 0,
+        "cpe_count": 54,
         "reference_count": 3
       }
     },
@@ -850151,7 +850236,10 @@
         "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
+        "cwe_ids": [
+          "CWE-424",
+          "CWE-284"
+        ],
         "cpe_count": 0,
         "reference_count": 1
       }
@@ -851231,7 +851319,10 @@
         "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
+        "cwe_ids": [
+          "CWE-424",
+          "CWE-284"
+        ],
         "cpe_count": 0,
         "reference_count": 1
       }
@@ -857709,6 +857800,18 @@
       "affected": [
         {
           "vendor": "microsoft",
+          "product": "microsoft office for android",
+          "versions": [
+            {
+              "version": "16.0.1",
+              "lessThan": "16.0.20625.20014",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
           "product": "windows 10 version 1607",
           "versions": [
             {
@@ -864022,7 +864125,10 @@
         "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
+        "cwe_ids": [
+          "CWE-639",
+          "CWE-287"
+        ],
         "cpe_count": 0,
         "reference_count": 1
       }
@@ -866723,7 +866829,7 @@
       ],
       "watchlist_hit": false,
       "in_watchlist": false,
-      "in_patchthis": false,
+      "in_patchthis": true,
       "is_critical": false,
       "priority_label": "",
       "matched_terms": [],
@@ -867198,6 +867304,48 @@
       }
     },
     {
+      "cve_id": "CVE-2026-115501",
+      "description": "IBM i 7.3 7.4, 7.5, and 7.6\u00a0is vulnerable to a stack buffer overflow, caused by improper bounds checking in the QFileSvr.400 file system. By sending a command in the QFileSvr.400 file system, a local authenticated attacker could cause undefined behavior.",
+      "cvss_score": 5.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "ibm",
+          "product": "i",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "7.6"
+            },
+            {
+              "status": "affected",
+              "version": "7.5"
+            },
+            {
+              "status": "affected",
+              "version": "7.4"
+            },
+            {
+              "status": "affected",
+              "version": "7.3"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [
+        "product:i",
+        "vendor:ibm"
+      ],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
       "cve_id": "CVE-2026-115817",
       "description": "Starman versions before 0.4019 for Perl allow a stalled request body to hold a worker indefinitely, as read_timeout covers only the headers.\n\nContent-Length and chunked request bodies are read with blocking reads and no deadline. A client that sends complete headers and then stalls or trickles the body keeps the worker waiting until it disconnects.\n\nA remote attacker can take every worker with a few such connections, five with the default worker count, so the server stops answering requests.\n\nVersion 0.4019 applies read_timeout to each wait for body data and adds a body_timeout limit, 300 seconds by default, on the total time to read a body.",
       "cvss_score": 7.5,
@@ -867400,9 +867548,9 @@
     {
       "cve_id": "CVE-2026-115864",
       "description": "Monoceros versions before 0.30 for Perl allow a request declaring a large Content-Length to kill a worker by exhausting memory.\n\nThe request body is read in a loop that asks sysread for all of the remaining declared length at once. Perl grows the read buffer to that size before any data arrives, so a length larger than available memory makes the worker exit with an uncatchable out of memory error before the application is called.\n\nA remote attacker can force a worker restart with each request of a few bytes.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
       "affected": [
         {
           "vendor": "",
@@ -867426,8 +867574,8 @@
       "active_threat": false,
       "probability_score": 0.00615,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 7.5,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -868478,14 +868626,14 @@
         "knownRansomwareCampaignUse": "Unknown"
       },
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
           "CWE-288"
         ],
-        "cpe_count": 0,
+        "cpe_count": 10,
         "reference_count": 3
       }
     },
@@ -871860,7 +872008,7 @@
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
-          "CWE-862"
+          "CWE-863"
         ],
         "cpe_count": 0,
         "reference_count": 1
@@ -882963,7 +883111,7 @@
       "active_threat": false,
       "probability_score": 0.00331,
       "nvd": {
-        "cvss_v3_score": 7.0,
+        "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
@@ -887185,7 +887333,10 @@
         "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
+        "cwe_ids": [
+          "CWE-732",
+          "CWE-284"
+        ],
         "cpe_count": 0,
         "reference_count": 1
       }
@@ -891103,6 +891254,54 @@
       "cvss_severity": "MEDIUM",
       "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C",
       "affected": [
+        {
+          "vendor": "microsoft",
+          "product": "microsoft office 365 for mac",
+          "versions": [
+            {
+              "version": "1.0.0",
+              "lessThan": "16.115.26110837",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "microsoft office for android",
+          "versions": [
+            {
+              "version": "16.0.1",
+              "lessThan": "16.0.20625.20014",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "microsoft office ltsc for mac 2021",
+          "versions": [
+            {
+              "version": "16.0.1",
+              "lessThan": "16.115.26110837",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "microsoft office ltsc for mac 2024",
+          "versions": [
+            {
+              "version": "16.0.0",
+              "lessThan": "16.115.26110837",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
         {
           "vendor": "microsoft",
           "product": "windows 10 version 1607",
@@ -912316,6 +912515,18 @@
       "affected": [
         {
           "vendor": "microsoft",
+          "product": "microsoft office for android",
+          "versions": [
+            {
+              "version": "16.0.1",
+              "lessThan": "16.0.20625.20014",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
           "product": "windows 10 version 1607",
           "versions": [
             {
@@ -912679,6 +912890,18 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat hardened images",
+          "versions": [
+            {
+              "version": "6.1.4-1.4.hum1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat enterprise linux 10",
           "versions": null
         },
@@ -912690,11 +912913,6 @@
         {
           "vendor": "red hat",
           "product": "red hat enterprise linux 9",
-          "versions": null
-        },
-        {
-          "vendor": "red hat",
-          "product": "red hat hardened images",
           "versions": null
         },
         {
@@ -917840,7 +918058,7 @@
       ],
       "watchlist_hit": false,
       "in_watchlist": false,
-      "in_patchthis": false,
+      "in_patchthis": true,
       "is_critical": false,
       "priority_label": "",
       "matched_terms": [],
@@ -917856,6 +918074,18 @@
         "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
         "dueDate": "2026-11-16",
         "knownRansomwareCampaignUse": "Unknown"
+      },
+      "nvd": {
+        "cvss_v3_score": 7.8,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-732",
+          "CWE-862"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
       }
     },
     {
@@ -918432,7 +918662,7 @@
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
-          "CWE-122",
+          "CWE-125",
           "CWE-170"
         ],
         "cpe_count": 0,
@@ -920492,7 +920722,7 @@
           "CWE-94"
         ],
         "cpe_count": 0,
-        "reference_count": 2
+        "reference_count": 3
       }
     },
     {
@@ -945048,7 +945278,7 @@
     },
     {
       "cve_id": "CVE-2026-20320",
-      "description": "A vulnerability in the Open Client Interface (OCI) XML Parser of Cisco BroadWorks could allow an unauthenticated, remote attacker to read sensitive configuration information on an affected system.\r\n\r This vulnerability exists because XML entries are improperly parsed due to external entity resolution being allowed by default. An attacker could exploit this vulnerability by sending a crafted XML message to the Open Client Interface &ndash; Provisioning (OCI-P) service. A successful exploit could allow the attacker to view sensitive files from the filesystem with the privileges of the Cisco BroadWorks user.",
+      "description": "A vulnerability in the Open Client Interface (OCI) XML Parser of Cisco BroadWorks could allow an unauthenticated, remote attacker to read sensitive configuration information on an affected system. \r\n\r This vulnerability exists because XML entries are improperly parsed due to external entity resolution being allowed by default. An attacker could exploit this vulnerability by sending a crafted XML message to the Open Client Interface &ndash; Provisioning (OCI-P) service. A successful exploit could allow the attacker to view sensitive files from the filesystem with the privileges of the Cisco BroadWorks user.",
       "cvss_score": 7.5,
       "cvss_severity": "HIGH",
       "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
@@ -1552181,6 +1552411,54 @@
       "affected": [
         {
           "vendor": "microsoft",
+          "product": "microsoft office 365 for mac",
+          "versions": [
+            {
+              "version": "1.0.0",
+              "lessThan": "16.115.26110837",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "microsoft office for android",
+          "versions": [
+            {
+              "version": "16.0.1",
+              "lessThan": "16.0.20625.20014",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "microsoft office ltsc for mac 2021",
+          "versions": [
+            {
+              "version": "16.0.1",
+              "lessThan": "16.115.26110837",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "microsoft office ltsc for mac 2024",
+          "versions": [
+            {
+              "version": "16.0.0",
+              "lessThan": "16.115.26110837",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
           "product": "windows 10 version 1607",
           "versions": [
             {
@@ -1552657,6 +1552935,54 @@
       "cvss_severity": "HIGH",
       "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C",
       "affected": [
+        {
+          "vendor": "microsoft",
+          "product": "microsoft office 365 for mac",
+          "versions": [
+            {
+              "version": "1.0.0",
+              "lessThan": "16.115.26110837",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "microsoft office for android",
+          "versions": [
+            {
+              "version": "16.0.1",
+              "lessThan": "16.0.20625.20014",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "microsoft office ltsc for mac 2021",
+          "versions": [
+            {
+              "version": "16.0.1",
+              "lessThan": "16.115.26110837",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "microsoft office ltsc for mac 2024",
+          "versions": [
+            {
+              "version": "16.0.0",
+              "lessThan": "16.115.26110837",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
         {
           "vendor": "microsoft",
           "product": "windows 10 version 1607",
@@ -1553803,6 +1554129,54 @@
       "cvss_severity": "HIGH",
       "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C",
       "affected": [
+        {
+          "vendor": "microsoft",
+          "product": "microsoft office 365 for mac",
+          "versions": [
+            {
+              "version": "1.0.0",
+              "lessThan": "16.115.26110837",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "microsoft office for android",
+          "versions": [
+            {
+              "version": "16.0.1",
+              "lessThan": "16.0.20625.20014",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "microsoft office ltsc for mac 2021",
+          "versions": [
+            {
+              "version": "16.0.1",
+              "lessThan": "16.115.26110837",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
+          "product": "microsoft office ltsc for mac 2024",
+          "versions": [
+            {
+              "version": "16.0.0",
+              "lessThan": "16.115.26110837",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
         {
           "vendor": "microsoft",
           "product": "windows 10 version 1607",
@@ -1576660,6 +1577034,18 @@
       "affected": [
         {
           "vendor": "microsoft",
+          "product": "microsoft office for android",
+          "versions": [
+            {
+              "version": "16.0.1",
+              "lessThan": "16.0.20625.20014",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "microsoft",
           "product": "windows 10 version 1607",
           "versions": [
             {
@@ -1577789,6 +1578175,18 @@
       "cvss_severity": "MEDIUM",
       "cvss_vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N/E:U/RL:O/RC:C",
       "affected": [
+        {
+          "vendor": "microsoft",
+          "product": "microsoft office for android",
+          "versions": [
+            {
+              "version": "16.0.1",
+              "lessThan": "16.0.20625.20014",
+              "versionType": "custom",
+              "status": "affected"
+            }
+          ]
+        },
         {
           "vendor": "microsoft",
           "product": "windows 10 version 1607",
