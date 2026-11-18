@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-11-18T13:52:07+00:00`
+Generated: `2026-11-18T21:52:50+00:00`
 
 ## Executive Summary
 
@@ -38,11 +38,11 @@ Top critical items:
 
 ## Summary
 
-- Total items: **7725**
+- Total items: **7729**
 - Watchlist hits: **6963**
-- CISA KEVs: **862**
-- Exploit Intel (PoC): **880**
-- Exploit Intel + Watchlist (CRITICAL): **118**
+- CISA KEVs: **866**
+- Exploit Intel (PoC): **883**
+- Exploit Intel + Watchlist (CRITICAL): **119**
 
 ## Top Findings (max 200)
 
@@ -164,6 +164,7 @@ Top critical items:
 | [CVE-2026-3888](https://www.cve.org/CVERecord?id=CVE-2026-3888) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.014 | 7.8 | ✅ | Local privilege escalation in snapd on Linux allows local attackers to get root privilege by re-creating snap's private /tmp directory when systemd-tmpfiles is… |
 | [CVE-2024-8698](https://www.cve.org/CVERecord?id=CVE-2024-8698) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.020 | 7.7 | ✅ | A flaw exists in the SAML signature validation method within the Keycloak XMLSignatureUtil class. The method incorrectly determines whether a SAML signature is… |
 | [CVE-2026-20929](https://www.cve.org/CVERecord?id=CVE-2026-20929) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.029 | 7.5 | ✅ | Improper access control in Windows HTTP.sys allows an authorized attacker to elevate privileges over a network. |
+| [CVE-2026-123655](https://www.cve.org/CVERecord?id=CVE-2026-123655) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.006 | 7.5 | ✅ | A flaw was found in Moodle. Insufficient access control checks on H5P content files allow unauthenticated remote attackers to view restricted materials, includ… |
 | [CVE-2023-30943](https://www.cve.org/CVERecord?id=CVE-2023-30943) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.068 | 6.5 | ✅ | The vulnerability was found Moodle which exists because the application allows a user to control path of the older to create in TinyMCE loaders. A remote user … |
 | [CVE-2024-8883](https://www.cve.org/CVERecord?id=CVE-2024-8883) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.021 | 6.1 | ✅ | A misconfiguration flaw was found in Keycloak. This issue can allow an attacker to redirect users to an arbitrary URL if a 'Valid Redirect URI' is set to http:… |
 | [CVE-2023-22518](https://www.cve.org/CVERecord?id=CVE-2023-22518) |  | KEV | ✅ | ✅ | 2023-11-28 | 1.000 | 10.0 |  | All versions of Confluence Data Center and Server are affected by this unexploited vulnerability. This Improper Authorization vulnerability allows an unauthent… |
@@ -247,4 +248,3 @@ Top critical items:
 | [CVE-2026-1340](https://www.cve.org/CVERecord?id=CVE-2026-1340) |  | KEV | ✅ | ✅ | 2026-04-11 | 0.986 | 9.8 |  | A code injection in Ivanti Endpoint Manager Mobile allowing attackers to achieve unauthenticated remote code execution. |
 | [CVE-2024-50623](https://www.cve.org/CVERecord?id=CVE-2024-50623) |  | KEV | ✅ | ✅ | 2025-01-03 | 0.986 | 9.8 |  | In Cleo Harmony before 5.8.0.21, VLTrader before 5.8.0.21, and LexiCom before 5.8.0.21, there is an unrestricted file upload and download that could lead to re… |
 | [CVE-2022-21587](https://www.cve.org/CVERecord?id=CVE-2022-21587) |  | KEV | ✅ | ✅ | 2023-02-23 | 0.983 | 9.8 |  | Vulnerability in the Oracle Web Applications Desktop Integrator product of Oracle E-Business Suite (component: Upload). Supported versions that are affected ar… |
-| [CVE-2023-20887](https://www.cve.org/CVERecord?id=CVE-2023-20887) |  | KEV | ✅ | ✅ | 2023-07-13 | 0.983 | 9.8 |  | Aria Operations for Networks contains a command injection vulnerability. A malicious actor with network access to VMware Aria Operations for Networks may be ab… |
