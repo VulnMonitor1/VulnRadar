@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-17T22:12:53+00:00",
-  "count": 7723,
+  "generated_at": "2026-11-18T04:22:14+00:00",
+  "count": 7725,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -840961,7 +840961,7 @@
           "CWE-824",
           "CWE-1325"
         ],
-        "cpe_count": 316,
+        "cpe_count": 317,
         "reference_count": 12
       }
     },
@@ -866847,14 +866847,14 @@
         "knownRansomwareCampaignUse": "Unknown"
       },
       "nvd": {
-        "cvss_v3_score": 8.6,
+        "cvss_v3_score": 7.7,
         "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
           "CWE-140"
         ],
-        "cpe_count": 0,
+        "cpe_count": 1,
         "reference_count": 5
       }
     },
@@ -867345,14 +867345,14 @@
       "active_threat": false,
       "probability_score": 0.00135,
       "nvd": {
-        "cvss_v3_score": 5.3,
-        "cvss_v3_severity": "MEDIUM",
+        "cvss_v3_score": 7.8,
+        "cvss_v3_severity": "HIGH",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
           "CWE-121"
         ],
-        "cpe_count": 0,
+        "cpe_count": 1,
         "reference_count": 1
       }
     },
@@ -867402,7 +867402,7 @@
       ],
       "watchlist_hit": false,
       "in_watchlist": false,
-      "in_patchthis": false,
+      "in_patchthis": true,
       "is_critical": false,
       "priority_label": "",
       "matched_terms": [],
@@ -910816,9 +910816,9 @@
     {
       "cve_id": "CVE-2026-120212",
       "description": "Web::Simple versions before 0.037 for Perl do not escape single quotes in HTML::Tags output.\n\nHTML::Tags and XML::Tags escape a plain string value by replacing only &, \", < and > with entities. A value interpolated into a single-quoted attribute, as in <a href='$value'>, can therefore close the attribute and add new ones, such as an event handler. Double-quoted attributes are not affected.\n\nAn attacker who controls a value that an application interpolates into a single-quoted attribute can inject script into the generated page.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 5.4,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
       "affected": [
         {
           "vendor": "",
@@ -910842,8 +910842,8 @@
       "active_threat": false,
       "probability_score": 0.00233,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 5.4,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -918171,7 +918171,7 @@
           "CWE-732",
           "CWE-862"
         ],
-        "cpe_count": 0,
+        "cpe_count": 269,
         "reference_count": 2
       }
     },
@@ -920975,9 +920975,9 @@
     {
       "cve_id": "CVE-2026-125729",
       "description": "Plack::Middleware::CSP versions before 0.03 for Perl send the Content Security Policy under the wrong header name, so browsers never enforce it.\n\nThe call method sets the policy in a response header named \"content-security-protocol\" instead of \"Content-Security-Policy\". Browsers ignore that header.\n\nAny cross-site scripting flaw in the wrapped application can run scripts the policy was meant to block.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 6.1,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
       "affected": [
         {
           "vendor": "",
@@ -921001,8 +921001,8 @@
       "active_threat": false,
       "probability_score": 0.00322,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 6.1,
+        "cvss_v3_severity": "MEDIUM",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -921059,7 +921059,9 @@
         "cvss_v3_severity": null,
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
-        "cwe_ids": null,
+        "cwe_ids": [
+          "CWE-862"
+        ],
         "cpe_count": 0,
         "reference_count": 1
       }
@@ -921067,9 +921069,9 @@
     {
       "cve_id": "CVE-2026-126673",
       "description": "Data::Dump::Streamer versions before 3.00 for Perl allow code injection via unescaped Regexp patterns in _dump_qr.\n\nA Regexp's pattern is written into a qr literal without escaping \"$\" or \"@\", so \"@{[ ... ]}\" and \"${\\ ... }\" in the pattern run as code when the dump is evaluated. An already escaped delimiter gets a second backslash, which leaves the delimiter bare and ends the qr literal early.\n\nAn attacker who supplies a pattern that an application compiles, dumps and later restores with eval or do can run arbitrary Perl code.",
-      "cvss_score": null,
-      "cvss_severity": null,
-      "cvss_vector": null,
+      "cvss_score": 9.8,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
       "affected": [
         {
           "vendor": "",
@@ -921093,8 +921095,8 @@
       "active_threat": false,
       "probability_score": 0.00466,
       "nvd": {
-        "cvss_v3_score": null,
-        "cvss_v3_severity": null,
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
         "cvss_v2_score": null,
         "cvss_v2_severity": null,
         "cwe_ids": [
@@ -921224,6 +921226,64 @@
         "cpe_count": 0,
         "reference_count": 1
       }
+    },
+    {
+      "cve_id": "CVE-2026-129891",
+      "description": "IO::Socket::SSL::PublicSuffix versions through 2.099 for Perl let an on-path attacker choose the installed public suffix list because update_self_from_url fetches it over cleartext HTTP with no integrity check.\n\nCalled with no argument, as the module's documentation shows, the updater fetches the list from the `http://` address in the URL constant and checks only that the request succeeded, with no signature or digest over the response. The lines that come back are written into the module's own source file as the built-in list.\n\nAn attacker on the network path when the updater runs chooses the suffix boundary the module reports to every caller on the host, and that answer persists in the installed module until it is reinstalled. Dropping one rule makes the hostname check in IO::Socket::SSL accept a wildcard certificate that spans the whole public suffix that rule named.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThanOrEqual": "2.099",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-129892",
+      "description": "IO::Socket::SSL::PublicSuffix versions through 2.099 for Perl allow code injection via a fetched list line that closes the built-in data heredoc when update_self_from_url rewrites the module's source.\n\nThe rewrite copies the module's source down to the built-in list's heredoc and appends each fetched line below it. Nothing checks that a line looks like a domain. A line that is not a comment loses only what follows a `//` and its trailing whitespace, so a line reading END_BUILTIN_DATA is appended as it stands and ends the data block in the rewritten file. Every fetched line after it is Perl.\n\nArbitrary Perl runs in every process that loads IO::Socket::SSL, which loads this module unconditionally, until the file is reinstalled. The attacker must control the fetched list, through the cleartext default URL or a caller-supplied one, and the updater must run with write access to the installed module.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThanOrEqual": "2.099",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
     },
     {
       "cve_id": "CVE-2026-12249",
