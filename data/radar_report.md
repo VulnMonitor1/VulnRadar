@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-11-18T04:22:15+00:00`
+Generated: `2026-11-18T13:52:07+00:00`
 
 ## Executive Summary
 
@@ -143,8 +143,8 @@ Top critical items:
 | [CVE-2026-21525](https://www.cve.org/CVERecord?id=CVE-2026-21525) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-03-03 | 0.050 | 6.2 | ✅ | Null pointer dereference in Windows Remote Access Connection Manager allows an unauthorized attacker to deny service locally. |
 | [CVE-2024-38217](https://www.cve.org/CVERecord?id=CVE-2024-38217) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2024-10-01 | 0.100 | 5.4 | ✅ | Windows Mark of the Web Security Feature Bypass Vulnerability |
 | [CVE-2026-20805](https://www.cve.org/CVERecord?id=CVE-2026-20805) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2026-02-03 | 0.075 | 5.5 | ✅ | Exposure of sensitive information to an unauthorized actor in Desktop Windows Manager allows an authorized attacker to disclose information locally. |
-| [CVE-2023-36584](https://www.cve.org/CVERecord?id=CVE-2023-36584) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-12-07 | 0.033 | 5.4 | ✅ | Windows Mark of the Web Security Feature Bypass Vulnerability |
 | [CVE-2022-41049](https://www.cve.org/CVERecord?id=CVE-2022-41049) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2022-12-09 | 0.032 | 5.4 | ✅ | Windows Mark of the Web Security Feature Bypass Vulnerability |
+| [CVE-2023-36584](https://www.cve.org/CVERecord?id=CVE-2023-36584) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2023-12-07 | 0.031 | 5.4 | ✅ | Windows Mark of the Web Security Feature Bypass Vulnerability |
 | [CVE-2025-24991](https://www.cve.org/CVERecord?id=CVE-2025-24991) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-04-01 | 0.020 | 5.5 | ✅ | Out-of-bounds read in Windows NTFS allows an authorized attacker to disclose information locally. |
 | [CVE-2022-41091](https://www.cve.org/CVERecord?id=CVE-2022-41091) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2022-12-09 | 0.023 | 5.4 | ✅ | Windows Mark of the Web Security Feature Bypass Vulnerability |
 | [CVE-2025-24984](https://www.cve.org/CVERecord?id=CVE-2025-24984) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ | ✅ | 2025-04-01 | 0.020 | 4.6 | ✅ | Insertion of sensitive information into log file in Windows NTFS allows an unauthorized attacker to disclose information with a physical attack. |
