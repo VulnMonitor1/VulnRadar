@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18T21:52:48+00:00",
+  "generated_at": "2026-11-19T03:14:29+00:00",
   "count": 7729,
   "items": [
     {
@@ -317541,7 +317541,7 @@
       ],
       "watchlist_hit": false,
       "in_watchlist": false,
-      "in_patchthis": false,
+      "in_patchthis": true,
       "is_critical": false,
       "priority_label": "",
       "matched_terms": [],
@@ -873768,10 +873768,10 @@
     },
     {
       "cve_id": "CVE-2026-118148",
-      "description": "Improper authentication in Active Directory Domain Services allows an authorized attacker to elevate privileges over a network.",
-      "cvss_score": 7.5,
+      "description": "Incorrect authorization in Active Directory Domain Services allows an authorized attacker to elevate privileges over a network.",
+      "cvss_score": 8.8,
       "cvss_severity": "HIGH",
-      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C",
       "affected": [
         {
           "vendor": "microsoft",
@@ -1384804,6 +1384804,16 @@
           "vendor": "red hat",
           "product": "red hat openshift container platform 4",
           "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 5",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift container platform 5",
+          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -1543684,7 +1543694,7 @@
       ],
       "watchlist_hit": false,
       "in_watchlist": false,
-      "in_patchthis": false,
+      "in_patchthis": true,
       "is_critical": false,
       "priority_label": "",
       "matched_terms": [],
