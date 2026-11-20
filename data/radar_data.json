@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-19T21:26:16+00:00",
-  "count": 7729,
+  "generated_at": "2026-11-20T03:03:05+00:00",
+  "count": 7749,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -921634,6 +921634,967 @@
       }
     },
     {
+      "cve_id": "CVE-2026-130888",
+      "description": "A flaw was found in nbdkit. The qcow2dec filter's zstd_compressed_cluster() function incorrectly sets the ZSTD input buffer size to the uncompressed cluster size instead of the compressed buffer size. A crafted QCOW2 image with ZSTD-compressed clusters can trigger a heap over-read, leading to a denial of service and potentially exposing heap memory.",
+      "cvss_score": 6.1,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "version": "1.35.7",
+              "lessThan": "1.49.5",
+              "versionType": "semver",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "fedora",
+          "product": "fedora",
+          "versions": [
+            {
+              "version": "1.35.7",
+              "lessThan": "1.49.5",
+              "versionType": "semver",
+              "status": "affected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 7",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 10",
+          "versions": null
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.0012,
+      "nvd": {
+        "cvss_v3_score": 6.1,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-125"
+        ],
+        "cpe_count": 0,
+        "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2026-133059",
+      "description": "A flaw was found in Moodle. The grade feedback web service does not properly verify group and course enrolment permissions. An authenticated user with non-editing teacher privileges can exploit this vulnerability to access grade feedback and user profile details across groups or courses they are not authorized to view, leading to unauthorized information disclosure.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "4.5.16",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.0.0",
+              "lessThan": "5.1.0",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.1.0",
+              "lessThan": "5.1.9",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.2.0",
+              "lessThan": "5.2.5",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.3.0",
+              "lessThan": "5.3.1",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-133060",
+      "description": "A flaw was found in Moodle's Blackboard question import format. Insufficient validation of file paths during the question import process allows an authenticated user with permissions to import questions into a question bank to read arbitrary files accessible to the web server process. An attacker could leverage this vulnerability to view sensitive files, resulting in unauthorized information disclosure.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "4.5.16",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.0.0",
+              "lessThan": "5.1.0",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.1.0",
+              "lessThan": "5.1.9",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.2.0",
+              "lessThan": "5.2.5",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.3.0",
+              "lessThan": "5.3.1",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-133061",
+      "description": "A flaw was found in Moodle. Due to a missing capability check in the grade items web service, an authenticated user with a student role can view the names of all grade items in a course, including those intended to be hidden. This flaw leads to unauthorized information disclosure of hidden course assessment details.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "4.5.16",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.0.0",
+              "lessThan": "5.1.0",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.1.0",
+              "lessThan": "5.1.9",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.2.0",
+              "lessThan": "5.2.5",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.3.0",
+              "lessThan": "5.3.1",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-133062",
+      "description": "A flaw was found in Moodle's external database enrolment plugin. Insufficient sanitization of data passed to queries against the external database allows an authenticated user with course editing permissions to perform a Structured Query Language (SQL) injection attack. When this non-default plugin is enabled, an attacker can exploit this issue to view, modify, or delete sensitive records within the connected external database.",
+      "cvss_score": 7.5,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "4.5.16",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.0.0",
+              "lessThan": "5.1.0",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.1.0",
+              "lessThan": "5.1.9",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.2.0",
+              "lessThan": "5.2.5",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.3.0",
+              "lessThan": "5.3.1",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-133063",
+      "description": "A flaw was found in Moodle. Due to insufficient validation when saving activity settings, an authenticated user with teacher privileges can modify activities in courses they are not authorized to access. This flaw allows unauthorized changes to course materials, compromising the integrity of course content.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "4.5.16",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.0.0",
+              "lessThan": "5.1.0",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.1.0",
+              "lessThan": "5.1.9",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.2.0",
+              "lessThan": "5.2.5",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.3.0",
+              "lessThan": "5.3.1",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-133064",
+      "description": "A flaw was found in Moodle. Insufficient sanitization of objective identifiers in the SCORM (Sharable Content Object Reference Model) objectives report allows an authenticated user with content upload permissions to inject malicious scripts. When another user views the report, the injected script executes in their browser session, potentially allowing the attacker to access sensitive information or perform unauthorized actions on their behalf.",
+      "cvss_score": 4.6,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "4.5.16",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.0.0",
+              "lessThan": "5.1.0",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.1.0",
+              "lessThan": "5.1.9",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.2.0",
+              "lessThan": "5.2.5",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.3.0",
+              "lessThan": "5.3.1",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-133065",
+      "description": "A flaw was found in Moodle. Due to insufficient permission checks and input validation in the quiz question bank callback, an authenticated user can access and view questions from question banks they do not have permission to access. Furthermore, this issue allows users to trigger arbitrary class instantiation (creating unintended application objects), potentially leading to further unauthorized actions.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "4.5.16",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.0.0",
+              "lessThan": "5.1.0",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.1.0",
+              "lessThan": "5.1.9",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.2.0",
+              "lessThan": "5.2.5",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.3.0",
+              "lessThan": "5.3.1",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-133066",
+      "description": "A flaw was found in Moodle. Missing ownership verification in Feedback activity templates allows an authenticated teacher to view, use, or delete templates associated with courses other than their own. This can result in unauthorized access, modification, or deletion of course materials.",
+      "cvss_score": 5.4,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "4.5.16",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.0.0",
+              "lessThan": "5.1.0",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.1.0",
+              "lessThan": "5.1.9",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.2.0",
+              "lessThan": "5.2.5",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.3.0",
+              "lessThan": "5.3.1",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-133067",
+      "description": "A flaw was found in Moodle. Due to missing ownership checks in badge alignments, an authenticated user with badge management privileges can view and modify alignments associated with badges they do not own. This vulnerability can lead to unauthorized data disclosure and tampering with badge configurations.",
+      "cvss_score": 5.4,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "4.5.16",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.0.0",
+              "lessThan": "5.1.0",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.1.0",
+              "lessThan": "5.1.9",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.2.0",
+              "lessThan": "5.2.5",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.3.0",
+              "lessThan": "5.3.1",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-133068",
+      "description": "A flaw was found in Moodle. An improper authorization check when displaying individual glossary entries allows an authenticated user to view approved glossary items from courses they do not have permission to access. This vulnerability leads to unauthorized information disclosure of restricted educational materials.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "4.5.16",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.0.0",
+              "lessThan": "5.1.0",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.1.0",
+              "lessThan": "5.1.9",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.2.0",
+              "lessThan": "5.2.5",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.3.0",
+              "lessThan": "5.3.1",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-133069",
+      "description": "A flaw was found in Moodle. Missing authorization checks in the forum discussion web services allow authenticated users to view discussion information in courses they do not have permission to access. In addition, users with teacher privileges may lock forum discussions in courses where they lack proper authorization. This issue can lead to unauthorized information disclosure and unauthorized discussion state modification.",
+      "cvss_score": 5.4,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "4.5.16",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.0.0",
+              "lessThan": "5.1.0",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.1.0",
+              "lessThan": "5.1.9",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.2.0",
+              "lessThan": "5.2.5",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.3.0",
+              "lessThan": "5.3.1",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-133070",
+      "description": "A flaw was found in Moodle. Due to a missing authorization check when viewing and restoring wiki page versions, an authenticated user can access content from courses they are not permitted to view. This issue allows an attacker to inspect restricted course material and copy it into their own wiki pages, leading to unauthorized information disclosure.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "4.5.16",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.0.0",
+              "lessThan": "5.1.0",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.1.0",
+              "lessThan": "5.1.9",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.2.0",
+              "lessThan": "5.2.5",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.3.0",
+              "lessThan": "5.3.1",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-133071",
+      "description": "A flaw was found in Moodle. Due to a missing authorization check when editing Lesson activity pages, authenticated users with teacher privileges can view and move lesson pages from courses they are not permitted to access into their own lessons. This issue can lead to unauthorized access and modification of restricted course content.",
+      "cvss_score": 5.4,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "4.5.16",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.0.0",
+              "lessThan": "5.1.0",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.1.0",
+              "lessThan": "5.1.9",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.2.0",
+              "lessThan": "5.2.5",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.3.0",
+              "lessThan": "5.3.1",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-133072",
+      "description": "A flaw was found in Moodle. Insufficient authorization checks in the quiz editing functionality allow an authenticated user with teacher privileges to view slot details and modify sections of quizzes they do not have permission to manage. An attacker could exploit this flaw to alter quiz configurations or disclose quiz structure information without proper authorization.",
+      "cvss_score": 5.4,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "4.5.16",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.0.0",
+              "lessThan": "5.1.0",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.1.0",
+              "lessThan": "5.1.9",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.2.0",
+              "lessThan": "5.2.5",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.3.0",
+              "lessThan": "5.3.1",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-133073",
+      "description": "A flaw was found in Moodle's single view grade report web service. A missing authorization check allows authenticated students to view the names of all grade items in a course, including those configured to be hidden. This vulnerability leads to unauthorized information disclosure.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "4.5.16",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.0.0",
+              "lessThan": "5.1.0",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.1.0",
+              "lessThan": "5.1.9",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.2.0",
+              "lessThan": "5.2.5",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.3.0",
+              "lessThan": "5.3.1",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-133074",
+      "description": "A flaw was found in Moodle. Insufficient authorization checks in the quiz overrides web service allow an authenticated user with teacher privileges to modify user and group overrides for quizzes they do not have permission to manage. An attacker could exploit this vulnerability to improperly alter exam access, deadlines, or testing conditions across unauthorized courses.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "4.5.16",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.0.0",
+              "lessThan": "5.1.0",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.1.0",
+              "lessThan": "5.1.9",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.2.0",
+              "lessThan": "5.2.5",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.3.0",
+              "lessThan": "5.3.1",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
+      "cve_id": "CVE-2026-133075",
+      "description": "A flaw was found in Moodle. Due to insufficient authorization checks in the quiz random question filter web service, an authenticated user with teacher privileges can modify random question settings in quizzes they do not have permission to manage. This flaw allows unauthorized users to alter assessment configurations across courses they do not oversee.",
+      "cvss_score": 4.3,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "4.5.16",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.0.0",
+              "lessThan": "5.1.0",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "5.1.0",
+              "lessThan": "5.1.9",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": null
+    },
+    {
       "cve_id": "CVE-2026-13048",
       "description": "Data::MuForm::Localizer versions through 0.05 for Perl execute Perl from a message catalog header, reached at an arbitrary path because load_lexicon interpolates the language attribute into the catalog filename.\n\nload_lexicon builds the catalog path by appending `Messages/$lang.po` to the directory holding Localizer.pm, where $lang is the language attribute, with no check that it names a bare locale tag. A value holding `../` segments walks out of the message directory, so any readable path with a `.po` suffix is loaded. While parsing the catalog, extract_header_msgstr takes the `Plural-Forms:` header, prefixes `$` to the bare words nplurals, plural and n, and passes the rest verbatim into a string that is evaluated: the nplurals form evaluates the header expression immediately, and the plural_code form compiles it into a subroutine whose body runs when a plural message is localized. A header of `nplurals=2; plural=(system('...'),0);` therefore runs that command as the catalog loads. The evaluation inherits strict, so an expression that assigns to an undeclared variable fails to compile, while one built from calls alone does not.\n\nAn application that sets the language attribute from request data, an Accept-Language header or a locale parameter, and an attacker who can place a file with a `.po` suffix and chosen contents at a readable path, together give code execution as the application user. The message expansion path is not affected: expand_named substitutes only the placeholder names the caller supplies, and _mangle_value returns the value unchanged.",
       "cvss_score": 8.2,
@@ -1017992,6 +1018953,1013 @@
         ],
         "cpe_count": 7,
         "reference_count": 66
+      }
+    },
+    {
+      "cve_id": "CVE-2026-34000",
+      "description": "A flaw was found in the X.Org X server. This out-of-bounds read vulnerability in the XKB geometry processing, specifically within the `CheckSetGeom()` and `XkbAddGeomKeyAlias` functions, allows an attacker to read uninitialized or out-of-bounds memory. An attacker with a connection to the X11 server, either locally or remotely, can exploit this without user interaction. This could lead to the disclosure of memory contents or cause a denial of service by crashing the server.",
+      "cvss_score": 6.1,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:L",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "21.1.4",
+              "lessThan": "21.1.22",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "22.1.3",
+              "lessThan": "24.1.10",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 10.0 extended update support",
+          "versions": [
+            {
+              "version": "0:24.1.5-6.el10_0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 6 extended lifecycle support - extension",
+          "versions": [
+            {
+              "version": "0:1.1.0-25.el6_10.16",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 7 extended lifecycle support",
+          "versions": [
+            {
+              "version": "0:1.20.4-34.el7_9",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 7 extended lifecycle support",
+          "versions": [
+            {
+              "version": "0:1.8.0-36.el7_9.4",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8.4 advanced mission critical update support",
+          "versions": [
+            {
+              "version": "0:1.20.10-4.el8_4",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8.4 advanced mission critical update support",
+          "versions": [
+            {
+              "version": "0:1.11.0-8.el8_4.15",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8.4 extended update support long-life add-on",
+          "versions": [
+            {
+              "version": "0:1.20.10-4.el8_4",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8.4 extended update support long-life add-on",
+          "versions": [
+            {
+              "version": "0:1.11.0-8.el8_4.15",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8.6 advanced mission critical update support",
+          "versions": [
+            {
+              "version": "0:21.1.3-2.el8_6.6",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8.6 advanced mission critical update support",
+          "versions": [
+            {
+              "version": "0:1.20.11-7.el8_6",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8.6 advanced mission critical update support",
+          "versions": [
+            {
+              "version": "0:1.12.0-6.el8_6.17",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8.6 extended update support long-life add-on",
+          "versions": [
+            {
+              "version": "0:1.12.0-6.el8_6.17",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8.6 telecommunications update service",
+          "versions": [
+            {
+              "version": "0:21.1.3-2.el8_6.6",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8.6 telecommunications update service",
+          "versions": [
+            {
+              "version": "0:1.20.11-7.el8_6",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8.6 update services for sap solutions",
+          "versions": [
+            {
+              "version": "0:21.1.3-2.el8_6.6",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8.6 update services for sap solutions",
+          "versions": [
+            {
+              "version": "0:1.20.11-7.el8_6",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8.8 telecommunications update service",
+          "versions": [
+            {
+              "version": "0:21.1.3-13.el8_8",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8.8 telecommunications update service",
+          "versions": [
+            {
+              "version": "0:1.20.11-18.el8_8",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8.8 telecommunications update service",
+          "versions": [
+            {
+              "version": "0:1.12.0-15.el8_8.17",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8.8 update services for sap solutions",
+          "versions": [
+            {
+              "version": "0:21.1.3-13.el8_8",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8.8 update services for sap solutions",
+          "versions": [
+            {
+              "version": "0:1.20.11-18.el8_8",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8.8 update services for sap solutions",
+          "versions": [
+            {
+              "version": "0:1.12.0-15.el8_8.17",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": [
+            {
+              "version": "0:1.15.0-7.el9_8.1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9.0 update services for sap solutions",
+          "versions": [
+            {
+              "version": "0:21.1.3-5.el9_0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9.0 update services for sap solutions",
+          "versions": [
+            {
+              "version": "0:1.20.11-13.el9_0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9.0 update services for sap solutions",
+          "versions": [
+            {
+              "version": "0:1.11.0-22.el9_0.17",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9.2 update services for sap solutions",
+          "versions": [
+            {
+              "version": "0:21.1.3-10.el9_2",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9.2 update services for sap solutions",
+          "versions": [
+            {
+              "version": "0:1.20.11-20.el9_2",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9.2 update services for sap solutions",
+          "versions": [
+            {
+              "version": "0:1.12.0-14.el9_2.14",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9.4 extended update support",
+          "versions": [
+            {
+              "version": "0:1.20.11-28.el9_4",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9.4 extended update support",
+          "versions": [
+            {
+              "version": "0:22.1.9-8.el9_4",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9.4 extended update support",
+          "versions": [
+            {
+              "version": "0:1.13.1-8.el9_4.9",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9.6 extended update support",
+          "versions": [
+            {
+              "version": "0:1.20.11-33.el9_6",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9.6 extended update support",
+          "versions": [
+            {
+              "version": "0:23.2.7-6.el9_6",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9.6 extended update support",
+          "versions": [
+            {
+              "version": "0:1.14.1-10.el9_6",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 10",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 6",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": null
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00489,
+      "nvd": {
+        "cvss_v3_score": 9.1,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-125"
+        ],
+        "cpe_count": 6,
+        "reference_count": 27
+      }
+    },
+    {
+      "cve_id": "CVE-2026-34002",
+      "description": "A flaw was found in the X.Org X server. This vulnerability, an out-of-bounds read, affects the XKB (X Keyboard Extension) modifier map handling. An attacker with access to the X11 server can exploit this by sending a malformed request, which causes the server to read beyond its intended memory boundaries. This can lead to the exposure of sensitive information or cause the server to crash, resulting in a denial of service.",
+      "cvss_score": 6.1,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:L",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "21.1.22",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "24.1.10",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 10.0 extended update support",
+          "versions": [
+            {
+              "version": "0:24.1.5-6.el10_0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 6 extended lifecycle support - extension",
+          "versions": [
+            {
+              "version": "0:1.1.0-25.el6_10.16",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 7 extended lifecycle support",
+          "versions": [
+            {
+              "version": "0:1.20.4-34.el7_9",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 7 extended lifecycle support",
+          "versions": [
+            {
+              "version": "0:1.8.0-36.el7_9.4",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8.4 advanced mission critical update support",
+          "versions": [
+            {
+              "version": "0:1.20.10-4.el8_4",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8.4 advanced mission critical update support",
+          "versions": [
+            {
+              "version": "0:1.11.0-8.el8_4.15",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8.4 extended update support long-life add-on",
+          "versions": [
+            {
+              "version": "0:1.20.10-4.el8_4",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8.4 extended update support long-life add-on",
+          "versions": [
+            {
+              "version": "0:1.11.0-8.el8_4.15",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8.6 advanced mission critical update support",
+          "versions": [
+            {
+              "version": "0:21.1.3-2.el8_6.6",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8.6 advanced mission critical update support",
+          "versions": [
+            {
+              "version": "0:1.20.11-7.el8_6",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8.6 advanced mission critical update support",
+          "versions": [
+            {
+              "version": "0:1.12.0-6.el8_6.17",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8.6 extended update support long-life add-on",
+          "versions": [
+            {
+              "version": "0:1.12.0-6.el8_6.17",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8.6 telecommunications update service",
+          "versions": [
+            {
+              "version": "0:21.1.3-2.el8_6.6",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8.6 telecommunications update service",
+          "versions": [
+            {
+              "version": "0:1.20.11-7.el8_6",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8.6 update services for sap solutions",
+          "versions": [
+            {
+              "version": "0:21.1.3-2.el8_6.6",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8.6 update services for sap solutions",
+          "versions": [
+            {
+              "version": "0:1.20.11-7.el8_6",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8.8 telecommunications update service",
+          "versions": [
+            {
+              "version": "0:21.1.3-13.el8_8",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8.8 telecommunications update service",
+          "versions": [
+            {
+              "version": "0:1.20.11-18.el8_8",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8.8 telecommunications update service",
+          "versions": [
+            {
+              "version": "0:1.12.0-15.el8_8.17",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8.8 update services for sap solutions",
+          "versions": [
+            {
+              "version": "0:21.1.3-13.el8_8",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8.8 update services for sap solutions",
+          "versions": [
+            {
+              "version": "0:1.20.11-18.el8_8",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8.8 update services for sap solutions",
+          "versions": [
+            {
+              "version": "0:1.12.0-15.el8_8.17",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9.0 update services for sap solutions",
+          "versions": [
+            {
+              "version": "0:21.1.3-5.el9_0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9.0 update services for sap solutions",
+          "versions": [
+            {
+              "version": "0:1.20.11-13.el9_0",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9.0 update services for sap solutions",
+          "versions": [
+            {
+              "version": "0:1.11.0-22.el9_0.17",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9.2 update services for sap solutions",
+          "versions": [
+            {
+              "version": "0:21.1.3-10.el9_2",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9.2 update services for sap solutions",
+          "versions": [
+            {
+              "version": "0:1.20.11-20.el9_2",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9.2 update services for sap solutions",
+          "versions": [
+            {
+              "version": "0:1.12.0-14.el9_2.14",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9.4 extended update support",
+          "versions": [
+            {
+              "version": "0:1.20.11-28.el9_4",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9.4 extended update support",
+          "versions": [
+            {
+              "version": "0:22.1.9-8.el9_4",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9.4 extended update support",
+          "versions": [
+            {
+              "version": "0:1.13.1-8.el9_4.9",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9.6 extended update support",
+          "versions": [
+            {
+              "version": "0:1.20.11-33.el9_6",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9.6 extended update support",
+          "versions": [
+            {
+              "version": "0:23.2.7-6.el9_6",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9.6 extended update support",
+          "versions": [
+            {
+              "version": "0:1.14.1-10.el9_6",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 10",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 6",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": null
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00489,
+      "nvd": {
+        "cvss_v3_score": 9.1,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-805"
+        ],
+        "cpe_count": 6,
+        "reference_count": 26
       }
     },
     {
@@ -1183052,7 +1185020,7 @@
     },
     {
       "cve_id": "CVE-2026-64849",
-      "description": "MLflow is an open source AI engineering platform for agents, large language models, and machine learning models. Starting in 3.3.0 and prior to 3.15.0, the unauthenticated POST /api/2.0/mlflow/webhooks/{id}/test endpoint calls _validate_webhook_url() in mlflow/utils/validation.py only for the original URL while mlflow/webhooks/delivery.py follows redirects and re-resolves the hostname without pinning the validated address, allowing attackers to reach internal or cloud metadata services and receive response_status and response_body. This issue is fixed in version 3.15.0.",
+      "description": "MLflow is an open source AI engineering platform for agents, large language models, and machine learning models. Starting in 3.3.0 and prior to 3.15.0, the POST /api/2.0/mlflow/webhooks/{id}/test endpoint (accessible without credentials when server authentication is not enabled) calls _validate_webhook_url() in mlflow/utils/validation.py only for the original URL while mlflow/webhooks/delivery.py follows redirects and re-resolves the hostname without pinning the validated address, allowing attackers to reach internal or cloud metadata services and receive response_status and response_body. The unauthenticated attack scenario described here applies to deployments without authentication. With MLflow\u2019s built-in basic authentication enabled, requests to this endpoint require valid credentials; this issue does not itself bypass authentication. This issue is fixed in version 3.15.0.",
       "cvss_score": 9.3,
       "cvss_severity": "CRITICAL",
       "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:N",
