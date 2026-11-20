@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-20T11:22:54+00:00",
-  "count": 7749,
+  "generated_at": "2026-11-20T20:02:36+00:00",
+  "count": 7753,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -167342,7 +167342,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.59694,
+      "probability_score": 0.59017,
       "kev": {
         "cveID": "CVE-2023-21608",
         "vendorProject": "Adobe",
@@ -296647,7 +296647,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00555,
+      "probability_score": 0.0055,
       "nvd": {
         "cvss_v3_score": 4.3,
         "cvss_v3_severity": "MEDIUM",
@@ -296726,7 +296726,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00242,
+      "probability_score": 0.0024,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -296817,7 +296817,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00588,
+      "probability_score": 0.00583,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -303697,7 +303697,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.07158,
+      "probability_score": 0.03009,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",
@@ -304223,7 +304223,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00417,
+      "probability_score": 0.00414,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -315214,7 +315214,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.0076,
+      "probability_score": 0.00754,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",
@@ -317546,7 +317546,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.0215,
+      "probability_score": 0.02415,
       "kev": {
         "cveID": "CVE-2024-10441",
         "vendorProject": "Synology",
@@ -460879,7 +460879,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99411,
+      "probability_score": 0.99427,
       "kev": {
         "cveID": "CVE-2024-38856",
         "vendorProject": "Apache",
@@ -559784,7 +559784,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00819,
+      "probability_score": 0.00814,
       "nvd": {
         "cvss_v3_score": 8.3,
         "cvss_v3_severity": "HIGH",
@@ -559995,7 +559995,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00992,
+      "probability_score": 0.00984,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -624900,7 +624900,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.0187,
+      "probability_score": 0.02391,
       "kev": {
         "cveID": "CVE-2025-24983",
         "vendorProject": "Microsoft",
@@ -667222,7 +667222,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.02487,
+      "probability_score": 0.02575,
       "kev": {
         "cveID": "CVE-2025-32975",
         "vendorProject": "Quest",
@@ -677044,6 +677044,59 @@
       }
     },
     {
+      "cve_id": "CVE-2025-42884",
+      "description": "SAP NetWeaver Enterprise Portal allows an unauthenticated attacker to inject JNDI environment properties or pass a URL used during JNDI lookup operations, enabling access to an unintended JNDI provider.\ufffdThis could further lead to disclosure or modification of information about the server. There is no impact on availability.",
+      "cvss_score": 6.5,
+      "cvss_severity": "MEDIUM",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+      "affected": [
+        {
+          "vendor": "sap_se",
+          "product": "sap netweaver enterprise portal",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "EP-BASIS 7.50"
+            },
+            {
+              "status": "affected",
+              "version": "EP-RUNTIME 7.50"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": false,
+      "in_watchlist": false,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": true,
+      "probability_score": 0.00276,
+      "kev": {
+        "cveID": "CVE-2025-42884",
+        "vendorProject": "SAP",
+        "product": "NetWeaver",
+        "vulnerabilityName": "SAP NetWeaver Improper Neutralization of Special Elements in Data Query Logic Vulnerability",
+        "dateAdded": "2026-11-20",
+        "shortDescription": "SAP NetWeaver Enterprise Portal contains an improper neutralization of special elements in data query logic vulnerability that allows an unauthenticated attacker to disclose or modify server information via injected JNDI environment properties or a URL used during JNDI lookup operations.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-11-23",
+        "knownRansomwareCampaignUse": "Unknown"
+      },
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-943"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
       "cve_id": "CVE-2025-42999",
       "description": "SAP NetWeaver Visual Composer Metadata Uploader is vulnerable when a privileged user can upload untrusted or malicious content which, when deserialized, could potentially lead to a compromise of confidentiality, integrity, and availability of the host system.",
       "cvss_score": 9.1,
@@ -679466,7 +679519,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.63245,
+      "probability_score": 0.63496,
       "kev": {
         "cveID": "CVE-2025-47813",
         "vendorProject": "Wing FTP Server",
@@ -743000,7 +743053,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00119,
+      "probability_score": 0.0012,
       "nvd": {
         "cvss_v3_score": 4.8,
         "cvss_v3_severity": "MEDIUM",
@@ -743040,7 +743093,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00119,
+      "probability_score": 0.0012,
       "nvd": {
         "cvss_v3_score": 4.8,
         "cvss_v3_severity": "MEDIUM",
@@ -743073,7 +743126,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00119,
+      "probability_score": 0.0012,
       "nvd": {
         "cvss_v3_score": 4.8,
         "cvss_v3_severity": "MEDIUM",
@@ -743106,7 +743159,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00119,
+      "probability_score": 0.0012,
       "nvd": {
         "cvss_v3_score": 4.8,
         "cvss_v3_severity": "MEDIUM",
@@ -743139,7 +743192,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00119,
+      "probability_score": 0.0012,
       "nvd": {
         "cvss_v3_score": 4.8,
         "cvss_v3_severity": "MEDIUM",
@@ -766639,7 +766692,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.01886,
+      "probability_score": 0.02026,
       "nvd": {
         "cvss_v3_score": 5.4,
         "cvss_v3_severity": "MEDIUM",
@@ -773670,7 +773723,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.95891,
+      "probability_score": 0.964,
       "kev": {
         "cveID": "CVE-2025-61884",
         "vendorProject": "Oracle",
@@ -786644,7 +786697,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00515,
+      "probability_score": 0.00537,
       "nvd": {
         "cvss_v3_score": 8.3,
         "cvss_v3_severity": "HIGH",
@@ -789291,7 +789344,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00274,
+      "probability_score": 0.00272,
       "nvd": {
         "cvss_v3_score": 7.1,
         "cvss_v3_severity": "HIGH",
@@ -789693,7 +789746,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00452,
+      "probability_score": 0.00448,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -790863,7 +790916,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00164,
+      "probability_score": 0.00163,
       "nvd": {
         "cvss_v3_score": 3.3,
         "cvss_v3_severity": "LOW",
@@ -885971,7 +886024,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00774,
+      "probability_score": 0.01047,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -919193,6 +919246,106 @@
       }
     },
     {
+      "cve_id": "CVE-2026-123890",
+      "description": "VMware vCenter contains an authentication bypass vulnerability in the VMware Directory Service.\nAffected versions: 9.1.x (fixed in 9.1.1.0200); 9.0.x (fixed in 9.0.2.0200); 8.0 (fixed in 8.0 U3m); 5.x (fixed in 5.2.5).\nTelco Cloud Platform 3.0, 4.x, 5.0.x, 5.1.x, 5.2 and Telco Cloud Infrastructure 3.0 are also affected (see KB463116).",
+      "cvss_score": 9.8,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "vmware",
+          "product": "vmware vcenter",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "9.1.x",
+              "lessThan": "9.1.1.0200",
+              "versionType": "custom"
+            },
+            {
+              "status": "affected",
+              "version": "9.0.x",
+              "lessThan": "9.0.2.0200",
+              "versionType": "custom"
+            },
+            {
+              "status": "affected",
+              "version": "8.0",
+              "lessThan": "8.0 U3m",
+              "versionType": "custom"
+            },
+            {
+              "status": "affected",
+              "version": "5.x",
+              "lessThan": "5.2.5",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "vmware",
+          "product": "telco cloud platform",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "3.0",
+              "versionType": "custom"
+            },
+            {
+              "status": "affected",
+              "version": "4.x",
+              "versionType": "custom"
+            },
+            {
+              "status": "affected",
+              "version": "5.0.x",
+              "versionType": "custom"
+            },
+            {
+              "status": "affected",
+              "version": "5.1.x",
+              "versionType": "custom"
+            },
+            {
+              "status": "affected",
+              "version": "5.2",
+              "versionType": "custom"
+            }
+          ]
+        },
+        {
+          "vendor": "vmware",
+          "product": "telco cloud infrastructure",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "3.0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": false,
+      "in_watchlist": false,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": true,
+      "probability_score": 0.00843,
+      "kev": {
+        "cveID": "CVE-2026-123890",
+        "vendorProject": "Broadcom",
+        "product": "VMware vCenter",
+        "vulnerabilityName": "VMWare vCenter Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+        "dateAdded": "2026-11-20",
+        "shortDescription": "Broadcom VMware vCenter contains an authentication bypass using an alternate path or channel vulnerability in the VMware Directory Service that allows an unauthenticated attacker with network access to vCenter to bypass authentication and gain unauthorized access to the system.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines",
+        "dueDate": "2026-11-23",
+        "knownRansomwareCampaignUse": "Unknown"
+      }
+    },
+    {
       "cve_id": "CVE-2026-124194",
       "description": "Product ui does not warn user of unsafe actions in Microsoft Office Outlook allows an unauthorized attacker to perform spoofing over a network.",
       "cvss_score": 6.5,
@@ -921327,6 +921480,57 @@
       }
     },
     {
+      "cve_id": "CVE-2026-129448",
+      "description": "Deserialization of Untrusted Data in Apache Roller versions 4.0.0 through 6.1.4 allows an unauthenticated remote attacker to execute arbitrary code. The XML-RPC endpoint accepts vendor extension types and deserializes them before authenticating the requester.\n\nThis is the same vulnerability as CVE-2026-82384, which listed only Apache Roller 6.1.5 as affected. This issue is being actively exploited.\n\nUsers are recommended to upgrade to Apache Roller 6.1.6 or later, which disables the extension types and rejects XML-RPC requests when the XML-RPC feature is disabled.\n\nUsers who cannot upgrade right away should set \"enabledForExtensions\" to \"false\" in WEB-INF/web.xml, or remove the \"/roller-services/xmlrpc\" servlet mapping, and restart Roller. Disabling XML-RPC in the administration UI is not enough, because older versions deserialize the request before checking that setting.",
+      "cvss_score": 9.8,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "apache software foundation",
+          "product": "apache roller",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "4.0.0",
+              "lessThan": "6.1.5",
+              "versionType": "semver"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": false,
+      "in_watchlist": false,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": true,
+      "probability_score": 0.01191,
+      "kev": {
+        "cveID": "CVE-2026-129448",
+        "vendorProject": "Apache",
+        "product": "Roller",
+        "vulnerabilityName": "Apache Roller Deserialization of Untrusted Data Vulnerability",
+        "dateAdded": "2026-11-20",
+        "shortDescription": "Apache Roller contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via the XML-RPC endpoint, which accepts and deserializes vendor extension types before authentication. This CVE covers the same underlying vulnerability as CVE-2026-82384 but applies to a broader range of affected versions.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-11-23",
+        "knownRansomwareCampaignUse": "Unknown"
+      },
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-502"
+        ],
+        "cpe_count": 0,
+        "reference_count": 4
+      }
+    },
+    {
       "cve_id": "CVE-2026-129891",
       "description": "IO::Socket::SSL::PublicSuffix versions through 2.099 for Perl let an on-path attacker choose the installed public suffix list because update_self_from_url fetches it over cleartext HTTP with no integrity check.\n\nCalled with no argument, as the module's documentation shows, the updater fetches the list from the `http://` address in the URL constant and checks only that the request succeeded, with no signature or digest over the response. The lines that come back are written into the module's own source file as the built-in list.\n\nAn attacker on the network path when the updater runs chooses the suffix boundary the module reports to every caller on the host, and that answer persists in the installed module until it is reinstalled. Dropping one rule makes the hostname check in IO::Socket::SSL accept a wildcard certificate that spans the whole public suffix that rule named.",
       "cvss_score": 7.5,
@@ -921756,7 +921960,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00322
     },
     {
       "cve_id": "CVE-2026-133060",
@@ -921809,7 +922013,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00513
     },
     {
       "cve_id": "CVE-2026-133061",
@@ -921862,7 +922066,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00322
     },
     {
       "cve_id": "CVE-2026-133062",
@@ -921915,7 +922119,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00481
     },
     {
       "cve_id": "CVE-2026-133063",
@@ -921968,7 +922172,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00291
     },
     {
       "cve_id": "CVE-2026-133064",
@@ -922021,7 +922225,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00254
     },
     {
       "cve_id": "CVE-2026-133065",
@@ -922074,7 +922278,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00296
     },
     {
       "cve_id": "CVE-2026-133066",
@@ -922127,7 +922331,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00263
     },
     {
       "cve_id": "CVE-2026-133067",
@@ -922180,7 +922384,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00263
     },
     {
       "cve_id": "CVE-2026-133068",
@@ -922233,7 +922437,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00296
     },
     {
       "cve_id": "CVE-2026-133069",
@@ -922286,7 +922490,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00286
     },
     {
       "cve_id": "CVE-2026-133070",
@@ -922339,7 +922543,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00296
     },
     {
       "cve_id": "CVE-2026-133071",
@@ -922392,7 +922596,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00263
     },
     {
       "cve_id": "CVE-2026-133072",
@@ -922445,7 +922649,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00263
     },
     {
       "cve_id": "CVE-2026-133073",
@@ -922498,7 +922702,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00322
     },
     {
       "cve_id": "CVE-2026-133074",
@@ -922551,7 +922755,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00317
     },
     {
       "cve_id": "CVE-2026-133075",
@@ -922592,7 +922796,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": null
+      "probability_score": 0.00317
     },
     {
       "cve_id": "CVE-2026-13048",
@@ -926994,7 +927198,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00164,
+      "probability_score": 0.00256,
       "nvd": {
         "cvss_v3_score": 5.7,
         "cvss_v3_severity": "MEDIUM",
@@ -975788,7 +975992,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.99664,
+      "probability_score": 0.90952,
       "kev": {
         "cveID": "CVE-2026-21589",
         "vendorProject": "Atlassian",
@@ -1031204,7 +1031408,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.61911,
+      "probability_score": 0.68902,
       "kev": {
         "cveID": "CVE-2026-40217",
         "vendorProject": "BerriAI",
@@ -1036942,7 +1037146,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00309,
+      "probability_score": 0.00321,
       "nvd": {
         "cvss_v3_score": 9.9,
         "cvss_v3_severity": "CRITICAL",
@@ -1036982,7 +1037186,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00137,
+      "probability_score": 0.00142,
       "nvd": {
         "cvss_v3_score": 9.6,
         "cvss_v3_severity": "CRITICAL",
@@ -1037022,7 +1037226,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": false,
-      "probability_score": 0.00303,
+      "probability_score": 0.00315,
       "nvd": {
         "cvss_v3_score": 9.9,
         "cvss_v3_severity": "CRITICAL",
@@ -1082745,7 +1082949,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00298,
+      "probability_score": 0.00457,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1120811,7 +1121015,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.00709,
+      "probability_score": 0.0134,
       "kev": {
         "cveID": "CVE-2026-53362",
         "vendorProject": "Linux",
@@ -1184994,7 +1185198,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.94887,
+      "probability_score": 0.93936,
       "kev": {
         "cveID": "CVE-2026-63077",
         "vendorProject": "JetBrains",
@@ -1185043,7 +1185247,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.10017,
+      "probability_score": 0.10929,
       "kev": {
         "cveID": "CVE-2026-64849",
         "vendorProject": "MLflow",
@@ -1388030,6 +1388234,427 @@
       }
     },
     {
+      "cve_id": "CVE-2026-76466",
+      "description": "A vulnerability in the database service feature of Cisco Expressway Series could allow an unauthenticated, remote attacker with network access to a Cisco Expressway device to execute arbitrary operating system commands as&nbsp;root.\r\n\r\nThis vulnerability is due to the use of persistent cookies. Additionally, there is insufficient validation of client certificates when the TLS Verify Mode is set to Enabled for clustering, which means that client certificates are not validated. An attacker with possession of the cookies could exploit this vulnerability by connecting to the database service and invoking specific remote procedure call (RPC) commands. A successful exploit could allow the attacker to execute arbitrary commands as root on the underlying operating system of an affected device.\r\nNote: Cisco Expressway Series refers to Cisco Expressway Core (Expressway-C) devices and Cisco Expressway Edge (Expressway-E) devices.",
+      "cvss_score": 9.8,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "affected": [
+        {
+          "vendor": "cisco",
+          "product": "cisco telepresence video communication server (vcs) expressway",
+          "versions": [
+            {
+              "version": "X8.11.2",
+              "status": "affected"
+            },
+            {
+              "version": "X8.6",
+              "status": "affected"
+            },
+            {
+              "version": "X8.11.3",
+              "status": "affected"
+            },
+            {
+              "version": "X8.2.2",
+              "status": "affected"
+            },
+            {
+              "version": "X8.8.3",
+              "status": "affected"
+            },
+            {
+              "version": "X8.11.0",
+              "status": "affected"
+            },
+            {
+              "version": "X12.5.2",
+              "status": "affected"
+            },
+            {
+              "version": "X8.1.1",
+              "status": "affected"
+            },
+            {
+              "version": "X8.9",
+              "status": "affected"
+            },
+            {
+              "version": "X12.5.1",
+              "status": "affected"
+            },
+            {
+              "version": "X12.5.6",
+              "status": "affected"
+            },
+            {
+              "version": "X8.7.3",
+              "status": "affected"
+            },
+            {
+              "version": "X12.6.0",
+              "status": "affected"
+            },
+            {
+              "version": "X8.11.1",
+              "status": "affected"
+            },
+            {
+              "version": "X8.5",
+              "status": "affected"
+            },
+            {
+              "version": "X8.9.1",
+              "status": "affected"
+            },
+            {
+              "version": "X8.10.2",
+              "status": "affected"
+            },
+            {
+              "version": "X8.8.2",
+              "status": "affected"
+            },
+            {
+              "version": "X8.5.3",
+              "status": "affected"
+            },
+            {
+              "version": "X8.1",
+              "status": "affected"
+            },
+            {
+              "version": "X8.9.2",
+              "status": "affected"
+            },
+            {
+              "version": "X8.11.4",
+              "status": "affected"
+            },
+            {
+              "version": "X12.5.4",
+              "status": "affected"
+            },
+            {
+              "version": "X8.8.1",
+              "status": "affected"
+            },
+            {
+              "version": "X8.2.1",
+              "status": "affected"
+            },
+            {
+              "version": "X8.5.1",
+              "status": "affected"
+            },
+            {
+              "version": "X8.6.1",
+              "status": "affected"
+            },
+            {
+              "version": "X8.1.2",
+              "status": "affected"
+            },
+            {
+              "version": "X8.8",
+              "status": "affected"
+            },
+            {
+              "version": "X8.10.0",
+              "status": "affected"
+            },
+            {
+              "version": "X12.5.3",
+              "status": "affected"
+            },
+            {
+              "version": "X8.10.1",
+              "status": "affected"
+            },
+            {
+              "version": "X12.5.7",
+              "status": "affected"
+            },
+            {
+              "version": "X8.10.3",
+              "status": "affected"
+            },
+            {
+              "version": "X8.7.1",
+              "status": "affected"
+            },
+            {
+              "version": "X8.2",
+              "status": "affected"
+            },
+            {
+              "version": "X12.5.8",
+              "status": "affected"
+            },
+            {
+              "version": "X8.7",
+              "status": "affected"
+            },
+            {
+              "version": "X8.5.2",
+              "status": "affected"
+            },
+            {
+              "version": "X12.5.9",
+              "status": "affected"
+            },
+            {
+              "version": "X12.5.0",
+              "status": "affected"
+            },
+            {
+              "version": "X8.10.4",
+              "status": "affected"
+            },
+            {
+              "version": "X8.7.2",
+              "status": "affected"
+            },
+            {
+              "version": "X12.5.5",
+              "status": "affected"
+            },
+            {
+              "version": "X12.6.1",
+              "status": "affected"
+            },
+            {
+              "version": "X12.6.2",
+              "status": "affected"
+            },
+            {
+              "version": "X12.6.3",
+              "status": "affected"
+            },
+            {
+              "version": "X12.6.4",
+              "status": "affected"
+            },
+            {
+              "version": "X12.7.0",
+              "status": "affected"
+            },
+            {
+              "version": "X12.7.1",
+              "status": "affected"
+            },
+            {
+              "version": "X14.0.0",
+              "status": "affected"
+            },
+            {
+              "version": "X14.0.1",
+              "status": "affected"
+            },
+            {
+              "version": "X14.0.2",
+              "status": "affected"
+            },
+            {
+              "version": "X14.0.3",
+              "status": "affected"
+            },
+            {
+              "version": "X14.0.4",
+              "status": "affected"
+            },
+            {
+              "version": "X14.0.5",
+              "status": "affected"
+            },
+            {
+              "version": "X14.0.6",
+              "status": "affected"
+            },
+            {
+              "version": "X14.0.7",
+              "status": "affected"
+            },
+            {
+              "version": "X14.0.8",
+              "status": "affected"
+            },
+            {
+              "version": "X14.2.0",
+              "status": "affected"
+            },
+            {
+              "version": "X14.0.9",
+              "status": "affected"
+            },
+            {
+              "version": "X14.2.1",
+              "status": "affected"
+            },
+            {
+              "version": "X14.2.2",
+              "status": "affected"
+            },
+            {
+              "version": "X14.0.11",
+              "status": "affected"
+            },
+            {
+              "version": "X14.2.5",
+              "status": "affected"
+            },
+            {
+              "version": "X14.0.10",
+              "status": "affected"
+            },
+            {
+              "version": "X14.2.6",
+              "status": "affected"
+            },
+            {
+              "version": "X14.2.7",
+              "status": "affected"
+            },
+            {
+              "version": "X14.3.0",
+              "status": "affected"
+            },
+            {
+              "version": "X14.3.1",
+              "status": "affected"
+            },
+            {
+              "version": "X14.3.2",
+              "status": "affected"
+            },
+            {
+              "version": "X14.3.3",
+              "status": "affected"
+            },
+            {
+              "version": "X15.0.0",
+              "status": "affected"
+            },
+            {
+              "version": "X14.3.4",
+              "status": "affected"
+            },
+            {
+              "version": "X14.3.5",
+              "status": "affected"
+            },
+            {
+              "version": "X15.0.1",
+              "status": "affected"
+            },
+            {
+              "version": "X15.0.2",
+              "status": "affected"
+            },
+            {
+              "version": "X15.0.3",
+              "status": "affected"
+            },
+            {
+              "version": "X14.3.6",
+              "status": "affected"
+            },
+            {
+              "version": "X15.2.0",
+              "status": "affected"
+            },
+            {
+              "version": "X15.2.1",
+              "status": "affected"
+            },
+            {
+              "version": "X15.2.2",
+              "status": "affected"
+            },
+            {
+              "version": "X15.2.3",
+              "status": "affected"
+            },
+            {
+              "version": "X14.3.7",
+              "status": "affected"
+            },
+            {
+              "version": "X15.2.4.",
+              "status": "affected"
+            },
+            {
+              "version": "X15.2.4",
+              "status": "affected"
+            },
+            {
+              "version": "X15.3.0",
+              "status": "affected"
+            },
+            {
+              "version": "X15.3.1",
+              "status": "affected"
+            },
+            {
+              "version": "X15.3.2",
+              "status": "affected"
+            },
+            {
+              "version": "X15.4.0",
+              "status": "affected"
+            },
+            {
+              "version": "X15.5.0",
+              "status": "affected"
+            },
+            {
+              "version": "X15.5.1",
+              "status": "affected"
+            },
+            {
+              "version": "X15.5.2",
+              "status": "affected"
+            },
+            {
+              "version": "X15.5.3",
+              "status": "affected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": false,
+      "in_watchlist": false,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": true,
+      "probability_score": 0.00417,
+      "kev": {
+        "cveID": "CVE-2026-76466",
+        "vendorProject": "Cisco",
+        "product": "Expressway Series",
+        "vulnerabilityName": "Cisco Expressway Series Use of Hard-coded Credentials Vulnerability",
+        "dateAdded": "2026-11-20",
+        "shortDescription": "Cisco Expressway Series contains a use of hard-coded credentials vulnerability that allows an unauthenticated, remote attacker with persistent cookies and network access to execute commands as root on a clustered device via the database service.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-11-23",
+        "knownRansomwareCampaignUse": "Unknown"
+      },
+      "nvd": {
+        "cvss_v3_score": 9.8,
+        "cvss_v3_severity": "CRITICAL",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-798"
+        ],
+        "cpe_count": 0,
+        "reference_count": 1
+      }
+    },
+    {
       "cve_id": "CVE-2026-76504",
       "description": "A vulnerability in the API session-based authentication management of Cisco Catalyst SD-WAN Manager could allow an unauthenticated, remote attacker to access an affected system with privileges of the admin user.\r\n\r\nThis vulnerability is due to improper handling of URI encoding in an HTTP request, which allows the request to bypass an authentication rule that is intended to restrict access to a specific API endpoint. An attacker could exploit this vulnerability by sending a crafted HTTP request to the API of the affected system. A successful exploit could allow the attacker to bypass authentication and gain access to the API as the admin user.",
       "cvss_score": 9.8,
@@ -1543757,7 +1544382,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00408,
+      "probability_score": 0.00399,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -1543996,7 +1544621,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00451,
+      "probability_score": 0.0044,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -1544235,7 +1544860,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00618,
+      "probability_score": 0.00605,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -1545541,7 +1546166,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01011,
+      "probability_score": 0.03579,
       "kev": {
         "cveID": "CVE-2026-8452",
         "vendorProject": "Citrix",
@@ -1545689,7 +1546314,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.01773,
+      "probability_score": 0.01833,
       "kev": {
         "cveID": "CVE-2026-90436",
         "vendorProject": "Apache",
@@ -1545750,7 +1546375,7 @@
       "priority_label": "",
       "matched_terms": [],
       "active_threat": true,
-      "probability_score": 0.25187,
+      "probability_score": 0.25657,
       "kev": {
         "cveID": "CVE-2026-90817",
         "vendorProject": "Vanderbilt University",
@@ -1546954,7 +1547579,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00361,
+      "probability_score": 0.00353,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1547193,7 +1547818,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00257,
+      "probability_score": 0.00251,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1547396,7 +1548021,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.0031,
+      "probability_score": 0.00303,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1547635,7 +1548260,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00414,
+      "probability_score": 0.00404,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -1547741,7 +1548366,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00219,
+      "probability_score": 0.00214,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1547981,7 +1548606,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.0027,
+      "probability_score": 0.00264,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1562762,7 +1563387,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00258,
+      "probability_score": 0.00252,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1562844,7 +1563469,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00304,
+      "probability_score": 0.00298,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1563083,7 +1563708,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00207,
+      "probability_score": 0.00202,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1563323,7 +1563948,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.0031,
+      "probability_score": 0.00303,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1563765,7 +1564390,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.0031,
+      "probability_score": 0.00303,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1563968,7 +1564593,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00272,
+      "probability_score": 0.00266,
       "nvd": {
         "cvss_v3_score": 4.4,
         "cvss_v3_severity": "MEDIUM",
@@ -1564207,7 +1564832,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00362,
+      "probability_score": 0.00353,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1564446,7 +1565071,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00534,
+      "probability_score": 0.00521,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -1564733,7 +1565358,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00258,
+      "probability_score": 0.00252,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1564973,7 +1565598,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.0031,
+      "probability_score": 0.00303,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1565212,7 +1565837,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.0022,
+      "probability_score": 0.00214,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1565500,7 +1566125,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00286,
+      "probability_score": 0.00279,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1565858,7 +1566483,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.0031,
+      "probability_score": 0.00303,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1566097,7 +1566722,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00334,
+      "probability_score": 0.00327,
       "nvd": {
         "cvss_v3_score": 6.5,
         "cvss_v3_severity": "MEDIUM",
@@ -1566336,7 +1566961,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00198,
+      "probability_score": 0.00193,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1568025,7 +1568650,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00362,
+      "probability_score": 0.00353,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1581851,7 +1582476,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00258,
+      "probability_score": 0.00252,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1582090,7 +1582715,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00258,
+      "probability_score": 0.00252,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1582329,7 +1582954,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00458,
+      "probability_score": 0.00447,
       "nvd": {
         "cvss_v3_score": 5.5,
         "cvss_v3_severity": "MEDIUM",
@@ -1582569,7 +1583194,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00905,
+      "probability_score": 0.00886,
       "nvd": {
         "cvss_v3_score": 9.8,
         "cvss_v3_severity": "CRITICAL",
@@ -1583048,7 +1583673,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.0031,
+      "probability_score": 0.00303,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1583287,7 +1583912,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00304,
+      "probability_score": 0.00298,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1583526,7 +1584151,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00619,
+      "probability_score": 0.00606,
       "nvd": {
         "cvss_v3_score": 8.8,
         "cvss_v3_severity": "HIGH",
@@ -1583765,7 +1584390,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00258,
+      "probability_score": 0.00252,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1584004,7 +1584629,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00198,
+      "probability_score": 0.00193,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1584706,7 +1585331,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.012,
+      "probability_score": 0.01174,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -1585027,7 +1585652,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00341,
+      "probability_score": 0.00333,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1595568,7 +1596193,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00304,
+      "probability_score": 0.00298,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1609483,7 +1610108,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00356,
+      "probability_score": 0.00349,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",
@@ -1609650,7 +1610275,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00286,
+      "probability_score": 0.0028,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1609889,7 +1610514,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.0027,
+      "probability_score": 0.00264,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1610092,7 +1610717,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.0027,
+      "probability_score": 0.00264,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1610570,7 +1611195,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00258,
+      "probability_score": 0.00252,
       "nvd": {
         "cvss_v3_score": 7.0,
         "cvss_v3_severity": "HIGH",
@@ -1611048,7 +1611673,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00347,
+      "probability_score": 0.00339,
       "nvd": {
         "cvss_v3_score": 6.4,
         "cvss_v3_severity": "MEDIUM",
@@ -1611526,7 +1612151,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00397,
+      "probability_score": 0.00389,
       "nvd": {
         "cvss_v3_score": 5.3,
         "cvss_v3_severity": "MEDIUM",
@@ -1611932,7 +1612557,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00347,
+      "probability_score": 0.00339,
       "nvd": {
         "cvss_v3_score": 6.4,
         "cvss_v3_severity": "MEDIUM",
@@ -1612171,7 +1612796,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00567,
+      "probability_score": 0.00555,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -1612614,7 +1613239,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00269,
+      "probability_score": 0.00263,
       "nvd": {
         "cvss_v3_score": 7.5,
         "cvss_v3_severity": "HIGH",
@@ -1612853,7 +1613478,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00341,
+      "probability_score": 0.00333,
       "nvd": {
         "cvss_v3_score": 7.8,
         "cvss_v3_severity": "HIGH",
@@ -1613140,7 +1613765,7 @@
         "vendor:microsoft"
       ],
       "active_threat": false,
-      "probability_score": 0.00393,
+      "probability_score": 0.00385,
       "nvd": {
         "cvss_v3_score": 6.8,
         "cvss_v3_severity": "MEDIUM",
