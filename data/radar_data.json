@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-24T17:33:14+00:00",
-  "count": 7764,
+  "generated_at": "2026-11-25T02:18:42+00:00",
+  "count": 7771,
   "items": [
     {
       "cve_id": "CVE-2022-0028",
@@ -339943,6 +339943,30 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat enterprise linux 9.2 update services for sap solutions",
+          "versions": [
+            {
+              "version": "0:1.2.10-1.el9_2.1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9.2 update services for sap solutions",
+          "versions": [
+            {
+              "version": "2:5.8.2-1.el9_2.1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat openshift container platform 4.12",
           "versions": [
             {
@@ -461651,7 +461675,7 @@
           "product": "red hat openshift container platform 4.13",
           "versions": [
             {
-              "version": "0:1.26.5-16.2.rhaos4.13.git67e2a9d.el9",
+              "version": "0:1.26.5-16.2.rhaos4.13.git67e2a9d.el8",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -461663,7 +461687,7 @@
           "product": "red hat openshift container platform 4.14",
           "versions": [
             {
-              "version": "0:1.27.6-2.rhaos4.14.gitb3bd0bf.el9",
+              "version": "0:1.27.6-2.rhaos4.14.gitb3bd0bf.el8",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -922335,6 +922359,114 @@
       }
     },
     {
+      "cve_id": "CVE-2026-131914",
+      "description": "Deserialization of untrusted data in double-submit cookie vs. form field validation in Idunno.AntiCsrf versions through 0.9.1 Beta on ASP.NET allows remote unauthenticated attackers to execute code via object injection",
+      "cvss_score": 9.3,
+      "cvss_severity": "CRITICAL",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/E:A",
+      "affected": [
+        {
+          "vendor": "idunno",
+          "product": "anticsrf",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThanOrEqual": "0.9.1.0",
+              "versionType": "custom"
+            },
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThanOrEqual": "0.9.1 Beta",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": false,
+      "in_watchlist": false,
+      "in_patchthis": true,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": true,
+      "probability_score": 0.00614,
+      "kev": {
+        "cveID": "CVE-2026-131914",
+        "vendorProject": "Idunno",
+        "product": "AntiCsrf",
+        "vulnerabilityName": "Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability",
+        "dateAdded": "2026-11-24",
+        "shortDescription": "Idunno AntiCsrf contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via object injection. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontinue use and/or transition to a supported version.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-11-27",
+        "knownRansomwareCampaignUse": "Unknown"
+      },
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-502"
+        ],
+        "cpe_count": 0,
+        "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2026-132224",
+      "description": "Optimizely Web Experimentation before 2026-11-17 mishandles the account signup flow, leading to presence of attacker-controlled code in the projectJS (aka Project JavaScript) field of certain cdn.optimizely.com assets.",
+      "cvss_score": 7.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:4.0/AV:N/AC:H/AT:N/PR:L/UI:N/VC:N/VI:H/VA:N/SC:H/SI:H/SA:N",
+      "affected": [
+        {
+          "vendor": "optimizely",
+          "product": "web experimentation",
+          "versions": [
+            {
+              "lessThan": "2026-11-17",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": false,
+      "in_watchlist": false,
+      "in_patchthis": true,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": true,
+      "probability_score": 0.00411,
+      "kev": {
+        "cveID": "CVE-2026-132224",
+        "vendorProject": "Optimizely",
+        "product": "Web Experimentation",
+        "vulnerabilityName": "Optimizely Web Experimentation External Control of Critical State Data Vulnerability",
+        "dateAdded": "2026-11-24",
+        "shortDescription": "Optimizely Web Experimentation contains an external control of critical state data vulnerability in its account signup flow that could allow an attacker to impersonate existing customer users and modify Project JavaScript. Successful exploitation can result in attacker-controlled JavaScript being distributed through Optimizely-hosted assets and executed in browsers visiting affected customer websites.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-11-27",
+        "knownRansomwareCampaignUse": "Unknown"
+      },
+      "nvd": {
+        "cvss_v3_score": null,
+        "cvss_v3_severity": null,
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-642"
+        ],
+        "cpe_count": 0,
+        "reference_count": 11
+      }
+    },
+    {
       "cve_id": "CVE-2026-133059",
       "description": "A flaw was found in Moodle. The grade feedback web service does not properly verify group and course enrolment permissions. An authenticated user with non-editing teacher privileges can exploit this vulnerability to access grade feedback and user profile details across groups or courses they are not authorized to view, leading to unauthorized information disclosure.",
       "cvss_score": 4.3,
@@ -923511,6 +923643,35 @@
         "cpe_count": 0,
         "reference_count": 1
       }
+    },
+    {
+      "cve_id": "CVE-2026-134880",
+      "description": "XML::Sig versions before 0.74 for Perl allow code execution via a document's Algorithm attribute that verify resolves to a function name and calls.\n\nThe text after the last `#` in the DigestMethod and SignatureMethod Algorithm attributes is looked up with Digest::SHA->can. That returns a code reference for any fully qualified function name, Perl builtins in the CORE namespace included. The digest function is called on the canonical form of the referenced element, so the document picks both the function and its argument.\n\nAn attacker who can submit a signed document can run a command as the verifying process.",
+      "cvss_score": null,
+      "cvss_severity": null,
+      "cvss_vector": null,
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "lessThan": "0.74",
+              "status": "affected",
+              "version": "0",
+              "versionType": "custom"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00441
     },
     {
       "cve_id": "CVE-2026-13048",
@@ -937501,6 +937662,140 @@
         ],
         "cpe_count": 3,
         "reference_count": 2
+      }
+    },
+    {
+      "cve_id": "CVE-2026-1529",
+      "description": "A flaw was found in Keycloak. An attacker can exploit this vulnerability by modifying the organization ID and target email within a legitimate invitation token's JSON Web Token (JWT) payload. This lack of cryptographic signature verification allows the attacker to successfully self-register into an unauthorized organization, leading to unauthorized access.",
+      "cvss_score": 8.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "26.2.13",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "26.3.0",
+              "lessThan": "26.4.9",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "26.5.0",
+              "lessThan": "26.5.3",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.2",
+          "versions": [
+            {
+              "version": "26.2.13-1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.2",
+          "versions": [
+            {
+              "version": "26.2-15",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.2",
+          "versions": [
+            {
+              "version": "26.2-15",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.2.13",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.4",
+          "versions": [
+            {
+              "version": "26.4.9-1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.4",
+          "versions": [
+            {
+              "version": "26.4-11",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.4",
+          "versions": [
+            {
+              "version": "26.4-10",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.4.9",
+          "versions": null
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00494,
+      "nvd": {
+        "cvss_v3_score": 8.1,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-347"
+        ],
+        "cpe_count": 0,
+        "reference_count": 13
       }
     },
     {
@@ -1001347,6 +1001642,193 @@
       }
     },
     {
+      "cve_id": "CVE-2026-2092",
+      "description": "A flaw was found in Keycloak. Keycloak's Security Assertion Markup Language (SAML) broker endpoint does not properly validate encrypted assertions when the overall SAML response is not signed. An attacker with a valid signed SAML assertion can exploit this by crafting a malicious SAML response. This allows the attacker to inject an encrypted assertion for an arbitrary principal, leading to unauthorized access and potential information disclosure.",
+      "cvss_score": 7.7,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "26.2.14",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "26.3.0",
+              "lessThan": "26.4.10",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "26.5.0",
+              "lessThan": "26.5.5",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.2",
+          "versions": [
+            {
+              "version": "26.2.14-1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.2",
+          "versions": [
+            {
+              "version": "26.2-16",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.2",
+          "versions": [
+            {
+              "version": "26.2-16",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.2.14",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.4",
+          "versions": [
+            {
+              "version": "26.4.10-1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.4",
+          "versions": [
+            {
+              "version": "26.4-12",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.4",
+          "versions": [
+            {
+              "version": "26.4-12",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.4.10",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat single sign-on 7.6.13",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat single sign-on 7.6 for rhel 7",
+          "versions": [
+            {
+              "version": "0:18.0.20-1.redhat_00001.1.el7sso",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat single sign-on 7.6 for rhel 8",
+          "versions": [
+            {
+              "version": "0:18.0.20-1.redhat_00001.1.el8sso",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat single sign-on 7.6 for rhel 9",
+          "versions": [
+            {
+              "version": "0:18.0.20-1.redhat_00001.1.el9sso",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-8 based middleware containers",
+          "versions": [
+            {
+              "version": "7.6-85",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00409,
+      "nvd": {
+        "cvss_v3_score": 7.7,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-1287"
+        ],
+        "cpe_count": 2,
+        "reference_count": 18
+      }
+    },
+    {
       "cve_id": "CVE-2026-2243",
       "description": "A flaw was found in QEMU. A specially crafted VMDK image could trigger an out-of-bounds read vulnerability, potentially leading to a 12-byte leak of sensitive information or a denial of service condition (DoS).",
       "cvss_score": 5.1,
@@ -1001574,6 +1002056,140 @@
         ],
         "cpe_count": 5,
         "reference_count": 4
+      }
+    },
+    {
+      "cve_id": "CVE-2026-2603",
+      "description": "A flaw was found in Keycloak. A remote attacker could bypass security controls by sending a valid SAML response from an external Identity Provider (IdP) to the Keycloak SAML endpoint for IdP-initiated broker logins. This allows the attacker to complete broker logins even when the SAML Identity Provider is disabled, leading to unauthorized authentication.",
+      "cvss_score": 8.1,
+      "cvss_severity": "HIGH",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "26.2.14",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "26.3.0",
+              "lessThan": "26.4.10",
+              "versionType": "semver"
+            },
+            {
+              "status": "affected",
+              "version": "26.5.0",
+              "lessThan": "26.5.5",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.2",
+          "versions": [
+            {
+              "version": "26.2.14-1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.2",
+          "versions": [
+            {
+              "version": "26.2-16",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.2",
+          "versions": [
+            {
+              "version": "26.2-16",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.2.14",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.4",
+          "versions": [
+            {
+              "version": "26.4.10-1",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.4",
+          "versions": [
+            {
+              "version": "26.4-12",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.4",
+          "versions": [
+            {
+              "version": "26.4-12",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak 26.4.10",
+          "versions": null
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00498,
+      "nvd": {
+        "cvss_v3_score": 8.1,
+        "cvss_v3_severity": "HIGH",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-306"
+        ],
+        "cpe_count": 2,
+        "reference_count": 14
       }
     },
     {
@@ -1030796,6 +1031412,71 @@
         ],
         "cpe_count": 1,
         "reference_count": 3
+      }
+    },
+    {
+      "cve_id": "CVE-2026-3634",
+      "description": "A flaw was found in libsoup. An attacker controlling the value used to set the Content-Type header can inject a Carriage Return Line Feed (CRLF) sequence due to improper input sanitization in the `soup_message_headers_set_content_type()` function. This vulnerability allows for the injection of arbitrary header-value pairs, potentially leading to HTTP header injection and response splitting attacks.",
+      "cvss_score": 3.9,
+      "cvss_severity": "LOW",
+      "cvss_vector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:U/C:L/I:L/A:L",
+      "affected": [
+        {
+          "vendor": "",
+          "product": "",
+          "versions": [
+            {
+              "status": "affected",
+              "version": "0",
+              "lessThan": "3.7.1",
+              "versionType": "semver"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 10",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 6",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 7",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": null
+        }
+      ],
+      "watchlist_hit": true,
+      "in_watchlist": true,
+      "in_patchthis": false,
+      "is_critical": false,
+      "priority_label": "",
+      "matched_terms": [],
+      "active_threat": false,
+      "probability_score": 0.00221,
+      "nvd": {
+        "cvss_v3_score": 6.5,
+        "cvss_v3_severity": "MEDIUM",
+        "cvss_v2_score": null,
+        "cvss_v2_severity": null,
+        "cwe_ids": [
+          "CWE-93"
+        ],
+        "cpe_count": 6,
+        "reference_count": 4
       }
     },
     {
@@ -1546092,6 +1546773,78 @@
         },
         {
           "vendor": "red hat",
+          "product": "red hat jboss enterprise application platform 8.1.9.ga",
+          "versions": [
+            {
+              "version": "6.2.19.Final-redhat-00002",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9 based middleware containers",
+          "versions": [
+            {
+              "version": "3.3.4.r1-5",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9 based middleware containers",
+          "versions": [
+            {
+              "version": "3.3.4-4",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9 based middleware containers",
+          "versions": [
+            {
+              "version": "3.3.4-5",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9 based middleware containers",
+          "versions": [
+            {
+              "version": "3.3.4-4",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9 based middleware containers",
+          "versions": [
+            {
+              "version": "3.3.4-4",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat build of apache camel 4 for quarkus 3",
           "versions": null
         },
@@ -1546382,6 +1547135,66 @@
           "versions": [
             {
               "version": "6.2.19.Final-redhat-00002",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9 based middleware containers",
+          "versions": [
+            {
+              "version": "3.3.4.r1-5",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9 based middleware containers",
+          "versions": [
+            {
+              "version": "3.3.4-4",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9 based middleware containers",
+          "versions": [
+            {
+              "version": "3.3.4-5",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9 based middleware containers",
+          "versions": [
+            {
+              "version": "3.3.4-4",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "rhel-9 based middleware containers",
+          "versions": [
+            {
+              "version": "3.3.4-4",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
