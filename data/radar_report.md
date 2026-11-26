@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-11-26T04:58:59+00:00`
+Generated: `2026-11-26T15:02:13+00:00`
 
 ## Executive Summary
 
@@ -168,6 +168,7 @@ Top critical items:
 | [CVE-2023-30943](https://www.cve.org/CVERecord?id=CVE-2023-30943) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.093 | 6.5 | ✅ | The vulnerability was found Moodle which exists because the application allows a user to control path of the older to create in TinyMCE loaders. A remote user … |
 | [CVE-2024-8883](https://www.cve.org/CVERecord?id=CVE-2024-8883) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.026 | 6.1 | ✅ | A misconfiguration flaw was found in Keycloak. This issue can allow an attacker to redirect users to an arbitrary URL if a 'Valid Redirect URI' is set to http:… |
 | [CVE-2022-22536](https://www.cve.org/CVERecord?id=CVE-2022-22536) |  | KEV | ✅ | ✅ | 2022-09-08 | 0.979 | 10.0 |  | SAP NetWeaver Application Server ABAP, SAP NetWeaver Application Server Java, ABAP Platform, SAP Content Server 7.53 and SAP Web Dispatcher are vulnerable for … |
+| [CVE-2023-34048](https://www.cve.org/CVERecord?id=CVE-2023-34048) |  | KEV | ✅ | ✅ | 2024-02-12 | 0.992 | 9.8 |  | vCenter Server contains an out-of-bounds write vulnerability in the implementation of the DCERPC protocol. A malicious actor with network access to vCenter Ser… |
 | [CVE-2022-40684](https://www.cve.org/CVERecord?id=CVE-2022-40684) |  | KEV | ✅ | ✅ | 2022-11-01 | 0.989 | 9.8 |  | An authentication bypass using an alternate path or channel [CWE-288] in Fortinet FortiOS version 7.2.0 through 7.2.1 and 7.0.0 through 7.0.6, FortiProxy versi… |
 | [CVE-2022-44877](https://www.cve.org/CVERecord?id=CVE-2022-44877) |  | KEV | ✅ | ✅ | 2023-02-07 | 0.982 | 9.8 |  | login/index.php in CWP (aka Control Web Panel or CentOS Web Panel) 7 before 0.9.8.1147 allows remote attackers to execute arbitrary OS commands via shell metac… |
 | [CVE-2022-46169](https://www.cve.org/CVERecord?id=CVE-2022-46169) |  | KEV | ✅ | ✅ | 2023-03-09 | 0.982 | 9.8 |  | Cacti is an open source platform which provides a robust and extensible operational monitoring and fault management framework for users. In affected versions a… |
@@ -179,6 +180,7 @@ Top critical items:
 | [CVE-2022-24706](https://www.cve.org/CVERecord?id=CVE-2022-24706) |  | KEV | ✅ | ✅ | 2022-09-15 | 0.972 | 9.8 |  | In Apache CouchDB prior to 3.2.2, an attacker can access an improperly secured default installation without authenticating and gain admin privileges. The Couch… |
 | [CVE-2022-24086](https://www.cve.org/CVERecord?id=CVE-2022-24086) |  | KEV | ✅ | ✅ | 2022-03-01 | 0.967 | 9.8 |  | Adobe Commerce versions 2.4.3-p1 (and earlier) and 2.3.7-p2 (and earlier) are affected by an improper input validation vulnerability during the checkout proces… |
 | [CVE-2022-26134](https://www.cve.org/CVERecord?id=CVE-2022-26134) |  | KEV | ✅ | ✅ | 2022-06-06 | 0.965 | 9.8 |  | In affected versions of Confluence Server and Data Center, an OGNL injection vulnerability exists that would allow an unauthenticated attacker to execute arbit… |
+| [CVE-2023-4966](https://www.cve.org/CVERecord?id=CVE-2023-4966) |  | KEV | ✅ | ✅ | 2023-11-08 | 1.000 | 9.4 |  | Sensitive information disclosure in NetScaler ADC and NetScaler Gateway when configured as a Gateway (VPN virtual server, ICA Proxy, CVPN, RDP Proxy) or AAA  v… |
 | [CVE-2022-24112](https://www.cve.org/CVERecord?id=CVE-2022-24112) |  | KEV | ✅ | ✅ | 2022-09-15 | 0.954 | 9.8 |  | An attacker can abuse the batch-requests plugin to send requests to bypass the IP restriction of Admin API. A default configuration of Apache APISIX (with defa… |
 | [CVE-2022-47966](https://www.cve.org/CVERecord?id=CVE-2022-47966) |  | KEV | ✅ | ✅ | 2023-02-13 | 0.954 | 9.8 |  | Multiple Zoho ManageEngine on-premise products, such as ServiceDesk Plus through 14003, allow remote code execution due to use of Apache Santuario xmlsec (aka … |
 | [CVE-2022-1388](https://www.cve.org/CVERecord?id=CVE-2022-1388) |  | KEV | ✅ | ✅ | 2022-05-31 | 0.951 | 9.8 |  | On F5 BIG-IP 16.1.x versions prior to 16.1.2.2, 15.1.x versions prior to 15.1.5.1, 14.1.x versions prior to 14.1.4.6, 13.1.x versions prior to 13.1.5, and all … |
@@ -245,6 +247,4 @@ Top critical items:
 | [CVE-2022-24816](https://www.cve.org/CVERecord?id=CVE-2022-24816) |  | KEV | ✅ | ✅ | 2024-07-17 | 0.754 | 10.0 |  | JAI-EXT is an open-source project which aims to extend the Java Advanced Imaging (JAI) API. Programs allowing Jiffle script to be provided via network request … |
 | [CVE-2024-1709](https://www.cve.org/CVERecord?id=CVE-2024-1709) |  | KEV | ✅ | ✅ | 2024-02-29 | 0.746 | 10.0 |  | ConnectWise ScreenConnect 23.9.7 and prior are affected by an Authentication Bypass Using an Alternate Path or Channel   vulnerability, which may allow an atta… |
 | [CVE-2024-4879](https://www.cve.org/CVERecord?id=CVE-2024-4879) |  | KEV | ✅ | ✅ | 2024-08-19 | 0.815 | 9.3 |  | ServiceNow has addressed an input validation vulnerability that was identified in Vancouver and Washington DC Now Platform releases. This vulnerability could e… |
-| [CVE-2022-41352](https://www.cve.org/CVERecord?id=CVE-2022-41352) |  | KEV | ✅ | ✅ | 2022-11-10 | 0.759 | 9.8 |  | An issue was discovered in Zimbra Collaboration (ZCS) 8.8.15 and 9.0. An attacker can upload arbitrary files through amavis via a cpio loophole (extraction to … |
-| [CVE-2026-16232](https://www.cve.org/CVERecord?id=CVE-2026-16232) |  | KEV | ✅ | ✅ | 2026-07-25 | 0.801 | 9.3 |  | An authentication bypass vulnerability in the Check Point SmartConsole login process allows an unauthenticated remote attacker to obtain an application login t… |
-| [CVE-2023-25280](https://www.cve.org/CVERecord?id=CVE-2023-25280) |  | KEV | ✅ | ✅ | 2024-10-21 | 0.749 | 9.8 |  | OS Command injection vulnerability in D-Link DIR820LA1_FW105B03 allows attackers to escalate privileges to root via a crafted payload with the ping_addr parame… |
+| [CVE-2026-97229](https://www.cve.org/CVERecord?id=CVE-2026-97229) |  | KEV | ✅ | ✅ | 2026-11-01 | 0.743 | 10.0 |  | GitLab has remediated an issue in GitLab CE/EE affecting all versions from 19.2 before 19.2.8, 19.3 before 19.3.5, and 19.4 before 19.4.2 that, under certain c… |
