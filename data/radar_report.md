@@ -1,6 +1,6 @@
 # VulnRadar Report
 
-Generated: `2026-11-26T23:46:41+00:00`
+Generated: `2026-11-27T08:10:17+00:00`
 
 ## Executive Summary
 
@@ -38,11 +38,11 @@ Top critical items:
 
 ## Summary
 
-- Total items: **7824**
-- Watchlist hits: **7040**
-- CISA KEVs: **884**
-- Exploit Intel (PoC): **903**
-- Exploit Intel + Watchlist (CRITICAL): **119**
+- Total items: **7837**
+- Watchlist hits: **7052**
+- CISA KEVs: **885**
+- Exploit Intel (PoC): **905**
+- Exploit Intel + Watchlist (CRITICAL): **120**
 
 ## Top Findings (max 200)
 
@@ -157,6 +157,7 @@ Top critical items:
 | [CVE-2023-21768](https://www.cve.org/CVERecord?id=CVE-2023-21768) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.175 | 7.8 | ✅ | Windows Ancillary Function Driver for WinSock Elevation of Privilege Vulnerability |
 | [CVE-2024-7340](https://www.cve.org/CVERecord?id=CVE-2024-7340) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.054 | 8.8 | ✅ | The Weave server API allows remote users to fetch files from a specific directory, but due to a lack of input validation, it is possible to traverse and leak a… |
 | [CVE-2023-6360](https://www.cve.org/CVERecord?id=CVE-2023-6360) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.067 | 8.6 | ✅ | The 'My Calendar' WordPress Plugin, version < 3.4.22 is affected by an unauthenticated SQL injection vulnerability in the 'from' and 'to' parameters in the '/m… |
+| [CVE-2025-12548](https://www.cve.org/CVERecord?id=CVE-2025-12548) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.021 | 9.0 | ✅ | A flaw was found in Eclipse Che che-machine-exec. This vulnerability allows unauthenticated remote arbitrary command execution and secret exfiltration (SSH key… |
 | [CVE-2024-1061](https://www.cve.org/CVERecord?id=CVE-2024-1061) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.053 | 8.6 | ✅ | The 'HTML5 Video Player' WordPress Plugin, version < 2.5.25 is affected by an unauthenticated SQL injection vulnerability in the 'id' parameter in the  'get_vi… |
 | [CVE-2024-3656](https://www.cve.org/CVERecord?id=CVE-2024-3656) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.040 | 8.1 | ✅ | A flaw was found in Keycloak. Certain endpoints in Keycloak's admin REST API allow low-privilege users to access administrative functionalities. This flaw allo… |
 | [CVE-2024-30085](https://www.cve.org/CVERecord?id=CVE-2024-30085) | CRITICAL (Active Exploit in Stack) | CRITICAL | ✅ |  |  | 0.056 | 7.8 | ✅ | Windows Cloud Files Mini Filter Driver Elevation of Privilege Vulnerability |
@@ -247,4 +248,3 @@ Top critical items:
 | [CVE-2022-24816](https://www.cve.org/CVERecord?id=CVE-2022-24816) |  | KEV | ✅ | ✅ | 2024-07-17 | 0.754 | 10.0 |  | JAI-EXT is an open-source project which aims to extend the Java Advanced Imaging (JAI) API. Programs allowing Jiffle script to be provided via network request … |
 | [CVE-2024-1709](https://www.cve.org/CVERecord?id=CVE-2024-1709) |  | KEV | ✅ | ✅ | 2024-02-29 | 0.746 | 10.0 |  | ConnectWise ScreenConnect 23.9.7 and prior are affected by an Authentication Bypass Using an Alternate Path or Channel   vulnerability, which may allow an atta… |
 | [CVE-2024-4879](https://www.cve.org/CVERecord?id=CVE-2024-4879) |  | KEV | ✅ | ✅ | 2024-08-19 | 0.815 | 9.3 |  | ServiceNow has addressed an input validation vulnerability that was identified in Vancouver and Washington DC Now Platform releases. This vulnerability could e… |
-| [CVE-2026-97229](https://www.cve.org/CVERecord?id=CVE-2026-97229) |  | KEV | ✅ | ✅ | 2026-11-01 | 0.743 | 10.0 |  | GitLab has remediated an issue in GitLab CE/EE affecting all versions from 19.2 before 19.2.8, 19.3 before 19.3.5, and 19.4 before 19.4.2 that, under certain c… |
