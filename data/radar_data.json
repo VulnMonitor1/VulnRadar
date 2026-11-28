@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T18:54:19+00:00",
+  "generated_at": "2026-11-28T01:56:55+00:00",
   "count": 7838,
   "items": [
     {
@@ -308791,6 +308791,16 @@
           "vendor": "red hat",
           "product": "rhsso 7.6.8",
           "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak",
+          "versions": null
         }
       ],
       "watchlist_hit": true,
@@ -311249,6 +311259,18 @@
           "product": "red hat enterprise linux 8",
           "versions": [
             {
+              "version": "0:4.18.0-553.5.1.rt7.346.el8_10",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 8",
+          "versions": [
+            {
               "version": "0:4.18.0-553.5.1.el8_10",
               "lessThan": "*",
               "versionType": "rpm",
@@ -311274,6 +311296,54 @@
           "versions": [
             {
               "version": "0:5.14.0-503.11.1.el9_5",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": [
+            {
+              "version": "0:5.14.0-503.11.1.el9_5",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9",
+          "versions": [
+            {
+              "version": "0:5.14.0-503.11.1.el9_5",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9.4 extended update support",
+          "versions": [
+            {
+              "version": "0:5.14.0-427.68.1.el9_4",
+              "lessThan": "*",
+              "versionType": "rpm",
+              "status": "unaffected"
+            }
+          ]
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat enterprise linux 9.4 extended update support",
+          "versions": [
+            {
+              "version": "0:5.14.0-427.68.1.el9_4",
               "lessThan": "*",
               "versionType": "rpm",
               "status": "unaffected"
@@ -573191,6 +573261,11 @@
         {
           "vendor": "red hat",
           "product": "red hat build of keycloak 26.4.9",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat build of keycloak",
           "versions": null
         },
         {
@@ -853525,6 +853600,16 @@
         },
         {
           "vendor": "red hat",
+          "product": "dpu kit for nvidia",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "nvidia jetpack 7 for rhel",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
           "product": "red hat build of podman desktop",
           "versions": null
         },
@@ -853611,6 +853696,11 @@
         {
           "vendor": "red hat",
           "product": "red hat openshift dev spaces",
+          "versions": null
+        },
+        {
+          "vendor": "red hat",
+          "product": "red hat openshift local",
           "versions": null
         },
         {
@@ -947345,7 +947435,7 @@
       ],
       "watchlist_hit": false,
       "in_watchlist": false,
-      "in_patchthis": false,
+      "in_patchthis": true,
       "is_critical": false,
       "priority_label": "",
       "matched_terms": [],
